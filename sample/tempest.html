@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCT Tempest Test Results</title>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+  <script>
+      $( function() {
+          $("#tabs").tabs({
+              heightStyle: "content"
+          });
+        
+          $(".accordion").accordion({
+              collapsible: true,
+              active: false,
+              heightStyle: "content", 
+              header: "h6"
+          });
+        } );
+  </script>
+</head>
+<body>
+ 
+<h1>QCT Red Hat OSP 10 Tempest Test Results</h1>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-summary">Summary</a></li>
+    <li><a href="#tabs-function-passed">Function Passed (8)</a></li>
+    <li><a href="#tabs-function-failed">Function Failed (2)</a></li>
+    <li><a href="#tabs-function-skipped">Function Skipped (2)</a></li>
+    <li><a href="#tabs-scenario-passed">Scenario Passed (8)</a></li>
+    <li><a href="#tabs-scenario-failed">Scenario Failed (2)</a></li>
+    <li><a href="#tabs-scenario-skipped">Scenario Skipped (2)</a></li>
+  </ul>
+
+  <div id="tabs-summary">
+      <pre>
+======
+Totals
+======
+Ran: 1395 tests in 1904.0000 sec.
+ - Passed: 1244
+ - Skipped: 86
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Failed: 65
+Sum of execute time for each test: 6680.7898 sec.
+
+==============
+Worker Balance
+==============
+ - Worker 0 (96 tests) => 0:17:30.376185
+ - Worker 1 (135 tests) => 0:23:18.317720
+ - Worker 2 (172 tests) => 0:31:02.166512
+ - Worker 3 (171 tests) => 0:27:47.792920
+ - Worker 4 (252 tests) => 0:22:22.937121
+ - Worker 5 (169 tests) => 0:24:43.808474
+ - Worker 6 (220 tests) => 0:31:41.691569
+ - Worker 7 (180 tests) => 0:20:20.438704
+      </pre>
+  </div>
+
+  <div id="tabs-function-passed">
+      <div class="accordion">
+          <ol type="1">
+              <li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_imafe_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li><li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li>
+
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-function-failed">
+      <div class="accordion">
+          <h6 style="font-size: 14px">tempest.api.compute.floating_ips.test_list_floating_ips.FloatingIPDetailsTestJSON</h6>
+          <div>
+              <pre>Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+      File "/tempest_test/tempest/test.py", line 274, in setUpClass
+        six.reraise(etype, value, trace)
+      File "/tempest_test/tempest/test.py", line 267, in setUpClass
+        cls.resource_setup()
+      File "/tempest_test/tempest/api/compute/floating_ips/test_list_floating_ips.py", line 38, in resource_setup
+        pool=CONF.network.floating_network_name)['floating_ip']
+      File "/tempest_test/tempest/lib/services/compute/floating_ips_client.py", line 62, in create_floating_ip
+        resp, body = self.post(url, post_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 276, in post
+        return self.request('POST', url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/services/compute/base_compute_client.py", line 48, in request
+        method, url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 664, in request
+        self._error_checker(resp, resp_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 761, in _error_checker
+        raise exceptions.NotFound(resp_body, resp=resp)
+    tempest.lib.exceptions.NotFound: Object not found
+    Details: {u'message': u'Floating IP pool not found.', u'code': 404}
+    </pre>
+          </div>
+          <h6 style="font-size: 14px">tempest.api.compute.floating_ips.test_list_floating_ips.FloatingIPDetailsTestJSON</h6>
+          <div>
+              <pre>Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+      File "/tempest_test/tempest/test.py", line 274, in setUpClass
+        six.reraise(etype, value, trace)
+      File "/tempest_test/tempest/test.py", line 267, in setUpClass
+        cls.resource_setup()
+      File "/tempest_test/tempest/api/compute/floating_ips/test_list_floating_ips.py", line 38, in resource_setup
+        pool=CONF.network.floating_network_name)['floating_ip']
+      File "/tempest_test/tempest/lib/services/compute/floating_ips_client.py", line 62, in create_floating_ip
+        resp, body = self.post(url, post_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 276, in post
+        return self.request('POST', url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/services/compute/base_compute_client.py", line 48, in request
+        method, url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 664, in request
+        self._error_checker(resp, resp_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 761, in _error_checker
+        raise exceptions.NotFound(resp_body, resp=resp)
+    tempest.lib.exceptions.NotFound: Object not found
+    Details: {u'message': u'Floating IP pool not found.', u'code': 404}</pre>
+          </div>
+    </div>
+  </div>
+
+  <div id="tabs-function-skipped">
+      <div class="accordion">
+          <h6 style="font-size: 14px">tempest.api.compute.admin.test_live_migration.LiveAutoBlockMigrationV225TestJSON</h6>
+          <div>
+              <b style="color: red">[REASON]</b> The microversion range[2.25 - latest] of this test is out of the configuration range[None - None].
+          </div>
+          <h6 style="font-size: 14px">tempest.api.baremetal.admin.test_nodestates.TestNodeStates</h6>
+          <div>
+              <b style="color: red">[REASON]</b> TestNodeStates skipped as Ironic is not available
+          </div>
+      </div>
+  </div>
+
+  <div id="tabs-scenario-passed">
+      <div class="accordion">
+          <ol type="1">
+              <li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_changes_since .... [<b style="color:red">0.055446s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_name .... [<b style="color:red">0.053690s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_id .... [<b style="color:red">0.059038s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_server_ref .... [<b style="color:red">0.121605s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_status .... [<b style="color:red">0.062360s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_filter_by_type .... [<b style="color:red">0.087303s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_limit_results .... [<b style="color:red">0.064748s</b>]</li>
+<li>tempest.api.compute.images.test_list_image_filters.ListImageFiltersTestJSON.test_list_images_with_detail_filter_by_changes_since [<b style="color:red">0.267345s</b>]</li>
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-scenario-failed">
+      <div class="accordion">
+          <h6 style="font-size: 14px">tempest.api.compute.floating_ips.test_list_floating_ips.FloatingIPDetailsTestJSON</h6>
+          <div>
+              <pre>Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+      File "/tempest_test/tempest/test.py", line 274, in setUpClass
+        six.reraise(etype, value, trace)
+      File "/tempest_test/tempest/test.py", line 267, in setUpClass
+        cls.resource_setup()
+      File "/tempest_test/tempest/api/compute/floating_ips/test_list_floating_ips.py", line 38, in resource_setup
+        pool=CONF.network.floating_network_name)['floating_ip']
+      File "/tempest_test/tempest/lib/services/compute/floating_ips_client.py", line 62, in create_floating_ip
+        resp, body = self.post(url, post_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 276, in post
+        return self.request('POST', url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/services/compute/base_compute_client.py", line 48, in request
+        method, url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 664, in request
+        self._error_checker(resp, resp_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 761, in _error_checker
+        raise exceptions.NotFound(resp_body, resp=resp)
+    tempest.lib.exceptions.NotFound: Object not found
+    Details: {u'message': u'Floating IP pool not found.', u'code': 404}
+    </pre>
+          </div>
+          <h6 style="font-size: 14px">tempest.api.compute.floating_ips.test_list_floating_ips.FloatingIPDetailsTestJSON</h6>
+          <div>
+              <pre>Captured traceback:
+~~~~~~~~~~~~~~~~~~~
+    Traceback (most recent call last):
+      File "/tempest_test/tempest/test.py", line 274, in setUpClass
+        six.reraise(etype, value, trace)
+      File "/tempest_test/tempest/test.py", line 267, in setUpClass
+        cls.resource_setup()
+      File "/tempest_test/tempest/api/compute/floating_ips/test_list_floating_ips.py", line 38, in resource_setup
+        pool=CONF.network.floating_network_name)['floating_ip']
+      File "/tempest_test/tempest/lib/services/compute/floating_ips_client.py", line 62, in create_floating_ip
+        resp, body = self.post(url, post_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 276, in post
+        return self.request('POST', url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/services/compute/base_compute_client.py", line 48, in request
+        method, url, extra_headers, headers, body, chunked)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 664, in request
+        self._error_checker(resp, resp_body)
+      File "/tempest_test/tempest/lib/common/rest_client.py", line 761, in _error_checker
+        raise exceptions.NotFound(resp_body, resp=resp)
+    tempest.lib.exceptions.NotFound: Object not found
+    Details: {u'message': u'Floating IP pool not found.', u'code': 404}</pre>
+          </div>
+    </div>
+  </div>
+
+  <div id="tabs-scenario-skipped">
+      <div class="accordion">
+          <h6 style="font-size: 14px">tempest.api.compute.admin.test_live_migration.LiveAutoBlockMigrationV225TestJSON</h6>
+          <div>
+              <b style="color: red">[REASON]</b> The microversion range[2.25 - latest] of this test is out of the configuration range[None - None].
+          </div>
+          <h6 style="font-size: 14px">tempest.api.baremetal.admin.test_nodestates.TestNodeStates</h6>
+          <div>
+              <b style="color: red">[REASON]</b> TestNodeStates skipped as Ironic is not available
+          </div>
+      </div>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
