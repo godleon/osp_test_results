@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCT Tempest Test Results</title>
+  <link rel="stylesheet" href="../themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../themes/redmond/jquery-ui.css">
+  <script src="../jquery.min.js"></script>
+  <script src="../jquery-ui.min.js"></script>
+  <!--<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
+
+
+  <script>
+      $( function() {
+          $("#tabs").tabs({
+              heightStyle: "content"
+          });
+        
+          $(".accordion").accordion({
+              collapsible: true,
+              active: false,
+              heightStyle: "content", 
+              header: "h6"
+          });
+        } );
+  </script>
+</head>
+<body>
+ 
+<h1>QCT Red Hat OSP 10 Tempest Test Results</h1>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-summary">Summary</a></li>
+    <li><a href="#tabs-function-passed">Function Passed (16)</a></li>
+    <li><a href="#tabs-function-failed">Function Failed (0)</a></li>
+    <li><a href="#tabs-function-skipped">Function Skipped (0)</a></li>
+    <li><a href="#tabs-scenario-passed">Scenario Passed (0)</a></li>
+    <li><a href="#tabs-scenario-failed">Scenario Failed (0)</a></li>
+    <li><a href="#tabs-scenario-skipped">Scenario Skipped (0)</a></li>
+  </ul>
+
+  <div id="tabs-summary">
+      <pre style="font-size: 14pt">
+
+======
+Totals
+======
+Ran: 16 tests in 5.0000 sec.
+ - Passed: 16
+ - Skipped: 0
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Failed: 0
+Sum of execute time for each test: 3.0258 sec.
+
+==============
+Worker Balance
+==============
+ - Worker 0 (4 tests) => 0:00:00.827205
+ - Worker 1 (11 tests) => 0:00:01.262976
+ - Worker 2 (1 tests) => 0:00:00.939943
+      </pre>
+  </div>
+
+  <div id="tabs-function-passed">
+      <div class="accordion">
+          <ol type="1" style="font-size: 16px">
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_get_flavor .... [<b style="color:red">0.682682s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors .... [<b style="color:red">0.058787s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_filter_by_min_disk .... [<b style="color:red">0.063886s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_filter_by_min_ram .... [<b style="color:red">0.059213s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_limit_results .... [<b style="color:red">0.024018s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_using_marker .... [<b style="color:red">0.073265s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_filter_by_min_disk .... [<b style="color:red">0.064937s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_filter_by_min_ram .... [<b style="color:red">0.065120s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_limit_results .... [<b style="color:red">0.029064s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_using_marker .... [<b style="color:red">0.065082s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_with_detail .... [<b style="color:red">0.073604s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors_negative.FlavorDetailsNegativeTestJSON.test_flavor_details_negative(inv_res_flavor) .... [<b style="color:red">0.939943s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minDisk_gen_none) .... [<b style="color:red">0.009259s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minDisk_gen_string) .... [<b style="color:red">0.010382s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minRam_gen_none) .... [<b style="color:red">0.794557s</b>]</li>
+
+    <li>tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minRam_gen_string) .... [<b style="color:red">0.012029s</b>]</li>
+
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-function-failed">
+      <div class="accordion">
+
+    </div>
+  </div>
+
+  <div id="tabs-function-skipped">
+      <div class="accordion">
+
+          
+  </div>
+</div>
+
+  <div id="tabs-scenario-passed">
+      <div class="accordion">
+          <ol type="1" style="font-size: 16px">
+
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-scenario-failed">
+      <div class="accordion">
+
+
+    
+      </div>
+  </div>
+
+  <div id="tabs-scenario-skipped">
+      <div class="accordion">
+
+      </div>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>

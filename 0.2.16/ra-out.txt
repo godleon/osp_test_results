@@ -1,0 +1,74 @@
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover} --list 
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp6ULlKi
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp2lfc4O
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp2r9pqk
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover} --list 
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp6ULlKi
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp2lfc4O
+running=OS_STDOUT_CAPTURE=${OS_STDOUT_CAPTURE:-1} \
+OS_STDERR_CAPTURE=${OS_STDERR_CAPTURE:-1} \
+OS_TEST_TIMEOUT=${OS_TEST_TIMEOUT:-500} \
+OS_TEST_LOCK_PATH=${OS_TEST_LOCK_PATH:-${TMPDIR:-'/tmp'}} \
+${PYTHON:-python} -m subunit.run discover -t ${OS_TOP_LEVEL:-./} ${OS_TEST_PATH:-./tempest/test_discover}  --load-list /tmp/tmp2r9pqk
+{0} tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minRam_gen_none) [0.794557s] ... ok
+{0} tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minRam_gen_string) [0.012029s] ... ok
+{0} tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minDisk_gen_none) [0.009259s] ... ok
+{0} tempest.api.compute.flavors.test_flavors_negative.FlavorsListWithDetailsNegativeTestJSON.test_flavors_list_with_details_negative(minDisk_gen_string) [0.010382s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_get_flavor [0.682682s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors [0.058787s] ... ok
+{2} tempest.api.compute.flavors.test_flavors_negative.FlavorDetailsNegativeTestJSON.test_flavor_details_negative(inv_res_flavor) [0.939943s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_filter_by_min_disk [0.063886s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_filter_by_min_ram [0.059213s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_limit_results [0.024018s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_detailed_using_marker [0.073265s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_filter_by_min_disk [0.064937s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_filter_by_min_ram [0.065120s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_limit_results [0.029064s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_using_marker [0.065082s] ... ok
+{1} tempest.api.compute.flavors.test_flavors.FlavorsV2TestJSON.test_list_flavors_with_detail [0.073604s] ... ok
+
+======
+Totals
+======
+Ran: 16 tests in 5.0000 sec.
+ - Passed: 16
+ - Skipped: 0
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Failed: 0
+Sum of execute time for each test: 3.0258 sec.
+
+==============
+Worker Balance
+==============
+ - Worker 0 (4 tests) => 0:00:00.827205
+ - Worker 1 (11 tests) => 0:00:01.262976
+ - Worker 2 (1 tests) => 0:00:00.939943
