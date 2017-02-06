@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCT Tempest Test Results</title>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+  <script>
+      $( function() {
+          $("#tabs").tabs({
+              heightStyle: "content"
+          });
+        
+          $(".accordion").accordion({
+              collapsible: true,
+              active: false,
+              heightStyle: "content", 
+              header: "h6"
+          });
+        } );
+  </script>
+</head>
+<body>
+ 
+<h1>QCT Red Hat OSP 10 Tempest Test Results</h1>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-summary">Summary</a></li>
+    <li><a href="#tabs-function-passed">Function Passed (215)</a></li>
+    <li><a href="#tabs-function-failed">Function Failed (0)</a></li>
+    <li><a href="#tabs-function-skipped">Function Skipped (5)</a></li>
+    <li><a href="#tabs-scenario-passed">Scenario Passed (0)</a></li>
+    <li><a href="#tabs-scenario-failed">Scenario Failed (0)</a></li>
+    <li><a href="#tabs-scenario-skipped">Scenario Skipped (0)</a></li>
+  </ul>
+
+  <div id="tabs-summary">
+      <pre style="font-size: 14pt">
+
+======
+Totals
+======
+Ran: 220 tests in 758.0000 sec.
+ - Passed: 215
+ - Skipped: 5
+ - Expected Fail: 0
+ - Unexpected Success: 0
+ - Failed: 0
+Sum of execute time for each test: 345.8400 sec.
+
+==============
+Worker Balance
+==============
+ - Worker 0 (220 tests) => 0:12:18.532091
+2017-02-06 05:57:58,209 refstack_client:456 INFO Tempest test complete.
+2017-02-06 05:57:58,209 refstack_client:457 INFO Subunit results located in: /tempest/refstack-client/.tempest/.testrepository/11
+2017-02-06 05:57:58,273 refstack_client:460 INFO Number of passed tests: 215
+2017-02-06 05:57:58,275 refstack_client:472 INFO JSON results saved in: /tempest/refstack-client/.tempest/.testrepository/11.json
+      </pre>
+  </div>
+
+  <div id="tabs-function-passed">
+      <div class="accordion">
+          <ol type="1" style="font-size: 16px">
+
+    <li>tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_delete_image .... [<b style="color:red">13.655481s</b>]</li>
+
+    <li>tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_image_specify_multibyte_character_image_name .... [<b style="color:red">9.316638s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestJSON.test_list_servers .... [<b style="color:red">0.064348s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestJSON.test_list_servers_with_detail .... [<b style="color:red">0.208374s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestJSON.test_verify_server_details .... [<b style="color:red">0.000665s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_list_servers .... [<b style="color:red">0.058119s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_list_servers_with_detail .... [<b style="color:red">0.267777s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_verify_server_details .... [<b style="color:red">0.000746s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_instance_actions.InstanceActionsTestJSON.test_get_instance_action .... [<b style="color:red">0.065062s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_instance_actions.InstanceActionsTestJSON.test_list_instance_actions .... [<b style="color:red">4.407050s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_detailed_filter_by_flavor .... [<b style="color:red">0.242045s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_detailed_filter_by_image .... [<b style="color:red">0.249943s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_detailed_filter_by_server_name .... [<b style="color:red">0.219795s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_detailed_filter_by_server_status .... [<b style="color:red">0.239382s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_detailed_limit_results .... [<b style="color:red">0.207522s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filter_by_flavor .... [<b style="color:red">0.064795s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filter_by_image .... [<b style="color:red">0.051360s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filter_by_limit .... [<b style="color:red">0.060503s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filter_by_server_name .... [<b style="color:red">0.052828s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filter_by_server_status .... [<b style="color:red">0.052672s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_server_filters.ListServerFiltersTestJSON.test_list_servers_filtered_by_name_wildcard .... [<b style="color:red">0.113938s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_changes_since_future_date .... [<b style="color:red">0.060306s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_changes_since_invalid_date .... [<b style="color:red">0.010556s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_limits .... [<b style="color:red">0.052867s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_limits_greater_than_actual_count .... [<b style="color:red">0.055837s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_limits_pass_negative_value .... [<b style="color:red">0.009537s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_limits_pass_string .... [<b style="color:red">0.009786s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_non_existing_flavor .... [<b style="color:red">0.031765s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_non_existing_image .... [<b style="color:red">0.049762s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_by_non_existing_server_name .... [<b style="color:red">0.044525s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_detail_server_is_deleted .... [<b style="color:red">0.280387s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_status_non_existing .... [<b style="color:red">0.011334s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_list_servers_negative.ListServersNegativeTestJSON.test_list_servers_with_a_deleted_server .... [<b style="color:red">0.053414s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_lock_unlock_server .... [<b style="color:red">9.550358s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_reboot_server_hard .... [<b style="color:red">3.338329s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_rebuild_server .... [<b style="color:red">15.456657s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_stop_start_server .... [<b style="color:red">8.679549s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_delete_server_metadata_item .... [<b style="color:red">0.684675s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_get_server_metadata_item .... [<b style="color:red">0.307640s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_list_server_metadata .... [<b style="color:red">0.324002s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_set_server_metadata .... [<b style="color:red">0.559276s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_set_server_metadata_item .... [<b style="color:red">0.451232s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_server_metadata.ServerMetadataTestJSON.test_update_server_metadata .... [<b style="color:red">0.605231s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers.ServersTestJSON.test_create_server_with_admin_password .... [<b style="color:red">1.821156s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers.ServersTestJSON.test_create_specify_keypair .... [<b style="color:red">9.708511s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers.ServersTestJSON.test_create_with_existing_server_name .... [<b style="color:red">22.038311s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers.ServersTestJSON.test_update_access_server_address .... [<b style="color:red">11.703112s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers.ServersTestJSON.test_update_server_name .... [<b style="color:red">11.410003s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_numeric_server_name .... [<b style="color:red">0.979643s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_server_metadata_exceeds_length_limit .... [<b style="color:red">0.873604s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_server_name_length_exceeds_256 .... [<b style="color:red">0.648285s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_with_invalid_flavor .... [<b style="color:red">0.823387s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_with_invalid_image .... [<b style="color:red">0.651591s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_create_with_invalid_network_uuid .... [<b style="color:red">0.617517s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_delete_server_pass_id_exceeding_length_limit .... [<b style="color:red">0.574347s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_delete_server_pass_negative_id .... [<b style="color:red">0.756084s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_get_non_existent_server .... [<b style="color:red">0.919419s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_invalid_ip_v6_address .... [<b style="color:red">0.647796s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_reboot_non_existent_server .... [<b style="color:red">0.603883s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_rebuild_deleted_server .... [<b style="color:red">2.244574s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_rebuild_non_existent_server .... [<b style="color:red">0.613155s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_server_name_blank .... [<b style="color:red">0.651025s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_stop_non_existent_server .... [<b style="color:red">0.466998s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_update_name_of_non_existent_server .... [<b style="color:red">0.510552s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_update_server_name_length_exceeds_256 .... [<b style="color:red">0.516215s</b>]</li>
+
+    <li>tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_update_server_set_empty_name .... [<b style="color:red">0.461551s</b>]</li>
+
+    <li>tempest.api.compute.test_quotas.QuotasTestJSON.test_get_default_quotas .... [<b style="color:red">0.094512s</b>]</li>
+
+    <li>tempest.api.compute.test_quotas.QuotasTestJSON.test_get_quotas .... [<b style="color:red">0.048874s</b>]</li>
+
+    <li>tempest.api.compute.test_versions.TestVersions.test_list_api_versions .... [<b style="color:red">0.007283s</b>]</li>
+
+    <li>tempest.api.compute.volumes.test_attach_volume.AttachVolumeTestJSON.test_list_get_volume_attachments .... [<b style="color:red">18.916223s</b>]</li>
+
+    <li>tempest.api.identity.v3.test_api_discovery.TestApiDiscovery.test_api_media_types .... [<b style="color:red">0.993079s</b>]</li>
+
+    <li>tempest.api.identity.v3.test_api_discovery.TestApiDiscovery.test_api_version_resources .... [<b style="color:red">0.031582s</b>]</li>
+
+    <li>tempest.api.identity.v3.test_api_discovery.TestApiDiscovery.test_api_version_statuses .... [<b style="color:red">0.029289s</b>]</li>
+
+    <li>tempest.api.identity.v3.test_tokens.TokensV3Test.test_create_token .... [<b style="color:red">0.127129s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_delete_image .... [<b style="color:red">0.509663s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_update_image .... [<b style="color:red">3.133512s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_get_image_schema .... [<b style="color:red">0.071156s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_get_images_schema .... [<b style="color:red">0.080869s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_container_format .... [<b style="color:red">0.039087s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_disk_format .... [<b style="color:red">0.037088s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_limit .... [<b style="color:red">0.106052s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_min_max_size .... [<b style="color:red">0.448602s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_size .... [<b style="color:red">0.333411s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_status .... [<b style="color:red">0.111522s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_visibility .... [<b style="color:red">0.118521s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images.ListImagesTest.test_list_no_params .... [<b style="color:red">0.258989s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_delete_image_null_id .... [<b style="color:red">0.072588s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_delete_non_existing_image .... [<b style="color:red">0.260163s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_delete_deleted_image .... [<b style="color:red">0.957311s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_image_null_id .... [<b style="color:red">0.081216s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_non_existent_image .... [<b style="color:red">0.018130s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_tags.ImagesTagsTest.test_update_delete_tags_for_image .... [<b style="color:red">1.201316s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_tags_negative.ImagesTagsNegativeTest.test_delete_non_existing_tag .... [<b style="color:red">0.631329s</b>]</li>
+
+    <li>tempest.api.image.v2.test_images_tags_negative.ImagesTagsNegativeTest.test_update_tags_for_non_existing_image .... [<b style="color:red">0.090515s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_all_attributes .... [<b style="color:red">1.680744s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_with_allocation_pools .... [<b style="color:red">2.534012s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_with_dhcp_enabled .... [<b style="color:red">1.630435s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_with_gw .... [<b style="color:red">2.194335s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_with_gw_and_allocation_pools .... [<b style="color:red">1.770347s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_with_host_routes_and_dns_nameservers .... [<b style="color:red">2.148019s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_delete_subnet_without_gateway .... [<b style="color:red">3.491528s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_create_update_delete_network_subnet .... [<b style="color:red">4.557665s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_delete_network_with_subnet .... [<b style="color:red">1.970900s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_list_networks .... [<b style="color:red">0.085877s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_list_networks_fields .... [<b style="color:red">0.121320s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_list_subnets .... [<b style="color:red">0.116977s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_list_subnets_fields .... [<b style="color:red">0.127231s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_show_network .... [<b style="color:red">0.119864s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_show_network_fields .... [<b style="color:red">0.053185s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_show_subnet .... [<b style="color:red">0.114692s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_show_subnet_fields .... [<b style="color:red">0.042777s</b>]</li>
+
+    <li>tempest.api.network.test_networks.NetworksTest.test_update_subnet_gw_dns_host_routes_dhcp .... [<b style="color:red">3.130965s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_create_bulk_port .... [<b style="color:red">2.497414s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_create_port_in_allowed_allocation_pools .... [<b style="color:red">4.091239s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_create_port_with_no_securitygroups .... [<b style="color:red">4.613534s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_create_show_delete_port_user_defined_mac .... [<b style="color:red">2.873630s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_create_update_delete_port .... [<b style="color:red">1.730593s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_list_ports .... [<b style="color:red">0.103060s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_list_ports_fields .... [<b style="color:red">0.097161s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_show_port .... [<b style="color:red">0.125761s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_show_port_fields .... [<b style="color:red">0.102064s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_update_port_with_security_group_and_extra_attributes .... [<b style="color:red">6.013008s</b>]</li>
+
+    <li>tempest.api.network.test_ports.PortsTestJSON.test_update_port_with_two_security_groups_and_extra_attributes .... [<b style="color:red">6.235826s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_list_update_show_delete_security_group .... [<b style="color:red">0.784357s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_security_group_rule_with_additional_args .... [<b style="color:red">0.911345s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_security_group_rule_with_icmp_type_code .... [<b style="color:red">2.537860s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_security_group_rule_with_protocol_integer_value .... [<b style="color:red">2.627751s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_security_group_rule_with_remote_group_id .... [<b style="color:red">1.384657s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_security_group_rule_with_remote_ip_prefix .... [<b style="color:red">0.769312s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_create_show_delete_security_group_rule .... [<b style="color:red">1.159203s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups.SecGroupTest.test_list_security_groups .... [<b style="color:red">0.109309s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_additional_default_security_group_fails .... [<b style="color:red">0.097959s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_duplicate_security_group_rule_fails .... [<b style="color:red">0.807594s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_bad_ethertype .... [<b style="color:red">0.376087s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_bad_protocol .... [<b style="color:red">0.674393s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_bad_remote_ip_prefix .... [<b style="color:red">0.773809s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_invalid_ports .... [<b style="color:red">1.277670s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_non_existent_remote_groupid .... [<b style="color:red">0.837385s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_create_security_group_rule_with_non_existent_security_group .... [<b style="color:red">0.302022s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_delete_non_existent_security_group .... [<b style="color:red">0.109724s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_show_non_existent_security_group .... [<b style="color:red">0.085329s</b>]</li>
+
+    <li>tempest.api.network.test_security_groups_negative.NegativeSecGroupTest.test_show_non_existent_security_group_rule .... [<b style="color:red">0.078510s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_expiry.ObjectExpiryTest.test_get_object_after_expiry_time .... [<b style="color:red">12.229408s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_copy_object_2d_way .... [<b style="color:red">0.250944s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_copy_object_across_containers .... [<b style="color:red">0.700379s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_copy_object_in_same_container .... [<b style="color:red">0.222247s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_copy_object_to_itself .... [<b style="color:red">0.374362s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_create_object .... [<b style="color:red">0.275516s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_delete_object .... [<b style="color:red">0.141232s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_get_object .... [<b style="color:red">0.080344s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_get_object_if_different .... [<b style="color:red">0.112481s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_services.ObjectTest.test_object_upload_in_segments .... [<b style="color:red">1.228541s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_temp_url.ObjectTempUrlTest.test_get_object_using_temp_url .... [<b style="color:red">0.048151s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_temp_url.ObjectTempUrlTest.test_put_object_using_temp_url .... [<b style="color:red">0.120132s</b>]</li>
+
+    <li>tempest.api.object_storage.test_object_version.ContainerTest.test_versioned_container .... [<b style="color:red">1.579334s</b>]</li>
+
+    <li>tempest.api.volume.test_availability_zone.AvailabilityZoneV2TestJSON.test_get_availability_zone_list .... [<b style="color:red">0.323063s</b>]</li>
+
+    <li>tempest.api.volume.test_extensions.ExtensionsV2TestJSON.test_list_extensions .... [<b style="color:red">0.314124s</b>]</li>
+
+    <li>tempest.api.volume.test_snapshot_metadata.SnapshotV2MetadataTestJSON.test_create_get_delete_snapshot_metadata .... [<b style="color:red">1.991512s</b>]</li>
+
+    <li>tempest.api.volume.test_snapshot_metadata.SnapshotV2MetadataTestJSON.test_update_snapshot_metadata_item .... [<b style="color:red">1.682426s</b>]</li>
+
+    <li>tempest.api.volume.test_volume_metadata.VolumesV2MetadataTest.test_create_get_delete_volume_metadata .... [<b style="color:red">1.381323s</b>]</li>
+
+    <li>tempest.api.volume.test_volume_metadata.VolumesV2MetadataTest.test_update_volume_metadata_item .... [<b style="color:red">1.023283s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_actions.VolumesV2ActionsTest.test_attach_detach_volume_to_instance .... [<b style="color:red">3.691889s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_actions.VolumesV2ActionsTest.test_get_volume_attachment .... [<b style="color:red">1.423768s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_actions.VolumesV2ActionsTest.test_reserve_unreserve_volume .... [<b style="color:red">0.764408s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_actions.VolumesV2ActionsTest.test_volume_bootable .... [<b style="color:red">0.902990s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_actions.VolumesV2ActionsTest.test_volume_readonly_update .... [<b style="color:red">0.548845s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_get.VolumesV2GetTest.test_volume_create_get_update_delete .... [<b style="color:red">9.224701s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_get.VolumesV2GetTest.test_volume_create_get_update_delete_as_clone .... [<b style="color:red">12.429968s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_get.VolumesV2GetTest.test_volume_create_get_update_delete_from_image .... [<b style="color:red">9.045710s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list .... [<b style="color:red">0.302457s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_by_name .... [<b style="color:red">0.275868s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_details_by_name .... [<b style="color:red">0.048904s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_param_display_name_and_status .... [<b style="color:red">0.137770s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_with_detail_param_display_name_and_status .... [<b style="color:red">0.324447s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_with_detail_param_metadata .... [<b style="color:red">0.303469s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_with_details .... [<b style="color:red">0.137596s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_with_param_metadata .... [<b style="color:red">0.289505s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volumes_list_by_availability_zone .... [<b style="color:red">0.450695s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volumes_list_by_status .... [<b style="color:red">0.338528s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volumes_list_details_by_availability_zone .... [<b style="color:red">0.144645s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_list.VolumesV2ListTestJSON.test_volumes_list_details_by_status .... [<b style="color:red">0.161059s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_attach_volumes_with_nonexistent_volume_id .... [<b style="color:red">11.405303s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_invalid_size .... [<b style="color:red">0.115214s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_nonexistent_snapshot_id .... [<b style="color:red">0.109062s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_nonexistent_source_volid .... [<b style="color:red">0.128218s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_nonexistent_volume_type .... [<b style="color:red">0.021129s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_out_passing_size .... [<b style="color:red">0.112967s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_size_negative .... [<b style="color:red">0.091575s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_create_volume_with_size_zero .... [<b style="color:red">0.081842s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_delete_invalid_volume_id .... [<b style="color:red">0.043617s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_delete_volume_without_passing_volume_id .... [<b style="color:red">0.251864s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_detach_volumes_with_invalid_volume_id .... [<b style="color:red">0.118138s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_get_invalid_volume_id .... [<b style="color:red">0.096337s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_get_volume_without_passing_volume_id .... [<b style="color:red">0.165700s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_list_volumes_detail_with_invalid_status .... [<b style="color:red">0.117996s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_list_volumes_detail_with_nonexistent_name .... [<b style="color:red">0.138791s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_list_volumes_with_invalid_status .... [<b style="color:red">0.133902s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_list_volumes_with_nonexistent_name .... [<b style="color:red">0.151620s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_reserve_volume_with_negative_volume_status .... [<b style="color:red">0.487489s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_reserve_volume_with_nonexistent_volume_id .... [<b style="color:red">0.283856s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_unreserve_volume_with_nonexistent_volume_id .... [<b style="color:red">0.153342s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_update_volume_with_empty_volume_id .... [<b style="color:red">0.083605s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_update_volume_with_invalid_volume_id .... [<b style="color:red">0.098031s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_update_volume_with_nonexistent_volume_id .... [<b style="color:red">0.147079s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_volume_delete_nonexistent_volume_id .... [<b style="color:red">0.127301s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_negative.VolumesV2NegativeTest.test_volume_get_nonexistent_volume_id .... [<b style="color:red">0.128120s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots.VolumesV2SnapshotTestJSON.test_snapshot_create_get_list_update_delete .... [<b style="color:red">5.907812s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots.VolumesV2SnapshotTestJSON.test_snapshots_list_details_with_params .... [<b style="color:red">6.203997s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots.VolumesV2SnapshotTestJSON.test_snapshots_list_with_params .... [<b style="color:red">4.491450s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots.VolumesV2SnapshotTestJSON.test_volume_from_snapshot .... [<b style="color:red">7.514707s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots_negative.VolumesV2SnapshotNegativeTestJSON.test_create_snapshot_with_nonexistent_volume_id .... [<b style="color:red">0.125217s</b>]</li>
+
+    <li>tempest.api.volume.test_volumes_snapshots_negative.VolumesV2SnapshotNegativeTestJSON.test_create_snapshot_without_passing_volume_id .... [<b style="color:red">0.138666s</b>]</li>
+
+    <li>tempest.api.volume.v2.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_details_pagination .... [<b style="color:red">1.044059s</b>]</li>
+
+    <li>tempest.api.volume.v2.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_details_with_multiple_params .... [<b style="color:red">0.458576s</b>]</li>
+
+    <li>tempest.api.volume.v2.test_volumes_list.VolumesV2ListTestJSON.test_volume_list_pagination .... [<b style="color:red">0.781425s</b>]</li>
+
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-function-failed">
+      <div class="accordion">
+
+    </div>
+  </div>
+
+  <div id="tabs-function-skipped">
+      <div class="accordion">
+
+    <h6 style="font-size: 16px">tempest.api.compute.servers.test_create_server.ServersTestJSON.test_host_name_is_same_as_server_name ... SKIPPED: Instance validation tests are disabled.</h6>
+    <div>
+      <b style="color: red">[REASON]</b> Instance validation tests are disabled.
+    </div>
+
+    <h6 style="font-size: 16px">tempest.api.compute.servers.test_create_server.ServersTestJSON.test_verify_created_server_vcpus ... SKIPPED: Instance validation tests are disabled.</h6>
+    <div>
+      <b style="color: red">[REASON]</b> Instance validation tests are disabled.
+    </div>
+
+    <h6 style="font-size: 16px">tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_host_name_is_same_as_server_name ... SKIPPED: Instance validation tests are disabled.</h6>
+    <div>
+      <b style="color: red">[REASON]</b> Instance validation tests are disabled.
+    </div>
+
+    <h6 style="font-size: 16px">tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_verify_created_server_vcpus ... SKIPPED: Instance validation tests are disabled.</h6>
+    <div>
+      <b style="color: red">[REASON]</b> Instance validation tests are disabled.
+    </div>
+
+    <h6 style="font-size: 16px">tempest.api.compute.volumes.test_attach_volume.AttachVolumeTestJSON.test_attach_detach_volume ... SKIPPED: SSH required for this test</h6>
+    <div>
+      <b style="color: red">[REASON]</b> SSH required for this test
+    </div>
+
+          
+  </div>
+</div>
+
+  <div id="tabs-scenario-passed">
+      <div class="accordion">
+          <ol type="1" style="font-size: 16px">
+
+          </ol>
+      </div>
+  </div>
+
+  <div id="tabs-scenario-failed">
+      <div class="accordion">
+
+
+    
+      </div>
+  </div>
+
+  <div id="tabs-scenario-skipped">
+      <div class="accordion">
+
+      </div>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
