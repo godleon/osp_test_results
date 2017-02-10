@@ -10,3 +10,6 @@
 
 
 /tmp/build/f732bc87/rally_remain_tests/cinder/create-and-delete-volume.json
+
+
+/tmp/build/f732bc87/rally_remain_tests/nova/boot-and-list.json
