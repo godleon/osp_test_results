@@ -4,3 +4,6 @@
 
 
 /tmp/build/f732bc87/rally_remain_tests/authenticate/token-validate-glance.json
+
+
+/tmp/build/f732bc87/rally_remain_tests/authenticate/token-validate-heat.json
