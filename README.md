@@ -1,2 +1,1 @@
-# osp_test_results
-For demo purpose
+brach for being rally test queue
