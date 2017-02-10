@@ -1,0 +1,543 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 6.335352897644043, 
+        "result": [
+            {
+                "timestamp": 1486735687.464956, 
+                "error": [], 
+                "duration": 3.767508029937744, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.2808799743652344, 
+                    "cinder.delete_volume": 2.4865059852600098
+                }
+            }, 
+            {
+                "timestamp": 1486735687.485354, 
+                "error": [], 
+                "duration": 4.223372936248779, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.262928009033203, 
+                    "cinder.delete_volume": 2.9603431224823
+                }
+            }, 
+            {
+                "timestamp": 1486735687.506399, 
+                "error": [], 
+                "duration": 4.7217981815338135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.442456007003784, 
+                    "cinder.delete_volume": 3.2792348861694336
+                }
+            }, 
+            {
+                "timestamp": 1486735687.532973, 
+                "error": [], 
+                "duration": 4.247205972671509, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.2812659740448, 
+                    "cinder.delete_volume": 2.9658291339874268
+                }
+            }, 
+            {
+                "timestamp": 1486735687.533219, 
+                "error": [], 
+                "duration": 4.803555965423584, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 4.236845970153809, 
+                    "cinder.delete_volume": 2.5666089057922363
+                }
+            }, 
+            {
+                "timestamp": 1486735687.550102, 
+                "error": [], 
+                "duration": 4.755379915237427, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.7074270248413086, 
+                    "cinder.delete_volume": 3.047852039337158
+                }
+            }, 
+            {
+                "timestamp": 1486735687.567271, 
+                "error": [], 
+                "duration": 6.050107002258301, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.581182956695557, 
+                    "cinder.delete_volume": 2.468799114227295
+                }
+            }, 
+            {
+                "timestamp": 1486735687.583741, 
+                "error": [], 
+                "duration": 6.2028350830078125, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.513278961181641, 
+                    "cinder.delete_volume": 2.689450979232788
+                }
+            }, 
+            {
+                "timestamp": 1486735687.600692, 
+                "error": [], 
+                "duration": 4.862005949020386, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.727202892303467, 
+                    "cinder.delete_volume": 3.1347110271453857
+                }
+            }, 
+            {
+                "timestamp": 1486735687.6181, 
+                "error": [], 
+                "duration": 4.893891096115112, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 4.136373043060303, 
+                    "cinder.delete_volume": 2.757420063018799
+                }
+            }, 
+            {
+                "timestamp": 1486735687.637675, 
+                "error": [], 
+                "duration": 5.063442945480347, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 4.278568983078003, 
+                    "cinder.delete_volume": 2.784719944000244
+                }
+            }, 
+            {
+                "timestamp": 1486735687.651492, 
+                "error": [], 
+                "duration": 6.148816823959351, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.716768026351929, 
+                    "cinder.delete_volume": 2.4319419860839844
+                }
+            }, 
+            {
+                "timestamp": 1486735687.668572, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-8e9a204a-4e32-4bf9-be55-e64281fde44e)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-8e9a204a-4e32-4bf9-be55-e64281fde44e)\n"
+                ], 
+                "duration": 1.2921991348266602, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.2921278476715088
+                }
+            }, 
+            {
+                "timestamp": 1486735687.687036, 
+                "error": [], 
+                "duration": 5.192731857299805, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 4.198615074157715, 
+                    "cinder.delete_volume": 2.9939920902252197
+                }
+            }, 
+            {
+                "timestamp": 1486735687.703004, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-657ec2a0-dbf1-4aa4-bd0b-eac207f91738)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-657ec2a0-dbf1-4aa4-bd0b-eac207f91738)\n"
+                ], 
+                "duration": 1.1906912326812744, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.1906330585479736
+                }
+            }, 
+            {
+                "timestamp": 1486735687.731193, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-5df4e453-8026-4379-9ca1-a82ffcbc7702)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-5df4e453-8026-4379-9ca1-a82ffcbc7702)\n"
+                ], 
+                "duration": 1.1361548900604248, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.1360931396484375
+                }
+            }, 
+            {
+                "timestamp": 1486735687.736556, 
+                "error": [], 
+                "duration": 4.88103985786438, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 4.275359869003296, 
+                    "cinder.delete_volume": 2.6055901050567627
+                }
+            }, 
+            {
+                "timestamp": 1486735687.753781, 
+                "error": [], 
+                "duration": 4.21063494682312, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.7945899963378906, 
+                    "cinder.delete_volume": 2.415940999984741
+                }
+            }, 
+            {
+                "timestamp": 1486735687.770775, 
+                "error": [], 
+                "duration": 4.741396903991699, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.581545829772949, 
+                    "cinder.delete_volume": 3.159742832183838
+                }
+            }, 
+            {
+                "timestamp": 1486735687.788266, 
+                "error": [], 
+                "duration": 4.866393089294434, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 6.204957962036133, 
+                    "cinder.delete_volume": 0.6613140106201172
+                }
+            }, 
+            {
+                "timestamp": 1486735687.804949, 
+                "error": [], 
+                "duration": 4.1198039054870605, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.251199960708618, 
+                    "cinder.delete_volume": 2.868496894836426
+                }
+            }, 
+            {
+                "timestamp": 1486735687.821651, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-da6b1d02-5e80-4a8b-9f9c-64a269cebf48)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-da6b1d02-5e80-4a8b-9f9c-64a269cebf48)\n"
+                ], 
+                "duration": 1.062406063079834, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.0623431205749512
+                }
+            }, 
+            {
+                "timestamp": 1486735687.840887, 
+                "error": [], 
+                "duration": 5.078649997711182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 3.886043071746826, 
+                    "cinder.delete_volume": 3.1925110816955566
+                }
+            }, 
+            {
+                "timestamp": 1486735687.856539, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-11ca7546-aac9-4f15-a45f-4a8ea8695734)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-11ca7546-aac9-4f15-a45f-4a8ea8695734)\n"
+                ], 
+                "duration": 1.0706839561462402, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.070600986480713
+                }
+            }, 
+            {
+                "timestamp": 1486735687.873248, 
+                "error": [], 
+                "duration": 4.483400821685791, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.869545936584473, 
+                    "cinder.delete_volume": 0.6137678623199463
+                }
+            }, 
+            {
+                "timestamp": 1486735687.890114, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-d630d530-6b82-4fce-a9d0-f9c1e8e6e0c0)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-d630d530-6b82-4fce-a9d0-f9c1e8e6e0c0)\n"
+                ], 
+                "duration": 1.0609889030456543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.0609278678894043
+                }
+            }, 
+            {
+                "timestamp": 1486735687.907193, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-0a595e62-710e-4319-9c02-98822dbc9177)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-0a595e62-710e-4319-9c02-98822dbc9177)\n"
+                ], 
+                "duration": 1.0951170921325684, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.0950591564178467
+                }
+            }, 
+            {
+                "timestamp": 1486735687.925156, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-5f746f21-6a11-40ff-81b9-492d83f87d18)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-5f746f21-6a11-40ff-81b9-492d83f87d18)\n"
+                ], 
+                "duration": 1.1093838214874268, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.1093270778656006
+                }
+            }, 
+            {
+                "timestamp": 1486735687.941187, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-e276bbce-8de8-4d5b-85a5-408fa5e833c4)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-e276bbce-8de8-4d5b-85a5-408fa5e833c4)\n"
+                ], 
+                "duration": 1.0889041423797607, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.0888381004333496
+                }
+            }, 
+            {
+                "timestamp": 1486735687.958441, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-c58dcb91-4e2f-4789-8418-d7ae4b793694)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-c58dcb91-4e2f-4789-8418-d7ae4b793694)\n"
+                ], 
+                "duration": 1.1344490051269531, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.1343369483947754
+                }
+            }, 
+            {
+                "timestamp": 1486735687.975449, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-1d2a96c7-cbfc-4705-a3b5-011227168339)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-1d2a96c7-cbfc-4705-a3b5-011227168339)\n"
+                ], 
+                "duration": 1.0640978813171387, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.0640239715576172
+                }
+            }, 
+            {
+                "timestamp": 1486735687.992267, 
+                "error": [
+                    "OverLimit", 
+                    "VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-7b3e8171-52d7-43e5-b5e5-35ba2a20b46f)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/volumes.py\", line 217, in run\n    volume = self._create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 158, in _create_volume\n    volume = client.create_volume(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/wrappers/cinder.py\", line 67, in create_volume\n    volume = self.client.volumes.create(size, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/v2/volumes.py\", line 269, in create\n    return self._create('/volumes', body, 'volume')\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/base.py\", line 317, in _create\n    resp, body = self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 146, in post\n    return self._cs_request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 134, in _cs_request\n    return self.request(url, method, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/cinderclient/client.py\", line 123, in request\n    raise exceptions.from_response(resp, body)\nOverLimit: VolumeLimitExceeded: Maximum number of volumes allowed (10) exceeded for quota 'volumes'. (HTTP 413) (Request-ID: req-7b3e8171-52d7-43e5-b5e5-35ba2a20b46f)\n"
+                ], 
+                "duration": 1.1418650150299072, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 1.1418118476867676
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "type": "rps", 
+                    "rps": 2, 
+                    "times": 200
+                }, 
+                "hooks": [], 
+                "args": {
+                    "size": 1
+                }, 
+                "sla": {
+                    "max_avg_duration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_seconds_per_iteration": 50.0
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 2, 
+                        "tenants": 2
+                    }
+                }
+            }, 
+            "name": "CinderVolumes.create_and_delete_volume", 
+            "pos": 0
+        }, 
+        "full_duration": 24.88223695755005, 
+        "sla": [
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 4.87s <= 30.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 37.50% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 6.20s <= 50.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
