@@ -12,3 +12,6 @@
 ## glance
 - [create-and-delete-image](https://godleon.github.io/osp_test_results/0.2.75/glance/create-and-delete-image.html)
 
+## keystone
+- [add-and-remove-user-role](https://godleon.github.io/osp_test_results/0.2.75/keystone/add-and-remove-user-role.html)
+
