@@ -1,0 +1,233 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 15.137732028961182, 
+        "result": [
+            {
+                "timestamp": 1486853950.574905, 
+                "error": [], 
+                "duration": 9.749564170837402, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.626169919967651, 
+                    "neutron.delete_floating_ip": 3.123283863067627
+                }
+            }, 
+            {
+                "timestamp": 1486853950.579734, 
+                "error": [], 
+                "duration": 10.015161991119385, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.886534929275513, 
+                    "neutron.delete_floating_ip": 3.128448009490967
+                }
+            }, 
+            {
+                "timestamp": 1486853950.579782, 
+                "error": [], 
+                "duration": 7.0755109786987305, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 3.7323169708251953, 
+                    "neutron.delete_floating_ip": 3.3430709838867188
+                }
+            }, 
+            {
+                "timestamp": 1486853950.581818, 
+                "error": [], 
+                "duration": 9.406014919281006, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.352001905441284, 
+                    "neutron.delete_floating_ip": 3.053786039352417
+                }
+            }, 
+            {
+                "timestamp": 1486853950.582571, 
+                "error": [], 
+                "duration": 6.404034852981567, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.123867034912109, 
+                    "neutron.delete_floating_ip": 0.28006720542907715
+                }
+            }, 
+            {
+                "timestamp": 1486853950.583897, 
+                "error": [], 
+                "duration": 10.466775894165039, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 7.2963080406188965, 
+                    "neutron.delete_floating_ip": 3.170376777648926
+                }
+            }, 
+            {
+                "timestamp": 1486853950.587598, 
+                "error": [], 
+                "duration": 6.8195250034332275, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 3.3289079666137695, 
+                    "neutron.delete_floating_ip": 3.490496873855591
+                }
+            }, 
+            {
+                "timestamp": 1486853950.588526, 
+                "error": [], 
+                "duration": 10.044811964035034, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.946333885192871, 
+                    "neutron.delete_floating_ip": 3.0983519554138184
+                }
+            }, 
+            {
+                "timestamp": 1486853950.588974, 
+                "error": [], 
+                "duration": 10.001918077468872, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.864443063735962, 
+                    "neutron.delete_floating_ip": 3.1373729705810547
+                }
+            }, 
+            {
+                "timestamp": 1486853950.589348, 
+                "error": [], 
+                "duration": 9.230954885482788, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.2197840213775635, 
+                    "neutron.delete_floating_ip": 3.0110650062561035
+                }
+            }, 
+            {
+                "timestamp": 1486853950.590242, 
+                "error": [], 
+                "duration": 9.9467031955719, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 6.802242994308472, 
+                    "neutron.delete_floating_ip": 3.144355058670044
+                }
+            }, 
+            {
+                "timestamp": 1486853956.989723, 
+                "error": [], 
+                "duration": 8.722913980484009, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_floating_ip": 5.919348955154419, 
+                    "neutron.delete_floating_ip": 2.8035190105438232
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 5000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "floating_network": "public", 
+                    "floating_ip_args": {}
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 5.0, 
+                    "max_avg_duration": 3.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "quotas": {
+                        "neutron": {
+                            "floatingip": -1
+                        }
+                    }, 
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_delete_floating_ips", 
+            "pos": 0
+        }, 
+        "full_duration": 91.67719197273254, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 10.47s <= 5.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 8.99s <= 3.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
