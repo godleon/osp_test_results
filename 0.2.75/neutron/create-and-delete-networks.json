@@ -1,0 +1,246 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 9.475769996643066, 
+        "result": [
+            {
+                "timestamp": 1486854169.207591, 
+                "error": [], 
+                "duration": 6.49163293838501, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0577709674835205, 
+                    "neutron.delete_network": 3.433729887008667
+                }
+            }, 
+            {
+                "timestamp": 1486854169.208649, 
+                "error": [], 
+                "duration": 6.14433217048645, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.015810966491699, 
+                    "neutron.delete_network": 3.1284189224243164
+                }
+            }, 
+            {
+                "timestamp": 1486854169.213148, 
+                "error": [], 
+                "duration": 6.130674839019775, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0551340579986572, 
+                    "neutron.delete_network": 3.0754480361938477
+                }
+            }, 
+            {
+                "timestamp": 1486854169.214003, 
+                "error": [], 
+                "duration": 3.5014359951019287, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.1623270511627197, 
+                    "neutron.delete_network": 0.33902907371520996
+                }
+            }, 
+            {
+                "timestamp": 1486854169.214734, 
+                "error": [], 
+                "duration": 6.321427822113037, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.2034599781036377, 
+                    "neutron.delete_network": 3.1178669929504395
+                }
+            }, 
+            {
+                "timestamp": 1486854169.219661, 
+                "error": [], 
+                "duration": 3.460242986679077, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0916450023651123, 
+                    "neutron.delete_network": 0.36847901344299316
+                }
+            }, 
+            {
+                "timestamp": 1486854169.220014, 
+                "error": [], 
+                "duration": 3.598418951034546, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.1715729236602783, 
+                    "neutron.delete_network": 0.42395997047424316
+                }
+            }, 
+            {
+                "timestamp": 1486854169.220029, 
+                "error": [], 
+                "duration": 3.558276891708374, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.224130153656006, 
+                    "neutron.delete_network": 0.3340721130371094
+                }
+            }, 
+            {
+                "timestamp": 1486854169.220833, 
+                "error": [], 
+                "duration": 6.281576871871948, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.284477949142456, 
+                    "neutron.delete_network": 2.9969890117645264
+                }
+            }, 
+            {
+                "timestamp": 1486854169.22168, 
+                "error": [], 
+                "duration": 6.60542106628418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.2669460773468018, 
+                    "neutron.delete_network": 3.3383920192718506
+                }
+            }, 
+            {
+                "timestamp": 1486854169.221874, 
+                "error": [], 
+                "duration": 6.427330017089844, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.2533130645751953, 
+                    "neutron.delete_network": 3.173931837081909
+                }
+            }, 
+            {
+                "timestamp": 1486854172.683581, 
+                "error": [], 
+                "duration": 3.397946834564209, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.1540980339050293, 
+                    "neutron.delete_network": 0.24379897117614746
+                }
+            }, 
+            {
+                "timestamp": 1486854172.718887, 
+                "error": [], 
+                "duration": 5.9644739627838135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0887458324432373, 
+                    "neutron.delete_network": 2.8756818771362305
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 5000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "network_create_args": {}
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 5.0, 
+                    "max_avg_duration": 3.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "quotas": {
+                        "neutron": {
+                            "network": -1
+                        }
+                    }, 
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_delete_networks", 
+            "pos": 0
+        }, 
+        "full_duration": 83.53771305084229, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 6.61s <= 5.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 5.22s <= 3.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
