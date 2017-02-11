@@ -1,0 +1,293 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 129.3974211215973, 
+        "result": [
+            {
+                "timestamp": 1486854388.065259, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ee202832-6ac0-497a-9456-c6a6a683ba75)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ee202832-6ac0-497a-9456-c6a6a683ba75)\n"
+                ], 
+                "duration": 85.65996813774109, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 75.2570309638977, 
+                    "nova.find_host_to_migrate": 7.6292359828948975, 
+                    "nova.live_migrate": 3.773545980453491
+                }
+            }, 
+            {
+                "timestamp": 1486854388.071618, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-eb920315-73a8-41d5-9578-14a167c57288)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-eb920315-73a8-41d5-9578-14a167c57288)\n"
+                ], 
+                "duration": 89.27325797080994, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 75.3896210193634, 
+                    "nova.find_host_to_migrate": 11.229598045349121, 
+                    "nova.live_migrate": 3.6539011001586914
+                }
+            }, 
+            {
+                "timestamp": 1486854388.073057, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-bb09c3ea-b0d0-4a7d-a2d1-187357e6e3ed)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-bb09c3ea-b0d0-4a7d-a2d1-187357e6e3ed)\n"
+                ], 
+                "duration": 93.99585795402527, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 79.23875093460083, 
+                    "nova.find_host_to_migrate": 9.738544940948486, 
+                    "nova.live_migrate": 6.018440008163452
+                }
+            }, 
+            {
+                "timestamp": 1486854388.074958, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-e9d0d3ed-6ef0-4edc-9933-de57281b349b)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-e9d0d3ed-6ef0-4edc-9933-de57281b349b)\n"
+                ], 
+                "duration": 87.80494499206543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 65.79650092124939, 
+                    "nova.find_host_to_migrate": 15.859892129898071, 
+                    "nova.live_migrate": 7.1484270095825195
+                }
+            }, 
+            {
+                "timestamp": 1486854388.077436, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ded1ea76-edc1-44a9-a546-c3feb9be5243)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ded1ea76-edc1-44a9-a546-c3feb9be5243)\n"
+                ], 
+                "duration": 89.16037607192993, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 75.99820113182068, 
+                    "nova.find_host_to_migrate": 7.707636117935181, 
+                    "nova.live_migrate": 6.454412937164307
+                }
+            }, 
+            {
+                "timestamp": 1486854388.077446, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-f5e73679-c6fc-48e0-b60c-28526c51f41c)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-f5e73679-c6fc-48e0-b60c-28526c51f41c)\n"
+                ], 
+                "duration": 82.00939702987671, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 65.17188906669617, 
+                    "nova.find_host_to_migrate": 13.769640922546387, 
+                    "nova.live_migrate": 4.067698001861572
+                }
+            }, 
+            {
+                "timestamp": 1486854388.07771, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-59ac40ea-2387-4213-957f-365fe725dbef)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-59ac40ea-2387-4213-957f-365fe725dbef)\n"
+                ], 
+                "duration": 93.73242115974426, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 79.0660150051117, 
+                    "nova.find_host_to_migrate": 9.590734004974365, 
+                    "nova.live_migrate": 6.075552940368652
+                }
+            }, 
+            {
+                "timestamp": 1486854388.077814, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-64392954-3ef4-4748-97f4-97e14a670ece)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-64392954-3ef4-4748-97f4-97e14a670ece)\n"
+                ], 
+                "duration": 89.61449885368347, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 75.6915180683136, 
+                    "nova.find_host_to_migrate": 7.784060001373291, 
+                    "nova.live_migrate": 7.138757944107056
+                }
+            }, 
+            {
+                "timestamp": 1486854388.08171, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-80120096-646b-429d-a5fe-aeea7ebe7b05)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-80120096-646b-429d-a5fe-aeea7ebe7b05)\n"
+                ], 
+                "duration": 85.7424259185791, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 62.816725969314575, 
+                    "nova.find_host_to_migrate": 17.142786026000977, 
+                    "nova.live_migrate": 6.78275990486145
+                }
+            }, 
+            {
+                "timestamp": 1486854388.085844, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-3d7926c5-2e87-4b7d-863f-96bab6a93772)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-3d7926c5-2e87-4b7d-863f-96bab6a93772)\n"
+                ], 
+                "duration": 97.458340883255, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 83.17573189735413, 
+                    "nova.find_host_to_migrate": 9.40395712852478, 
+                    "nova.live_migrate": 5.878520965576172
+                }
+            }, 
+            {
+                "timestamp": 1486854388.094633, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-00658942-21b5-4344-8eb3-31855297d6c4)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-00658942-21b5-4344-8eb3-31855297d6c4)\n"
+                ], 
+                "duration": 87.60115480422974, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 65.48018002510071, 
+                    "nova.find_host_to_migrate": 16.22954297065735, 
+                    "nova.live_migrate": 6.891288995742798
+                }
+            }, 
+            {
+                "timestamp": 1486854471.091099, 
+                "error": [
+                    "BadRequest", 
+                    "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-7e90ad1b-ad34-4128-b5b3-b8d4e2ef4886)", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-7e90ad1b-ad34-4128-b5b3-b8d4e2ef4886)\n"
+                ], 
+                "duration": 46.371581077575684, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 33.70714783668518, 
+                    "nova.find_host_to_migrate": 8.028369903564453, 
+                    "nova.live_migrate": 5.635972023010254
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 500, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "block_migration": true, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "image": {
+                        "name": "^cirros.*uec$"
+                    }
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 60.0, 
+                    "max_avg_duration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_live_migrate_server", 
+            "pos": 0
+        }, 
+        "full_duration": 305.7369930744171, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 97.46s <= 60.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 0.00s <= 30.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 100.00% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]

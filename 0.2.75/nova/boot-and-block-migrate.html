@@ -1,0 +1,1043 @@
+<!doctype html>
+<html ng-app="App">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Rally version 0.8.2~dev46">
+  <title>Rally | Rally Task Report</title>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js"></script>
+  
+
+  <script type="text/javascript">
+    "use strict";
+    var widgetDirective = function($compile) {
+  var Chart = {
+    _render: function(node, data, chart, do_after){
+      nv.addGraph(function() {
+        d3.select(node)
+          .datum(data).transition().duration(0)
+          .call(chart);
+        if (typeof do_after === "function") {
+          do_after(node, chart)
+        }
+        nv.utils.windowResize(chart.update);
+      })
+    },
+    _widgets: {
+      Pie: "pie",
+      StackedArea: "stack",
+      Lines: "lines",
+      Histogram: "histogram"
+    },
+    get_chart: function(widget) {
+      if (widget in this._widgets) {
+        var name = this._widgets[widget];
+        return Chart[name]
+      }
+      return function() { console.log("Error: unexpected widget:", widget) }
+    },
+    pie: function(node, data, opts, do_after) {
+      var chart = nv.models.pieChart()
+        .x(function(d) { return d.key })
+        .y(function(d) { return d.values })
+        .showLabels(true)
+        .labelType("percent")
+        .donut(true)
+        .donutRatio(0.25)
+        .donutLabelsOutside(true)
+        .color(function(d){
+          if (d.data && d.data.color) { return d.data.color }
+        });
+      var colorizer = new Chart.colorizer("errors"), data_ = [];
+      for (var i in data) {
+        data_.push({key:data[i][0], values:data[i][1], color:colorizer.get_color(data[i][0])})
+      }
+      Chart._render(node, data_, chart)
+    },
+    colorizer: function(failure_key, failure_color) {
+      this.failure_key = failure_key || "failed_duration";
+      this.failure_color = failure_color || "#d62728";  // red
+      this.color_idx = -1;
+      /* NOTE(amaretskiy): this is actually a result of
+         d3.scale.category20().range(), excluding red color (#d62728)
+         which is reserved for errors */
+      this.colors = ["#1f77b4", "#aec7e8", "#ff7f0e", "#ffbb78", "#2ca02c",
+                     "#98df8a", "#ff9896", "#9467bd", "#c5b0d5", "#8c564b",
+                     "#c49c94", "#e377c2", "#f7b6d2", "#7f7f7f", "#c7c7c7",
+                     "#bcbd22", "#dbdb8d", "#17becf", "#9edae5"];
+      this.get_color = function(key) {
+        if (key === this.failure_key) {
+          return this.failure_color
+        }
+        if (this.color_idx > (this.colors.length - 2)) {
+          this.color_idx = 0
+        } else {
+          this.color_idx++
+        }
+        return this.colors[this.color_idx]
+      }
+    },
+    stack: function(node, data, opts, do_after) {
+      var chart = nv.models.stackedAreaChart()
+        .x(function(d) { return d[0] })
+        .y(function(d) { return d[1] })
+        .useInteractiveGuideline(opts.guide)
+        .showControls(opts.controls)
+        .clipEdge(true);
+      chart.xAxis
+        .axisLabel(opts.xname)
+        .tickFormat(opts.xformat)
+        .showMaxMin(opts.showmaxmin);
+      chart.yAxis
+        .orient("left")
+        .tickFormat(d3.format(opts.yformat || ",.3f"));
+      var colorizer = new Chart.colorizer(), data_ = [];
+      for (var i in data) {
+        data_.push({key:data[i][0], values:data[i][1], color:colorizer.get_color(data[i][0])})
+      }
+      Chart._render(node, data_, chart, do_after);
+    },
+    lines: function(node, data, opts, do_after) {
+      var chart = nv.models.lineChart()
+        .x(function(d) { return d[0] })
+        .y(function(d) { return d[1] })
+        .useInteractiveGuideline(opts.guide)
+        .clipEdge(true);
+      chart.xAxis
+        .axisLabel(opts.xname)
+        .tickFormat(opts.xformat)
+        .rotateLabels(opts.xrotate)
+        .showMaxMin(opts.showmaxmin);
+      chart.yAxis
+        .orient("left")
+        .tickFormat(d3.format(opts.yformat || ",.3f"));
+      var colorizer = new Chart.colorizer(), data_ = [];
+      for (var i in data) {
+        data_.push({key:data[i][0], values:data[i][1], color:colorizer.get_color(data[i][0])})
+      }
+      Chart._render(node, data_, chart, do_after)
+    },
+    histogram: function(node, data, opts) {
+      var chart = nv.models.multiBarChart()
+        .reduceXTicks(true)
+        .showControls(false)
+        .transitionDuration(0)
+        .groupSpacing(0.05);
+      chart
+        .legend.radioButtonMode(true);
+      chart.xAxis
+        .axisLabel("Duration (seconds)")
+        .tickFormat(d3.format(",.2f"));
+      chart.yAxis
+        .axisLabel("Iterations (frequency)")
+        .tickFormat(d3.format("d"));
+      Chart._render(node, data, chart)
+    }
+  };
+
+  return {
+    restrict: "A",
+    scope: { data: "=" },
+    link: function(scope, element, attrs) {
+      scope.$watch("data", function(data) {
+        if (! data) { return console.log("Chart has no data to render!") }
+        if (attrs.widget === "Table") {
+          var ng_class = attrs.lastrowClass ? " ng-class='{"+attrs.lastrowClass+":$last}'" : "";
+          var template = "<table class='striped'><thead>" +
+            "<tr><th ng-repeat='i in data.cols track by $index'>{{i}}<tr>" +
+            "</thead><tbody>" +
+            "<tr" + ng_class + " ng-repeat='row in data.rows track by $index'>" +
+            "<td ng-repeat='i in row track by $index'>{{i}}" +
+            "<tr>" +
+            "</tbody></table>";
+          var el = element.empty().append($compile(template)(scope)).children()[0]
+        } else if (attrs.widget === "TextArea") {
+          var template = "<div style='padding:0 0 5px' ng-repeat='str in data track by $index'>{{str}}</div><div style='height:10px'></div>";
+          var el = element.empty().append($compile(template)(scope)).children()[0]
+        } else {
+
+          var el_chart = element.addClass("chart").css({display:"block"});
+          var el = el_chart.html("<svg></svg>").children()[0];
+
+          var do_after = null;
+
+          if (attrs.widget in {StackedArea:0, Lines:0}) {
+
+            /* Hide widget if not enough data */
+            if ((! data.length) || (data[0].length < 1) || (data[0][1].length < 2)) {
+              return element.empty().css({display:"none"})
+            }
+
+            /* NOTE(amaretskiy): Dirty fix for changing chart width in case
+               if there are too long Y values that overlaps chart box. */
+            var do_after = function(node, chart){
+              var g_box = angular.element(el_chart[0].querySelector(".nv-y.nv-axis"));
+
+              if (g_box && g_box[0] && g_box[0].getBBox) {
+
+                try {
+                  // 30 is padding aroung graphs
+                  var width = g_box[0].getBBox().width + 30;
+                } catch (err) {
+                  // This happens sometimes, just skip silently
+                  return
+                }
+
+                // 890 is chart width (set by CSS)
+                if (typeof width === "number" && width > 890) {
+                  width = (890 * 2) - width;
+                  if (width > 0) {
+                    angular.element(node).css({width:width+"px"});
+                    chart.update()
+                  }
+                }
+              }
+            }
+          }
+          else if (attrs.widget === "Pie") {
+            if (! data.length) {
+              return element.empty().css({display:"none"})
+            }
+          }
+
+          var opts = {
+            xname: attrs.nameX || "",
+            xrotate: attrs.rotateX || 0,
+            yformat: attrs.formatY || ",.3f",
+            controls: attrs.controls === "true",
+            guide: attrs.guide === "true",
+            showmaxmin: attrs.showmaxmin === "true"
+          };
+          if (attrs.formatDateX) {
+            opts.xformat = function(d) { return d3.time.format(attrs.formatDateX)(new Date(d)) }
+          } else {
+            opts.xformat = d3.format(attrs.formatX || "d")
+          }
+          Chart.get_chart(attrs.widget)(el, data, opts, do_after);
+        }
+
+        if (attrs.nameY) {
+          /* NOTE(amaretskiy): Dirty fix for displaying Y-axis label correctly.
+             I believe sometimes NVD3 will allow doing this in normal way */
+          var label_y = angular.element("<div>").addClass("chart-label-y").text(attrs.nameY);
+          angular.element(el).parent().prepend(label_y)
+        }
+
+        if (attrs.description) {
+          var desc_el = angular.element("<div>").addClass(attrs.descriptionClass || "h3").text(attrs.description);
+          angular.element(el).parent().prepend(desc_el)
+        }
+
+        if (attrs.title) {
+          var title_el = angular.element("<div>").addClass(attrs.titleClass || "h2").text(attrs.title);
+          angular.element(el).parent().prepend(title_el)
+        }
+
+        angular.element(el).parent().append(angular.element("<div style='clear:both'>"))
+      });
+    }
+  }
+};
+
+    var controllerFunction = function($scope, $location) {
+        $scope.source = "{\n  \"NovaServers.boot_and_live_migrate_server\": [\n    {\n      \"args\": {\n        \"block_migration\": true, \n        \"flavor\": {\n          \"name\": \"m1.medium\"\n        }, \n        \"image\": {\n          \"name\": \"^cirros.*uec$\"\n        }\n      }, \n      \"context\": {\n        \"users\": {\n          \"tenants\": 3, \n          \"users_per_tenant\": 5\n        }\n      }, \n      \"hooks\": [], \n      \"runner\": {\n        \"concurrency\": 11, \n        \"times\": 500, \n        \"type\": \"constant\"\n      }, \n      \"sla\": {\n        \"failure_rate\": {\n          \"max\": 0\n        }, \n        \"max_avg_duration\": 30.0, \n        \"max_seconds_per_iteration\": 60.0\n      }\n    }\n  ]\n}";
+        $scope.scenarios = [{"load_profile": [["parallel iterations", [[0.0, 0], [1.3198536954402922, 10.894203033977593], [2.6397073908805844, 11], [3.9595610863208766, 11], [5.279414781761169, 11], [6.599268477201461, 11], [7.919122172641753, 11], [9.238975868082045, 11], [10.558829563522337, 11], [11.87868325896263, 11], [13.198536954402922, 11], [14.518390649843214, 11], [15.838244345283506, 11], [17.1580980407238, 11], [18.47795173616409, 11], [19.79780543160438, 11], [21.117659127044675, 11], [22.43751282248497, 11], [23.75736651792526, 11], [25.07722021336555, 11], [26.397073908805844, 11], [27.716927604246138, 11], [29.036781299686428, 11], [30.35663499512672, 11], [31.676488690567012, 11], [32.996342386007306, 11], [34.3161960814476, 11], [35.63604977688789, 11], [36.95590347232818, 11], [38.275757167768475, 11], [39.59561086320876, 11], [40.915464558649056, 11], [42.23531825408935, 11], [43.555171949529644, 11], [44.87502564496994, 11], [46.194879340410225, 11], [47.51473303585052, 11], [48.83458673129081, 11], [50.1544404267311, 11], [51.47429412217139, 11], [52.79414781761169, 11], [54.11400151305198, 11], [55.433855208492275, 11], [56.75370890393256, 11], [58.073562599372856, 11], [59.39341629481315, 11], [60.71326999025344, 11], [62.03312368569373, 11], [63.352977381134025, 11], [64.67283107657431, 11], [65.99268477201461, 11], [67.3125384674549, 11], [68.6323921628952, 11], [69.95224585833549, 11], [71.27209955377577, 11], [72.59195324921608, 11], [73.91180694465636, 11], [75.23166064009665, 11], [76.55151433553695, 11], [77.87136803097724, 11], [79.19122172641752, 11], [80.51107542185783, 11], [81.83092911729811, 11], [83.15078281273841, 10.23911565840597], [84.4706365081787, 11], [85.79049020361899, 10.877156664332315], [87.11034389905929, 9], [88.43019759449957, 7.927743151565123], [89.75005128993988, 6.112833669205033], [91.06990498538016, 4], [92.38975868082045, 4], [93.70961237626075, 4], [95.02946607170104, 2.2494998137360014], [96.34931976714132, 2], [97.66917346258163, 1.855857115175544], [98.98902715802191, 1], [100.3088808534622, 1], [101.6287345489025, 1], [102.94858824434279, 1], [104.26844193978309, 1], [105.58829563522337, 1], [106.90814933066366, 1], [108.22800302610396, 1], [109.54785672154425, 1], [110.86771041698455, 1], [112.18756411242484, 1], [113.50741780786512, 1], [114.82727150330543, 1], [116.14712519874571, 1], [117.466978894186, 1], [118.7868325896263, 1], [120.10668628506659, 1], [121.42653998050687, 1], [122.74639367594717, 1], [124.06624737138746, 1], [125.38610106682776, 1], [126.70595476226805, 1], [128.02580845770834, 1], [129.34566215314862, 1], [130.66551584858894, 0.03921568627453076], [131.98536954402923, 0]]]], "errors": [{"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ee202832-6ac0-497a-9456-c6a6a683ba75)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ee202832-6ac0-497a-9456-c6a6a683ba75)\n", "iteration": 1}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-eb920315-73a8-41d5-9578-14a167c57288)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-eb920315-73a8-41d5-9578-14a167c57288)\n", "iteration": 2}, {"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-bb09c3ea-b0d0-4a7d-a2d1-187357e6e3ed)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-bb09c3ea-b0d0-4a7d-a2d1-187357e6e3ed)\n", "iteration": 3}, {"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-e9d0d3ed-6ef0-4edc-9933-de57281b349b)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-e9d0d3ed-6ef0-4edc-9933-de57281b349b)\n", "iteration": 4}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ded1ea76-edc1-44a9-a546-c3feb9be5243)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-ded1ea76-edc1-44a9-a546-c3feb9be5243)\n", "iteration": 5}, {"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-f5e73679-c6fc-48e0-b60c-28526c51f41c)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-f5e73679-c6fc-48e0-b60c-28526c51f41c)\n", "iteration": 6}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-59ac40ea-2387-4213-957f-365fe725dbef)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-59ac40ea-2387-4213-957f-365fe725dbef)\n", "iteration": 7}, {"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-64392954-3ef4-4748-97f4-97e14a670ece)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-64392954-3ef4-4748-97f4-97e14a670ece)\n", "iteration": 8}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-80120096-646b-429d-a5fe-aeea7ebe7b05)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-80120096-646b-429d-a5fe-aeea7ebe7b05)\n", "iteration": 9}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-3d7926c5-2e87-4b7d-863f-96bab6a93772)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-3d7926c5-2e87-4b7d-863f-96bab6a93772)\n", "iteration": 10}, {"type": "BadRequest", "message": "overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-00658942-21b5-4344-8eb3-31855297d6c4)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-1.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-00658942-21b5-4344-8eb3-31855297d6c4)\n", "iteration": 11}, {"type": "BadRequest", "message": "overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-7e90ad1b-ad34-4128-b5b3-b8d4e2ef4886)", "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 636, in run\n    block_migration, disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 747, in _live_migrate\n    disk_over_commit=disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 459, in live_migrate\n    disk_over_commit)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/api_versions.py\", line 402, in substitution\n    return methods[-1].func(obj, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1698, in live_migrate\n    'disk_over_commit': disk_over_commit})\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1908, in _action\n    info=info, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/v2/servers.py\", line 1919, in _action_return_resp_and_body\n    return self.api.client.post(url, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/keystoneauth1/adapter.py\", line 223, in post\n    return self.request(url, 'POST', **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/novaclient/client.py\", line 80, in request\n    raise exceptions.from_response(resp, body, url, method)\nBadRequest: overcloud-compute-0.localdomain is not on local storage: Block migration can not be used with shared storage. (HTTP 400) (Request-ID: req-7e90ad1b-ad34-4128-b5b3-b8d4e2ef4886)\n", "iteration": 12}], "name": "boot_and_live_migrate_server", "has_output": false, "runner": "constant", "hooks": [], "iterations_count": 12, "output_errors": [], "pos": "0", "load_duration": 129.3974211215973, "sla_success": false, "met": "boot_and_live_migrate_server", "atomic": {"pie": [["nova.boot_server", 69.73244273662567], ["nova.find_host_to_migrate", 11.176166514555613], ["nova.live_migrate", 5.793273150920868]], "iter": [["nova.boot_server", [[1, 75.2570309638977], [2, 75.3896210193634], [3, 79.23875093460083], [4, 65.79650092124939], [5, 75.99820113182068], [6, 65.17188906669617], [7, 79.0660150051117], [8, 75.6915180683136], [9, 62.816725969314575], [10, 83.17573189735413], [11, 65.48018002510071], [12, 33.70714783668518]]], ["nova.find_host_to_migrate", [[1, 7.6292359828948975], [2, 11.229598045349121], [3, 9.738544940948486], [4, 15.859892129898071], [5, 7.707636117935181], [6, 13.769640922546387], [7, 9.590734004974365], [8, 7.784060001373291], [9, 17.142786026000977], [10, 9.40395712852478], [11, 16.22954297065735], [12, 8.028369903564453]]], ["nova.live_migrate", [[1, 3.773545980453491], [2, 3.6539011001586914], [3, 6.018440008163452], [4, 7.1484270095825195], [5, 6.454412937164307], [6, 4.067698001861572], [7, 6.075552940368652], [8, 7.138757944107056], [9, 6.78275990486145], [10, 5.878520965576172], [11, 6.891288995742798], [12, 5.635972023010254]]], ["failed_duration", [[1, 0.0001552104949951172], [2, 0.00013780593872070312], [3, 0.0001220703125], [4, 0.00012493133544921875], [5, 0.000125885009765625], [6, 0.0001690387725830078], [7, 0.00011920928955078125], [8, 0.0001628398895263672], [9, 0.00015401840209960938], [10, 0.0001308917999267578], [11, 0.00014281272888183594], [12, 9.131431579589844e-05]]]], "histogram": {"data": [[{"disabled": 0, "values": [{"y": 1, "x": 46.07429385185242}, {"y": 0, "x": 58.44143986701965}, {"y": 4, "x": 70.80858588218689}, {"y": 7, "x": 83.17573189735413}], "key": "nova.boot_server", "view": "Square Root Choice"}, {"disabled": 1, "values": [{"y": 7, "x": 10.007623493671417}, {"y": 1, "x": 12.386011004447937}, {"y": 1, "x": 14.764398515224457}, {"y": 3, "x": 17.142786026000977}], "key": "nova.find_host_to_migrate", "view": "Square Root Choice"}, {"disabled": 2, "values": [{"y": 3, "x": 4.527532577514648}, {"y": 0, "x": 5.4011640548706055}, {"y": 4, "x": 6.2747955322265625}, {"y": 5, "x": 7.1484270095825195}], "key": "nova.live_migrate", "view": "Square Root Choice"}], [{"disabled": 0, "values": [{"y": 1, "x": 43.60086464881897}, {"y": 0, "x": 53.49458146095276}, {"y": 1, "x": 63.38829827308655}, {"y": 3, "x": 73.28201508522034}, {"y": 7, "x": 83.17573189735413}], "key": "nova.boot_server", "view": "Sturges Formula"}, {"disabled": 1, "values": [{"y": 5, "x": 9.531945991516114}, {"y": 3, "x": 11.434656000137329}, {"y": 0, "x": 13.337366008758545}, {"y": 1, "x": 15.24007601737976}, {"y": 3, "x": 17.142786026000977}], "key": "nova.find_host_to_migrate", "view": "Sturges Formula"}, {"disabled": 2, "values": [{"y": 3, "x": 4.352806282043457}, {"y": 0, "x": 5.051711463928223}, {"y": 1, "x": 5.750616645812988}, {"y": 3, "x": 6.449521827697754}, {"y": 5, "x": 7.1484270095825195}], "key": "nova.live_migrate", "view": "Sturges Formula"}], [{"disabled": 0, "values": [{"y": 1, "x": 43.60086464881897}, {"y": 0, "x": 53.49458146095276}, {"y": 1, "x": 63.38829827308655}, {"y": 3, "x": 73.28201508522034}, {"y": 7, "x": 83.17573189735413}], "key": "nova.boot_server", "view": "Rice Rule"}, {"disabled": 1, "values": [{"y": 5, "x": 9.531945991516114}, {"y": 3, "x": 11.434656000137329}, {"y": 0, "x": 13.337366008758545}, {"y": 1, "x": 15.24007601737976}, {"y": 3, "x": 17.142786026000977}], "key": "nova.find_host_to_migrate", "view": "Rice Rule"}, {"disabled": 2, "values": [{"y": 3, "x": 4.352806282043457}, {"y": 0, "x": 5.051711463928223}, {"y": 1, "x": 5.750616645812988}, {"y": 3, "x": 6.449521827697754}, {"y": 5, "x": 7.1484270095825195}], "key": "nova.live_migrate", "view": "Rice Rule"}]], "views": [{"id": 0, "name": "Square Root Choice"}, {"id": 1, "name": "Sturges Formula"}, {"id": 2, "name": "Rice Rule"}]}}, "iterations": {"pie": [["success", 0], ["errors", 12]], "iter": [["duration", [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0], [11, 0], [12, 0]]], ["idle_duration", [[1, 0], [2, 0], [3, 0], [4, 0], [5, 0], [6, 0], [7, 0], [8, 0], [9, 0], [10, 0], [11, 0], [12, 0]]], ["failed_duration", [[1, 86.65996813774109], [2, 90.27325797080994], [3, 94.99585795402527], [4, 88.80494499206543], [5, 90.16037607192993], [6, 83.00939702987671], [7, 94.73242115974426], [8, 90.61449885368347], [9, 86.7424259185791], [10, 98.458340883255], [11, 88.60115480422974], [12, 47.371581077575684]]]], "histogram": {"data": [[{"disabled": null, "values": [{"y": 12, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}], "key": "task", "view": "Square Root Choice"}], [{"disabled": null, "values": [{"y": 12, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}], "key": "task", "view": "Sturges Formula"}], [{"disabled": null, "values": [{"y": 12, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}, {"y": 0, "x": 0.0}], "key": "task", "view": "Rice Rule"}]], "views": [{"id": 0, "name": "Square Root Choice"}, {"id": 1, "name": "Sturges Formula"}, {"id": 2, "name": "Rice Rule"}]}}, "additive_output": [], "table": {"rows": [["nova.boot_server", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", 12], ["nova.find_host_to_migrate", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", 12], ["nova.live_migrate", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", 12], ["total", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", 12]], "cols": ["Action", "Min (sec)", "Median (sec)", "90%ile (sec)", "95%ile (sec)", "Max (sec)", "Avg (sec)", "Success", "Count"]}, "full_duration": 305.7369930744171, "config": "{\n  \"NovaServers.boot_and_live_migrate_server\": [\n    {\n      \"runner\": {\n        \"concurrency\": 11, \n        \"times\": 500, \n        \"type\": \"constant\"\n      }, \n      \"hooks\": [], \n      \"args\": {\n        \"block_migration\": true, \n        \"flavor\": {\n          \"name\": \"m1.medium\"\n        }, \n        \"image\": {\n          \"name\": \"^cirros.*uec$\"\n        }\n      }, \n      \"sla\": {\n        \"max_seconds_per_iteration\": 60.0, \n        \"max_avg_duration\": 30.0, \n        \"failure_rate\": {\n          \"max\": 0\n        }\n      }, \n      \"context\": {\n        \"users\": {\n          \"users_per_tenant\": 5, \n          \"tenants\": 3\n        }\n      }\n    }\n  ]\n}", "sla": [{"criterion": "max_seconds_per_iteration", "detail": "Maximum seconds per iteration 97.46s <= 60.00s - Failed", "success": false}, {"criterion": "max_avg_duration", "detail": "Average duration of one iteration 0.00s <= 30.00s - Passed", "success": true}, {"criterion": "failure_rate", "detail": "Failure rate criteria 0.00% <= 100.00% <= 0.00% - Failed", "success": false}, {"criterion": "aborted_on_sla", "detail": "Task was aborted due to SLA failure(s).", "success": false}], "complete_output": [[], [], [], [], [], [], [], [], [], [], [], []], "cls": "NovaServers"}];
+
+      $scope.location = {
+        /* #/path/hash/sub/div */
+        normalize: function(str) {
+          /* Remove unwanted characters from string */
+          if (typeof str !== "string") { return "" }
+          return str.replace(/[^\w\-\.]/g, "")
+        },
+        uri: function(obj) {
+          /* Getter/Setter */
+          if (! obj) {
+            var uri = {path: "", hash: "", sub: "", div: ""};
+            var arr = ["div", "sub", "hash", "path"];
+            angular.forEach($location.url().split("/"), function(value){
+              var v = $scope.location.normalize(value);
+              if (v) { var k = arr.pop(); if (k) { this[k] = v }}
+            }, uri);
+            return uri
+          }
+          var arr = [obj.path, obj.hash, obj.sub, obj.div], res = [];
+          for (var i in arr) { if (! arr[i]) { break }; res.push(arr[i]) }
+          return $location.url("/" + res.join("/"))
+        },
+        path: function(path, hash) {
+          /* Getter/Setter */
+          if (path === "") { return this.uri({}) }
+          path = this.normalize(path);
+          var uri = this.uri();
+          if (! path) { return uri.path }
+          uri.path = path;
+          var _hash = this.normalize(hash);
+          if (_hash || hash === "") { uri.hash = _hash }
+          return this.uri(uri)
+        },
+        hash: function(hash) {
+          /* Getter/Setter */
+          if (hash) { this.uri({path:this.uri().path, hash:hash}) }
+          return this.uri().hash
+        }
+      }
+
+      /* Dispatch */
+
+      $scope.route = function(uri) {
+        if (! $scope.scenarios_map) { return }
+
+        // Expand menu if there is only one menu group
+        if ($scope.nav.length === 1) {
+          $scope.nav_idx = $scope.nav[0].idx;
+        }
+
+        if (uri.path in $scope.scenarios_map) {
+          $scope.view = {is_scenario:true};
+          $scope.scenario = $scope.scenarios_map[uri.path];
+          $scope.nav_idx = $scope.nav_map[uri.path];
+          if ($scope.scenario.iterations.histogram.views.length) {
+            $scope.mainHistogram = $scope.scenario.iterations.histogram.views[0]
+          }
+          if ($scope.scenario.atomic.histogram.views.length) {
+            $scope.atomicHistogram = $scope.scenario.atomic.histogram.views[0]
+          }
+          $scope.outputIteration = 0;
+          $scope.showTab(uri);
+        } else {
+          $scope.scenario = null;
+          if (uri.path === "source") {
+            $scope.view = {is_source:true}
+          } else {
+            $scope.view = {is_main:true}
+          }
+        }
+      }
+
+      $scope.$on("$locationChangeSuccess", function (event, newUrl, oldUrl) {
+        $scope.route($scope.location.uri())
+      });
+
+      $scope.showNav = function(nav_idx) { $scope.nav_idx = nav_idx }
+
+      /* Tabs */
+
+      $scope.tabs = [
+        {
+          id: "overview",
+          name: "Overview",
+          visible: function(){ return !! $scope.scenario.iterations.pie.length }
+        },{
+          id: "details",
+          name: "Details",
+          visible: function(){ return !! $scope.scenario.atomic.pie.length }
+        },{
+          id: "output",
+          name: "Scenario Data",
+          visible: function(){ return $scope.scenario.has_output }
+        },{
+          id: "hooks",
+          name: "Hooks",
+          visible: function(){ return $scope.scenario.hooks.length }
+        },{
+          id: "failures",
+          name: "Failures",
+          visible: function(){ return !! $scope.scenario.errors.length }
+        },{
+          id: "task",
+          name: "Input task",
+          visible: function(){ return !! $scope.scenario.config }
+        }
+      ];
+      $scope.tabs_map = {};
+      angular.forEach($scope.tabs,
+                      function(tab){ this[tab.id] = tab }, $scope.tabs_map);
+
+      $scope.showTab = function(uri) {
+        $scope.tab = uri.hash in $scope.tabs_map ? uri.hash : "overview";
+        if (uri.hash === "output") {
+          if (typeof $scope.scenario.output === "undefined") {
+            var has_additive = !! $scope.scenario.additive_output.length;
+            var has_complete = !! ($scope.scenario.complete_output.length
+                                   && $scope.scenario.complete_output[0].length);
+            $scope.scenario.output = {
+              has_additive: has_additive,
+              has_complete: has_complete,
+              length: has_additive + has_complete,
+              active: has_additive ? "additive" : (has_complete ? "complete" : "")
+            }
+          }
+          if (uri.sub && $scope.scenario.output["has_" + uri.sub]) {
+            $scope.scenario.output.active = uri.sub
+          }
+        }
+        else if (uri.hash === "hooks") {
+          if ($scope.scenario.hooks.length) {
+            var hook_idx = parseInt(uri.sub);
+
+            if (isNaN(hook_idx) || ($scope.scenario.hooks.length - hook_idx) <= 0) {
+              hook_idx = 0
+            }
+
+            if ($scope.scenario.hook_idx === hook_idx) {
+              return
+            }
+
+            $scope.scenario.hooks.cur = $scope.scenario.hooks[hook_idx];
+            $scope.scenario.hook_idx = hook_idx;
+            if (typeof $scope.scenario.hooks.cur.active === "undefined") {
+              if ($scope.scenario.hooks.cur.additive.length) {
+                $scope.scenario.hooks.cur.active = "additive"
+              }
+              if ($scope.scenario.hooks.cur.complete.length) {
+                if (typeof $scope.scenario.hooks.cur.active === "undefined") {
+                  $scope.scenario.hooks.cur.active = "complete"
+                }
+                $scope.set_hook_run()
+              }
+            }
+          }
+        }
+      }
+
+      for (var i in $scope.tabs) {
+        if ($scope.tabs[i].id === $scope.location.hash()) {
+          $scope.tab = $scope.tabs[i].id
+        }
+        $scope.tabs[i].isVisible = function() {
+          if ($scope.scenario) {
+            if (this.visible()) { return true }
+            /* If tab should be hidden but is selected - show another one */
+            if (this.id === $scope.location.hash()) {
+              for (var i in $scope.tabs) {
+                var tab = $scope.tabs[i];
+                if (tab.id != this.id && tab.visible()) {
+                  $scope.tab = tab.id;
+                  return false
+                }
+              }
+            }
+          }
+          return false
+        }
+      }
+
+      $scope.set_hook_run = function(idx) {
+        if (typeof idx !== "undefined") {
+          $scope.scenario.hooks.cur.run_idx = idx
+        }
+        else if (typeof $scope.scenario.hooks.cur.run_idx === "undefined") {
+          $scope.scenario.hooks.cur.run_idx = 0
+        }
+        idx = $scope.scenario.hooks.cur.run_idx;
+        if (($scope.scenario.hooks.cur.complete.length - idx) > 0) {
+          $scope.scenario.hooks.cur.run = $scope.scenario.hooks.cur.complete[idx]
+        }
+      }
+
+      $scope.complete_hooks_as_dropdown = function() {
+        return $scope.scenario.hooks.cur.complete.length > 10
+      }
+
+      /* Other helpers */
+
+      $scope.showError = function(message) {
+          return (function (e) {
+            e.style.display = "block";
+            e.textContent = message
+          })(document.getElementById("page-error"))
+      }
+
+      $scope.compact_atomics = function() {
+        return ($scope.scenario && $scope.scenario.atomic.iter.length < 9)
+      }
+
+      /* Initialization */
+
+      angular.element(document).ready(function(){
+        if (! $scope.scenarios.length) {
+          return $scope.showError("No data...")
+        }
+
+        /* Compose data mapping */
+
+        $scope.nav = [];
+        $scope.nav_map = {};
+        $scope.scenarios_map = {};
+        var met = [], itr = 0, cls_idx = 0;
+        var prev_cls, prev_met;
+
+        for (var idx in $scope.scenarios) {
+          var sc = $scope.scenarios[idx];
+          if (! prev_cls) {
+            prev_cls = sc.cls
+          }
+          else if (prev_cls !== sc.cls) {
+            $scope.nav.push({cls:prev_cls, met:met, idx:cls_idx});
+            prev_cls = sc.cls;
+            met = [];
+            itr = 1;
+            cls_idx += 1
+          }
+
+          if (prev_met !== sc.met) { itr = 1 };
+          sc.ref = $scope.location.normalize(sc.cls+"."+sc.met+(itr > 1 ? "-"+itr : ""));
+          $scope.scenarios_map[sc.ref] = sc;
+          $scope.nav_map[sc.ref] = cls_idx;
+          met.push({name:sc.name, itr:itr, idx:idx, ref:sc.ref});
+          prev_met = sc.met;
+          itr += 1;
+        }
+
+        if (met.length) {
+          $scope.nav.push({cls:prev_cls, met:met, idx:cls_idx})
+        }
+
+        /* Start */
+
+        var uri = $scope.location.uri();
+        uri.path = $scope.location.path();
+        $scope.route(uri);
+        $scope.$digest()
+      })
+    };
+
+    if (typeof angular === "object") {
+      angular.module("App", [])
+        .controller("Controller", ["$scope", "$location", controllerFunction])
+        .directive("widget", widgetDirective)
+    }
+
+
+</script>
+  <style>
+    body { margin:0; padding:0 0 50px; font-size:14px; font-family:Helvetica,Arial,sans-serif }
+    a, a:active, a:focus, a:visited { text-decoration:none; outline:none }
+    p { margin:0; padding:5px 0 }
+    p.thesis { padding:10px 0 }
+    h1 { color:#666; margin:0 0 20px; font-size:30px; font-weight:normal }
+    h2, .h2 { color:#666; margin:24px 0 6px; font-size:25px; font-weight:normal }
+    h3, .h3 { color:#777; margin:12px 0 4px; font-size:18px; font-weight:normal }
+    table { border-collapse:collapse; border-spacing:0; width:100%; font-size:12px; margin:0 0 10px }
+    table th { text-align:left; padding:8px; color:#000; border:2px solid #ddd; border-width:0 0 2px 0 }
+    table th.sortable { cursor:pointer }
+    table td { text-align:left; border-top:1px solid #ddd; padding:8px; color:#333 }
+    table.compact td { padding:4px 8px }
+    table.striped tr:nth-child(odd) td { background:#f9f9f9 }
+    table.linked tbody tr:hover { background:#f9f9f9; cursor:pointer }
+    .pointer { cursor:pointer }
+    .rich, .rich td { font-weight:bold }
+    .code { padding:10px; font-size:13px; color:#333; background:#f6f6f6; border:1px solid #e5e5e5; border-radius:4px }
+
+    .header { text-align:left; background:#333; font-size:18px; padding:13px 0; margin-bottom:20px; color:#fff; background-image:linear-gradient(to bottom, #444 0px, #222 100%) }
+    .header a, .header a:visited, .header a:focus { color:#999 }
+
+    .notify-error { padding:5px 10px; background:#fee; color:red }
+    .status-skip, .status-skip td { color:grey }
+    .status-pass, .status-pass td { color:green }
+    .status-fail, .status-fail td { color:red }
+    .capitalize { text-transform:capitalize }
+    
+    .aside { margin:0 20px 0 0; display:block; width:255px; float:left }
+    .aside > div { margin-bottom: 15px }
+    .aside > div div:first-child { border-top-left-radius:4px; border-top-right-radius:4px }
+    .aside > div div:last-child { border-bottom-left-radius:4px; border-bottom-right-radius:4px }
+    .navcls { color:#678; background:#eee; border:1px solid #ddd; margin-bottom:-1px; display:block; padding:8px 9px; font-weight:bold; text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; cursor:pointer }
+    .navcls.expanded { color:#469 }
+    .navcls.active { background:#428bca; background-image:linear-gradient(to bottom, #428bca 0px, #3278b3 100%); border-color:#3278b3; color:#fff }
+    .navmet { color:#555; background:#fff; border:1px solid #ddd; font-size:12px; display:block; margin-bottom:-1px; padding:8px 10px; text-align:left; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; cursor:pointer }
+    .navmet:hover { background:#f8f8f8 }
+    .navmet.active, .navmet.active:hover { background:#428bca; background-image:linear-gradient(to bottom, #428bca 0px, #3278b3 100%); border-color:#3278b3; color:#fff }
+
+    .buttn { color:#555; background:#fff; border:1px solid #ddd; border-radius:5px; font-size:12px; margin-bottom:-1px; padding:5px 7px; text-align:left; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; cursor:pointer }
+    .buttn:hover { background:#f8f8f8 }
+    .buttn.active, .bttn.active:hover { background:#428bca; background-image:linear-gradient(to bottom, #428bca 0px, #3278b3 100%); border-color:#3278b3; color:#fff; cursor:default }
+
+    .tabs { list-style:outside none none; margin:0 0 5px; padding:0; border-bottom:1px solid #ddd }
+    .tabs:after { clear:both }
+    .tabs li { float:left; margin-bottom:-1px; display:block; position:relative }
+    .tabs li div { border:1px solid transparent; border-radius:4px 4px 0 0; line-height:20px; margin-right:2px; padding:10px 15px; color:#428bca }
+    .tabs li div:hover { border-color:#eee #eee #ddd; background:#eee; cursor:pointer; }
+    .tabs li.active div { background:#fff; border-color:#ddd #ddd transparent; border-style:solid; border-width:1px; color:#555; cursor:default }
+    .failure-mesg { color:#900 }
+    .failure-trace { color:#333; white-space:pre; overflow:auto }
+
+    .link { color:#428BCA; padding:5px 15px 5px 5px; text-decoration:underline; cursor:pointer }
+    .link.active { color:#333; text-decoration:none; cursor:default }
+
+    .chart { padding:0; margin:0; width:890px }
+    .chart svg { height:300px; padding:0; margin:0; overflow:visible; float:right }
+    .chart.lower svg { height:180px }
+    .chart-label-y { font-size:12px; position:relative; top:5px; padding:0; margin:0 }
+
+    .expandable { cursor:pointer }
+    .clearfix { clear:both }
+    .sortable > .arrow { display:inline-block; width:12px; height:inherit; color:#c90 }
+    .content-main { margin:0 5px; display:block; float:left }
+
+    .content-wrap {  margin:0 auto; padding:0 5px;  }
+    
+    @media only screen and (min-width: 320px)  { .content-wrap { width:900px  } .content-main { width:600px } }
+    @media only screen and (min-width: 900px)  { .content-wrap { width:880px  } .content-main { width:590px } }
+    @media only screen and (min-width: 1000px) { .content-wrap { width:980px  } .content-main { width:690px } }
+    @media only screen and (min-width: 1100px) { .content-wrap { width:1080px } .content-main { width:790px } }
+    @media only screen and (min-width: 1200px) { .content-wrap { width:1180px } .content-main { width:890px } }
+
+  </style>
+</head>
+<body ng-controller="Controller">
+
+  <div class="header" id="page-header">
+    <div class="content-wrap">
+      <a href="https://github.com/openstack/rally">Rally</a>&nbsp;
+      <span>task results</span>
+    </div>
+  </div>
+
+  <div class="content-wrap" id="page-content">
+    
+
+    <p id="page-error" class="notify-error" style="display:none"></p>
+
+    <div id="content-nav" class="aside" ng-show="scenarios.length" ng-cloack>
+      <div>
+        <div class="navcls"
+             ng-class="{active:view.is_main}"
+             ng-click="location.path('')">Task overview</div>
+        <div class="navcls"
+             ng-class="{active:view.is_source}"
+             ng-click="location.path('source', '')">Input file</div>
+      </div>
+      <div>
+        <div class="navcls" title="{{n.cls}}"
+             ng-repeat-start="n in nav track by $index"
+             ng-click="showNav(n.idx)"
+             ng-class="{expanded:n.idx==nav_idx}">
+                <span ng-hide="n.idx==nav_idx">&#9658;</span>
+                <span ng-show="n.idx==nav_idx">&#9660;</span>
+                {{n.cls}}</div>
+        <div class="navmet" title="{{m.name}}"
+             ng-show="n.idx==nav_idx"
+             ng-class="{active:m.ref==scenario.ref}"
+             ng-click="location.path(m.ref)"
+             ng-repeat="m in n.met track by $index"
+             ng-repeat-end>{{m.name}}</div>
+      </div>
+    </div>
+
+    <div id="content-main" class="content-main" ng-show="scenarios.length" ng-cloak>
+
+      <div ng-show="view.is_main">
+        <h1>Task overview</h1>
+        <table class="linked compact"
+               ng-init="ov_srt='ref'; ov_dir=false">
+          <thead>
+            <tr>
+              <th class="sortable"
+                  title="Scenario name, with optional suffix of call number"
+                  ng-click="ov_srt='ref'; ov_dir=!ov_dir">
+                Scenario
+                <span class="arrow">
+                  <b ng-show="ov_srt=='ref' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='ref' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable"
+                  title="How long the scenario run, without context duration"
+                  ng-click="ov_srt='load_duration'; ov_dir=!ov_dir">
+                Load duration (s)
+                <span class="arrow">
+                  <b ng-show="ov_srt=='load_duration' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='load_duration' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable"
+                  title="Scenario duration plus context duration"
+                  ng-click="ov_srt='full_duration'; ov_dir=!ov_dir">
+                Full duration (s)
+                <span class="arrow">
+                  <b ng-show="ov_srt=='full_duration' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='full_duration' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable" title="Number of iterations"
+                  ng-click="ov_srt='iterations_count'; ov_dir=!ov_dir">
+                Iterations
+                <span class="arrow">
+                  <b ng-show="ov_srt=='iterations_count' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='iterations_count' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable" title="Scenario runner type"
+                  ng-click="ov_srt='runner'; ov_dir=!ov_dir">
+                Runner
+                <span class="arrow">
+                  <b ng-show="ov_srt=='runner' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='runner' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable" title="Number of errors occurred"
+                  ng-click="ov_srt='errors.length'; ov_dir=!ov_dir">
+                Errors
+                <span class="arrow">
+                  <b ng-show="ov_srt=='errors.length' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='errors.length' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable" title="Number of hooks"
+                  ng-click="ov_srt='hooks.length'; ov_dir=!ov_dir">
+                Hooks
+                <span class="arrow">
+                  <b ng-show="ov_srt=='hooks.length' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='hooks.length' && ov_dir">&#x25be;</b>
+                </span>
+              <th class="sortable" title="Whether SLA check is successful"
+                  ng-click="ov_srt='sla_success'; ov_dir=!ov_dir">
+                Success (SLA)
+                <span class="arrow">
+                  <b ng-show="ov_srt=='sla_success' && !ov_dir">&#x25b4;</b>
+                  <b ng-show="ov_srt=='sla_success' && ov_dir">&#x25be;</b>
+                </span>
+            <tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="sc in scenarios | orderBy:ov_srt:ov_dir"
+                ng-click="location.path(sc.ref)">
+              <td>{{sc.ref}}
+              <td>{{sc.load_duration | number:3}}
+              <td>{{sc.full_duration | number:3}}
+              <td>{{sc.iterations_count}}
+              <td>{{sc.runner}}
+              <td>{{sc.errors.length}}
+              <td>{{sc.hooks.length}}
+              <td>
+                <span ng-show="sc.sla_success" class="status-pass">&#x2714;</span>
+                <span ng-hide="sc.sla_success" class="status-fail">&#x2716;</span>
+            <tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div ng-show="view.is_source">
+        <h1>Input file</h1>
+        <pre class="code">{{source}}</pre>
+      </div>
+
+      <div ng-show="view.is_scenario">
+        <h1>{{scenario.cls}}.<wbr>{{scenario.name}} ({{scenario.full_duration | number:3}}s)</h1>
+        <ul class="tabs">
+          <li ng-repeat="t in tabs"
+              ng-show="t.isVisible()"
+              ng-class="{active:t.id == tab}"
+              ng-click="location.hash(t.id)">
+            <div>{{t.name}}</div>
+          </li>
+          <div class="clearfix"></div>
+        </ul>
+        <div ng-include="tab"></div>
+
+        <script type="text/ng-template" id="overview">
+          <p class="thesis">
+            Load duration: <b>{{scenario.load_duration | number:3}} s</b> &nbsp;
+            Full duration: <b>{{scenario.full_duration | number:3}} s</b> &nbsp;
+            Iterations: <b>{{scenario.iterations_count}}</b> &nbsp;
+            Failures: <b>{{scenario.errors.length}}</b>
+          </p>
+
+          <div ng-show="scenario.sla.length">
+            <h2>Service-level agreement</h2>
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th>Criterion
+                  <th>Detail
+                  <th>Success
+                <tr>
+              </thead>
+              <tbody>
+                <tr class="rich"
+                    ng-repeat="row in scenario.sla track by $index"
+                    ng-class="{'status-fail':!row.success, 'status-pass':row.success}">
+                  <td>{{row.criterion}}
+                  <td>{{row.detail}}
+                  <td class="capitalize">{{row.success}}
+                <tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div widget="Table"
+               data="scenario.table"
+               lastrow-class="rich"
+               title="Total durations">
+          </div>
+
+          <div widget="StackedArea"
+               data="scenario.iterations.iter"
+               name-x="Iteration sequence number"
+               controls="true"
+               guide="true">
+          </div>
+
+          <div widget="StackedArea"
+               data="scenario.load_profile"
+               title="Load Profile"
+               title-class="h3"
+               name-x="Timeline (seconds)"
+               format-y="d"
+               format-x=",.2f"
+               class="lower">
+          </div>
+
+          <div widget="Pie"
+               data="scenario.iterations.pie"
+               title="Distribution"
+               title-class="h3"
+               style="float:left; width:40%; margin-top:15px">
+          </div>
+
+          <div widget="Histogram"
+               ng-if="scenario.iterations.histogram.data.length"
+               data="scenario.iterations.histogram.data[mainHistogram.id]"
+               style="float:left; width:59%; margin-top:15px; position:relative; top:40px">
+          </div>
+
+          <select ng-model="mainHistogram"
+                  ng-show="scenario.iterations.histogram.data.length"
+                  ng-options="i.name for i in scenario.iterations.histogram.views track by i.id"
+                  style="float:right; margin:45px 35px 0">
+          </select>
+
+          <div class="clearfix"></div>
+
+        </script>
+
+        <script type="text/ng-template" id="details">
+
+          <div widget="StackedArea"
+               data="scenario.atomic.iter"
+               title="Atomic Action Durations"
+               name-x="Iteration sequence number"
+               controls="true"
+               guide="true">
+          </div>
+
+          <div widget="Pie"
+               data="scenario.atomic.pie"
+               title="Distribution"
+               title-class="h3"
+               style="float:left; margin-top:15px"
+               ng-style="compact_atomics() ? {width:'40%'} : {}">
+          </div>
+
+          <div widget="Histogram" data="scenario.atomic.histogram.data[atomicHistogram.id]"
+               ng-if="scenario.atomic.histogram.data.length"
+               style="float:left; position:relative; top:40px"
+               ng-style="compact_atomics() ? {width:'59%', 'margin-top':'15px'} : {}">
+          </div>
+
+          <select ng-show="scenario.atomic.histogram.data.length"
+                  ng-model="atomicHistogram"
+                  ng-options="i.name for i in scenario.atomic.histogram.views track by i.id"
+                  style="float:right; margin:45px 35px 0">
+          </select>
+
+          <div class="clearfix"></div>
+
+        </script>
+
+        <script type="text/ng-template" id="output">
+
+          <div style="padding:10px 0 0">
+            <span class="link"
+                  ng-click="location.hash('output/additive')"
+                  ng-class="{active:scenario.output.active === 'additive'}"
+                  ng-if="scenario.output.has_additive">Aggregated</span>
+            <span class="link"
+                  ng-click="location.hash('output/complete')"
+                  ng-class="{active:scenario.output.active === 'complete'}"
+                  ng-if="scenario.output.has_complete">Per iteration</span>
+          </div>
+
+          <div ng-repeat="chart in scenario.additive_output"
+               ng-if="scenario.output.active === 'additive'">
+            <div widget="{{chart.widget}}"
+                 title="{{chart.title}}"
+                 description="{{chart.description}}"
+                 name-x="{{chart.axis_label}}"
+                 name-y="{{chart.label}}"
+                 data="chart.data">
+            </div>
+          </div>
+
+          <div ng-if="scenario.output.active === 'complete'" style="padding:10px 0 0">
+            <select ng-model="outputIteration">
+              <option ng-repeat="i in scenario.complete_output track by $index"
+                      value="{{$index}}">
+                Iteration {{$index}}
+            </select>
+
+            <div ng-repeat="chart in scenario.complete_output[outputIteration]">
+              <div widget="{{chart.widget}}"
+                   title="{{chart.title}}"
+                   description="{{chart.description}}"
+                   name-x="{{chart.axis_label}}"
+                   name-y="{{chart.label}}"
+                   data="chart.data">
+              </div>
+            </div>
+          </div>
+        </script>
+
+        <script type="text/ng-template" id="hooks">
+
+          <div style="padding:15px 0">
+            <span ng-repeat="h in scenario.hooks track by $index"
+                  class="buttn"
+                  title="{{h.desc}}"
+                  style="margin:0 10px 0 0"
+                  ng-click="location.hash('hooks/'+$index)"
+                  ng-class="{active:scenario.hook_idx===$index}">
+              {{h.name}}
+            </span>
+          </div>
+
+          <table class="striped" style="margin:5px 0 25px">
+            <thead>
+              <tr>
+                <th>Plugin
+                <th>Description
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{scenario.hooks.cur.name}}
+                <td>{{scenario.hooks.cur.desc}}
+            </tbody>
+          </table>
+
+          <div>
+            <span class="link"
+                  ng-click="scenario.hooks.cur.active = 'additive'"
+                  ng-class="{active:scenario.hooks.cur.active === 'additive'}"
+                  ng-if="scenario.hooks.cur.additive.length">Aggregated</span>
+            <span class="link"
+                  ng-click="scenario.hooks.cur.active = 'complete'"
+                  ng-class="{active:scenario.hooks.cur.active === 'complete'}"
+                  ng-if="scenario.hooks.cur.complete.length">Per hook run</span>
+          </div>
+
+          <div ng-repeat="chart in scenario.hooks.cur.additive"
+               ng-if="scenario.hooks.cur.active === 'additive'">
+            <div widget="{{chart.widget}}"
+                 title="{{chart.title}}"
+                 description="{{chart.description}}"
+                 name-x="{{chart.axis_label}}"
+                 name-y="{{chart.label}}"
+                 data="chart.data">
+            </div>
+          </div>
+
+          <div ng-if="scenario.hooks.cur.active === 'complete'" style="padding:10px 0 0">
+
+            <select ng-if="complete_hooks_as_dropdown()"
+                    ng-model="scenario.hooks.cur.run_idx"
+                    ng-change="set_hook_run()">
+              <option ng-repeat="h in scenario.hooks.cur.complete track by $index"
+                      ng-selected="scenario.hooks.cur.run_idx == $index"
+                      value="{{$index}}">
+                {{h.triggered_by}}
+            </select>
+
+            <div ng-if="! complete_hooks_as_dropdown()"
+                 style="border:#ccc solid; border-width:1px 0 0; padding:5px 0 0">
+              <span ng-repeat="h in scenario.hooks.cur.complete track by $index"
+                    class="link"
+                    ng-class="{active:scenario.hooks.cur.run_idx == $index}"
+                    ng-click="set_hook_run($index)">
+                {{h.triggered_by}}
+              </span>
+            </div>
+
+            <table class="striped" style="margin:15px 0 15px">
+              <thead>
+                <tr>
+                  <th>Status
+                  <th>Triggered by
+                  <th>Started at
+                  <th>Finished at
+              </thead>
+              <tbody>
+                <tr>
+                  <td ng-style="scenario.hooks.cur.run.status === 'success' ? {color:'green'} : {color:'red'}">
+                    <b>{{scenario.hooks.cur.run.status}}</b>
+                  <td>{{scenario.hooks.cur.run.triggered_by}}
+                  <td>{{scenario.hooks.cur.run.started_at}}
+                  <td>{{scenario.hooks.cur.run.finished_at}}
+              </tbody>
+            </table>
+
+            <div ng-repeat="chart in scenario.hooks.cur.run.charts">
+              <div widget="{{chart.widget}}"
+                   title="{{chart.title}}"
+                   description="{{chart.description}}"
+                   name-x="{{chart.axis_label}}"
+                   name-y="{{chart.label}}"
+                   data="chart.data">
+              </div>
+            </div>
+          </div>
+        </script>
+
+        <script type="text/ng-template" id="failures">
+          <h2>Task failures (<ng-pluralize
+            count="scenario.errors.length"
+            when="{'1': '1 iteration', 'other': '{} iterations'}"></ng-pluralize> failed)
+          </h2>
+          <table class="striped">
+            <thead>
+              <tr>
+                <th>
+                <th>Iteration
+                <th>Exception type
+                <th>Exception message
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="expandable"
+                  ng-repeat-start="i in scenario.errors track by $index"
+                  ng-click="i.expanded = ! i.expanded">
+                <td>
+                  <span ng-hide="i.expanded">&#9658;</span>
+                  <span ng-show="i.expanded">&#9660;</span>
+                <td>{{i.iteration}}
+                <td>{{i.type}}
+                <td class="failure-mesg">{{i.message}}
+              </tr>
+              <tr ng-show="i.expanded" ng-repeat-end>
+                <td colspan="4" class="failure-trace">{{i.traceback}}
+              </tr>
+            </tbody>
+          </table>
+        </script>
+
+        <script type="text/ng-template" id="task">
+          <h2>Subtask Configuration</h2>
+          <pre class="code">{{scenario.config}}</pre>
+        </script>
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+  </div>
+
+  <script type="text/javascript">
+    if (! window.angular) {(function(f){
+      f(document.getElementById("content-nav"), "none");
+      f(document.getElementById("content-main"), "none");
+      f(document.getElementById("page-error"), "block").textContent = "Failed to load AngularJS framework"
+    })(function(e, s){e.style.display = s; return e})}
+</script>
+</body>
+</html>
