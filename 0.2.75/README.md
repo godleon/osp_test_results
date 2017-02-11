@@ -34,4 +34,5 @@
 - [create-container-and-object-then-download-object](https://godleon.github.io/osp_test_results/0.2.75/swift/create-container-and-object-then-download-object.html)
 - [create-container-and-object-then-list-objects](https://godleon.github.io/osp_test_results/0.2.75/swift/create-container-and-object-then-list-objects.html)
 - [list-and-download-objects-in-containers](https://godleon.github.io/osp_test_results/0.2.75/swift/list-and-download-objects-in-containers.html)
+- [list-objects-in-containers](https://godleon.github.io/osp_test_results/0.2.75/swift/list-objects-in-containers.html)
 
