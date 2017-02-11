@@ -9,3 +9,6 @@
 - [create-and-delete-snapshot](https://godleon.github.io/osp_test_results/0.2.75/cinder/create-and-delete-snapshot.html)
 - [create-and-delete-volume](https://godleon.github.io/osp_test_results/0.2.75/cinder/create-and-delete-volume.html)
 
+## glance
+- [create-and-delete-image](https://godleon.github.io/osp_test_results/0.2.75/glance/create-and-delete-image.html)
+
