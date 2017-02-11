@@ -1,1 +1,0 @@
-{"NovaServers.boot_and_list_server": [{"runner": {"concurrency": 11, "type": "constant", "times": 200}, "context": {"users": {"tenants": 3, "users_per_tenant": 5}}, "sla": {"max_avg_duration": 30.0, "max_seconds_per_iteration": 60.0, "failure_rate": {"max": 0}}, "args": {"detailed": true, "image": {"name": "^cirros.*uec$"}, "flavor": {"name": "m1.medium"}}}]}
