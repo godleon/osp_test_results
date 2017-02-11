@@ -1,0 +1,230 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 28.399753093719482, 
+        "result": [
+            {
+                "timestamp": 1486832828.932967, 
+                "error": [], 
+                "duration": 24.912227153778076, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 17.07320499420166, 
+                    "cinder.delete_snapshot": 9.838925838470459
+                }
+            }, 
+            {
+                "timestamp": 1486832828.938731, 
+                "error": [], 
+                "duration": 14.191204071044922, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 8.306358098983765, 
+                    "cinder.delete_snapshot": 7.884724855422974
+                }
+            }, 
+            {
+                "timestamp": 1486832828.938863, 
+                "error": [], 
+                "duration": 23.06632900238037, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 16.353039979934692, 
+                    "cinder.delete_snapshot": 8.713184833526611
+                }
+            }, 
+            {
+                "timestamp": 1486832828.939335, 
+                "error": [], 
+                "duration": 24.155539989471436, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 15.005908012390137, 
+                    "cinder.delete_snapshot": 11.149508953094482
+                }
+            }, 
+            {
+                "timestamp": 1486832828.940423, 
+                "error": [], 
+                "duration": 24.197120904922485, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 16.280646085739136, 
+                    "cinder.delete_snapshot": 9.916364908218384
+                }
+            }, 
+            {
+                "timestamp": 1486832828.942217, 
+                "error": [], 
+                "duration": 24.6808979511261, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 14.80565881729126, 
+                    "cinder.delete_snapshot": 11.875135898590088
+                }
+            }, 
+            {
+                "timestamp": 1486832828.942599, 
+                "error": [], 
+                "duration": 23.73283886909485, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 15.811365127563477, 
+                    "cinder.delete_snapshot": 9.921361923217773
+                }
+            }, 
+            {
+                "timestamp": 1486832828.943898, 
+                "error": [], 
+                "duration": 23.16254997253418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 14.430633068084717, 
+                    "cinder.delete_snapshot": 10.731804847717285
+                }
+            }, 
+            {
+                "timestamp": 1486832828.94735, 
+                "error": [], 
+                "duration": 23.45698308944702, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 13.460101127624512, 
+                    "cinder.delete_snapshot": 11.99677300453186
+                }
+            }, 
+            {
+                "timestamp": 1486832828.94857, 
+                "error": [], 
+                "duration": 15.081610918045044, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 7.721747875213623, 
+                    "cinder.delete_snapshot": 9.35974407196045
+                }
+            }, 
+            {
+                "timestamp": 1486832828.954338, 
+                "error": [], 
+                "duration": 24.060207843780518, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 16.08998394012451, 
+                    "cinder.delete_snapshot": 9.970096111297607
+                }
+            }, 
+            {
+                "timestamp": 1486832845.133337, 
+                "error": [], 
+                "duration": 12.199383020401001, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 9.695558071136475, 
+                    "cinder.delete_snapshot": 4.503763914108276
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 500, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "force": false
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 20.0, 
+                    "max_avg_duration": 10.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "volumes": {
+                        "size": 1
+                    }, 
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "CinderVolumes.create_and_delete_snapshot", 
+            "pos": 0
+        }, 
+        "full_duration": 83.74127507209778, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 24.91s <= 20.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 21.41s <= 10.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
