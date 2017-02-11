@@ -1,0 +1,233 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 6.369127988815308, 
+        "result": [
+            {
+                "timestamp": 1486856526.391754, 
+                "error": [], 
+                "duration": 3.3324902057647705, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.2591328620910645, 
+                    "swift.list_objects_in_container": 0.07323598861694336
+                }
+            }, 
+            {
+                "timestamp": 1486856526.391776, 
+                "error": [], 
+                "duration": 3.989285945892334, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.9597580432891846, 
+                    "swift.list_objects_in_container": 0.029426097869873047
+                }
+            }, 
+            {
+                "timestamp": 1486856526.392049, 
+                "error": [], 
+                "duration": 3.441934823989868, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.39560604095459, 
+                    "swift.list_objects_in_container": 0.046244144439697266
+                }
+            }, 
+            {
+                "timestamp": 1486856526.392472, 
+                "error": [], 
+                "duration": 3.0123538970947266, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 2.976569890975952, 
+                    "swift.list_objects_in_container": 0.03568601608276367
+                }
+            }, 
+            {
+                "timestamp": 1486856526.397563, 
+                "error": [], 
+                "duration": 3.6620359420776367, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.5955939292907715, 
+                    "swift.list_objects_in_container": 0.06633591651916504
+                }
+            }, 
+            {
+                "timestamp": 1486856526.398827, 
+                "error": [], 
+                "duration": 3.8124969005584717, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.7853147983551025, 
+                    "swift.list_objects_in_container": 0.027055978775024414
+                }
+            }, 
+            {
+                "timestamp": 1486856526.401845, 
+                "error": [], 
+                "duration": 3.647686004638672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.6167919635772705, 
+                    "swift.list_objects_in_container": 0.030759096145629883
+                }
+            }, 
+            {
+                "timestamp": 1486856526.403036, 
+                "error": [], 
+                "duration": 3.4499728679656982, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.41762113571167, 
+                    "swift.list_objects_in_container": 0.03226304054260254
+                }
+            }, 
+            {
+                "timestamp": 1486856526.405961, 
+                "error": [], 
+                "duration": 3.69330096244812, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.6681129932403564, 
+                    "swift.list_objects_in_container": 0.025081872940063477
+                }
+            }, 
+            {
+                "timestamp": 1486856526.409893, 
+                "error": [], 
+                "duration": 3.1064400672912598, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.0624301433563232, 
+                    "swift.list_objects_in_container": 0.043881893157958984
+                }
+            }, 
+            {
+                "timestamp": 1486856526.412843, 
+                "error": [], 
+                "duration": 3.4007980823516846, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.3385679721832275, 
+                    "swift.list_objects_in_container": 0.062146902084350586
+                }
+            }, 
+            {
+                "timestamp": 1486856529.408447, 
+                "error": [], 
+                "duration": 3.3524348735809326, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "swift.list_containers": 3.327255964279175, 
+                    "swift.list_objects_in_container": 0.025141000747680664
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 5000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {}, 
+                "sla": {
+                    "max_seconds_per_iteration": 5.0, 
+                    "max_avg_duration": 3.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }, 
+                    "roles": [
+                        "admin"
+                    ], 
+                    "swift_objects": {
+                        "object_size": 1024, 
+                        "objects_per_container": 10, 
+                        "containers_per_tenant": 1
+                    }
+                }
+            }, 
+            "name": "SwiftObjects.list_objects_in_containers", 
+            "pos": 0
+        }, 
+        "full_duration": 92.52375102043152, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 3.99s <= 5.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 3.49s <= 3.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
