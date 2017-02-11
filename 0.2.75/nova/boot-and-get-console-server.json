@@ -1,0 +1,232 @@
+[
+    {
+        "hooks": [], 
+        "load_duration": 94.92310786247253, 
+        "result": [
+            {
+                "timestamp": 1486854827.842607, 
+                "error": [], 
+                "duration": 55.47905087471008, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 56.13056993484497, 
+                    "nova.get_console_output_server": 0.34836792945861816
+                }
+            }, 
+            {
+                "timestamp": 1486854827.843541, 
+                "error": [], 
+                "duration": 66.4103581905365, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 67.23799204826355, 
+                    "nova.get_console_output_server": 0.17225909233093262
+                }
+            }, 
+            {
+                "timestamp": 1486854827.843795, 
+                "error": [], 
+                "duration": 61.654876947402954, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 62.4297559261322, 
+                    "nova.get_console_output_server": 0.22501802444458008
+                }
+            }, 
+            {
+                "timestamp": 1486854827.846524, 
+                "error": [], 
+                "duration": 65.1866250038147, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 66.01482701301575, 
+                    "nova.get_console_output_server": 0.17169690132141113
+                }
+            }, 
+            {
+                "timestamp": 1486854827.848764, 
+                "error": [], 
+                "duration": 65.39937615394592, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 66.25323796272278, 
+                    "nova.get_console_output_server": 0.14599895477294922
+                }
+            }, 
+            {
+                "timestamp": 1486854827.84916, 
+                "error": [], 
+                "duration": 59.82301902770996, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 60.56282114982605, 
+                    "nova.get_console_output_server": 0.26011013984680176
+                }
+            }, 
+            {
+                "timestamp": 1486854827.849241, 
+                "error": [], 
+                "duration": 68.3679850101471, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 69.17917895317078, 
+                    "nova.get_console_output_server": 0.18872404098510742
+                }
+            }, 
+            {
+                "timestamp": 1486854827.84996, 
+                "error": [], 
+                "duration": 57.0928168296814, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 57.68758511543274, 
+                    "nova.get_console_output_server": 0.40515613555908203
+                }
+            }, 
+            {
+                "timestamp": 1486854827.850078, 
+                "error": [], 
+                "duration": 46.746423959732056, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 47.46962308883667, 
+                    "nova.get_console_output_server": 0.27671003341674805
+                }
+            }, 
+            {
+                "timestamp": 1486854827.859856, 
+                "error": [], 
+                "duration": 64.29115009307861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 65.13596701622009, 
+                    "nova.get_console_output_server": 0.15508294105529785
+                }
+            }, 
+            {
+                "timestamp": 1486854827.865728, 
+                "error": [], 
+                "duration": 73.36924004554749, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 74.10876512527466, 
+                    "nova.get_console_output_server": 0.2603909969329834
+                }
+            }, 
+            {
+                "timestamp": 1486854875.599623, 
+                "error": [], 
+                "duration": 47.16609191894531, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 48.0186071395874, 
+                    "nova.get_console_output_server": 0.14743614196777344
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 500, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "image": {
+                        "name": "^cirros.*uec$"
+                    }
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 60.0, 
+                    "max_avg_duration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_get_console_output", 
+            "pos": 0
+        }, 
+        "full_duration": 275.8635869026184, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 73.37s <= 60.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 60.92s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
