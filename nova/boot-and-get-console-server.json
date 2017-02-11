@@ -1,1 +1,0 @@
-{"NovaServers.boot_and_get_console_output": [{"args": {"flavor": {"name": "m1.medium"}, "image": {"name": "^cirros.*uec$"}}, "sla": {"max_seconds_per_iteration": 60.0, "max_avg_duration": 30.0, "failure_rate": {"max": 0}}, "context": {"users": {"users_per_tenant": 5, "tenants": 3}}, "runner": {"concurrency": 11, "times": 500, "type": "constant"}}]}
