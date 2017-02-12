@@ -6,4 +6,5 @@
 
 ## cinder
 - [create-and-accept-transfer](https://godleon.github.io/osp_test_results/0.2.76/cinder/create-and-accept-transfer.html)
+- [create-and-delete-snapshot](https://godleon.github.io/osp_test_results/0.2.76/cinder/create-and-delete-snapshot.html)
 
