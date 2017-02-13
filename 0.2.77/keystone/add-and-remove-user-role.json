@@ -1,0 +1,4474 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-13-02T18:01:42", 
+        "load_duration": 19.618847846984863, 
+        "result": [
+            {
+                "timestamp": 1487008904.890952, 
+                "error": [], 
+                "duration": 0.8775379657745361, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5223278999328613, 
+                    "keystone_v2.add_role": 0.18196606636047363, 
+                    "keystone_v2.revoke_role": 0.1730809211730957
+                }
+            }, 
+            {
+                "timestamp": 1487008904.918624, 
+                "error": [], 
+                "duration": 0.8275291919708252, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42507410049438477, 
+                    "keystone_v2.add_role": 0.1807088851928711, 
+                    "keystone_v2.revoke_role": 0.22148990631103516
+                }
+            }, 
+            {
+                "timestamp": 1487008904.944147, 
+                "error": [], 
+                "duration": 0.9615559577941895, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4092891216278076, 
+                    "keystone_v2.add_role": 0.27280092239379883, 
+                    "keystone_v2.revoke_role": 0.27924513816833496
+                }
+            }, 
+            {
+                "timestamp": 1487008904.953901, 
+                "error": [], 
+                "duration": 0.8812980651855469, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4115891456604004, 
+                    "keystone_v2.add_role": 0.17488694190979004, 
+                    "keystone_v2.revoke_role": 0.2946641445159912
+                }
+            }, 
+            {
+                "timestamp": 1487008904.965516, 
+                "error": [], 
+                "duration": 0.7687439918518066, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3878509998321533, 
+                    "keystone_v2.add_role": 0.2064681053161621, 
+                    "keystone_v2.revoke_role": 0.17425298690795898
+                }
+            }, 
+            {
+                "timestamp": 1487008904.973767, 
+                "error": [], 
+                "duration": 0.7989740371704102, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4612081050872803, 
+                    "keystone_v2.add_role": 0.180556058883667, 
+                    "keystone_v2.revoke_role": 0.15695714950561523
+                }
+            }, 
+            {
+                "timestamp": 1487008904.978257, 
+                "error": [], 
+                "duration": 0.9263620376586914, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4591090679168701, 
+                    "keystone_v2.add_role": 0.22505497932434082, 
+                    "keystone_v2.revoke_role": 0.2420182228088379
+                }
+            }, 
+            {
+                "timestamp": 1487008904.979029, 
+                "error": [], 
+                "duration": 1.8725111484527588, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4253110885620117, 
+                    "keystone_v2.add_role": 0.22341609001159668, 
+                    "keystone_v2.revoke_role": 1.223587989807129
+                }
+            }, 
+            {
+                "timestamp": 1487008904.979221, 
+                "error": [], 
+                "duration": 3.888441801071167, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4889650344848633, 
+                    "keystone_v2.add_role": 0.15012192726135254, 
+                    "keystone_v2.revoke_role": 3.2491469383239746
+                }
+            }, 
+            {
+                "timestamp": 1487008904.98368, 
+                "error": [], 
+                "duration": 7.926011085510254, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45128297805786133, 
+                    "keystone_v2.add_role": 0.19967293739318848, 
+                    "keystone_v2.revoke_role": 7.274846076965332
+                }
+            }, 
+            {
+                "timestamp": 1487008904.990514, 
+                "error": [], 
+                "duration": 1.9054410457611084, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4927198886871338, 
+                    "keystone_v2.add_role": 0.18519306182861328, 
+                    "keystone_v2.revoke_role": 1.2273180484771729
+                }
+            }, 
+            {
+                "timestamp": 1487008904.999335, 
+                "error": [], 
+                "duration": 1.9373619556427002, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4663219451904297, 
+                    "keystone_v2.add_role": 0.20590996742248535, 
+                    "keystone_v2.revoke_role": 1.2649571895599365
+                }
+            }, 
+            {
+                "timestamp": 1487008905.010371, 
+                "error": [], 
+                "duration": 0.8332080841064453, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4373319149017334, 
+                    "keystone_v2.add_role": 0.16980195045471191, 
+                    "keystone_v2.revoke_role": 0.22584104537963867
+                }
+            }, 
+            {
+                "timestamp": 1487008905.036928, 
+                "error": [], 
+                "duration": 1.9007210731506348, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5152342319488525, 
+                    "keystone_v2.add_role": 0.1479170322418213, 
+                    "keystone_v2.revoke_role": 1.236867904663086
+                }
+            }, 
+            {
+                "timestamp": 1487008905.044031, 
+                "error": [], 
+                "duration": 1.8315260410308838, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45856213569641113, 
+                    "keystone_v2.add_role": 0.15675592422485352, 
+                    "keystone_v2.revoke_role": 1.21592116355896
+                }
+            }, 
+            {
+                "timestamp": 1487008905.096663, 
+                "error": [], 
+                "duration": 0.8953220844268799, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5235002040863037, 
+                    "keystone_v2.add_role": 0.18752694129943848, 
+                    "keystone_v2.revoke_role": 0.18406414985656738
+                }
+            }, 
+            {
+                "timestamp": 1487008905.102277, 
+                "error": [], 
+                "duration": 0.8545289039611816, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4677140712738037, 
+                    "keystone_v2.add_role": 0.19794583320617676, 
+                    "keystone_v2.revoke_role": 0.18865609169006348
+                }
+            }, 
+            {
+                "timestamp": 1487008905.106329, 
+                "error": [], 
+                "duration": 1.7997310161590576, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3592979907989502, 
+                    "keystone_v2.add_role": 0.2441549301147461, 
+                    "keystone_v2.revoke_role": 1.1960639953613281
+                }
+            }, 
+            {
+                "timestamp": 1487008905.184708, 
+                "error": [], 
+                "duration": 0.9035789966583252, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5493998527526855, 
+                    "keystone_v2.add_role": 0.1705949306488037, 
+                    "keystone_v2.revoke_role": 0.18337607383728027
+                }
+            }, 
+            {
+                "timestamp": 1487008905.197632, 
+                "error": [], 
+                "duration": 0.7764668464660645, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40004706382751465, 
+                    "keystone_v2.add_role": 0.21791505813598633, 
+                    "keystone_v2.revoke_role": 0.15831303596496582
+                }
+            }, 
+            {
+                "timestamp": 1487008906.393098, 
+                "error": [], 
+                "duration": 0.7271468639373779, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3873929977416992, 
+                    "keystone_v2.add_role": 0.15367889404296875, 
+                    "keystone_v2.revoke_role": 0.1859729290008545
+                }
+            }, 
+            {
+                "timestamp": 1487008906.412563, 
+                "error": [], 
+                "duration": 1.8751029968261719, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.37704992294311523, 
+                    "keystone_v2.add_role": 0.20308899879455566, 
+                    "keystone_v2.revoke_role": 1.2948050498962402
+                }
+            }, 
+            {
+                "timestamp": 1487008906.456995, 
+                "error": [], 
+                "duration": 0.8392319679260254, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39881086349487305, 
+                    "keystone_v2.add_role": 0.1875910758972168, 
+                    "keystone_v2.revoke_role": 0.25275516510009766
+                }
+            }, 
+            {
+                "timestamp": 1487008906.482096, 
+                "error": [], 
+                "duration": 0.8153171539306641, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.41008996963500977, 
+                    "keystone_v2.add_role": 0.16669011116027832, 
+                    "keystone_v2.revoke_role": 0.23845911026000977
+                }
+            }, 
+            {
+                "timestamp": 1487008906.529558, 
+                "error": [], 
+                "duration": 1.799489974975586, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3259577751159668, 
+                    "keystone_v2.add_role": 0.15348196029663086, 
+                    "keystone_v2.revoke_role": 1.3199329376220703
+                }
+            }, 
+            {
+                "timestamp": 1487008906.532339, 
+                "error": [], 
+                "duration": 0.7715640068054199, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.37073612213134766, 
+                    "keystone_v2.add_role": 0.2195580005645752, 
+                    "keystone_v2.revoke_role": 0.1811830997467041
+                }
+            }, 
+            {
+                "timestamp": 1487008906.601417, 
+                "error": [], 
+                "duration": 0.8909368515014648, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4076070785522461, 
+                    "keystone_v2.add_role": 0.23705601692199707, 
+                    "keystone_v2.revoke_role": 0.2461698055267334
+                }
+            }, 
+            {
+                "timestamp": 1487008906.643225, 
+                "error": [], 
+                "duration": 1.7645070552825928, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.34057188034057617, 
+                    "keystone_v2.add_role": 0.1900789737701416, 
+                    "keystone_v2.revoke_role": 1.2337591648101807
+                }
+            }, 
+            {
+                "timestamp": 1487008906.681149, 
+                "error": [], 
+                "duration": 0.6910159587860107, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.32649922370910645, 
+                    "keystone_v2.add_role": 0.139509916305542, 
+                    "keystone_v2.revoke_role": 0.22492218017578125
+                }
+            }, 
+            {
+                "timestamp": 1487008906.697067, 
+                "error": [], 
+                "duration": 0.7824060916900635, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.44303297996520996, 
+                    "keystone_v2.add_role": 0.1712651252746582, 
+                    "keystone_v2.revoke_role": 0.1680309772491455
+                }
+            }, 
+            {
+                "timestamp": 1487008906.716695, 
+                "error": [], 
+                "duration": 0.7808008193969727, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42105889320373535, 
+                    "keystone_v2.add_role": 0.17335104942321777, 
+                    "keystone_v2.revoke_role": 0.18630123138427734
+                }
+            }, 
+            {
+                "timestamp": 1487008906.749644, 
+                "error": [], 
+                "duration": 0.8762109279632568, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47156810760498047, 
+                    "keystone_v2.add_role": 0.20998311042785645, 
+                    "keystone_v2.revoke_role": 0.19457197189331055
+                }
+            }, 
+            {
+                "timestamp": 1487008907.679339, 
+                "error": [], 
+                "duration": 0.8308310508728027, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.373798131942749, 
+                    "keystone_v2.add_role": 0.24924588203430176, 
+                    "keystone_v2.revoke_role": 0.20766305923461914
+                }
+            }, 
+            {
+                "timestamp": 1487008907.752307, 
+                "error": [], 
+                "duration": 0.6954009532928467, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3503129482269287, 
+                    "keystone_v2.add_role": 0.15011906623840332, 
+                    "keystone_v2.revoke_role": 0.19484400749206543
+                }
+            }, 
+            {
+                "timestamp": 1487008907.75345, 
+                "error": [], 
+                "duration": 1.794936180114746, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.33222389221191406, 
+                    "keystone_v2.add_role": 0.2416400909423828, 
+                    "keystone_v2.revoke_role": 1.220959186553955
+                }
+            }, 
+            {
+                "timestamp": 1487008907.771459, 
+                "error": [], 
+                "duration": 0.8070278167724609, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39319515228271484, 
+                    "keystone_v2.add_role": 0.1971302032470703, 
+                    "keystone_v2.revoke_role": 0.21658706665039062
+                }
+            }, 
+            {
+                "timestamp": 1487008907.784946, 
+                "error": [], 
+                "duration": 0.8720049858093262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4219949245452881, 
+                    "keystone_v2.add_role": 0.17148709297180176, 
+                    "keystone_v2.revoke_role": 0.2783808708190918
+                }
+            }, 
+            {
+                "timestamp": 1487008907.786899, 
+                "error": [], 
+                "duration": 0.7429978847503662, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.33859801292419434, 
+                    "keystone_v2.add_role": 0.18766117095947266, 
+                    "keystone_v2.revoke_role": 0.21664810180664062
+                }
+            }, 
+            {
+                "timestamp": 1487008907.861246, 
+                "error": [], 
+                "duration": 0.7274208068847656, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3552122116088867, 
+                    "keystone_v2.add_role": 0.1816859245300293, 
+                    "keystone_v2.revoke_role": 0.1904158592224121
+                }
+            }, 
+            {
+                "timestamp": 1487008907.995511, 
+                "error": [], 
+                "duration": 0.9263138771057129, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.434887170791626, 
+                    "keystone_v2.add_role": 0.20312809944152832, 
+                    "keystone_v2.revoke_role": 0.28818511962890625
+                }
+            }, 
+            {
+                "timestamp": 1487008908.018597, 
+                "error": [], 
+                "duration": 0.7958312034606934, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4263441562652588, 
+                    "keystone_v2.add_role": 0.19498801231384277, 
+                    "keystone_v2.revoke_role": 0.17439818382263184
+                }
+            }, 
+            {
+                "timestamp": 1487008908.09233, 
+                "error": [], 
+                "duration": 0.8755350112915039, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5002779960632324, 
+                    "keystone_v2.add_role": 0.1730501651763916, 
+                    "keystone_v2.revoke_role": 0.20210695266723633
+                }
+            }, 
+            {
+                "timestamp": 1487008908.095168, 
+                "error": [], 
+                "duration": 0.843101978302002, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46430397033691406, 
+                    "keystone_v2.add_role": 0.17546701431274414, 
+                    "keystone_v2.revoke_role": 0.20322084426879883
+                }
+            }, 
+            {
+                "timestamp": 1487008908.159852, 
+                "error": [], 
+                "duration": 1.8031690120697021, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42284178733825684, 
+                    "keystone_v2.add_role": 0.13878893852233887, 
+                    "keystone_v2.revoke_role": 1.2414369583129883
+                }
+            }, 
+            {
+                "timestamp": 1487008908.1679, 
+                "error": [], 
+                "duration": 0.8356249332427979, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5045080184936523, 
+                    "keystone_v2.add_role": 0.16143584251403809, 
+                    "keystone_v2.revoke_role": 0.1695849895477295
+                }
+            }, 
+            {
+                "timestamp": 1487008908.219851, 
+                "error": [], 
+                "duration": 0.8226630687713623, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45232200622558594, 
+                    "keystone_v2.add_role": 0.1608109474182129, 
+                    "keystone_v2.revoke_role": 0.20942091941833496
+                }
+            }, 
+            {
+                "timestamp": 1487008908.540037, 
+                "error": [], 
+                "duration": 0.8398911952972412, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4561638832092285, 
+                    "keystone_v2.add_role": 0.17504501342773438, 
+                    "keystone_v2.revoke_role": 0.2085721492767334
+                }
+            }, 
+            {
+                "timestamp": 1487008909.072475, 
+                "error": [], 
+                "duration": 0.7470560073852539, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3385748863220215, 
+                    "keystone_v2.add_role": 0.15028786659240723, 
+                    "keystone_v2.revoke_role": 0.25809788703918457
+                }
+            }, 
+            {
+                "timestamp": 1487008909.13238, 
+                "error": [], 
+                "duration": 0.8836441040039062, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.519230842590332, 
+                    "keystone_v2.add_role": 0.14531207084655762, 
+                    "keystone_v2.revoke_role": 0.21895480155944824
+                }
+            }, 
+            {
+                "timestamp": 1487008909.278015, 
+                "error": [], 
+                "duration": 0.810643196105957, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.41939687728881836, 
+                    "keystone_v2.add_role": 0.17900800704956055, 
+                    "keystone_v2.revoke_role": 0.21215009689331055
+                }
+            }, 
+            {
+                "timestamp": 1487008909.29802, 
+                "error": [], 
+                "duration": 0.8626670837402344, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40085291862487793, 
+                    "keystone_v2.add_role": 0.19802308082580566, 
+                    "keystone_v2.revoke_role": 0.26369500160217285
+                }
+            }, 
+            {
+                "timestamp": 1487008909.305301, 
+                "error": [], 
+                "duration": 1.9301109313964844, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4672281742095947, 
+                    "keystone_v2.add_role": 0.2076098918914795, 
+                    "keystone_v2.revoke_role": 1.2551829814910889
+                }
+            }, 
+            {
+                "timestamp": 1487008909.315605, 
+                "error": [], 
+                "duration": 0.9327921867370605, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4851210117340088, 
+                    "keystone_v2.add_role": 0.25725603103637695, 
+                    "keystone_v2.revoke_role": 0.19029784202575684
+                }
+            }, 
+            {
+                "timestamp": 1487008909.355894, 
+                "error": [], 
+                "duration": 0.8307528495788574, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4520711898803711, 
+                    "keystone_v2.add_role": 0.1872720718383789, 
+                    "keystone_v2.revoke_role": 0.1913309097290039
+                }
+            }, 
+            {
+                "timestamp": 1487008909.405518, 
+                "error": [], 
+                "duration": 0.8332779407501221, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.383120059967041, 
+                    "keystone_v2.add_role": 0.2032477855682373, 
+                    "keystone_v2.revoke_role": 0.24681687355041504
+                }
+            }, 
+            {
+                "timestamp": 1487008909.461248, 
+                "error": [], 
+                "duration": 1.7431261539459229, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3194129467010498, 
+                    "keystone_v2.add_role": 0.17845797538757324, 
+                    "keystone_v2.revoke_role": 1.245110034942627
+                }
+            }, 
+            {
+                "timestamp": 1487008909.670092, 
+                "error": [], 
+                "duration": 1.8177759647369385, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4439060688018799, 
+                    "keystone_v2.add_role": 0.17417311668395996, 
+                    "keystone_v2.revoke_role": 1.1995949745178223
+                }
+            }, 
+            {
+                "timestamp": 1487008909.695004, 
+                "error": [], 
+                "duration": 0.7798569202423096, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39235997200012207, 
+                    "keystone_v2.add_role": 0.20091700553894043, 
+                    "keystone_v2.revoke_role": 0.18648314476013184
+                }
+            }, 
+            {
+                "timestamp": 1487008909.699884, 
+                "error": [], 
+                "duration": 1.055232048034668, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.6477010250091553, 
+                    "keystone_v2.add_role": 0.15700793266296387, 
+                    "keystone_v2.revoke_role": 0.2504251003265381
+                }
+            }, 
+            {
+                "timestamp": 1487008909.767249, 
+                "error": [], 
+                "duration": 0.8648560047149658, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5411450862884521, 
+                    "keystone_v2.add_role": 0.1626582145690918, 
+                    "keystone_v2.revoke_role": 0.16093111038208008
+                }
+            }, 
+            {
+                "timestamp": 1487008909.836937, 
+                "error": [], 
+                "duration": 0.8097000122070312, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4082670211791992, 
+                    "keystone_v2.add_role": 0.2293529510498047, 
+                    "keystone_v2.revoke_role": 0.17198896408081055
+                }
+            }, 
+            {
+                "timestamp": 1487008909.854248, 
+                "error": [], 
+                "duration": 0.8340928554534912, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4810030460357666, 
+                    "keystone_v2.add_role": 0.13129401206970215, 
+                    "keystone_v2.revoke_role": 0.22168993949890137
+                }
+            }, 
+            {
+                "timestamp": 1487008909.957941, 
+                "error": [], 
+                "duration": 0.835536003112793, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40374016761779785, 
+                    "keystone_v2.add_role": 0.23209309577941895, 
+                    "keystone_v2.revoke_role": 0.19961190223693848
+                }
+            }, 
+            {
+                "timestamp": 1487008910.262223, 
+                "error": [], 
+                "duration": 0.7455780506134033, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.43530702590942383, 
+                    "keystone_v2.add_role": 0.1274881362915039, 
+                    "keystone_v2.revoke_role": 0.18269801139831543
+                }
+            }, 
+            {
+                "timestamp": 1487008910.371674, 
+                "error": [], 
+                "duration": 0.834043025970459, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4084479808807373, 
+                    "keystone_v2.add_role": 0.17593693733215332, 
+                    "keystone_v2.revoke_role": 0.24956512451171875
+                }
+            }, 
+            {
+                "timestamp": 1487008910.705483, 
+                "error": [], 
+                "duration": 0.8998270034790039, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4110550880432129, 
+                    "keystone_v2.add_role": 0.17057418823242188, 
+                    "keystone_v2.revoke_role": 0.31810903549194336
+                }
+            }, 
+            {
+                "timestamp": 1487008910.781669, 
+                "error": [], 
+                "duration": 0.7984201908111572, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47214603424072266, 
+                    "keystone_v2.add_role": 0.17598795890808105, 
+                    "keystone_v2.revoke_role": 0.15018010139465332
+                }
+            }, 
+            {
+                "timestamp": 1487008910.824116, 
+                "error": [], 
+                "duration": 1.7936160564422607, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4359140396118164, 
+                    "keystone_v2.add_role": 0.14406490325927734, 
+                    "keystone_v2.revoke_role": 1.213547945022583
+                }
+            }, 
+            {
+                "timestamp": 1487008910.877199, 
+                "error": [], 
+                "duration": 0.767388105392456, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.35782313346862793, 
+                    "keystone_v2.add_role": 0.15639400482177734, 
+                    "keystone_v2.revoke_role": 0.25308895111083984
+                }
+            }, 
+            {
+                "timestamp": 1487008910.896487, 
+                "error": [], 
+                "duration": 0.6750349998474121, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3307199478149414, 
+                    "keystone_v2.add_role": 0.15576887130737305, 
+                    "keystone_v2.revoke_role": 0.18846392631530762
+                }
+            }, 
+            {
+                "timestamp": 1487008910.978059, 
+                "error": [], 
+                "duration": 0.8896968364715576, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5062530040740967, 
+                    "keystone_v2.add_role": 0.18682599067687988, 
+                    "keystone_v2.revoke_role": 0.19651079177856445
+                }
+            }, 
+            {
+                "timestamp": 1487008911.00603, 
+                "error": [], 
+                "duration": 0.7056348323822021, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3193509578704834, 
+                    "keystone_v2.add_role": 0.1741180419921875, 
+                    "keystone_v2.revoke_role": 0.21206283569335938
+                }
+            }, 
+            {
+                "timestamp": 1487008911.021863, 
+                "error": [], 
+                "duration": 0.9031329154968262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4786038398742676, 
+                    "keystone_v2.add_role": 0.2123250961303711, 
+                    "keystone_v2.revoke_role": 0.21211910247802734
+                }
+            }, 
+            {
+                "timestamp": 1487008911.203982, 
+                "error": [], 
+                "duration": 0.6608738899230957, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3969249725341797, 
+                    "keystone_v2.add_role": 0.11496281623840332, 
+                    "keystone_v2.revoke_role": 0.14889812469482422
+                }
+            }, 
+            {
+                "timestamp": 1487008911.289999, 
+                "error": [], 
+                "duration": 0.9056129455566406, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.461575984954834, 
+                    "keystone_v2.add_role": 0.15232300758361816, 
+                    "keystone_v2.revoke_role": 0.2915768623352051
+                }
+            }, 
+            {
+                "timestamp": 1487008911.428903, 
+                "error": [], 
+                "duration": 1.9007909297943115, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45999979972839355, 
+                    "keystone_v2.add_role": 0.13550090789794922, 
+                    "keystone_v2.revoke_role": 1.3051791191101074
+                }
+            }, 
+            {
+                "timestamp": 1487008911.457554, 
+                "error": [], 
+                "duration": 0.8700268268585205, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4743051528930664, 
+                    "keystone_v2.add_role": 0.18407201766967773, 
+                    "keystone_v2.revoke_role": 0.2115318775177002
+                }
+            }, 
+            {
+                "timestamp": 1487008911.484356, 
+                "error": [], 
+                "duration": 0.8853189945220947, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.501971960067749, 
+                    "keystone_v2.add_role": 0.175339937210083, 
+                    "keystone_v2.revoke_role": 0.2078402042388916
+                }
+            }, 
+            {
+                "timestamp": 1487008911.503106, 
+                "error": [], 
+                "duration": 0.7935819625854492, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3414609432220459, 
+                    "keystone_v2.add_role": 0.14480090141296387, 
+                    "keystone_v2.revoke_role": 0.30718183517456055
+                }
+            }, 
+            {
+                "timestamp": 1487008911.776692, 
+                "error": [], 
+                "duration": 0.7565121650695801, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3755369186401367, 
+                    "keystone_v2.add_role": 0.175123929977417, 
+                    "keystone_v2.revoke_role": 0.20573902130126953
+                }
+            }, 
+            {
+                "timestamp": 1487008911.833575, 
+                "error": [], 
+                "duration": 0.7726340293884277, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.35422492027282715, 
+                    "keystone_v2.add_role": 0.18707609176635742, 
+                    "keystone_v2.revoke_role": 0.2312150001525879
+                }
+            }, 
+            {
+                "timestamp": 1487008911.84948, 
+                "error": [], 
+                "duration": 0.8018369674682617, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.44169187545776367, 
+                    "keystone_v2.add_role": 0.15391302108764648, 
+                    "keystone_v2.revoke_role": 0.20610594749450684
+                }
+            }, 
+            {
+                "timestamp": 1487008911.917087, 
+                "error": [], 
+                "duration": 0.7840719223022461, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42722201347351074, 
+                    "keystone_v2.add_role": 0.15465903282165527, 
+                    "keystone_v2.revoke_role": 0.2020559310913086
+                }
+            }, 
+            {
+                "timestamp": 1487008912.216363, 
+                "error": [], 
+                "duration": 0.7585539817810059, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42566800117492676, 
+                    "keystone_v2.add_role": 0.1597890853881836, 
+                    "keystone_v2.revoke_role": 0.17299699783325195
+                }
+            }, 
+            {
+                "timestamp": 1487008912.3592, 
+                "error": [], 
+                "duration": 0.9063301086425781, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4681551456451416, 
+                    "keystone_v2.add_role": 0.16053295135498047, 
+                    "keystone_v2.revoke_role": 0.2775249481201172
+                }
+            }, 
+            {
+                "timestamp": 1487008912.43193, 
+                "error": [], 
+                "duration": 0.7573628425598145, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.34655189514160156, 
+                    "keystone_v2.add_role": 0.1946430206298828, 
+                    "keystone_v2.revoke_role": 0.216033935546875
+                }
+            }, 
+            {
+                "timestamp": 1487008912.509738, 
+                "error": [], 
+                "duration": 0.768517017364502, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.38335585594177246, 
+                    "keystone_v2.add_role": 0.14313793182373047, 
+                    "keystone_v2.revoke_role": 0.24192285537719727
+                }
+            }, 
+            {
+                "timestamp": 1487008912.524891, 
+                "error": [], 
+                "duration": 1.868847131729126, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42984700202941895, 
+                    "keystone_v2.add_role": 0.1582200527191162, 
+                    "keystone_v2.revoke_role": 1.280677080154419
+                }
+            }, 
+            {
+                "timestamp": 1487008912.58029, 
+                "error": [], 
+                "duration": 0.8934199810028076, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5068490505218506, 
+                    "keystone_v2.add_role": 0.15535402297973633, 
+                    "keystone_v2.revoke_role": 0.2310938835144043
+                }
+            }, 
+            {
+                "timestamp": 1487008912.598185, 
+                "error": [], 
+                "duration": 0.8522589206695557, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4308760166168213, 
+                    "keystone_v2.add_role": 0.20466899871826172, 
+                    "keystone_v2.revoke_role": 0.2165980339050293
+                }
+            }, 
+            {
+                "timestamp": 1487008912.75341, 
+                "error": [], 
+                "duration": 0.8943758010864258, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39804911613464355, 
+                    "keystone_v2.add_role": 0.22683095932006836, 
+                    "keystone_v2.revoke_role": 0.26935911178588867
+                }
+            }, 
+            {
+                "timestamp": 1487008912.762201, 
+                "error": [], 
+                "duration": 0.6901209354400635, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3661789894104004, 
+                    "keystone_v2.add_role": 0.13441085815429688, 
+                    "keystone_v2.revoke_role": 0.1894218921661377
+                }
+            }, 
+            {
+                "timestamp": 1487008912.967902, 
+                "error": [], 
+                "duration": 0.9622659683227539, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4802367687225342, 
+                    "keystone_v2.add_role": 0.17155694961547852, 
+                    "keystone_v2.revoke_role": 0.3103780746459961
+                }
+            }, 
+            {
+                "timestamp": 1487008913.04305, 
+                "error": [], 
+                "duration": 0.9040088653564453, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49210596084594727, 
+                    "keystone_v2.add_role": 0.19765281677246094, 
+                    "keystone_v2.revoke_role": 0.21412396430969238
+                }
+            }, 
+            {
+                "timestamp": 1487008913.174718, 
+                "error": [], 
+                "duration": 0.8799262046813965, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48621702194213867, 
+                    "keystone_v2.add_role": 0.18995404243469238, 
+                    "keystone_v2.revoke_role": 0.20366883277893066
+                }
+            }, 
+            {
+                "timestamp": 1487008913.236297, 
+                "error": [], 
+                "duration": 0.9526882171630859, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49354004859924316, 
+                    "keystone_v2.add_role": 0.22915005683898926, 
+                    "keystone_v2.revoke_role": 0.22986984252929688
+                }
+            }, 
+            {
+                "timestamp": 1487008913.252664, 
+                "error": [], 
+                "duration": 0.7980458736419678, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.452441930770874, 
+                    "keystone_v2.add_role": 0.1563889980316162, 
+                    "keystone_v2.revoke_role": 0.18911504745483398
+                }
+            }, 
+            {
+                "timestamp": 1487008913.497646, 
+                "error": [], 
+                "duration": 0.8393459320068359, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4400169849395752, 
+                    "keystone_v2.add_role": 0.21807098388671875, 
+                    "keystone_v2.revoke_role": 0.18112397193908691
+                }
+            }, 
+            {
+                "timestamp": 1487008913.518469, 
+                "error": [], 
+                "duration": 0.7963998317718506, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4035351276397705, 
+                    "keystone_v2.add_role": 0.18807196617126465, 
+                    "keystone_v2.revoke_role": 0.20469093322753906
+                }
+            }, 
+            {
+                "timestamp": 1487008913.53767, 
+                "error": [], 
+                "duration": 0.8395271301269531, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3843269348144531, 
+                    "keystone_v2.add_role": 0.20683979988098145, 
+                    "keystone_v2.revoke_role": 0.24824309349060059
+                }
+            }, 
+            {
+                "timestamp": 1487008913.541921, 
+                "error": [], 
+                "duration": 0.9055399894714355, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46368908882141113, 
+                    "keystone_v2.add_role": 0.1765449047088623, 
+                    "keystone_v2.revoke_role": 0.26519298553466797
+                }
+            }, 
+            {
+                "timestamp": 1487008913.72159, 
+                "error": [], 
+                "duration": 1.0346219539642334, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5947179794311523, 
+                    "keystone_v2.add_role": 0.1946249008178711, 
+                    "keystone_v2.revoke_role": 0.24515485763549805
+                }
+            }, 
+            {
+                "timestamp": 1487008913.768543, 
+                "error": [], 
+                "duration": 0.9325709342956543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4675419330596924, 
+                    "keystone_v2.add_role": 0.21723318099975586, 
+                    "keystone_v2.revoke_role": 0.2476499080657959
+                }
+            }, 
+            {
+                "timestamp": 1487008914.068242, 
+                "error": [], 
+                "duration": 0.8853909969329834, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.545557975769043, 
+                    "keystone_v2.add_role": 0.16155004501342773, 
+                    "keystone_v2.revoke_role": 0.17817401885986328
+                }
+            }, 
+            {
+                "timestamp": 1487008914.13772, 
+                "error": [], 
+                "duration": 1.0180718898773193, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.6132850646972656, 
+                    "keystone_v2.add_role": 0.17387104034423828, 
+                    "keystone_v2.revoke_role": 0.230787992477417
+                }
+            }, 
+            {
+                "timestamp": 1487008914.18485, 
+                "error": [], 
+                "duration": 1.1292269229888916, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.6564598083496094, 
+                    "keystone_v2.add_role": 0.23908782005310059, 
+                    "keystone_v2.revoke_role": 0.23355793952941895
+                }
+            }, 
+            {
+                "timestamp": 1487008914.205082, 
+                "error": [], 
+                "duration": 0.9346520900726318, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49502110481262207, 
+                    "keystone_v2.add_role": 0.18860912322998047, 
+                    "keystone_v2.revoke_role": 0.2508821487426758
+                }
+            }, 
+            {
+                "timestamp": 1487008914.293875, 
+                "error": [], 
+                "duration": 0.8940730094909668, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45878100395202637, 
+                    "keystone_v2.add_role": 0.22470808029174805, 
+                    "keystone_v2.revoke_role": 0.21044206619262695
+                }
+            }, 
+            {
+                "timestamp": 1487008914.311518, 
+                "error": [], 
+                "duration": 1.136512041091919, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5904779434204102, 
+                    "keystone_v2.add_role": 0.27201199531555176, 
+                    "keystone_v2.revoke_role": 0.27386999130249023
+                }
+            }, 
+            {
+                "timestamp": 1487008914.502661, 
+                "error": [], 
+                "duration": 0.991948127746582, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4990220069885254, 
+                    "keystone_v2.add_role": 0.22237610816955566, 
+                    "keystone_v2.revoke_role": 0.2704000473022461
+                }
+            }, 
+            {
+                "timestamp": 1487008914.800912, 
+                "error": [], 
+                "duration": 0.943641185760498, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5109682083129883, 
+                    "keystone_v2.add_role": 0.2129981517791748, 
+                    "keystone_v2.revoke_role": 0.2195441722869873
+                }
+            }, 
+            {
+                "timestamp": 1487008914.91386, 
+                "error": [], 
+                "duration": 0.9255268573760986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5564911365509033, 
+                    "keystone_v2.add_role": 0.18398809432983398, 
+                    "keystone_v2.revoke_role": 0.18488693237304688
+                }
+            }, 
+            {
+                "timestamp": 1487008915.021621, 
+                "error": [], 
+                "duration": 2.058288097381592, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5924859046936035, 
+                    "keystone_v2.add_role": 0.18159198760986328, 
+                    "keystone_v2.revoke_role": 1.284095048904419
+                }
+            }, 
+            {
+                "timestamp": 1487008915.095311, 
+                "error": [], 
+                "duration": 0.9164111614227295, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.501011848449707, 
+                    "keystone_v2.add_role": 0.1687009334564209, 
+                    "keystone_v2.revoke_role": 0.24658989906311035
+                }
+            }, 
+            {
+                "timestamp": 1487008915.149209, 
+                "error": [], 
+                "duration": 0.8918628692626953, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5413389205932617, 
+                    "keystone_v2.add_role": 0.17079687118530273, 
+                    "keystone_v2.revoke_role": 0.17958807945251465
+                }
+            }, 
+            {
+                "timestamp": 1487008915.399024, 
+                "error": [], 
+                "duration": 0.9657909870147705, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5757019519805908, 
+                    "keystone_v2.add_role": 0.1518571376800537, 
+                    "keystone_v2.revoke_role": 0.23809218406677246
+                }
+            }, 
+            {
+                "timestamp": 1487008915.509354, 
+                "error": [], 
+                "duration": 1.0531787872314453, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5077848434448242, 
+                    "keystone_v2.add_role": 0.2611501216888428, 
+                    "keystone_v2.revoke_role": 0.28406596183776855
+                }
+            }, 
+            {
+                "timestamp": 1487008915.509559, 
+                "error": [], 
+                "duration": 0.8786671161651611, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46930599212646484, 
+                    "keystone_v2.add_role": 0.18958401679992676, 
+                    "keystone_v2.revoke_role": 0.21966290473937988
+                }
+            }, 
+            {
+                "timestamp": 1487008915.530929, 
+                "error": [], 
+                "duration": 0.8714268207550049, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48053884506225586, 
+                    "keystone_v2.add_role": 0.15920400619506836, 
+                    "keystone_v2.revoke_role": 0.23156499862670898
+                }
+            }, 
+            {
+                "timestamp": 1487008915.572644, 
+                "error": [], 
+                "duration": 0.8828721046447754, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4459230899810791, 
+                    "keystone_v2.add_role": 0.21672415733337402, 
+                    "keystone_v2.revoke_role": 0.22012591361999512
+                }
+            }, 
+            {
+                "timestamp": 1487008915.64914, 
+                "error": [], 
+                "duration": 1.028520107269287, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5577149391174316, 
+                    "keystone_v2.add_role": 0.20113801956176758, 
+                    "keystone_v2.revoke_role": 0.2695469856262207
+                }
+            }, 
+            {
+                "timestamp": 1487008915.659237, 
+                "error": [], 
+                "duration": 1.9056980609893799, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4746239185333252, 
+                    "keystone_v2.add_role": 0.17753911018371582, 
+                    "keystone_v2.revoke_role": 1.2534348964691162
+                }
+            }, 
+            {
+                "timestamp": 1487008915.773001, 
+                "error": [], 
+                "duration": 0.9951040744781494, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.517218828201294, 
+                    "keystone_v2.add_role": 0.20814204216003418, 
+                    "keystone_v2.revoke_role": 0.2696352005004883
+                }
+            }, 
+            {
+                "timestamp": 1487008915.980414, 
+                "error": [], 
+                "duration": 0.9966130256652832, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5511040687561035, 
+                    "keystone_v2.add_role": 0.21271204948425293, 
+                    "keystone_v2.revoke_role": 0.23268699645996094
+                }
+            }, 
+            {
+                "timestamp": 1487008916.114875, 
+                "error": [], 
+                "duration": 0.8978328704833984, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5250349044799805, 
+                    "keystone_v2.add_role": 0.16547489166259766, 
+                    "keystone_v2.revoke_role": 0.20718908309936523
+                }
+            }, 
+            {
+                "timestamp": 1487008916.124844, 
+                "error": [], 
+                "duration": 1.997506856918335, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5286259651184082, 
+                    "keystone_v2.add_role": 0.20364785194396973, 
+                    "keystone_v2.revoke_role": 1.2651031017303467
+                }
+            }, 
+            {
+                "timestamp": 1487008916.15729, 
+                "error": [], 
+                "duration": 0.9487190246582031, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5262799263000488, 
+                    "keystone_v2.add_role": 0.18236112594604492, 
+                    "keystone_v2.revoke_role": 0.23994183540344238
+                }
+            }, 
+            {
+                "timestamp": 1487008916.164929, 
+                "error": [], 
+                "duration": 0.9016311168670654, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5417680740356445, 
+                    "keystone_v2.add_role": 0.15921807289123535, 
+                    "keystone_v2.revoke_role": 0.200516939163208
+                }
+            }, 
+            {
+                "timestamp": 1487008916.249647, 
+                "error": [], 
+                "duration": 0.8835601806640625, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48409199714660645, 
+                    "keystone_v2.add_role": 0.17632508277893066, 
+                    "keystone_v2.revoke_role": 0.22301292419433594
+                }
+            }, 
+            {
+                "timestamp": 1487008916.440978, 
+                "error": [], 
+                "duration": 0.9735820293426514, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5962920188903809, 
+                    "keystone_v2.add_role": 0.18964004516601562, 
+                    "keystone_v2.revoke_role": 0.18753504753112793
+                }
+            }, 
+            {
+                "timestamp": 1487008916.699457, 
+                "error": [], 
+                "duration": 0.7499070167541504, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3974030017852783, 
+                    "keystone_v2.add_role": 0.17252087593078613, 
+                    "keystone_v2.revoke_role": 0.1798551082611084
+                }
+            }, 
+            {
+                "timestamp": 1487008916.912771, 
+                "error": [], 
+                "duration": 0.9446840286254883, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4558289051055908, 
+                    "keystone_v2.add_role": 0.21572589874267578, 
+                    "keystone_v2.revoke_role": 0.2730090618133545
+                }
+            }, 
+            {
+                "timestamp": 1487008916.925186, 
+                "error": [], 
+                "duration": 0.8213989734649658, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4120900630950928, 
+                    "keystone_v2.add_role": 0.2262859344482422, 
+                    "keystone_v2.revoke_role": 0.182905912399292
+                }
+            }, 
+            {
+                "timestamp": 1487008916.996431, 
+                "error": [], 
+                "duration": 1.8730509281158447, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48299598693847656, 
+                    "keystone_v2.add_role": 0.188370943069458, 
+                    "keystone_v2.revoke_role": 1.201570987701416
+                }
+            }, 
+            {
+                "timestamp": 1487008917.302918, 
+                "error": [], 
+                "duration": 0.95302414894104, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.41292905807495117, 
+                    "keystone_v2.add_role": 0.29193902015686035, 
+                    "keystone_v2.revoke_role": 0.24802899360656738
+                }
+            }, 
+            {
+                "timestamp": 1487008917.385802, 
+                "error": [], 
+                "duration": 3.997264862060547, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49019718170166016, 
+                    "keystone_v2.add_role": 0.21507906913757324, 
+                    "keystone_v2.revoke_role": 3.291856050491333
+                }
+            }, 
+            {
+                "timestamp": 1487008917.388919, 
+                "error": [], 
+                "duration": 0.9720277786254883, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5077929496765137, 
+                    "keystone_v2.add_role": 0.23804306983947754, 
+                    "keystone_v2.revoke_role": 0.2260761260986328
+                }
+            }, 
+            {
+                "timestamp": 1487008917.398848, 
+                "error": [], 
+                "duration": 0.88189697265625, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48374199867248535, 
+                    "keystone_v2.add_role": 0.1989431381225586, 
+                    "keystone_v2.revoke_role": 0.1986238956451416
+                }
+            }, 
+            {
+                "timestamp": 1487008917.407813, 
+                "error": [], 
+                "duration": 1.8661270141601562, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4453098773956299, 
+                    "keystone_v2.add_role": 0.13259100914001465, 
+                    "keystone_v2.revoke_role": 1.2881181240081787
+                }
+            }, 
+            {
+                "timestamp": 1487008917.543714, 
+                "error": [], 
+                "duration": 0.9008779525756836, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4847910404205322, 
+                    "keystone_v2.add_role": 0.16788387298583984, 
+                    "keystone_v2.revoke_role": 0.2480778694152832
+                }
+            }, 
+            {
+                "timestamp": 1487008917.622997, 
+                "error": [], 
+                "duration": 1.0304310321807861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4631638526916504, 
+                    "keystone_v2.add_role": 0.2981081008911133, 
+                    "keystone_v2.revoke_role": 0.2690460681915283
+                }
+            }, 
+            {
+                "timestamp": 1487008917.884786, 
+                "error": [], 
+                "duration": 0.8969302177429199, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4635310173034668, 
+                    "keystone_v2.add_role": 0.18448996543884277, 
+                    "keystone_v2.revoke_role": 0.24880003929138184
+                }
+            }, 
+            {
+                "timestamp": 1487008917.920066, 
+                "error": [], 
+                "duration": 1.9632999897003174, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5335841178894043, 
+                    "keystone_v2.add_role": 0.17000102996826172, 
+                    "keystone_v2.revoke_role": 1.2595908641815186
+                }
+            }, 
+            {
+                "timestamp": 1487008917.96007, 
+                "error": [], 
+                "duration": 0.8702740669250488, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4635939598083496, 
+                    "keystone_v2.add_role": 0.2032771110534668, 
+                    "keystone_v2.revoke_role": 0.20329594612121582
+                }
+            }, 
+            {
+                "timestamp": 1487008917.962825, 
+                "error": [], 
+                "duration": 0.8109829425811768, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4370901584625244, 
+                    "keystone_v2.add_role": 0.20522189140319824, 
+                    "keystone_v2.revoke_role": 0.16857385635375977
+                }
+            }, 
+            {
+                "timestamp": 1487008917.986376, 
+                "error": [], 
+                "duration": 0.8645379543304443, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4672830104827881, 
+                    "keystone_v2.add_role": 0.19946503639221191, 
+                    "keystone_v2.revoke_role": 0.19765090942382812
+                }
+            }, 
+            {
+                "timestamp": 1487008918.050075, 
+                "error": [], 
+                "duration": 0.9474029541015625, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5195801258087158, 
+                    "keystone_v2.add_role": 0.2088148593902588, 
+                    "keystone_v2.revoke_role": 0.21891498565673828
+                }
+            }, 
+            {
+                "timestamp": 1487008918.232125, 
+                "error": [], 
+                "duration": 0.9073948860168457, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5115740299224854, 
+                    "keystone_v2.add_role": 0.19590997695922852, 
+                    "keystone_v2.revoke_role": 0.1998281478881836
+                }
+            }, 
+            {
+                "timestamp": 1487008918.266305, 
+                "error": [], 
+                "duration": 0.9381399154663086, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5702321529388428, 
+                    "keystone_v2.add_role": 0.187330961227417, 
+                    "keystone_v2.revoke_role": 0.1804349422454834
+                }
+            }, 
+            {
+                "timestamp": 1487008918.509582, 
+                "error": [], 
+                "duration": 0.8587079048156738, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4926450252532959, 
+                    "keystone_v2.add_role": 0.17329692840576172, 
+                    "keystone_v2.revoke_role": 0.1926708221435547
+                }
+            }, 
+            {
+                "timestamp": 1487008918.659742, 
+                "error": [], 
+                "duration": 0.9297897815704346, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5061910152435303, 
+                    "keystone_v2.add_role": 0.186309814453125, 
+                    "keystone_v2.revoke_role": 0.23721003532409668
+                }
+            }, 
+            {
+                "timestamp": 1487008918.735834, 
+                "error": [], 
+                "duration": 0.7126181125640869, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3871500492095947, 
+                    "keystone_v2.add_role": 0.16864991188049316, 
+                    "keystone_v2.revoke_role": 0.15673494338989258
+                }
+            }, 
+            {
+                "timestamp": 1487008919.052125, 
+                "error": [], 
+                "duration": 0.8344480991363525, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48218202590942383, 
+                    "keystone_v2.add_role": 0.19448494911193848, 
+                    "keystone_v2.revoke_role": 0.15769004821777344
+                }
+            }, 
+            {
+                "timestamp": 1487008919.107956, 
+                "error": [], 
+                "duration": 0.7906391620635986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45117998123168945, 
+                    "keystone_v2.add_role": 0.162977933883667, 
+                    "keystone_v2.revoke_role": 0.17638707160949707
+                }
+            }, 
+            {
+                "timestamp": 1487008919.109933, 
+                "error": [], 
+                "duration": 0.9026801586151123, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47698402404785156, 
+                    "keystone_v2.add_role": 0.1631021499633789, 
+                    "keystone_v2.revoke_role": 0.26251983642578125
+                }
+            }, 
+            {
+                "timestamp": 1487008919.170733, 
+                "error": [], 
+                "duration": 0.8533689975738525, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.38840198516845703, 
+                    "keystone_v2.add_role": 0.17159104347229004, 
+                    "keystone_v2.revoke_role": 0.2932419776916504
+                }
+            }, 
+            {
+                "timestamp": 1487008919.384904, 
+                "error": [], 
+                "duration": 0.7852370738983154, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.438403844833374, 
+                    "keystone_v2.add_role": 0.16835403442382812, 
+                    "keystone_v2.revoke_role": 0.17837285995483398
+                }
+            }, 
+            {
+                "timestamp": 1487008919.529178, 
+                "error": [], 
+                "duration": 0.9821510314941406, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45162010192871094, 
+                    "keystone_v2.add_role": 0.2078549861907959, 
+                    "keystone_v2.revoke_role": 0.32258105278015137
+                }
+            }, 
+            {
+                "timestamp": 1487008919.599813, 
+                "error": [], 
+                "duration": 1.049057960510254, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5165050029754639, 
+                    "keystone_v2.add_role": 0.21680593490600586, 
+                    "keystone_v2.revoke_role": 0.3156571388244629
+                }
+            }, 
+            {
+                "timestamp": 1487008919.638139, 
+                "error": [], 
+                "duration": 0.9596109390258789, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4680500030517578, 
+                    "keystone_v2.add_role": 0.23169302940368652, 
+                    "keystone_v2.revoke_role": 0.2597060203552246
+                }
+            }, 
+            {
+                "timestamp": 1487008919.655048, 
+                "error": [], 
+                "duration": 1.0692431926727295, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.6166331768035889, 
+                    "keystone_v2.add_role": 0.2336280345916748, 
+                    "keystone_v2.revoke_role": 0.21889591217041016
+                }
+            }, 
+            {
+                "timestamp": 1487008919.658684, 
+                "error": [], 
+                "duration": 0.823354959487915, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.38655614852905273, 
+                    "keystone_v2.add_role": 0.23334789276123047, 
+                    "keystone_v2.revoke_role": 0.2028179168701172
+                }
+            }, 
+            {
+                "timestamp": 1487008919.742984, 
+                "error": [], 
+                "duration": 1.8842978477478027, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3988649845123291, 
+                    "keystone_v2.add_role": 0.18037009239196777, 
+                    "keystone_v2.revoke_role": 1.304960012435913
+                }
+            }, 
+            {
+                "timestamp": 1487008919.881566, 
+                "error": [], 
+                "duration": 0.8307368755340576, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3897268772125244, 
+                    "keystone_v2.add_role": 0.2303180694580078, 
+                    "keystone_v2.revoke_role": 0.21059393882751465
+                }
+            }, 
+            {
+                "timestamp": 1487008919.932579, 
+                "error": [], 
+                "duration": 0.8239579200744629, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4026370048522949, 
+                    "keystone_v2.add_role": 0.17249298095703125, 
+                    "keystone_v2.revoke_role": 0.24872589111328125
+                }
+            }, 
+            {
+                "timestamp": 1487008920.029424, 
+                "error": [], 
+                "duration": 0.9523489475250244, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45870113372802734, 
+                    "keystone_v2.add_role": 0.2829289436340332, 
+                    "keystone_v2.revoke_role": 0.2106151580810547
+                }
+            }, 
+            {
+                "timestamp": 1487008920.050645, 
+                "error": [], 
+                "duration": 0.8080759048461914, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4437680244445801, 
+                    "keystone_v2.add_role": 0.1868300437927246, 
+                    "keystone_v2.revoke_role": 0.17737889289855957
+                }
+            }, 
+            {
+                "timestamp": 1487008920.295767, 
+                "error": [], 
+                "duration": 1.0110728740692139, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5165150165557861, 
+                    "keystone_v2.add_role": 0.22824907302856445, 
+                    "keystone_v2.revoke_role": 0.26621294021606445
+                }
+            }, 
+            {
+                "timestamp": 1487008920.36865, 
+                "error": [], 
+                "duration": 1.9546160697937012, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4879331588745117, 
+                    "keystone_v2.add_role": 0.1941511631011963, 
+                    "keystone_v2.revoke_role": 1.2724430561065674
+                }
+            }, 
+            {
+                "timestamp": 1487008920.499803, 
+                "error": [], 
+                "duration": 0.8601858615875244, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4303889274597168, 
+                    "keystone_v2.add_role": 0.2158489227294922, 
+                    "keystone_v2.revoke_role": 0.2138681411743164
+                }
+            }, 
+            {
+                "timestamp": 1487008920.740193, 
+                "error": [], 
+                "duration": 0.7404351234436035, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.363818883895874, 
+                    "keystone_v2.add_role": 0.14461994171142578, 
+                    "keystone_v2.revoke_role": 0.2318880558013916
+                }
+            }, 
+            {
+                "timestamp": 1487008920.878884, 
+                "error": [], 
+                "duration": 0.9130468368530273, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4719700813293457, 
+                    "keystone_v2.add_role": 0.20961594581604004, 
+                    "keystone_v2.revoke_role": 0.23136615753173828
+                }
+            }, 
+            {
+                "timestamp": 1487008920.893889, 
+                "error": [], 
+                "duration": 0.778007984161377, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3772599697113037, 
+                    "keystone_v2.add_role": 0.2198629379272461, 
+                    "keystone_v2.revoke_role": 0.1807880401611328
+                }
+            }, 
+            {
+                "timestamp": 1487008920.92418, 
+                "error": [], 
+                "duration": 0.9332139492034912, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45845794677734375, 
+                    "keystone_v2.add_role": 0.20608210563659668, 
+                    "keystone_v2.revoke_role": 0.2685830593109131
+                }
+            }, 
+            {
+                "timestamp": 1487008921.004838, 
+                "error": [], 
+                "duration": 0.9213659763336182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.48246097564697266, 
+                    "keystone_v2.add_role": 0.2534480094909668, 
+                    "keystone_v2.revoke_role": 0.18533086776733398
+                }
+            }, 
+            {
+                "timestamp": 1487008921.081784, 
+                "error": [], 
+                "duration": 0.915553092956543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5147950649261475, 
+                    "keystone_v2.add_role": 0.15311503410339355, 
+                    "keystone_v2.revoke_role": 0.2475430965423584
+                }
+            }, 
+            {
+                "timestamp": 1487008921.369098, 
+                "error": [], 
+                "duration": 0.938960075378418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5060439109802246, 
+                    "keystone_v2.add_role": 0.21320891380310059, 
+                    "keystone_v2.revoke_role": 0.219559907913208
+                }
+            }, 
+            {
+                "timestamp": 1487008921.401129, 
+                "error": [], 
+                "duration": 0.867372989654541, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49681687355041504, 
+                    "keystone_v2.add_role": 0.1739959716796875, 
+                    "keystone_v2.revoke_role": 0.19646787643432617
+                }
+            }, 
+            {
+                "timestamp": 1487008921.437856, 
+                "error": [], 
+                "duration": 0.9660120010375977, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4788391590118408, 
+                    "keystone_v2.add_role": 0.23743510246276855, 
+                    "keystone_v2.revoke_role": 0.24961495399475098
+                }
+            }, 
+            {
+                "timestamp": 1487008921.479517, 
+                "error": [], 
+                "duration": 0.9026610851287842, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4763789176940918, 
+                    "keystone_v2.add_role": 0.18894195556640625, 
+                    "keystone_v2.revoke_role": 0.23724699020385742
+                }
+            }, 
+            {
+                "timestamp": 1487008921.512573, 
+                "error": [], 
+                "duration": 0.9632608890533447, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5205810070037842, 
+                    "keystone_v2.add_role": 0.2148299217224121, 
+                    "keystone_v2.revoke_role": 0.22774004936218262
+                }
+            }, 
+            {
+                "timestamp": 1487008921.574181, 
+                "error": [], 
+                "duration": 0.958859920501709, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.526892900466919, 
+                    "keystone_v2.add_role": 0.18432903289794922, 
+                    "keystone_v2.revoke_role": 0.2475290298461914
+                }
+            }, 
+            {
+                "timestamp": 1487008921.627636, 
+                "error": [], 
+                "duration": 0.782412052154541, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4208660125732422, 
+                    "keystone_v2.add_role": 0.15414094924926758, 
+                    "keystone_v2.revoke_role": 0.2073218822479248
+                }
+            }, 
+            {
+                "timestamp": 1487008921.687373, 
+                "error": [], 
+                "duration": 0.8178761005401611, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.45301294326782227, 
+                    "keystone_v2.add_role": 0.17282605171203613, 
+                    "keystone_v2.revoke_role": 0.19193601608276367
+                }
+            }, 
+            {
+                "timestamp": 1487008921.961891, 
+                "error": [], 
+                "duration": 1.034337043762207, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5840549468994141, 
+                    "keystone_v2.add_role": 0.23873186111450195, 
+                    "keystone_v2.revoke_role": 0.2114579677581787
+                }
+            }, 
+            {
+                "timestamp": 1487008922.232977, 
+                "error": [], 
+                "duration": 0.7962391376495361, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4370551109313965, 
+                    "keystone_v2.add_role": 0.15219902992248535, 
+                    "keystone_v2.revoke_role": 0.20690488815307617
+                }
+            }, 
+            {
+                "timestamp": 1487008922.23299, 
+                "error": [], 
+                "duration": 0.8250019550323486, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.44678401947021484, 
+                    "keystone_v2.add_role": 0.1670689582824707, 
+                    "keystone_v2.revoke_role": 0.21104097366333008
+                }
+            }, 
+            {
+                "timestamp": 1487008922.447111, 
+                "error": [], 
+                "duration": 0.8355062007904053, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.43522000312805176, 
+                    "keystone_v2.add_role": 0.16082310676574707, 
+                    "keystone_v2.revoke_role": 0.23932600021362305
+                }
+            }, 
+            {
+                "timestamp": 1487008922.502588, 
+                "error": [], 
+                "duration": 0.8486509323120117, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.43889498710632324, 
+                    "keystone_v2.add_role": 0.19911408424377441, 
+                    "keystone_v2.revoke_role": 0.21055293083190918
+                }
+            }, 
+            {
+                "timestamp": 1487008922.51602, 
+                "error": [], 
+                "duration": 0.8416299819946289, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46510887145996094, 
+                    "keystone_v2.add_role": 0.19114184379577637, 
+                    "keystone_v2.revoke_role": 0.18529987335205078
+                }
+            }, 
+            {
+                "timestamp": 1487008922.591051, 
+                "error": [], 
+                "duration": 1.7724947929382324, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3823368549346924, 
+                    "keystone_v2.add_role": 0.20795989036560059, 
+                    "keystone_v2.revoke_role": 1.1820521354675293
+                }
+            }, 
+            {
+                "timestamp": 1487008922.610712, 
+                "error": [], 
+                "duration": 0.7747499942779541, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4644010066986084, 
+                    "keystone_v2.add_role": 0.14612984657287598, 
+                    "keystone_v2.revoke_role": 0.16413402557373047
+                }
+            }, 
+            {
+                "timestamp": 1487008922.734965, 
+                "error": [], 
+                "duration": 1.7748348712921143, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4438149929046631, 
+                    "keystone_v2.add_role": 0.16414904594421387, 
+                    "keystone_v2.revoke_role": 1.1667771339416504
+                }
+            }, 
+            {
+                "timestamp": 1487008922.783037, 
+                "error": [], 
+                "duration": 0.7134580612182617, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3718559741973877, 
+                    "keystone_v2.add_role": 0.18579888343811035, 
+                    "keystone_v2.revoke_role": 0.1557159423828125
+                }
+            }, 
+            {
+                "timestamp": 1487008922.853481, 
+                "error": [], 
+                "duration": 0.7281129360198975, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4551510810852051, 
+                    "keystone_v2.add_role": 0.12890410423278809, 
+                    "keystone_v2.revoke_role": 0.14396095275878906
+                }
+            }, 
+            {
+                "timestamp": 1487008923.04074, 
+                "error": [], 
+                "duration": 0.6854219436645508, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.38150596618652344, 
+                    "keystone_v2.add_role": 0.1374678611755371, 
+                    "keystone_v2.revoke_role": 0.1663529872894287
+                }
+            }, 
+            {
+                "timestamp": 1487008923.099729, 
+                "error": [], 
+                "duration": 0.6122369766235352, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.36518192291259766, 
+                    "keystone_v2.add_role": 0.12398314476013184, 
+                    "keystone_v2.revoke_role": 0.12298989295959473
+                }
+            }, 
+            {
+                "timestamp": 1487008923.166848, 
+                "error": [], 
+                "duration": 0.5884561538696289, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.33589792251586914, 
+                    "keystone_v2.add_role": 0.12050795555114746, 
+                    "keystone_v2.revoke_role": 0.13196492195129395
+                }
+            }, 
+            {
+                "timestamp": 1487008923.258023, 
+                "error": [], 
+                "duration": 0.5584678649902344, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.2676389217376709, 
+                    "keystone_v2.add_role": 0.12321901321411133, 
+                    "keystone_v2.revoke_role": 0.16753602027893066
+                }
+            }, 
+            {
+                "timestamp": 1487008923.293444, 
+                "error": [], 
+                "duration": 0.5410540103912354, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.2936100959777832, 
+                    "keystone_v2.add_role": 0.12281012535095215, 
+                    "keystone_v2.revoke_role": 0.1245582103729248
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "times": 200, 
+                    "concurrency": 20, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {}, 
+                "sla": {
+                    "max_seconds_per_iteration": 8.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 4.0
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 3, 
+                        "users_per_tenant": 5
+                    }
+                }
+            }, 
+            "name": "KeystoneBasic.add_and_remove_user_role", 
+            "pos": 0
+        }, 
+        "full_duration": 79.96416687965393, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 7.93s <= 8.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 1.06s <= 4.00s - Passed", 
+                "success": true
+            }
+        ]
+    }, 
+    {
+        "hooks": [], 
+        "created_at": "2017-13-02T18:03:03", 
+        "load_duration": 9.509254932403564, 
+        "result": [
+            {
+                "timestamp": 1487008985.511169, 
+                "error": [], 
+                "duration": 2.111577033996582, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4902360439300537, 
+                    "keystone_v2.add_role": 0.24689698219299316, 
+                    "keystone_v2.revoke_role": 1.3741638660430908
+                }
+            }, 
+            {
+                "timestamp": 1487008985.53291, 
+                "error": [], 
+                "duration": 0.9965548515319824, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.41721391677856445, 
+                    "keystone_v2.add_role": 0.2599949836730957, 
+                    "keystone_v2.revoke_role": 0.3191709518432617
+                }
+            }, 
+            {
+                "timestamp": 1487008985.538816, 
+                "error": [], 
+                "duration": 4.077377080917358, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4090878963470459, 
+                    "keystone_v2.add_role": 0.2744569778442383, 
+                    "keystone_v2.revoke_role": 3.393632173538208
+                }
+            }, 
+            {
+                "timestamp": 1487008985.55126, 
+                "error": [], 
+                "duration": 1.0244929790496826, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47702598571777344, 
+                    "keystone_v2.add_role": 0.20387697219848633, 
+                    "keystone_v2.revoke_role": 0.34340810775756836
+                }
+            }, 
+            {
+                "timestamp": 1487008985.565395, 
+                "error": [], 
+                "duration": 8.083043813705444, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4964778423309326, 
+                    "keystone_v2.add_role": 0.22070598602294922, 
+                    "keystone_v2.revoke_role": 7.3656439781188965
+                }
+            }, 
+            {
+                "timestamp": 1487008985.591961, 
+                "error": [], 
+                "duration": 2.0114521980285645, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4710228443145752, 
+                    "keystone_v2.add_role": 0.2529878616333008, 
+                    "keystone_v2.revoke_role": 1.2872660160064697
+                }
+            }, 
+            {
+                "timestamp": 1487008985.594408, 
+                "error": [], 
+                "duration": 8.025812864303589, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4076881408691406, 
+                    "keystone_v2.add_role": 0.20501089096069336, 
+                    "keystone_v2.revoke_role": 7.412909984588623
+                }
+            }, 
+            {
+                "timestamp": 1487008985.603554, 
+                "error": [], 
+                "duration": 2.025754928588867, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39230799674987793, 
+                    "keystone_v2.add_role": 0.25197887420654297, 
+                    "keystone_v2.revoke_role": 1.381242036819458
+                }
+            }, 
+            {
+                "timestamp": 1487008985.60477, 
+                "error": [], 
+                "duration": 0.9946820735931396, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40640997886657715, 
+                    "keystone_v2.add_role": 0.34557104110717773, 
+                    "keystone_v2.revoke_role": 0.24248600006103516
+                }
+            }, 
+            {
+                "timestamp": 1487008985.611023, 
+                "error": [], 
+                "duration": 0.9480230808258057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4649960994720459, 
+                    "keystone_v2.add_role": 0.20789003372192383, 
+                    "keystone_v2.revoke_role": 0.27497410774230957
+                }
+            }, 
+            {
+                "timestamp": 1487008985.619201, 
+                "error": [], 
+                "duration": 8.0086510181427, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.37635016441345215, 
+                    "keystone_v2.add_role": 0.26876401901245117, 
+                    "keystone_v2.revoke_role": 7.3633341789245605
+                }
+            }, 
+            {
+                "timestamp": 1487008985.627797, 
+                "error": [], 
+                "duration": 0.9881811141967773, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.500622034072876, 
+                    "keystone_v2.add_role": 0.28569602966308594, 
+                    "keystone_v2.revoke_role": 0.20162415504455566
+                }
+            }, 
+            {
+                "timestamp": 1487008985.629306, 
+                "error": [], 
+                "duration": 1.9482648372650146, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3658449649810791, 
+                    "keystone_v2.add_role": 0.25844621658325195, 
+                    "keystone_v2.revoke_role": 1.3237929344177246
+                }
+            }, 
+            {
+                "timestamp": 1487008985.638833, 
+                "error": [], 
+                "duration": 1.0873019695281982, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49099302291870117, 
+                    "keystone_v2.add_role": 0.3106698989868164, 
+                    "keystone_v2.revoke_role": 0.28545498847961426
+                }
+            }, 
+            {
+                "timestamp": 1487008985.648543, 
+                "error": [], 
+                "duration": 0.8852231502532959, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.36258602142333984, 
+                    "keystone_v2.add_role": 0.2268209457397461, 
+                    "keystone_v2.revoke_role": 0.29558396339416504
+                }
+            }, 
+            {
+                "timestamp": 1487008985.654585, 
+                "error": [], 
+                "duration": 0.9596171379089355, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5603430271148682, 
+                    "keystone_v2.add_role": 0.22008800506591797, 
+                    "keystone_v2.revoke_role": 0.17902016639709473
+                }
+            }, 
+            {
+                "timestamp": 1487008985.669824, 
+                "error": [], 
+                "duration": 1.1901350021362305, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.7703020572662354, 
+                    "keystone_v2.add_role": 0.20372700691223145, 
+                    "keystone_v2.revoke_role": 0.21593689918518066
+                }
+            }, 
+            {
+                "timestamp": 1487008985.673159, 
+                "error": [], 
+                "duration": 0.9829502105712891, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5014879703521729, 
+                    "keystone_v2.add_role": 0.28177404403686523, 
+                    "keystone_v2.revoke_role": 0.1995091438293457
+                }
+            }, 
+            {
+                "timestamp": 1487008985.688853, 
+                "error": [], 
+                "duration": 1.2318079471588135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.8454210758209229, 
+                    "keystone_v2.add_role": 0.18358898162841797, 
+                    "keystone_v2.revoke_role": 0.20257306098937988
+                }
+            }, 
+            {
+                "timestamp": 1487008985.756604, 
+                "error": [], 
+                "duration": 1.0598490238189697, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.6690998077392578, 
+                    "keystone_v2.add_role": 0.21036100387573242, 
+                    "keystone_v2.revoke_role": 0.1801462173461914
+                }
+            }, 
+            {
+                "timestamp": 1487008985.892602, 
+                "error": [], 
+                "duration": 0.8588249683380127, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5329680442810059, 
+                    "keystone_v2.add_role": 0.15592598915100098, 
+                    "keystone_v2.revoke_role": 0.1697559356689453
+                }
+            }, 
+            {
+                "timestamp": 1487008987.273285, 
+                "error": [], 
+                "duration": 1.1482131481170654, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5411050319671631, 
+                    "keystone_v2.add_role": 0.3187270164489746, 
+                    "keystone_v2.revoke_role": 0.28827595710754395
+                }
+            }, 
+            {
+                "timestamp": 1487008987.384427, 
+                "error": [], 
+                "duration": 2.156388998031616, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49756789207458496, 
+                    "keystone_v2.add_role": 0.362058162689209, 
+                    "keystone_v2.revoke_role": 1.2966549396514893
+                }
+            }, 
+            {
+                "timestamp": 1487008987.388726, 
+                "error": [], 
+                "duration": 0.961061954498291, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4512789249420166, 
+                    "keystone_v2.add_role": 0.22159910202026367, 
+                    "keystone_v2.revoke_role": 0.28809094429016113
+                }
+            }, 
+            {
+                "timestamp": 1487008987.399439, 
+                "error": [], 
+                "duration": 2.2317469120025635, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.7181389331817627, 
+                    "keystone_v2.add_role": 0.2676730155944824, 
+                    "keystone_v2.revoke_role": 1.2457869052886963
+                }
+            }, 
+            {
+                "timestamp": 1487008987.411187, 
+                "error": [], 
+                "duration": 1.0967650413513184, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5658419132232666, 
+                    "keystone_v2.add_role": 0.2117938995361328, 
+                    "keystone_v2.revoke_role": 0.31903886795043945
+                }
+            }, 
+            {
+                "timestamp": 1487008987.431971, 
+                "error": [], 
+                "duration": 1.036651849746704, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.44684791564941406, 
+                    "keystone_v2.add_role": 0.3057379722595215, 
+                    "keystone_v2.revoke_role": 0.2839529514312744
+                }
+            }, 
+            {
+                "timestamp": 1487008987.482759, 
+                "error": [], 
+                "duration": 1.0423200130462646, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5250058174133301, 
+                    "keystone_v2.add_role": 0.25133490562438965, 
+                    "keystone_v2.revoke_role": 0.2658960819244385
+                }
+            }, 
+            {
+                "timestamp": 1487008987.495891, 
+                "error": [], 
+                "duration": 1.1754028797149658, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.65913987159729, 
+                    "keystone_v2.add_role": 0.23111510276794434, 
+                    "keystone_v2.revoke_role": 0.28505516052246094
+                }
+            }, 
+            {
+                "timestamp": 1487008987.591979, 
+                "error": [], 
+                "duration": 1.0421440601348877, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5348069667816162, 
+                    "keystone_v2.add_role": 0.24850988388061523, 
+                    "keystone_v2.revoke_role": 0.25873804092407227
+                }
+            }, 
+            {
+                "timestamp": 1487008987.616008, 
+                "error": [], 
+                "duration": 0.9260170459747314, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.41127681732177734, 
+                    "keystone_v2.add_role": 0.23158001899719238, 
+                    "keystone_v2.revoke_role": 0.2830491065979004
+                }
+            }, 
+            {
+                "timestamp": 1487008987.616038, 
+                "error": [], 
+                "duration": 1.0192208290100098, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5101170539855957, 
+                    "keystone_v2.add_role": 0.24515295028686523, 
+                    "keystone_v2.revoke_role": 0.26384496688842773
+                }
+            }, 
+            {
+                "timestamp": 1487008987.647695, 
+                "error": [], 
+                "duration": 0.9289660453796387, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4129199981689453, 
+                    "keystone_v2.add_role": 0.2957448959350586, 
+                    "keystone_v2.revoke_role": 0.22019600868225098
+                }
+            }, 
+            {
+                "timestamp": 1487008987.691712, 
+                "error": [], 
+                "duration": 0.9169340133666992, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4954531192779541, 
+                    "keystone_v2.add_role": 0.20889997482299805, 
+                    "keystone_v2.revoke_role": 0.21245789527893066
+                }
+            }, 
+            {
+                "timestamp": 1487008988.616279, 
+                "error": [], 
+                "duration": 0.9251201152801514, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4252920150756836, 
+                    "keystone_v2.add_role": 0.22267508506774902, 
+                    "keystone_v2.revoke_role": 0.27706408500671387
+                }
+            }, 
+            {
+                "timestamp": 1487008988.686238, 
+                "error": [], 
+                "duration": 0.7929339408874512, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3473210334777832, 
+                    "keystone_v2.add_role": 0.2225329875946045, 
+                    "keystone_v2.revoke_role": 0.22296500205993652
+                }
+            }, 
+            {
+                "timestamp": 1487008988.692034, 
+                "error": [], 
+                "duration": 0.8338379859924316, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3908820152282715, 
+                    "keystone_v2.add_role": 0.23578405380249023, 
+                    "keystone_v2.revoke_role": 0.20708799362182617
+                }
+            }, 
+            {
+                "timestamp": 1487008988.7783, 
+                "error": [], 
+                "duration": 0.9068319797515869, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4068939685821533, 
+                    "keystone_v2.add_role": 0.21050405502319336, 
+                    "keystone_v2.revoke_role": 0.28931498527526855
+                }
+            }, 
+            {
+                "timestamp": 1487008989.362503, 
+                "error": [], 
+                "duration": 0.972985029220581, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4887068271636963, 
+                    "keystone_v2.add_role": 0.2437729835510254, 
+                    "keystone_v2.revoke_role": 0.24037790298461914
+                }
+            }, 
+            {
+                "timestamp": 1487008989.368075, 
+                "error": [], 
+                "duration": 0.9728810787200928, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49657678604125977, 
+                    "keystone_v2.add_role": 0.2341601848602295, 
+                    "keystone_v2.revoke_role": 0.24207186698913574
+                }
+            }, 
+            {
+                "timestamp": 1487008989.391526, 
+                "error": [], 
+                "duration": 1.0056960582733154, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46822190284729004, 
+                    "keystone_v2.add_role": 0.3112940788269043, 
+                    "keystone_v2.revoke_role": 0.22608399391174316
+                }
+            }, 
+            {
+                "timestamp": 1487008989.397701, 
+                "error": [], 
+                "duration": 0.9764609336853027, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47536301612854004, 
+                    "keystone_v2.add_role": 0.27475905418395996, 
+                    "keystone_v2.revoke_role": 0.22618508338928223
+                }
+            }, 
+            {
+                "timestamp": 1487008989.404327, 
+                "error": [], 
+                "duration": 1.9636051654815674, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.46141505241394043, 
+                    "keystone_v2.add_role": 0.22421503067016602, 
+                    "keystone_v2.revoke_role": 1.277864933013916
+                }
+            }, 
+            {
+                "timestamp": 1487008989.416231, 
+                "error": [], 
+                "duration": 3.9650890827178955, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4424610137939453, 
+                    "keystone_v2.add_role": 0.19144701957702637, 
+                    "keystone_v2.revoke_role": 3.3310868740081787
+                }
+            }, 
+            {
+                "timestamp": 1487008989.430052, 
+                "error": [], 
+                "duration": 1.0171358585357666, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4965958595275879, 
+                    "keystone_v2.add_role": 0.26902294158935547, 
+                    "keystone_v2.revoke_role": 0.25138092041015625
+                }
+            }, 
+            {
+                "timestamp": 1487008989.433469, 
+                "error": [], 
+                "duration": 1.1093618869781494, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5658018589019775, 
+                    "keystone_v2.add_role": 0.28681302070617676, 
+                    "keystone_v2.revoke_role": 0.2566490173339844
+                }
+            }, 
+            {
+                "timestamp": 1487008989.43622, 
+                "error": [], 
+                "duration": 0.9819550514221191, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.436600923538208, 
+                    "keystone_v2.add_role": 0.3083670139312744, 
+                    "keystone_v2.revoke_role": 0.23685503005981445
+                }
+            }, 
+            {
+                "timestamp": 1487008989.467327, 
+                "error": [], 
+                "duration": 0.8949329853057861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42775511741638184, 
+                    "keystone_v2.add_role": 0.2553739547729492, 
+                    "keystone_v2.revoke_role": 0.21168208122253418
+                }
+            }, 
+            {
+                "timestamp": 1487008989.472015, 
+                "error": [], 
+                "duration": 1.0504791736602783, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5544450283050537, 
+                    "keystone_v2.add_role": 0.2079620361328125, 
+                    "keystone_v2.revoke_role": 0.28797316551208496
+                }
+            }, 
+            {
+                "timestamp": 1487008990.384209, 
+                "error": [], 
+                "duration": 0.8484420776367188, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4189791679382324, 
+                    "keystone_v2.add_role": 0.21463608741760254, 
+                    "keystone_v2.revoke_role": 0.21470904350280762
+                }
+            }, 
+            {
+                "timestamp": 1487008990.451451, 
+                "error": [], 
+                "duration": 0.806898832321167, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40719103813171387, 
+                    "keystone_v2.add_role": 0.1681818962097168, 
+                    "keystone_v2.revoke_role": 0.23139595985412598
+                }
+            }, 
+            {
+                "timestamp": 1487008990.570834, 
+                "error": [], 
+                "duration": 0.8518030643463135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3852729797363281, 
+                    "keystone_v2.add_role": 0.23008298873901367, 
+                    "keystone_v2.revoke_role": 0.23633503913879395
+                }
+            }, 
+            {
+                "timestamp": 1487008990.581156, 
+                "error": [], 
+                "duration": 0.8337979316711426, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.37485504150390625, 
+                    "keystone_v2.add_role": 0.18398404121398926, 
+                    "keystone_v2.revoke_role": 0.27481579780578613
+                }
+            }, 
+            {
+                "timestamp": 1487008990.663931, 
+                "error": [], 
+                "duration": 0.9313051700592041, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40295886993408203, 
+                    "keystone_v2.add_role": 0.2741208076477051, 
+                    "keystone_v2.revoke_role": 0.2541041374206543
+                }
+            }, 
+            {
+                "timestamp": 1487008990.707127, 
+                "error": [], 
+                "duration": 1.0250678062438965, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5308420658111572, 
+                    "keystone_v2.add_role": 0.2211611270904541, 
+                    "keystone_v2.revoke_role": 0.2725191116333008
+                }
+            }, 
+            {
+                "timestamp": 1487008990.740926, 
+                "error": [], 
+                "duration": 0.8037340641021729, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3188350200653076, 
+                    "keystone_v2.add_role": 0.20584988594055176, 
+                    "keystone_v2.revoke_role": 0.2789459228515625
+                }
+            }, 
+            {
+                "timestamp": 1487008991.069495, 
+                "error": [], 
+                "duration": 0.832327127456665, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.47976112365722656, 
+                    "keystone_v2.add_role": 0.1846909523010254, 
+                    "keystone_v2.revoke_role": 0.16773104667663574
+                }
+            }, 
+            {
+                "timestamp": 1487008991.093958, 
+                "error": [], 
+                "duration": 0.9149520397186279, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39490318298339844, 
+                    "keystone_v2.add_role": 0.2615039348602295, 
+                    "keystone_v2.revoke_role": 0.25839805603027344
+                }
+            }, 
+            {
+                "timestamp": 1487008991.128451, 
+                "error": [], 
+                "duration": 0.801367998123169, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4467451572418213, 
+                    "keystone_v2.add_role": 0.17543411254882812, 
+                    "keystone_v2.revoke_role": 0.17888998985290527
+                }
+            }, 
+            {
+                "timestamp": 1487008991.159021, 
+                "error": [], 
+                "duration": 0.8314311504364014, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4339790344238281, 
+                    "keystone_v2.add_role": 0.18213701248168945, 
+                    "keystone_v2.revoke_role": 0.2152109146118164
+                }
+            }, 
+            {
+                "timestamp": 1487008991.251766, 
+                "error": [], 
+                "duration": 0.8465650081634521, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.43443989753723145, 
+                    "keystone_v2.add_role": 0.23531293869018555, 
+                    "keystone_v2.revoke_role": 0.17670202255249023
+                }
+            }, 
+            {
+                "timestamp": 1487008991.288991, 
+                "error": [], 
+                "duration": 0.9052169322967529, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.452239990234375, 
+                    "keystone_v2.add_role": 0.17548084259033203, 
+                    "keystone_v2.revoke_role": 0.2774031162261963
+                }
+            }, 
+            {
+                "timestamp": 1487008991.337652, 
+                "error": [], 
+                "duration": 0.8718180656433105, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4609100818634033, 
+                    "keystone_v2.add_role": 0.21844696998596191, 
+                    "keystone_v2.revoke_role": 0.19236397743225098
+                }
+            }, 
+            {
+                "timestamp": 1487008991.360592, 
+                "error": [], 
+                "duration": 0.9424991607666016, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49173903465270996, 
+                    "keystone_v2.add_role": 0.20981597900390625, 
+                    "keystone_v2.revoke_role": 0.24082612991333008
+                }
+            }, 
+            {
+                "timestamp": 1487008991.372125, 
+                "error": [], 
+                "duration": 0.9425551891326904, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.49445104598999023, 
+                    "keystone_v2.add_role": 0.2062368392944336, 
+                    "keystone_v2.revoke_role": 0.24175691604614258
+                }
+            }, 
+            {
+                "timestamp": 1487008991.959204, 
+                "error": [], 
+                "duration": 0.856442928314209, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.43990087509155273, 
+                    "keystone_v2.add_role": 0.1651298999786377, 
+                    "keystone_v2.revoke_role": 0.25130200386047363
+                }
+            }, 
+            {
+                "timestamp": 1487008992.180843, 
+                "error": [], 
+                "duration": 0.8690268993377686, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4797520637512207, 
+                    "keystone_v2.add_role": 0.18335199356079102, 
+                    "keystone_v2.revoke_role": 0.20582795143127441
+                }
+            }, 
+            {
+                "timestamp": 1487008992.192666, 
+                "error": [], 
+                "duration": 0.9050509929656982, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3968229293823242, 
+                    "keystone_v2.add_role": 0.23878097534179688, 
+                    "keystone_v2.revoke_role": 0.2693629264831543
+                }
+            }, 
+            {
+                "timestamp": 1487008992.275634, 
+                "error": [], 
+                "duration": 0.806041955947876, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3953239917755127, 
+                    "keystone_v2.add_role": 0.20463800430297852, 
+                    "keystone_v2.revoke_role": 0.20598506927490234
+                }
+            }, 
+            {
+                "timestamp": 1487008992.332103, 
+                "error": [], 
+                "duration": 0.8968179225921631, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.42920613288879395, 
+                    "keystone_v2.add_role": 0.17794299125671387, 
+                    "keystone_v2.revoke_role": 0.28957605361938477
+                }
+            }, 
+            {
+                "timestamp": 1487008992.430997, 
+                "error": [], 
+                "duration": 0.9240400791168213, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.40869998931884766, 
+                    "keystone_v2.add_role": 0.18343114852905273, 
+                    "keystone_v2.revoke_role": 0.3318209648132324
+                }
+            }, 
+            {
+                "timestamp": 1487008992.462919, 
+                "error": [], 
+                "duration": 1.882904052734375, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4113030433654785, 
+                    "keystone_v2.add_role": 0.21735000610351562, 
+                    "keystone_v2.revoke_role": 1.2541439533233643
+                }
+            }, 
+            {
+                "timestamp": 1487008992.707873, 
+                "error": [], 
+                "duration": 0.9571778774261475, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4218440055847168, 
+                    "keystone_v2.add_role": 0.35796308517456055, 
+                    "keystone_v2.revoke_role": 0.17726612091064453
+                }
+            }, 
+            {
+                "timestamp": 1487008992.817094, 
+                "error": [], 
+                "duration": 1.0473568439483643, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4754629135131836, 
+                    "keystone_v2.add_role": 0.3203439712524414, 
+                    "keystone_v2.revoke_role": 0.25147199630737305
+                }
+            }, 
+            {
+                "timestamp": 1487008992.88214, 
+                "error": [], 
+                "duration": 1.0250961780548096, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4233889579772949, 
+                    "keystone_v2.add_role": 0.2745959758758545, 
+                    "keystone_v2.revoke_role": 0.3269979953765869
+                }
+            }, 
+            {
+                "timestamp": 1487008992.910048, 
+                "error": [], 
+                "duration": 1.0222609043121338, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.44702696800231934, 
+                    "keystone_v2.add_role": 0.33381199836730957, 
+                    "keystone_v2.revoke_role": 0.2412738800048828
+                }
+            }, 
+            {
+                "timestamp": 1487008992.938784, 
+                "error": [], 
+                "duration": 1.0340301990509033, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5090539455413818, 
+                    "keystone_v2.add_role": 0.226701021194458, 
+                    "keystone_v2.revoke_role": 0.2981679439544678
+                }
+            }, 
+            {
+                "timestamp": 1487008992.944734, 
+                "error": [], 
+                "duration": 1.031538963317871, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.51705002784729, 
+                    "keystone_v2.add_role": 0.24475789070129395, 
+                    "keystone_v2.revoke_role": 0.26963090896606445
+                }
+            }, 
+            {
+                "timestamp": 1487008992.951076, 
+                "error": [], 
+                "duration": 0.9881629943847656, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5081439018249512, 
+                    "keystone_v2.add_role": 0.26235103607177734, 
+                    "keystone_v2.revoke_role": 0.21754813194274902
+                }
+            }, 
+            {
+                "timestamp": 1487008993.07134, 
+                "error": [], 
+                "duration": 0.9307208061218262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.5271689891815186, 
+                    "keystone_v2.add_role": 0.22031807899475098, 
+                    "keystone_v2.revoke_role": 0.18311190605163574
+                }
+            }, 
+            {
+                "timestamp": 1487008993.094455, 
+                "error": [], 
+                "duration": 0.8550219535827637, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4138970375061035, 
+                    "keystone_v2.add_role": 0.23709511756896973, 
+                    "keystone_v2.revoke_role": 0.20387005805969238
+                }
+            }, 
+            {
+                "timestamp": 1487008993.168743, 
+                "error": [], 
+                "duration": 0.8238351345062256, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.39435291290283203, 
+                    "keystone_v2.add_role": 0.18795108795166016, 
+                    "keystone_v2.revoke_role": 0.24142813682556152
+                }
+            }, 
+            {
+                "timestamp": 1487008993.730987, 
+                "error": [], 
+                "duration": 0.8252370357513428, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.4418318271636963, 
+                    "keystone_v2.add_role": 0.198106050491333, 
+                    "keystone_v2.revoke_role": 0.1851959228515625
+                }
+            }, 
+            {
+                "timestamp": 1487008993.948623, 
+                "error": [], 
+                "duration": 0.6638009548187256, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.326740026473999, 
+                    "keystone_v2.add_role": 0.19103193283081055, 
+                    "keystone_v2.revoke_role": 0.14592599868774414
+                }
+            }, 
+            {
+                "timestamp": 1487008994.001943, 
+                "error": [], 
+                "duration": 0.6639888286590576, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.30289292335510254, 
+                    "keystone_v2.add_role": 0.16895508766174316, 
+                    "keystone_v2.revoke_role": 0.1920630931854248
+                }
+            }, 
+            {
+                "timestamp": 1487008994.101698, 
+                "error": [], 
+                "duration": 0.7405331134796143, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3318049907684326, 
+                    "keystone_v2.add_role": 0.1935431957244873, 
+                    "keystone_v2.revoke_role": 0.21509194374084473
+                }
+            }, 
+            {
+                "timestamp": 1487008994.115867, 
+                "error": [], 
+                "duration": 0.6350541114807129, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.29361605644226074, 
+                    "keystone_v2.add_role": 0.18875789642333984, 
+                    "keystone_v2.revoke_role": 0.15259408950805664
+                }
+            }, 
+            {
+                "timestamp": 1487008994.176463, 
+                "error": [], 
+                "duration": 0.6842751502990723, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.32886195182800293, 
+                    "keystone_v2.add_role": 0.17508292198181152, 
+                    "keystone_v2.revoke_role": 0.1802530288696289
+                }
+            }, 
+            {
+                "timestamp": 1487008994.260053, 
+                "error": [], 
+                "duration": 0.6618189811706543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.33098697662353516, 
+                    "keystone_v2.add_role": 0.16854214668273926, 
+                    "keystone_v2.revoke_role": 0.16221308708190918
+                }
+            }, 
+            {
+                "timestamp": 1487008994.39136, 
+                "error": [], 
+                "duration": 0.6290638446807861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.3510417938232422, 
+                    "keystone_v2.add_role": 0.13480401039123535, 
+                    "keystone_v2.revoke_role": 0.1431410312652588
+                }
+            }, 
+            {
+                "timestamp": 1487008994.404241, 
+                "error": [], 
+                "duration": 0.592979907989502, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_role": 0.302872896194458, 
+                    "keystone_v2.add_role": 0.14426302909851074, 
+                    "keystone_v2.revoke_role": 0.14576292037963867
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "times": 200, 
+                    "concurrency": 21, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {}, 
+                "sla": {
+                    "max_seconds_per_iteration": 8.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 4.0
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 3, 
+                        "users_per_tenant": 5
+                    }
+                }
+            }, 
+            "name": "KeystoneBasic.add_and_remove_user_role", 
+            "pos": 0
+        }, 
+        "full_duration": 115.73983216285706, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 8.08s <= 8.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 1.32s <= 4.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
