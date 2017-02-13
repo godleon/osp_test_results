@@ -13,4 +13,5 @@
 
 ## glance
 - [create-and-delete-image](https://godleon.github.io/osp_test_results/0.2.76/glance/create-and-delete-image.html)
+- [create-and-list-image](https://godleon.github.io/osp_test_results/0.2.76/glance/create-and-list-image.html)
 
