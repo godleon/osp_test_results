@@ -1,0 +1,150 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-13-02T17:51:45", 
+        "load_duration": 58.97273111343384, 
+        "result": [
+            {
+                "timestamp": 1487008308.134197, 
+                "error": [], 
+                "duration": 32.354538917541504, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 18.893014192581177, 
+                    "nova.boot_servers": 14.46140193939209
+                }
+            }, 
+            {
+                "timestamp": 1487008308.13655, 
+                "error": [], 
+                "duration": 30.893993139266968, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 18.453310012817383, 
+                    "nova.boot_servers": 13.440551996231079
+                }
+            }, 
+            {
+                "timestamp": 1487008308.138914, 
+                "error": [], 
+                "duration": 31.65537190437317, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 17.889660120010376, 
+                    "nova.boot_servers": 14.76554799079895
+                }
+            }, 
+            {
+                "timestamp": 1487008308.140857, 
+                "error": [], 
+                "duration": 31.462141036987305, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 18.44980216026306, 
+                    "nova.boot_servers": 14.012226104736328
+                }
+            }, 
+            {
+                "timestamp": 1487008308.146368, 
+                "error": [], 
+                "duration": 50.10678291320801, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 37.07142496109009, 
+                    "nova.boot_servers": 14.03518009185791
+                }
+            }, 
+            {
+                "timestamp": 1487008340.032927, 
+                "error": [], 
+                "duration": 27.07400107383728, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "glance.create_image": 17.222196102142334, 
+                    "nova.boot_servers": 10.851742029190063
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "times": 100, 
+                    "concurrency": 5, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "number_instances": 2, 
+                    "disk_format": "qcow2", 
+                    "image_location": "http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img", 
+                    "flavor": {
+                        "name": "m1.tiny"
+                    }, 
+                    "container_format": "bare"
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 60.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 30.0
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 3, 
+                        "users_per_tenant": 5
+                    }
+                }
+            }, 
+            "name": "GlanceImages.create_image_and_boot_instances", 
+            "pos": 0
+        }, 
+        "full_duration": 127.13427996635437, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 50.11s <= 60.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 33.92s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
