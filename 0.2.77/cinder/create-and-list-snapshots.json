@@ -1,0 +1,183 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-13-02T17:41:49", 
+        "load_duration": 9.606158971786499, 
+        "result": [
+            {
+                "timestamp": 1487007724.850828, 
+                "error": [], 
+                "duration": 5.9664061069488525, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 7.946711778640747, 
+                    "cinder.list_snapshots": 0.019577980041503906
+                }
+            }, 
+            {
+                "timestamp": 1487007724.852931, 
+                "error": [], 
+                "duration": 5.992398977279663, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 7.581417798995972, 
+                    "cinder.list_snapshots": 0.4108881950378418
+                }
+            }, 
+            {
+                "timestamp": 1487007724.85507, 
+                "error": [], 
+                "duration": 4.372147798538208, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 5.977989912033081, 
+                    "cinder.list_snapshots": 0.3940460681915283
+                }
+            }, 
+            {
+                "timestamp": 1487007724.857458, 
+                "error": [], 
+                "duration": 6.090196847915649, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 8.07039499282837, 
+                    "cinder.list_snapshots": 0.019674062728881836
+                }
+            }, 
+            {
+                "timestamp": 1487007724.865713, 
+                "error": [], 
+                "duration": 5.875031232833862, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 7.424382925033569, 
+                    "cinder.list_snapshots": 0.45055699348449707
+                }
+            }, 
+            {
+                "timestamp": 1487007731.230054, 
+                "error": [], 
+                "duration": 1.9604082107543945, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 3.5689539909362793, 
+                    "cinder.list_snapshots": 0.39139294624328613
+                }
+            }, 
+            {
+                "timestamp": 1487007732.743442, 
+                "error": [], 
+                "duration": 1.1529459953308105, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 3.1307249069213867, 
+                    "cinder.list_snapshots": 0.022176027297973633
+                }
+            }, 
+            {
+                "timestamp": 1487007732.819601, 
+                "error": [], 
+                "duration": 1.6373858451843262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_snapshot": 3.1181998252868652, 
+                    "cinder.list_snapshots": 0.5191390514373779
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "times": 100, 
+                    "concurrency": 5, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "detailed": true, 
+                    "force": false
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 10.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 5.0
+                }, 
+                "context": {
+                    "volumes": {
+                        "size": 1
+                    }, 
+                    "users": {
+                        "tenants": 3, 
+                        "users_per_tenant": 5
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "snapshots": -1, 
+                            "gigabytes": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "CinderVolumes.create_and_list_snapshots", 
+            "pos": 0
+        }, 
+        "full_duration": 87.64831495285034, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 6.09s <= 10.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 4.13s <= 5.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
