@@ -11,3 +11,6 @@
 - [create-and-delete-volume](https://godleon.github.io/osp_test_results/0.2.83/cinder/create-and-delete-volume.html)
 - [create-and-list-snapshots](https://godleon.github.io/osp_test_results/0.2.83/cinder/create-and-list-snapshots.html)
 
+## glance
+- [create-and-delete-image](https://godleon.github.io/osp_test_results/0.2.83/glance/create-and-delete-image.html)
+
