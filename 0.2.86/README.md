@@ -14,4 +14,5 @@
 - [create-and-delete-routers](https://godleon.github.io/osp_test_results/0.2.86/neutron/create-and-delete-routers.html)
 - [create-and-delete-security-groups](https://godleon.github.io/osp_test_results/0.2.86/neutron/create-and-delete-security-groups.html)
 - [create-and-delete-subnets](https://godleon.github.io/osp_test_results/0.2.86/neutron/create-and-delete-subnets.html)
+- [list-agents](https://godleon.github.io/osp_test_results/0.2.86/neutron/list-agents.html)
 
