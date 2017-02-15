@@ -26,3 +26,6 @@
 - [boot-and-rebuild](https://godleon.github.io/osp_test_results/0.2.86/nova/boot-and-rebuild.html)
 - [boot-bounce-delete](https://godleon.github.io/osp_test_results/0.2.86/nova/boot-bounce-delete.html)
 
+## swift
+- [create-container-and-object-then-delete-all](https://godleon.github.io/osp_test_results/0.2.86/swift/create-container-and-object-then-delete-all.html)
+
