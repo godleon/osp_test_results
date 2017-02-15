@@ -1,0 +1,180 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-15-02T04:04:48", 
+        "load_duration": 66.35940408706665, 
+        "result": [
+            {
+                "timestamp": 1487131492.936756, 
+                "error": [], 
+                "duration": 33.15824103355408, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.331269979476929, 
+                    "nova.find_host_to_migrate": 1.8496592044830322, 
+                    "nova.live_migrate": 15.524389028549194, 
+                    "nova.delete_server": 3.4526209831237793
+                }
+            }, 
+            {
+                "timestamp": 1487131492.939105, 
+                "error": [], 
+                "duration": 40.608314990997314, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.5368070602417, 
+                    "nova.find_host_to_migrate": 1.290597915649414, 
+                    "nova.live_migrate": 23.69120693206787, 
+                    "nova.delete_server": 3.0892741680145264
+                }
+            }, 
+            {
+                "timestamp": 1487131492.940852, 
+                "error": [], 
+                "duration": 33.016051054000854, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 14.390646934509277, 
+                    "nova.find_host_to_migrate": 1.51851487159729, 
+                    "nova.live_migrate": 14.891140937805176, 
+                    "nova.delete_server": 3.2153918743133545
+                }
+            }, 
+            {
+                "timestamp": 1487131492.942266, 
+                "error": [], 
+                "duration": 39.84845590591431, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 14.58923602104187, 
+                    "nova.find_host_to_migrate": 1.3691160678863525, 
+                    "nova.live_migrate": 22.056056022644043, 
+                    "nova.delete_server": 2.8336329460144043
+                }
+            }, 
+            {
+                "timestamp": 1487131492.945337, 
+                "error": [], 
+                "duration": 31.369499921798706, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.663446187973022, 
+                    "nova.find_host_to_migrate": 1.954617977142334, 
+                    "nova.live_migrate": 15.380983114242554, 
+                    "nova.delete_server": 3.370123863220215
+                }
+            }, 
+            {
+                "timestamp": 1487131525.319715, 
+                "error": [], 
+                "duration": 33.9764449596405, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.646504878997803, 
+                    "nova.find_host_to_migrate": 1.6959569454193115, 
+                    "nova.live_migrate": 14.055588006973267, 
+                    "nova.delete_server": 3.5779240131378174
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 5, 
+                    "type": "constant", 
+                    "times": 100
+                }, 
+                "hooks": [], 
+                "args": {
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "block_migration": false, 
+                    "image": {
+                        "name": "^cirros.*uec$"
+                    }
+                }, 
+                "sla": {
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 30.0, 
+                    "max_seconds_per_iteration": 45.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "nova": {
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "security_group_rules": -1, 
+                            "injected_files": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "server_groups": -1, 
+                            "floating_ips": -1, 
+                            "instances": -1, 
+                            "security_groups": -1, 
+                            "key_pairs": -1, 
+                            "ram": -1, 
+                            "fixed_ips": -1, 
+                            "server_group_members": -1, 
+                            "injected_file_content_bytes": -1
+                        }
+                    }, 
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_live_migrate_server", 
+            "pos": 0
+        }, 
+        "full_duration": 105.3805320262909, 
+        "sla": [
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 35.33s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 40.61s <= 45.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
