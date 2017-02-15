@@ -16,3 +16,6 @@
 - [create-and-delete-subnets](https://godleon.github.io/osp_test_results/0.2.86/neutron/create-and-delete-subnets.html)
 - [list-agents](https://godleon.github.io/osp_test_results/0.2.86/neutron/list-agents.html)
 
+## nova
+- [boot-and-associate-floating-ip](https://godleon.github.io/osp_test_results/0.2.86/nova/boot-and-associate-floating-ip.html)
+
