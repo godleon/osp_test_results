@@ -20,3 +20,6 @@
 - [create-image-and-boot-instances](https://godleon.github.io/osp_test_results/0.2.87/glance/create-image-and-boot-instances.html)
 - [list-images](https://godleon.github.io/osp_test_results/0.2.87/glance/list-images.html)
 
+## keystone
+- [add-and-remove-user-role](https://godleon.github.io/osp_test_results/0.2.87/keystone/add-and-remove-user-role.html)
+
