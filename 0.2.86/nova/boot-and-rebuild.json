@@ -1,0 +1,191 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-15-02T05:01:35", 
+        "load_duration": 61.50559210777283, 
+        "result": [
+            {
+                "timestamp": 1487134901.700091, 
+                "error": [], 
+                "duration": 31.246212005615234, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.737746953964233, 
+                    "nova.rebuild_server": 14.608754873275757, 
+                    "nova.delete_server": 2.8994271755218506
+                }
+            }, 
+            {
+                "timestamp": 1487134901.701638, 
+                "error": [], 
+                "duration": 29.34250807762146, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.22495412826538, 
+                    "nova.rebuild_server": 12.717573881149292, 
+                    "nova.delete_server": 3.3997089862823486
+                }
+            }, 
+            {
+                "timestamp": 1487134901.704473, 
+                "error": [], 
+                "duration": 29.070460081100464, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.345582008361816, 
+                    "nova.rebuild_server": 12.289687871932983, 
+                    "nova.delete_server": 3.434950828552246
+                }
+            }, 
+            {
+                "timestamp": 1487134901.710261, 
+                "error": [], 
+                "duration": 30.000361919403076, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.99210000038147, 
+                    "nova.rebuild_server": 13.09309720993042, 
+                    "nova.delete_server": 2.914937973022461
+                }
+            }, 
+            {
+                "timestamp": 1487134901.710325, 
+                "error": [], 
+                "duration": 29.064908027648926, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.980296850204468, 
+                    "nova.rebuild_server": 11.442975997924805, 
+                    "nova.delete_server": 3.641343832015991
+                }
+            }, 
+            {
+                "timestamp": 1487134932.780058, 
+                "error": [], 
+                "duration": 30.42562508583069, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.888540983200073, 
+                    "nova.rebuild_server": 12.96654200553894, 
+                    "nova.delete_server": 3.57030987739563
+                }
+            }, 
+            {
+                "timestamp": 1487134932.780641, 
+                "error": [], 
+                "duration": 26.57019281387329, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.498109817504883, 
+                    "nova.rebuild_server": 11.554021835327148, 
+                    "nova.delete_server": 3.5178279876708984
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 5, 
+                    "type": "constant", 
+                    "times": 100
+                }, 
+                "hooks": [], 
+                "args": {
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "from_image": {
+                        "name": "^cirros.*uec$"
+                    }, 
+                    "to_image": {
+                        "name": "^cirros.*uec$"
+                    }
+                }, 
+                "sla": {
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 25.0, 
+                    "max_seconds_per_iteration": 30.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "nova": {
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "security_group_rules": -1, 
+                            "injected_files": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "server_groups": -1, 
+                            "floating_ips": -1, 
+                            "instances": -1, 
+                            "security_groups": -1, 
+                            "key_pairs": -1, 
+                            "ram": -1, 
+                            "fixed_ips": -1, 
+                            "server_group_members": -1, 
+                            "injected_file_content_bytes": -1
+                        }
+                    }, 
+                    "users": {
+                        "users_per_tenant": 5, 
+                        "tenants": 3
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_rebuild_server", 
+            "pos": 0
+        }, 
+        "full_duration": 102.99238300323486, 
+        "sla": [
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 29.39s <= 25.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 31.25s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
