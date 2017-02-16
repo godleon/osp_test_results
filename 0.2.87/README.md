@@ -45,4 +45,5 @@
 - [boot-and-list](https://godleon.github.io/osp_test_results/0.2.87/nova/boot-and-list.html)
 - [boot-and-migrate](https://godleon.github.io/osp_test_results/0.2.87/nova/boot-and-migrate.html)
 - [boot-and-rebuild](https://godleon.github.io/osp_test_results/0.2.87/nova/boot-and-rebuild.html)
+- [boot-bounce-delete](https://godleon.github.io/osp_test_results/0.2.87/nova/boot-bounce-delete.html)
 
