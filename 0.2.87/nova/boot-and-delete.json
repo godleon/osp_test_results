@@ -1,0 +1,172 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-16-02T09:48:52", 
+        "load_duration": 45.3513720035553, 
+        "result": [
+            {
+                "timestamp": 1487238585.583772, 
+                "error": [], 
+                "duration": 21.165820121765137, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 18.96137809753418, 
+                    "nova.delete_server": 3.204134941101074
+                }
+            }, 
+            {
+                "timestamp": 1487238585.587254, 
+                "error": [], 
+                "duration": 24.631703853607178, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 21.339746952056885, 
+                    "nova.delete_server": 4.291745901107788
+                }
+            }, 
+            {
+                "timestamp": 1487238585.588272, 
+                "error": [], 
+                "duration": 21.447855949401855, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 19.21048092842102, 
+                    "nova.delete_server": 3.237178087234497
+                }
+            }, 
+            {
+                "timestamp": 1487238585.593153, 
+                "error": [], 
+                "duration": 23.4861900806427, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 20.199138879776, 
+                    "nova.delete_server": 4.286808013916016
+                }
+            }, 
+            {
+                "timestamp": 1487238585.597568, 
+                "error": [], 
+                "duration": 25.117362022399902, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 21.76314687728882, 
+                    "nova.delete_server": 4.3540098667144775
+                }
+            }, 
+            {
+                "timestamp": 1487238607.754657, 
+                "error": [], 
+                "duration": 23.180486917495728, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 19.864017009735107, 
+                    "nova.delete_server": 4.316106081008911
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 5, 
+                    "times": 200, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "image": {
+                        "name": "^cirros.*uec$"
+                    }, 
+                    "auto_assign_nic": true, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }
+                }, 
+                "sla": {
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 20.0, 
+                    "max_seconds_per_iteration": 40.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "nova": {
+                            "injected_file_content_bytes": -1, 
+                            "key_pairs": -1, 
+                            "security_group_rules": -1, 
+                            "ram": -1, 
+                            "security_groups": -1, 
+                            "instances": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "fixed_ips": -1, 
+                            "metadata_items": -1, 
+                            "floating_ips": -1, 
+                            "server_groups": -1, 
+                            "server_group_members": -1, 
+                            "cores": -1, 
+                            "injected_files": -1
+                        }
+                    }, 
+                    "users": {
+                        "tenants": 3, 
+                        "users_per_tenant": 5
+                    }, 
+                    "network": {
+                        "start_cidr": "10.2.0.0/24", 
+                        "networks_per_tenant": 2
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_delete_server", 
+            "pos": 0
+        }, 
+        "full_duration": 233.789409160614, 
+        "sla": [
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 23.17s <= 20.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 25.12s <= 40.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
