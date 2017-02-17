@@ -1,0 +1,1221 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-17-02T15:27:53", 
+        "load_duration": 160.34575200080872, 
+        "result": [
+            {
+                "timestamp": 1487345275.575484, 
+                "error": [], 
+                "duration": 24.61696720204986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.492340802329412, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.481761932373047, 
+                    "nova.find_host_to_migrate": 0.7183260917663574, 
+                    "nova.live_migrate": 12.727792024612427, 
+                    "nova.delete_server": 2.636730909347534
+                }
+            }, 
+            {
+                "timestamp": 1487345277.573851, 
+                "error": [], 
+                "duration": 23.105483551702264, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.79763625077271, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.339503049850464, 
+                    "nova.find_host_to_migrate": 0.9124970436096191, 
+                    "nova.live_migrate": 11.169125080108643, 
+                    "nova.delete_server": 2.641508102416992
+                }
+            }, 
+            {
+                "timestamp": 1487345279.572972, 
+                "error": [], 
+                "duration": 33.10997800391091, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.747816996165383, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.102527141571045, 
+                    "nova.find_host_to_migrate": 0.7482609748840332, 
+                    "nova.live_migrate": 18.431051015853882, 
+                    "nova.delete_server": 2.792699098587036
+                }
+            }, 
+            {
+                "timestamp": 1487345281.572836, 
+                "error": [], 
+                "duration": 20.731361015891235, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.579373971367676, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.443521976470947, 
+                    "nova.find_host_to_migrate": 0.5920040607452393, 
+                    "nova.live_migrate": 8.775835990905762, 
+                    "nova.delete_server": 2.866919994354248
+                }
+            }, 
+            {
+                "timestamp": 1487345283.57292, 
+                "error": [], 
+                "duration": 31.747026805041056, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.665366049649496, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.973062992095947, 
+                    "nova.find_host_to_migrate": 0.7877671718597412, 
+                    "nova.live_migrate": 20.25487518310547, 
+                    "nova.delete_server": 2.6767349243164062
+                }
+            }, 
+            {
+                "timestamp": 1487345285.572918, 
+                "error": [], 
+                "duration": 24.928254712851547, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.682788263527845, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.572431087493896, 
+                    "nova.find_host_to_migrate": 0.7690939903259277, 
+                    "nova.live_migrate": 8.48674988746643, 
+                    "nova.delete_server": 7.075645208358765
+                }
+            }, 
+            {
+                "timestamp": 1487345287.572987, 
+                "error": [], 
+                "duration": 27.812956051106603, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.35351495337948, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.41903305053711, 
+                    "nova.find_host_to_migrate": 0.6046559810638428, 
+                    "nova.live_migrate": 16.06517004966736, 
+                    "nova.delete_server": 2.6869261264801025
+                }
+            }, 
+            {
+                "timestamp": 1487345289.573167, 
+                "error": [], 
+                "duration": 19.154655716983058, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.247767187985204, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.231936931610107, 
+                    "nova.find_host_to_migrate": 0.6013131141662598, 
+                    "nova.live_migrate": 8.766041040420532, 
+                    "nova.delete_server": 2.5242881774902344
+                }
+            }, 
+            {
+                "timestamp": 1487345291.575912, 
+                "error": [], 
+                "duration": 25.42227879848604, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.58820017490263, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.467041015625, 
+                    "nova.find_host_to_migrate": 0.8725008964538574, 
+                    "nova.live_migrate": 13.503364086151123, 
+                    "nova.delete_server": 2.5443131923675537
+                }
+            }, 
+            {
+                "timestamp": 1487345293.574083, 
+                "error": [], 
+                "duration": 32.10700024664892, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.788380727166995, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.301290035247803, 
+                    "nova.find_host_to_migrate": 0.7676141262054443, 
+                    "nova.live_migrate": 17.714669942855835, 
+                    "nova.delete_server": 5.2758629322052
+                }
+            }, 
+            {
+                "timestamp": 1487345295.573294, 
+                "error": [], 
+                "duration": 35.264629334028115, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.668263703767906, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.248579025268555, 
+                    "nova.find_host_to_migrate": 0.8047730922698975, 
+                    "nova.live_migrate": 23.37379002571106, 
+                    "nova.delete_server": 2.808321952819824
+                }
+            }, 
+            {
+                "timestamp": 1487345297.572957, 
+                "error": [], 
+                "duration": 26.110849760061672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.43875227164609, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.868443965911865, 
+                    "nova.find_host_to_migrate": 0.950329065322876, 
+                    "nova.live_migrate": 15.550846099853516, 
+                    "nova.delete_server": 2.6946117877960205
+                }
+            }, 
+            {
+                "timestamp": 1487345299.572622, 
+                "error": [], 
+                "duration": 21.141819383640925, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.243715618113836, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.890136003494263, 
+                    "nova.find_host_to_migrate": 0.7109980583190918, 
+                    "nova.live_migrate": 11.068580150604248, 
+                    "nova.delete_server": 2.4257750511169434
+                }
+            }, 
+            {
+                "timestamp": 1487345301.573133, 
+                "error": [], 
+                "duration": 25.532186621356107, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.029821282696627, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.686630964279175, 
+                    "nova.find_host_to_migrate": 0.7061991691589355, 
+                    "nova.live_migrate": 13.45392107963562, 
+                    "nova.delete_server": 2.656954050064087
+                }
+            }, 
+            {
+                "timestamp": 1487345303.573436, 
+                "error": [], 
+                "duration": 41.23782385583193, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.28685103659361, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.288191795349121, 
+                    "nova.find_host_to_migrate": 0.8008849620819092, 
+                    "nova.live_migrate": 21.042027950286865, 
+                    "nova.delete_server": 7.075229167938232
+                }
+            }, 
+            {
+                "timestamp": 1487345305.573599, 
+                "error": [], 
+                "duration": 21.6115031468648, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.548598743699166, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.366912126541138, 
+                    "nova.find_host_to_migrate": 0.7342720031738281, 
+                    "nova.live_migrate": 8.628625869750977, 
+                    "nova.delete_server": 4.853990077972412
+                }
+            }, 
+            {
+                "timestamp": 1487345307.574338, 
+                "error": [], 
+                "duration": 30.77531114963661, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.55476387592186, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.194823980331421, 
+                    "nova.find_host_to_migrate": 0.6642770767211914, 
+                    "nova.live_migrate": 20.290010929107666, 
+                    "nova.delete_server": 2.593636989593506
+                }
+            }, 
+            {
+                "timestamp": 1487345309.574747, 
+                "error": [], 
+                "duration": 29.67319360686681, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.303272333608653, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.597234964370728, 
+                    "nova.find_host_to_migrate": 0.7793760299682617, 
+                    "nova.live_migrate": 13.39769196510315, 
+                    "nova.delete_server": 4.863651990890503
+                }
+            }, 
+            {
+                "timestamp": 1487345311.573435, 
+                "error": [], 
+                "duration": 37.990951491759525, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 11.644134329392209, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.453062057495117, 
+                    "nova.find_host_to_migrate": 0.8056230545043945, 
+                    "nova.live_migrate": 25.10313105583191, 
+                    "nova.delete_server": 2.609910011291504
+                }
+            }, 
+            {
+                "timestamp": 1487345313.573156, 
+                "error": [], 
+                "duration": 29.170356365742656, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.017064479289083, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.180966138839722, 
+                    "nova.find_host_to_migrate": 0.9054851531982422, 
+                    "nova.live_migrate": 18.250998973846436, 
+                    "nova.delete_server": 2.7985990047454834
+                }
+            }, 
+            {
+                "timestamp": 1487345315.574398, 
+                "error": [], 
+                "duration": 46.40208657905999, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.933578408504097, 
+                "atomic_actions": {
+                    "nova.boot_server": 14.714409112930298, 
+                    "nova.find_host_to_migrate": 0.8109819889068604, 
+                    "nova.live_migrate": 17.431562900543213, 
+                    "nova.delete_server": 14.333801984786987
+                }
+            }, 
+            {
+                "timestamp": 1487345317.573571, 
+                "error": [], 
+                "duration": 25.369620899129167, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.839504142832503, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.55714201927185, 
+                    "nova.find_host_to_migrate": 0.7631449699401855, 
+                    "nova.live_migrate": 11.061829805374146, 
+                    "nova.delete_server": 4.95800518989563
+                }
+            }, 
+            {
+                "timestamp": 1487345319.573417, 
+                "error": [], 
+                "duration": 26.332934065203144, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.15100200619273, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.482010126113892, 
+                    "nova.find_host_to_migrate": 0.7863490581512451, 
+                    "nova.live_migrate": 13.492594957351685, 
+                    "nova.delete_server": 2.5378670692443848
+                }
+            }, 
+            {
+                "timestamp": 1487345321.572616, 
+                "error": [], 
+                "duration": 34.03093608027269, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 11.530299824420917, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.044954061508179, 
+                    "nova.find_host_to_migrate": 0.8518948554992676, 
+                    "nova.live_migrate": 20.576958179473877, 
+                    "nova.delete_server": 2.5404160022735596
+                }
+            }, 
+            {
+                "timestamp": 1487345323.573339, 
+                "error": [], 
+                "duration": 32.618061802940076, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.9599802273944, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.29737401008606, 
+                    "nova.find_host_to_migrate": 0.9218869209289551, 
+                    "nova.live_migrate": 13.057009220123291, 
+                    "nova.delete_server": 7.195256948471069
+                }
+            }, 
+            {
+                "timestamp": 1487345325.572493, 
+                "error": [], 
+                "duration": 25.660254085016234, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.086271917867677, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.613444805145264, 
+                    "nova.find_host_to_migrate": 0.7183640003204346, 
+                    "nova.live_migrate": 8.37694001197815, 
+                    "nova.delete_server": 4.824122905731201
+                }
+            }, 
+            {
+                "timestamp": 1487345327.572541, 
+                "error": [], 
+                "duration": 24.52255530339483, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.935995626628362, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.952466011047363, 
+                    "nova.find_host_to_migrate": 0.6424589157104492, 
+                    "nova.live_migrate": 14.383500814437866, 
+                    "nova.delete_server": 2.519789934158325
+                }
+            }, 
+            {
+                "timestamp": 1487345329.575387, 
+                "error": [], 
+                "duration": 25.9059182012101, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.534404913185043, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.702656030654907, 
+                    "nova.find_host_to_migrate": 0.7278890609741211, 
+                    "nova.live_migrate": 13.47169303894043, 
+                    "nova.delete_server": 2.8863282203674316
+                }
+            }, 
+            {
+                "timestamp": 1487345331.572334, 
+                "error": [], 
+                "duration": 41.29039636332139, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.981040566381363, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.605255842208862, 
+                    "nova.find_host_to_migrate": 0.7937459945678711, 
+                    "nova.live_migrate": 26.936566829681396, 
+                    "nova.delete_server": 4.832329988479614
+                }
+            }, 
+            {
+                "timestamp": 1487345333.573648, 
+                "error": [], 
+                "duration": 34.06023015844513, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.869516946199646, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.553350925445557, 
+                    "nova.find_host_to_migrate": 0.7730879783630371, 
+                    "nova.live_migrate": 17.666440963745117, 
+                    "nova.delete_server": 4.9717090129852295
+                }
+            }, 
+            {
+                "timestamp": 1487345335.572672, 
+                "error": [], 
+                "duration": 22.80028793007274, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.596090110240981, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.319078922271729, 
+                    "nova.find_host_to_migrate": 0.6659419536590576, 
+                    "nova.live_migrate": 8.882890939712524, 
+                    "nova.delete_server": 4.816211938858032
+                }
+            }, 
+            {
+                "timestamp": 1487345337.574126, 
+                "error": [], 
+                "duration": 38.006200669630616, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.72207534469739, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.566601991653442, 
+                    "nova.find_host_to_migrate": 0.6188449859619141, 
+                    "nova.live_migrate": 25.768316984176636, 
+                    "nova.delete_server": 2.962522029876709
+                }
+            }, 
+            {
+                "timestamp": 1487345339.574156, 
+                "error": [], 
+                "duration": 31.04991179924366, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.35056918639782, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.95384407043457, 
+                    "nova.find_host_to_migrate": 0.7947361469268799, 
+                    "nova.live_migrate": 17.223401069641113, 
+                    "nova.delete_server": 2.9689130783081055
+                }
+            }, 
+            {
+                "timestamp": 1487345341.574097, 
+                "error": [], 
+                "duration": 40.070042707495695, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.79628934664249, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.922845840454102, 
+                    "nova.find_host_to_migrate": 0.656156063079834, 
+                    "nova.live_migrate": 24.367783069610596, 
+                    "nova.delete_server": 5.094638109207153
+                }
+            }, 
+            {
+                "timestamp": 1487345343.573362, 
+                "error": [], 
+                "duration": 26.364366094545726, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.953442771955128, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.506186962127686, 
+                    "nova.find_host_to_migrate": 0.8022561073303223, 
+                    "nova.live_migrate": 13.359709978103638, 
+                    "nova.delete_server": 2.6592721939086914
+                }
+            }, 
+            {
+                "timestamp": 1487345345.572191, 
+                "error": [], 
+                "duration": 45.802315557508265, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.703765546770303, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.935245037078857, 
+                    "nova.find_host_to_migrate": 0.7047410011291504, 
+                    "nova.live_migrate": 24.84722900390625, 
+                    "nova.delete_server": 7.274497032165527
+                }
+            }, 
+            {
+                "timestamp": 1487345347.574016, 
+                "error": [], 
+                "duration": 27.377238328828135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.524396602736196, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.309715032577515, 
+                    "nova.find_host_to_migrate": 1.0089030265808105, 
+                    "nova.live_migrate": 16.270843982696533, 
+                    "nova.delete_server": 2.7619028091430664
+                }
+            }, 
+            {
+                "timestamp": 1487345349.572914, 
+                "error": [], 
+                "duration": 25.590646324996715, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.81760090744042, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.307093858718872, 
+                    "nova.find_host_to_migrate": 0.6939129829406738, 
+                    "nova.live_migrate": 11.936294078826904, 
+                    "nova.delete_server": 2.590021848678589
+                }
+            }, 
+            {
+                "timestamp": 1487345351.573173, 
+                "error": [], 
+                "duration": 30.815457969639688, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.844361871745201, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.216728925704956, 
+                    "nova.find_host_to_migrate": 0.6739740371704102, 
+                    "nova.live_migrate": 11.22842001914978, 
+                    "nova.delete_server": 4.669453144073486
+                }
+            }, 
+            {
+                "timestamp": 1487345353.573419, 
+                "error": [], 
+                "duration": 44.56780988261495, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.456475910689491, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.520770072937012, 
+                    "nova.find_host_to_migrate": 0.7093660831451416, 
+                    "nova.live_migrate": 31.17833685874939, 
+                    "nova.delete_server": 3.1317551136016846
+                }
+            }, 
+            {
+                "timestamp": 1487345355.573279, 
+                "error": [], 
+                "duration": 25.174648236378825, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.48287181939205, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.425039052963257, 
+                    "nova.find_host_to_migrate": 0.7740240097045898, 
+                    "nova.live_migrate": 8.537463188171387, 
+                    "nova.delete_server": 7.382853984832764
+                }
+            }, 
+            {
+                "timestamp": 1487345357.573243, 
+                "error": [], 
+                "duration": 30.930309769581562, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.39850426011204, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.870759963989258, 
+                    "nova.find_host_to_migrate": 0.7762711048126221, 
+                    "nova.live_migrate": 13.231194019317627, 
+                    "nova.delete_server": 7.005151987075806
+                }
+            }, 
+            {
+                "timestamp": 1487345359.577167, 
+                "error": [], 
+                "duration": 41.22121310627453, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.95921492183216, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.239156007766724, 
+                    "nova.find_host_to_migrate": 0.735076904296875, 
+                    "nova.live_migrate": 29.566143035888672, 
+                    "nova.delete_server": 2.6473560333251953
+                }
+            }, 
+            {
+                "timestamp": 1487345361.572054, 
+                "error": [], 
+                "duration": 29.14858499468602, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.840436068164934, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.776346921920776, 
+                    "nova.find_host_to_migrate": 0.6975259780883789, 
+                    "nova.live_migrate": 16.06350612640381, 
+                    "nova.delete_server": 2.5531749725341797
+                }
+            }, 
+            {
+                "timestamp": 1487345363.573316, 
+                "error": [], 
+                "duration": 48.25595161381844, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.29784920748588, 
+                "atomic_actions": {
+                    "nova.boot_server": 17.956568002700806, 
+                    "nova.find_host_to_migrate": 0.6519210338592529, 
+                    "nova.live_migrate": 25.377791166305542, 
+                    "nova.delete_server": 5.242035865783691
+                }
+            }, 
+            {
+                "timestamp": 1487345365.573048, 
+                "error": [], 
+                "duration": 33.72186255996624, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.342523330994453, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.822855949401855, 
+                    "nova.find_host_to_migrate": 0.6247079372406006, 
+                    "nova.live_migrate": 18.186362981796265, 
+                    "nova.delete_server": 5.052173852920532
+                }
+            }, 
+            {
+                "timestamp": 1487345367.57333, 
+                "error": [], 
+                "duration": 28.919157275056367, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.905694714689727, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.224565982818604, 
+                    "nova.find_host_to_migrate": 0.7947280406951904, 
+                    "nova.live_migrate": 11.636409044265747, 
+                    "nova.delete_server": 5.2141358852386475
+                }
+            }, 
+            {
+                "timestamp": 1487345369.572878, 
+                "error": [], 
+                "duration": 26.184288174784875, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.37546905788114, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.311609983444214, 
+                    "nova.find_host_to_migrate": 0.7434279918670654, 
+                    "nova.live_migrate": 11.145510911941528, 
+                    "nova.delete_server": 4.946628093719482
+                }
+            }, 
+            {
+                "timestamp": 1487345371.573372, 
+                "error": [], 
+                "duration": 43.94995107632156, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.34582505244736, 
+                "atomic_actions": {
+                    "nova.boot_server": 18.800144910812378, 
+                    "nova.find_host_to_migrate": 1.0391719341278076, 
+                    "nova.live_migrate": 22.569609880447388, 
+                    "nova.delete_server": 2.5104820728302
+                }
+            }, 
+            {
+                "timestamp": 1487345373.573317, 
+                "error": [], 
+                "duration": 32.92149143968657, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.35309762205049, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.007899045944214, 
+                    "nova.find_host_to_migrate": 0.8149819374084473, 
+                    "nova.live_migrate": 15.376636028289795, 
+                    "nova.delete_server": 2.6809451580047607
+                }
+            }, 
+            {
+                "timestamp": 1487345375.572463, 
+                "error": [], 
+                "duration": 32.01219896653896, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.616245943510474, 
+                "atomic_actions": {
+                    "nova.boot_server": 13.222670078277588, 
+                    "nova.find_host_to_migrate": 0.7704999446868896, 
+                    "nova.live_migrate": 13.671656847000122, 
+                    "nova.delete_server": 5.31311297416687
+                }
+            }, 
+            {
+                "timestamp": 1487345377.573565, 
+                "error": [], 
+                "duration": 20.644441899605233, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.861354056052726, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.521160125732422, 
+                    "nova.find_host_to_migrate": 0.7624201774597168, 
+                    "nova.live_migrate": 8.783154010772705, 
+                    "nova.delete_server": 2.5323050022125244
+                }
+            }, 
+            {
+                "timestamp": 1487345379.573099, 
+                "error": [], 
+                "duration": 36.263931728305245, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 11.105542444286918, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.719847917556763, 
+                    "nova.find_host_to_migrate": 0.6347770690917969, 
+                    "nova.live_migrate": 24.400166988372803, 
+                    "nova.delete_server": 2.4865641593933105
+                }
+            }, 
+            {
+                "timestamp": 1487345381.573301, 
+                "error": [], 
+                "duration": 41.20412802976431, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.909914967595917, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.931676149368286, 
+                    "nova.find_host_to_migrate": 0.8222501277923584, 
+                    "nova.live_migrate": 20.70567488670349, 
+                    "nova.delete_server": 9.710316896438599
+                }
+            }, 
+            {
+                "timestamp": 1487345383.573598, 
+                "error": [], 
+                "duration": 30.41552782219633, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.607961176216754, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.985801935195923, 
+                    "nova.find_host_to_migrate": 0.8621368408203125, 
+                    "nova.live_migrate": 13.19559097290039, 
+                    "nova.delete_server": 7.316212892532349
+                }
+            }, 
+            {
+                "timestamp": 1487345385.57316, 
+                "error": [], 
+                "duration": 35.04324124607379, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.504881875187802, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.781007051467896, 
+                    "nova.find_host_to_migrate": 0.6169180870056152, 
+                    "nova.live_migrate": 21.910311937332153, 
+                    "nova.delete_server": 2.675806999206543
+                }
+            }, 
+            {
+                "timestamp": 1487345387.572177, 
+                "error": [], 
+                "duration": 22.127748057127913, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.097893908738175, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.564856052398682, 
+                    "nova.find_host_to_migrate": 0.6426749229431152, 
+                    "nova.live_migrate": 10.25612998008728, 
+                    "nova.delete_server": 2.630613088607788
+                }
+            }, 
+            {
+                "timestamp": 1487345389.57252, 
+                "error": [], 
+                "duration": 40.76232352818078, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.396597475160895, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.248432159423828, 
+                    "nova.find_host_to_migrate": 0.7474269866943359, 
+                    "nova.live_migrate": 20.78550910949707, 
+                    "nova.delete_server": 4.956491947174072
+                }
+            }, 
+            {
+                "timestamp": 1487345391.576459, 
+                "error": [], 
+                "duration": 26.237645249195367, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.738058705501288, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.619944095611572, 
+                    "nova.find_host_to_migrate": 0.7181220054626465, 
+                    "nova.live_migrate": 8.732279062271118, 
+                    "nova.delete_server": 7.121703863143921
+                }
+            }, 
+            {
+                "timestamp": 1487345393.572806, 
+                "error": [], 
+                "duration": 31.331907127408765, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 11.721531059236742, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.124962091445923, 
+                    "nova.find_host_to_migrate": 0.6456971168518066, 
+                    "nova.live_migrate": 17.996069192886353, 
+                    "nova.delete_server": 2.5453550815582275
+                }
+            }, 
+            {
+                "timestamp": 1487345395.57607, 
+                "error": [], 
+                "duration": 22.43973984974117, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.403210017507366, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.542815923690796, 
+                    "nova.find_host_to_migrate": 0.7417030334472656, 
+                    "nova.live_migrate": 10.532016038894653, 
+                    "nova.delete_server": 2.5800890922546387
+                }
+            }, 
+            {
+                "timestamp": 1487345397.57289, 
+                "error": [], 
+                "duration": 36.84940559055583, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.73225634906514, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.401515007019043, 
+                    "nova.find_host_to_migrate": 0.9417190551757812, 
+                    "nova.live_migrate": 18.86947798728943, 
+                    "nova.delete_server": 2.6006829738616943
+                }
+            }, 
+            {
+                "timestamp": 1487345399.572236, 
+                "error": [], 
+                "duration": 29.545484441125843, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.990866524374034, 
+                "atomic_actions": {
+                    "nova.boot_server": 14.474202156066895, 
+                    "nova.find_host_to_migrate": 0.7219588756561279, 
+                    "nova.live_migrate": 12.65639591217041, 
+                    "nova.delete_server": 2.6471660137176514
+                }
+            }, 
+            {
+                "timestamp": 1487345401.573489, 
+                "error": [], 
+                "duration": 22.540896161576054, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.102267996291378, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.57494592666626, 
+                    "nova.find_host_to_migrate": 0.6217880249023438, 
+                    "nova.live_migrate": 8.585681200027466, 
+                    "nova.delete_server": 2.718113899230957
+                }
+            }, 
+            {
+                "timestamp": 1487345403.573683, 
+                "error": [], 
+                "duration": 22.443515650178057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.47402943000688, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.463502168655396, 
+                    "nova.find_host_to_migrate": 0.708096981048584, 
+                    "nova.live_migrate": 10.571486949920654, 
+                    "nova.delete_server": 2.6654131412506104
+                }
+            }, 
+            {
+                "timestamp": 1487345405.572264, 
+                "error": [], 
+                "duration": 30.34897198435283, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.461690046820877, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.053488969802856, 
+                    "nova.find_host_to_migrate": 0.6191549301147461, 
+                    "nova.live_migrate": 16.971626043319702, 
+                    "nova.delete_server": 2.668351888656616
+                }
+            }, 
+            {
+                "timestamp": 1487345407.572303, 
+                "error": [], 
+                "duration": 25.46290467568822, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.181450382981826, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.208073854446411, 
+                    "nova.find_host_to_migrate": 0.7277297973632812, 
+                    "nova.live_migrate": 13.841130018234253, 
+                    "nova.delete_server": 2.6462981700897217
+                }
+            }, 
+            {
+                "timestamp": 1487345409.572738, 
+                "error": [], 
+                "duration": 25.91145028862099, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.994628765257794, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.258650064468384, 
+                    "nova.find_host_to_migrate": 0.7103519439697266, 
+                    "nova.live_migrate": 13.155343055725098, 
+                    "nova.delete_server": 2.7454240322113037
+                }
+            }, 
+            {
+                "timestamp": 1487345411.574443, 
+                "error": [], 
+                "duration": 22.657117448740117, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.94356743247021, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.98691987991333, 
+                    "nova.find_host_to_migrate": 0.5954668521881104, 
+                    "nova.live_migrate": 10.505043029785156, 
+                    "nova.delete_server": 2.52518892288208
+                }
+            }, 
+            {
+                "timestamp": 1487345413.573611, 
+                "error": [], 
+                "duration": 20.37302069870045, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.10653729232738, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.82169485092163, 
+                    "nova.find_host_to_migrate": 0.6230189800262451, 
+                    "nova.live_migrate": 8.361370086669922, 
+                    "nova.delete_server": 2.5265860557556152
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "rps": 0.5, 
+                    "type": "rps", 
+                    "times": 300, 
+                    "max_cpu_count": 1
+                }, 
+                "hooks": [], 
+                "args": {
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "max_sleep": 30, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }, 
+                    "min_sleep": 10, 
+                    "block_migration": false
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 60.0, 
+                    "max_avg_duration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "port": -1, 
+                            "router": -1, 
+                            "network": -1, 
+                            "subnet": -1, 
+                            "security_group_rule": -1, 
+                            "security_group": -1
+                        }, 
+                        "nova": {
+                            "server_groups": -1, 
+                            "server_group_members": -1, 
+                            "injected_files": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "key_pairs": -1, 
+                            "security_group_rules": -1, 
+                            "cores": -1, 
+                            "ram": -1, 
+                            "security_groups": -1, 
+                            "floating_ips": -1, 
+                            "instances": -1, 
+                            "fixed_ips": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "metadata_items": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_live_migrate_server", 
+            "pos": 0
+        }, 
+        "full_duration": 192.87302994728088, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 48.26s <= 60.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 30.36s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
