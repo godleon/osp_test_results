@@ -19,4 +19,5 @@
 - [boot-server-and-add-secgroup](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-server-and-add-secgroup.html)
 - [boot-server-associate-and-dissociate-floating-ip](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-server-associate-and-dissociate-floating-ip.html)
 - [boot-server-attach-created-volume-and-live-migrate](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-server-attach-created-volume-and-live-migrate.html)
+- [boot-server-attach-created-volume-and-resize](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-server-attach-created-volume-and-resize.html)
 
