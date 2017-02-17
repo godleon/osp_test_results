@@ -11,4 +11,5 @@
 - [boot-and-show-server](https://godleon.github.io/osp_test_results/0.2.88/nova/boot-and-show-server.html)
 - [boot-and-update-server](https://godleon.github.io/osp_test_results/0.2.88/nova/boot-and-update-server.html)
 - [boot-bounce-delete](https://godleon.github.io/osp_test_results/0.2.88/nova/boot-bounce-delete.html)
+- [boot-from-volume-and-delete](https://godleon.github.io/osp_test_results/0.2.88/nova/boot-from-volume-and-delete.html)
 
