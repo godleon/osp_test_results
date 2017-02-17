@@ -13,4 +13,5 @@
 - [boot-bounce-delete](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-bounce-delete.html)
 - [boot-from-volume-and-delete](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-from-volume-and-delete.html)
 - [boot-from-volume-and-resize](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-from-volume-and-resize.html)
+- [boot-from-volume-snapshot](https://godleon.github.io/osp_test_results/0.2.89/nova/boot-from-volume-snapshot.html)
 
