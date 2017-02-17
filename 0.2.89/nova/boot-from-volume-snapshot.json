@@ -1,0 +1,745 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-17-02T19:51:34", 
+        "load_duration": 145.67538809776306, 
+        "result": [
+            {
+                "timestamp": 1487361096.573251, 
+                "error": [], 
+                "duration": 22.45061707496643, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 6.1097540855407715, 
+                    "cinder.create_snapshot": 4.577125072479248, 
+                    "nova.boot_server": 16.763418912887573
+                }
+            }, 
+            {
+                "timestamp": 1487361098.570423, 
+                "error": [], 
+                "duration": 35.477049112319946, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.4464750289917, 
+                    "cinder.create_snapshot": 2.8152530193328857, 
+                    "nova.boot_server": 27.21512198448181
+                }
+            }, 
+            {
+                "timestamp": 1487361100.570278, 
+                "error": [], 
+                "duration": 43.33223795890808, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.633626937866211, 
+                    "cinder.create_snapshot": 4.694014072418213, 
+                    "nova.boot_server": 31.004431009292603
+                }
+            }, 
+            {
+                "timestamp": 1487361102.571133, 
+                "error": [], 
+                "duration": 40.49468016624451, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.079654932022095, 
+                    "cinder.create_snapshot": 4.939836025238037, 
+                    "nova.boot_server": 30.475015878677368
+                }
+            }, 
+            {
+                "timestamp": 1487361104.571202, 
+                "error": [], 
+                "duration": 38.25963497161865, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.199850082397461, 
+                    "cinder.create_snapshot": 4.672159910202026, 
+                    "nova.boot_server": 28.38746690750122
+                }
+            }, 
+            {
+                "timestamp": 1487361106.570861, 
+                "error": [], 
+                "duration": 51.14365291595459, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.438345909118652, 
+                    "cinder.create_snapshot": 9.017014980316162, 
+                    "nova.boot_server": 34.688117027282715
+                }
+            }, 
+            {
+                "timestamp": 1487361108.570429, 
+                "error": [], 
+                "duration": 63.10971784591675, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 21.296911001205444, 
+                    "cinder.create_snapshot": 8.81919002532959, 
+                    "nova.boot_server": 37.99346899986267
+                }
+            }, 
+            {
+                "timestamp": 1487361110.570574, 
+                "error": [], 
+                "duration": 64.95038604736328, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 18.88014006614685, 
+                    "cinder.create_snapshot": 6.990473031997681, 
+                    "nova.boot_server": 44.07960295677185
+                }
+            }, 
+            {
+                "timestamp": 1487361112.573003, 
+                "error": [], 
+                "duration": 59.067697048187256, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 19.131187915802002, 
+                    "cinder.create_snapshot": 6.9615631103515625, 
+                    "nova.boot_server": 37.9747838973999
+                }
+            }, 
+            {
+                "timestamp": 1487361114.570381, 
+                "error": [], 
+                "duration": 65.80042099952698, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 22.72036099433899, 
+                    "cinder.create_snapshot": 6.472822189331055, 
+                    "nova.boot_server": 41.60705900192261
+                }
+            }, 
+            {
+                "timestamp": 1487361116.570654, 
+                "error": [], 
+                "duration": 69.00750207901001, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 23.091204166412354, 
+                    "cinder.create_snapshot": 4.633366107940674, 
+                    "nova.boot_server": 46.28274607658386
+                }
+            }, 
+            {
+                "timestamp": 1487361118.57029, 
+                "error": [], 
+                "duration": 78.3223249912262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.107327222824097, 
+                    "cinder.create_snapshot": 10.835965156555176, 
+                    "nova.boot_server": 47.378884077072144
+                }
+            }, 
+            {
+                "timestamp": 1487361120.570058, 
+                "error": [], 
+                "duration": 75.8646879196167, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 23.705745935440063, 
+                    "cinder.create_snapshot": 8.75436806678772, 
+                    "nova.boot_server": 48.40442109107971
+                }
+            }, 
+            {
+                "timestamp": 1487361122.570992, 
+                "error": [], 
+                "duration": 74.29854893684387, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 21.049561023712158, 
+                    "cinder.create_snapshot": 9.067588090896606, 
+                    "nova.boot_server": 49.181230783462524
+                }
+            }, 
+            {
+                "timestamp": 1487361124.570693, 
+                "error": [], 
+                "duration": 77.61009097099304, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 22.89875602722168, 
+                    "cinder.create_snapshot": 8.632357120513916, 
+                    "nova.boot_server": 51.078811168670654
+                }
+            }, 
+            {
+                "timestamp": 1487361126.572374, 
+                "error": [], 
+                "duration": 78.98908686637878, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.173638105392456, 
+                    "cinder.create_snapshot": 6.864923000335693, 
+                    "nova.boot_server": 51.950347900390625
+                }
+            }, 
+            {
+                "timestamp": 1487361128.570025, 
+                "error": [], 
+                "duration": 83.07812213897705, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.857253074645996, 
+                    "cinder.create_snapshot": 11.102835893630981, 
+                    "nova.boot_server": 49.11783790588379
+                }
+            }, 
+            {
+                "timestamp": 1487361130.570963, 
+                "error": [], 
+                "duration": 80.89298701286316, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 26.52749013900757, 
+                    "cinder.create_snapshot": 11.193153858184814, 
+                    "nova.boot_server": 48.172155141830444
+                }
+            }, 
+            {
+                "timestamp": 1487361132.571511, 
+                "error": [], 
+                "duration": 80.24122285842896, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.6323139667511, 
+                    "cinder.create_snapshot": 9.203233003616333, 
+                    "nova.boot_server": 48.405526876449585
+                }
+            }, 
+            {
+                "timestamp": 1487361134.570628, 
+                "error": [], 
+                "duration": 90.00078701972961, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 29.396717071533203, 
+                    "cinder.create_snapshot": 6.886220932006836, 
+                    "nova.boot_server": 58.717665910720825
+                }
+            }, 
+            {
+                "timestamp": 1487361136.571086, 
+                "error": [], 
+                "duration": 95.84248304367065, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.387831926345825, 
+                    "cinder.create_snapshot": 11.256477117538452, 
+                    "nova.boot_server": 56.19800615310669
+                }
+            }, 
+            {
+                "timestamp": 1487361138.571789, 
+                "error": [], 
+                "duration": 92.43825387954712, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 29.94591999053955, 
+                    "cinder.create_snapshot": 9.06466794013977, 
+                    "nova.boot_server": 58.427505016326904
+                }
+            }, 
+            {
+                "timestamp": 1487361140.572946, 
+                "error": [], 
+                "duration": 92.43292689323425, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 29.269141912460327, 
+                    "cinder.create_snapshot": 10.964274883270264, 
+                    "nova.boot_server": 57.19934701919556
+                }
+            }, 
+            {
+                "timestamp": 1487361142.572022, 
+                "error": [], 
+                "duration": 95.48909997940063, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.83615517616272, 
+                    "cinder.create_snapshot": 12.975390911102295, 
+                    "nova.boot_server": 53.67739295959473
+                }
+            }, 
+            {
+                "timestamp": 1487361144.570485, 
+                "error": [], 
+                "duration": 91.81663799285889, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.2839138507843, 
+                    "cinder.create_snapshot": 10.805225133895874, 
+                    "nova.boot_server": 47.72732186317444
+                }
+            }, 
+            {
+                "timestamp": 1487361146.56989, 
+                "error": [], 
+                "duration": 88.68088793754578, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.84568119049072, 
+                    "cinder.create_snapshot": 13.153259992599487, 
+                    "nova.boot_server": 46.68176198005676
+                }
+            }, 
+            {
+                "timestamp": 1487361148.571304, 
+                "error": [], 
+                "duration": 89.2125678062439, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.65752196311951, 
+                    "cinder.create_snapshot": 10.945994138717651, 
+                    "nova.boot_server": 47.60890507698059
+                }
+            }, 
+            {
+                "timestamp": 1487361150.570485, 
+                "error": [], 
+                "duration": 86.36620879173279, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 36.24799394607544, 
+                    "cinder.create_snapshot": 10.701255083084106, 
+                    "nova.boot_server": 44.41681098937988
+                }
+            }, 
+            {
+                "timestamp": 1487361152.57042, 
+                "error": [], 
+                "duration": 87.18138599395752, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.304298877716064, 
+                    "cinder.create_snapshot": 11.022793054580688, 
+                    "nova.boot_server": 42.85414481163025
+                }
+            }, 
+            {
+                "timestamp": 1487361154.570977, 
+                "error": [], 
+                "duration": 84.30615901947021, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.944124937057495, 
+                    "cinder.create_snapshot": 13.204566955566406, 
+                    "nova.boot_server": 40.15731906890869
+                }
+            }, 
+            {
+                "timestamp": 1487361156.570533, 
+                "error": [], 
+                "duration": 82.97550892829895, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 40.312671184539795, 
+                    "cinder.create_snapshot": 10.917752981185913, 
+                    "nova.boot_server": 36.74493098258972
+                }
+            }, 
+            {
+                "timestamp": 1487361158.570513, 
+                "error": [], 
+                "duration": 78.28362202644348, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 40.17110800743103, 
+                    "cinder.create_snapshot": 11.230042934417725, 
+                    "nova.boot_server": 31.882314205169678
+                }
+            }, 
+            {
+                "timestamp": 1487361160.569905, 
+                "error": [], 
+                "duration": 81.06958484649658, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 40.876856088638306, 
+                    "cinder.create_snapshot": 10.833477020263672, 
+                    "nova.boot_server": 34.35910201072693
+                }
+            }, 
+            {
+                "timestamp": 1487361162.570501, 
+                "error": [], 
+                "duration": 79.03757691383362, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.92244791984558, 
+                    "cinder.create_snapshot": 11.22881293296814, 
+                    "nova.boot_server": 34.88617992401123
+                }
+            }, 
+            {
+                "timestamp": 1487361164.569931, 
+                "error": [], 
+                "duration": 75.72550702095032, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 40.45286417007446, 
+                    "cinder.create_snapshot": 10.827553033828735, 
+                    "nova.boot_server": 29.444931983947754
+                }
+            }, 
+            {
+                "timestamp": 1487361166.570932, 
+                "error": [], 
+                "duration": 73.5312922000885, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 42.50950598716736, 
+                    "cinder.create_snapshot": 19.21422791481018, 
+                    "nova.boot_server": 16.80739998817444
+                }
+            }, 
+            {
+                "timestamp": 1487361168.570785, 
+                "error": [], 
+                "duration": 71.76573204994202, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 42.87637805938721, 
+                    "cinder.create_snapshot": 17.406169891357422, 
+                    "nova.boot_server": 16.483047008514404
+                }
+            }, 
+            {
+                "timestamp": 1487361170.570324, 
+                "error": [], 
+                "duration": 69.89364099502563, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 40.138925075531006, 
+                    "cinder.create_snapshot": 17.339659929275513, 
+                    "nova.boot_server": 17.41490912437439
+                }
+            }, 
+            {
+                "timestamp": 1487361172.570673, 
+                "error": [], 
+                "duration": 67.69626998901367, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.59671401977539, 
+                    "cinder.create_snapshot": 17.171721935272217, 
+                    "nova.boot_server": 16.92768096923828
+                }
+            }, 
+            {
+                "timestamp": 1487361174.570291, 
+                "error": [], 
+                "duration": 67.67834806442261, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.67217302322388, 
+                    "cinder.create_snapshot": 17.299768924713135, 
+                    "nova.boot_server": 17.706249952316284
+                }
+            }, 
+            {
+                "timestamp": 1487361176.573021, 
+                "error": [], 
+                "duration": 64.55824995040894, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 50.77425003051758, 
+                    "cinder.create_snapshot": 6.70406699180603, 
+                    "nova.boot_server": 12.07979679107666
+                }
+            }, 
+            {
+                "timestamp": 1487361178.570971, 
+                "error": [], 
+                "duration": 62.64737391471863, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 48.32542896270752, 
+                    "cinder.create_snapshot": 7.01274299621582, 
+                    "nova.boot_server": 12.30904507637024
+                }
+            }, 
+            {
+                "timestamp": 1487361180.570058, 
+                "error": [], 
+                "duration": 61.49559998512268, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 46.47985100746155, 
+                    "cinder.create_snapshot": 6.537412881851196, 
+                    "nova.boot_server": 13.47818398475647
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "rps": 0.5, 
+                    "type": "rps", 
+                    "times": 300, 
+                    "max_cpu_count": 1
+                }, 
+                "hooks": [], 
+                "args": {
+                    "volume_size": 10, 
+                    "volume_type": "", 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 90.0, 
+                    "max_avg_duration": 45.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "port": -1, 
+                            "router": -1, 
+                            "network": -1, 
+                            "subnet": -1, 
+                            "security_group_rule": -1, 
+                            "security_group": -1
+                        }, 
+                        "nova": {
+                            "server_groups": -1, 
+                            "server_group_members": -1, 
+                            "injected_files": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "key_pairs": -1, 
+                            "security_group_rules": -1, 
+                            "cores": -1, 
+                            "ram": -1, 
+                            "security_groups": -1, 
+                            "floating_ips": -1, 
+                            "instances": -1, 
+                            "fixed_ips": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "metadata_items": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_server_from_volume_snapshot", 
+            "pos": 0
+        }, 
+        "full_duration": 258.84547686576843, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 95.84s <= 90.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 72.38s <= 45.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
