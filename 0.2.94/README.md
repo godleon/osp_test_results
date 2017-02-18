@@ -18,4 +18,5 @@
 - [boot-lock-unlock-and-delete](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-lock-unlock-and-delete.html)
 - [boot-server-and-add-secgroup](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-server-and-add-secgroup.html)
 - [boot-server-associate-and-dissociate-floating-ip](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-server-associate-and-dissociate-floating-ip.html)
+- [boot-server-attach-created-volume-and-live-migrate](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-server-attach-created-volume-and-live-migrate.html)
 
