@@ -5,4 +5,5 @@
 - [boot-and-delete-server-with-secgroups](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-and-delete-server-with-secgroups.html)
 - [boot-and-delete](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-and-delete.html)
 - [boot-and-get-console-server](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-and-get-console-server.html)
+- [boot-and-list](https://godleon.github.io/osp_test_results/0.2.94/nova/boot-and-list.html)
 
