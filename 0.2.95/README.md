@@ -15,4 +15,5 @@
 - [boot-from-volume-and-resize](https://godleon.github.io/osp_test_results/0.2.95/nova/boot-from-volume-and-resize.html)
 - [boot-from-volume-snapshot](https://godleon.github.io/osp_test_results/0.2.95/nova/boot-from-volume-snapshot.html)
 - [boot-from-volume](https://godleon.github.io/osp_test_results/0.2.95/nova/boot-from-volume.html)
+- [boot-lock-unlock-and-delete](https://godleon.github.io/osp_test_results/0.2.95/nova/boot-lock-unlock-and-delete.html)
 
