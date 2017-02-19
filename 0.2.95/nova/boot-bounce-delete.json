@@ -1,0 +1,3620 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-19-02T09:54:49", 
+        "load_duration": 458.4486711025238, 
+        "result": [
+            {
+                "timestamp": 1487498091.884307, 
+                "error": [], 
+                "duration": 209.35822010040283, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025616168975830078, 
+                    "nova.boot_server": 141.626727104187, 
+                    "nova.reboot_server": 7.202136039733887, 
+                    "nova.soft_reboot_server": 4.7315709590911865, 
+                    "nova.stop_and_start_server": 51.67925214767456, 
+                    "nova.stop_server": 45.26429986953735, 
+                    "nova.start_server": 6.414899110794067, 
+                    "nova.rescue_and_unrescue_server": 10.348824977874756, 
+                    "nova.rescue_server": 7.665629863739014, 
+                    "nova.unrescue_server": 2.683133840560913, 
+                    "nova.delete_server": 2.7375869750976562
+                }
+            }, 
+            {
+                "timestamp": 1487498093.881384, 
+                "error": [], 
+                "duration": 127.27400016784668, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023112058639526367, 
+                    "nova.boot_server": 88.66323900222778, 
+                    "nova.reboot_server": 7.030779123306274, 
+                    "nova.soft_reboot_server": 6.86349892616272, 
+                    "nova.stop_and_start_server": 8.32423996925354, 
+                    "nova.stop_server": 5.0645341873168945, 
+                    "nova.start_server": 3.2596421241760254, 
+                    "nova.rescue_and_unrescue_server": 22.58438205718994, 
+                    "nova.rescue_server": 20.098891973495483, 
+                    "nova.unrescue_server": 2.485413074493408, 
+                    "nova.delete_server": 2.7782089710235596
+                }
+            }, 
+            {
+                "timestamp": 1487498095.881093, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_DsY462AQ:5cfaa9c9-00f5-4073-9a3d-c184fb78fc4f to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_DsY462AQ:5cfaa9c9-00f5-4073-9a3d-c184fb78fc4f to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.774640083313, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.022250890731811523, 
+                    "nova.boot_server": 302.7500698566437
+                }
+            }, 
+            {
+                "timestamp": 1487498097.882148, 
+                "error": [], 
+                "duration": 112.51185894012451, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023041963577270508, 
+                    "nova.boot_server": 84.49484705924988, 
+                    "nova.reboot_server": 7.179105043411255, 
+                    "nova.soft_reboot_server": 6.822893142700195, 
+                    "nova.stop_and_start_server": 8.552325010299683, 
+                    "nova.stop_server": 5.091140031814575, 
+                    "nova.start_server": 3.461127996444702, 
+                    "nova.rescue_and_unrescue_server": 9.63816213607788, 
+                    "nova.rescue_server": 7.103677988052368, 
+                    "nova.unrescue_server": 2.5344321727752686, 
+                    "nova.delete_server": 4.795454978942871
+                }
+            }, 
+            {
+                "timestamp": 1487498099.881831, 
+                "error": [], 
+                "duration": 202.6840841770172, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023246049880981445, 
+                    "nova.boot_server": 133.12682795524597, 
+                    "nova.reboot_server": 7.337450981140137, 
+                    "nova.soft_reboot_server": 4.751200914382935, 
+                    "nova.stop_and_start_server": 51.962077140808105, 
+                    "nova.stop_server": 45.46256899833679, 
+                    "nova.start_server": 6.499446153640747, 
+                    "nova.rescue_and_unrescue_server": 11.860740900039673, 
+                    "nova.rescue_server": 6.927268981933594, 
+                    "nova.unrescue_server": 4.933417081832886, 
+                    "nova.delete_server": 2.61264705657959
+                }
+            }, 
+            {
+                "timestamp": 1487498101.88182, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_lDmYwiEH:1d90c1e0-cb3a-4f49-860a-b129b3720992 to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_lDmYwiEH:1d90c1e0-cb3a-4f49-860a-b129b3720992 to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.6437680721283, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023651838302612305, 
+                    "nova.boot_server": 302.6172881126404
+                }
+            }, 
+            {
+                "timestamp": 1487498103.882218, 
+                "error": [], 
+                "duration": 192.3657341003418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02267909049987793, 
+                    "nova.boot_server": 128.64202404022217, 
+                    "nova.reboot_server": 6.8334197998046875, 
+                    "nova.soft_reboot_server": 4.777959108352661, 
+                    "nova.stop_and_start_server": 46.70392203330994, 
+                    "nova.stop_server": 43.87761902809143, 
+                    "nova.start_server": 2.82625412940979, 
+                    "nova.rescue_and_unrescue_server": 11.608999013900757, 
+                    "nova.rescue_server": 9.123563051223755, 
+                    "nova.unrescue_server": 2.4853761196136475, 
+                    "nova.delete_server": 2.7637810707092285
+                }
+            }, 
+            {
+                "timestamp": 1487498105.881589, 
+                "error": [], 
+                "duration": 112.7976610660553, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023212194442749023, 
+                    "nova.boot_server": 76.8111457824707, 
+                    "nova.reboot_server": 7.039995908737183, 
+                    "nova.soft_reboot_server": 6.903954982757568, 
+                    "nova.stop_and_start_server": 8.297928810119629, 
+                    "nova.stop_server": 5.41612696647644, 
+                    "nova.start_server": 2.8817479610443115, 
+                    "nova.rescue_and_unrescue_server": 20.133223056793213, 
+                    "nova.rescue_server": 17.79814100265503, 
+                    "nova.unrescue_server": 2.335012912750244, 
+                    "nova.delete_server": 2.5818800926208496
+                }
+            }, 
+            {
+                "timestamp": 1487498107.883329, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_TdRK3QXD:9fc21d93-b7ab-42df-be76-b111814da104 to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_TdRK3QXD:9fc21d93-b7ab-42df-be76-b111814da104 to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.75010418891907, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02363419532775879, 
+                    "nova.boot_server": 302.7238419055939
+                }
+            }, 
+            {
+                "timestamp": 1487498109.881994, 
+                "error": [], 
+                "duration": 188.65136694908142, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023123979568481445, 
+                    "nova.boot_server": 122.56310987472534, 
+                    "nova.reboot_server": 7.018556118011475, 
+                    "nova.soft_reboot_server": 4.866581916809082, 
+                    "nova.stop_and_start_server": 51.25709891319275, 
+                    "nova.stop_server": 44.33753705024719, 
+                    "nova.start_server": 6.919502019882202, 
+                    "nova.rescue_and_unrescue_server": 9.446033954620361, 
+                    "nova.rescue_server": 7.071506023406982, 
+                    "nova.unrescue_server": 2.3744630813598633, 
+                    "nova.delete_server": 2.469491958618164
+                }
+            }, 
+            {
+                "timestamp": 1487498111.881156, 
+                "error": [], 
+                "duration": 93.12933802604675, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02336597442626953, 
+                    "nova.boot_server": 70.01032018661499, 
+                    "nova.reboot_server": 4.740010976791382, 
+                    "nova.soft_reboot_server": 7.100935935974121, 
+                    "nova.stop_and_start_server": 8.237927913665771, 
+                    "nova.stop_server": 5.160615921020508, 
+                    "nova.start_server": 3.0772409439086914, 
+                    "nova.rescue_and_unrescue_server": 9.334208011627197, 
+                    "nova.rescue_server": 6.9632039070129395, 
+                    "nova.unrescue_server": 2.3709328174591064, 
+                    "nova.delete_server": 2.667635202407837
+                }
+            }, 
+            {
+                "timestamp": 1487498113.882587, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_jJ6nPAtM:4c1fb15a-97d8-426e-8442-8b1653222c2b to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_jJ6nPAtM:4c1fb15a-97d8-426e-8442-8b1653222c2b to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.8444240093231, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.022880077362060547, 
+                    "nova.boot_server": 302.8188979625702
+                }
+            }, 
+            {
+                "timestamp": 1487498115.881491, 
+                "error": [], 
+                "duration": 186.11168003082275, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026910066604614258, 
+                    "nova.boot_server": 116.99417185783386, 
+                    "nova.reboot_server": 6.736736059188843, 
+                    "nova.soft_reboot_server": 4.893338203430176, 
+                    "nova.stop_and_start_server": 52.25386905670166, 
+                    "nova.stop_server": 45.60433912277222, 
+                    "nova.start_server": 6.6494669914245605, 
+                    "nova.rescue_and_unrescue_server": 11.70077109336853, 
+                    "nova.rescue_server": 6.777956008911133, 
+                    "nova.unrescue_server": 4.922762870788574, 
+                    "nova.delete_server": 2.492947816848755
+                }
+            }, 
+            {
+                "timestamp": 1487498117.883041, 
+                "error": [], 
+                "duration": 98.25635719299316, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023476123809814453, 
+                    "nova.boot_server": 65.25743508338928, 
+                    "nova.reboot_server": 6.989409923553467, 
+                    "nova.soft_reboot_server": 4.869956970214844, 
+                    "nova.stop_and_start_server": 17.843905925750732, 
+                    "nova.stop_server": 14.689120054244995, 
+                    "nova.start_server": 3.154729127883911, 
+                    "nova.rescue_and_unrescue_server": 9.423162937164307, 
+                    "nova.rescue_server": 7.073081970214844, 
+                    "nova.unrescue_server": 2.3500239849090576, 
+                    "nova.delete_server": 2.839081048965454
+                }
+            }, 
+            {
+                "timestamp": 1487498119.881378, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_8qMBiBlL:5dfe005c-c06d-491e-a605-479e109d97e6 to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_8qMBiBlL:5dfe005c-c06d-491e-a605-479e109d97e6 to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 302.3657741546631, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023849010467529297, 
+                    "nova.boot_server": 303.3391571044922
+                }
+            }, 
+            {
+                "timestamp": 1487498121.88261, 
+                "error": [], 
+                "duration": 179.37166500091553, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029245853424072266, 
+                    "nova.boot_server": 111.27606582641602, 
+                    "nova.reboot_server": 6.8966169357299805, 
+                    "nova.soft_reboot_server": 4.563576936721802, 
+                    "nova.stop_and_start_server": 52.905303955078125, 
+                    "nova.stop_server": 45.0685760974884, 
+                    "nova.start_server": 7.836670875549316, 
+                    "nova.rescue_and_unrescue_server": 9.910935163497925, 
+                    "nova.rescue_server": 7.189220905303955, 
+                    "nova.unrescue_server": 2.7216591835021973, 
+                    "nova.delete_server": 2.7824909687042236
+                }
+            }, 
+            {
+                "timestamp": 1487498123.88185, 
+                "error": [], 
+                "duration": 84.27186703681946, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.024726152420043945, 
+                    "nova.boot_server": 58.57049298286438, 
+                    "nova.reboot_server": 6.959296941757202, 
+                    "nova.soft_reboot_server": 7.3861939907073975, 
+                    "nova.stop_and_start_server": 8.263280868530273, 
+                    "nova.stop_server": 4.881337881088257, 
+                    "nova.start_server": 3.3818740844726562, 
+                    "nova.rescue_and_unrescue_server": 9.356589078903198, 
+                    "nova.rescue_server": 7.010297060012817, 
+                    "nova.unrescue_server": 2.3462319374084473, 
+                    "nova.delete_server": 2.7044079303741455
+                }
+            }, 
+            {
+                "timestamp": 1487498125.881778, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_zdpLpnWG:9d43fe2c-4fd2-455e-8412-6f6c95f381ca to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_zdpLpnWG:9d43fe2c-4fd2-455e-8412-6f6c95f381ca to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.9037380218506, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.19626092910766602, 
+                    "nova.boot_server": 302.7040400505066
+                }
+            }, 
+            {
+                "timestamp": 1487498127.882202, 
+                "error": [], 
+                "duration": 162.4857621192932, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.024533987045288086, 
+                    "nova.boot_server": 104.91101908683777, 
+                    "nova.reboot_server": 6.76505708694458, 
+                    "nova.soft_reboot_server": 6.893754005432129, 
+                    "nova.stop_and_start_server": 36.49849605560303, 
+                    "nova.stop_server": 4.927748918533325, 
+                    "nova.start_server": 31.57068705558777, 
+                    "nova.rescue_and_unrescue_server": 13.917594909667969, 
+                    "nova.rescue_server": 6.946820020675659, 
+                    "nova.unrescue_server": 6.97072696685791, 
+                    "nova.delete_server": 2.4690089225769043
+                }
+            }, 
+            {
+                "timestamp": 1487498129.884307, 
+                "error": [], 
+                "duration": 85.62160801887512, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023624897003173828, 
+                    "nova.boot_server": 52.872305154800415, 
+                    "nova.reboot_server": 7.453979969024658, 
+                    "nova.soft_reboot_server": 5.212759971618652, 
+                    "nova.stop_and_start_server": 16.832983016967773, 
+                    "nova.stop_server": 13.970476865768433, 
+                    "nova.start_server": 2.862436056137085, 
+                    "nova.rescue_and_unrescue_server": 9.749182939529419, 
+                    "nova.rescue_server": 7.0892980098724365, 
+                    "nova.unrescue_server": 2.659832000732422, 
+                    "nova.delete_server": 2.4680049419403076
+                }
+            }, 
+            {
+                "timestamp": 1487498131.882973, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_4af61686_IrgWX4Pv:7fd301d6-26c5-461c-af12-851340dea412 to become ('ACTIVE') current status BUILD", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 223, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_4af61686_IrgWX4Pv:7fd301d6-26c5-461c-af12-851340dea412 to become ('ACTIVE') current status BUILD\n"
+                ], 
+                "duration": 301.9474129676819, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023328065872192383, 
+                    "nova.boot_server": 302.9204001426697
+                }
+            }, 
+            {
+                "timestamp": 1487498133.881165, 
+                "error": [], 
+                "duration": 177.33411693572998, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025326967239379883, 
+                    "nova.boot_server": 99.02599382400513, 
+                    "nova.reboot_server": 6.946830987930298, 
+                    "nova.soft_reboot_server": 4.989491939544678, 
+                    "nova.stop_and_start_server": 51.8339478969574, 
+                    "nova.stop_server": 46.04020404815674, 
+                    "nova.start_server": 5.79367995262146, 
+                    "nova.rescue_and_unrescue_server": 21.026738166809082, 
+                    "nova.rescue_server": 18.507925987243652, 
+                    "nova.unrescue_server": 2.518742084503174, 
+                    "nova.delete_server": 2.4760560989379883
+                }
+            }, 
+            {
+                "timestamp": 1487498135.884267, 
+                "error": [], 
+                "duration": 79.83428192138672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027637958526611328, 
+                    "nova.boot_server": 47.30801200866699, 
+                    "nova.reboot_server": 7.026210069656372, 
+                    "nova.soft_reboot_server": 4.864220142364502, 
+                    "nova.stop_and_start_server": 17.565263986587524, 
+                    "nova.stop_server": 14.508727073669434, 
+                    "nova.start_server": 3.056475877761841, 
+                    "nova.rescue_and_unrescue_server": 9.575512886047363, 
+                    "nova.rescue_server": 7.151515960693359, 
+                    "nova.unrescue_server": 2.4239468574523926, 
+                    "nova.delete_server": 2.455347776412964
+                }
+            }, 
+            {
+                "timestamp": 1487498137.881824, 
+                "error": [], 
+                "duration": 351.9230320453644, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02429509162902832, 
+                    "nova.boot_server": 302.6125431060791, 
+                    "nova.reboot_server": 4.650490999221802, 
+                    "nova.soft_reboot_server": 7.030071020126343, 
+                    "nova.stop_and_start_server": 12.347991943359375, 
+                    "nova.stop_server": 4.9578728675842285, 
+                    "nova.start_server": 7.390063047409058, 
+                    "nova.rescue_and_unrescue_server": 31.738742113113403, 
+                    "nova.rescue_server": 22.77501106262207, 
+                    "nova.unrescue_server": 8.963682174682617, 
+                    "nova.delete_server": 2.508976936340332
+                }
+            }, 
+            {
+                "timestamp": 1487498139.881593, 
+                "error": [], 
+                "duration": 163.20487809181213, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.024549007415771484, 
+                    "nova.boot_server": 92.80166912078857, 
+                    "nova.reboot_server": 7.51780104637146, 
+                    "nova.soft_reboot_server": 4.765866041183472, 
+                    "nova.stop_and_start_server": 50.76182818412781, 
+                    "nova.stop_server": 43.80076193809509, 
+                    "nova.start_server": 6.961009979248047, 
+                    "nova.rescue_and_unrescue_server": 11.540077924728394, 
+                    "nova.rescue_server": 7.014419078826904, 
+                    "nova.unrescue_server": 4.525539875030518, 
+                    "nova.delete_server": 4.7869648933410645
+                }
+            }, 
+            {
+                "timestamp": 1487498141.884444, 
+                "error": [], 
+                "duration": 66.6673641204834, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023489952087402344, 
+                    "nova.boot_server": 40.51497483253479, 
+                    "nova.reboot_server": 7.538647890090942, 
+                    "nova.soft_reboot_server": 7.164801120758057, 
+                    "nova.stop_and_start_server": 8.188332080841064, 
+                    "nova.stop_server": 5.208007097244263, 
+                    "nova.start_server": 2.9802749156951904, 
+                    "nova.rescue_and_unrescue_server": 9.745229005813599, 
+                    "nova.rescue_server": 7.359022855758667, 
+                    "nova.unrescue_server": 2.3861489295959473, 
+                    "nova.delete_server": 2.4853320121765137
+                }
+            }, 
+            {
+                "timestamp": 1487498143.884043, 
+                "error": [], 
+                "duration": 334.0402309894562, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026227951049804688, 
+                    "nova.boot_server": 297.5768630504608, 
+                    "nova.reboot_server": 7.1477370262146, 
+                    "nova.soft_reboot_server": 6.961263179779053, 
+                    "nova.stop_and_start_server": 10.224709033966064, 
+                    "nova.stop_server": 7.141452074050903, 
+                    "nova.start_server": 3.0832061767578125, 
+                    "nova.rescue_and_unrescue_server": 18.339044094085693, 
+                    "nova.rescue_server": 7.0982420444488525, 
+                    "nova.unrescue_server": 11.240752935409546, 
+                    "nova.delete_server": 2.758430004119873
+                }
+            }, 
+            {
+                "timestamp": 1487498145.882337, 
+                "error": [], 
+                "duration": 155.8754198551178, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02834606170654297, 
+                    "nova.boot_server": 87.30745792388916, 
+                    "nova.reboot_server": 6.853851079940796, 
+                    "nova.soft_reboot_server": 4.70304799079895, 
+                    "nova.stop_and_start_server": 51.515121936798096, 
+                    "nova.stop_server": 44.36110186576843, 
+                    "nova.start_server": 7.153969049453735, 
+                    "nova.rescue_and_unrescue_server": 11.877732992172241, 
+                    "nova.rescue_server": 7.15374493598938, 
+                    "nova.unrescue_server": 4.723927021026611, 
+                    "nova.delete_server": 2.5817110538482666
+                }
+            }, 
+            {
+                "timestamp": 1487498147.882539, 
+                "error": [], 
+                "duration": 66.92536497116089, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027018070220947266, 
+                    "nova.boot_server": 34.389045000076294, 
+                    "nova.reboot_server": 5.035692930221558, 
+                    "nova.soft_reboot_server": 5.098151922225952, 
+                    "nova.stop_and_start_server": 17.356693029403687, 
+                    "nova.stop_server": 14.382879972457886, 
+                    "nova.start_server": 2.9737470149993896, 
+                    "nova.rescue_and_unrescue_server": 11.552142858505249, 
+                    "nova.rescue_server": 9.056922912597656, 
+                    "nova.unrescue_server": 2.495159864425659, 
+                    "nova.delete_server": 2.4592549800872803
+                }
+            }, 
+            {
+                "timestamp": 1487498149.882411, 
+                "error": [], 
+                "duration": 339.98516488075256, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026604175567626953, 
+                    "nova.boot_server": 291.5068998336792, 
+                    "nova.reboot_server": 6.919858932495117, 
+                    "nova.soft_reboot_server": 5.085093021392822, 
+                    "nova.stop_and_start_server": 11.02947998046875, 
+                    "nova.stop_server": 6.9446940422058105, 
+                    "nova.start_server": 4.0847251415252686, 
+                    "nova.rescue_and_unrescue_server": 29.592447996139526, 
+                    "nova.rescue_server": 22.491254091262817, 
+                    "nova.unrescue_server": 7.10113787651062, 
+                    "nova.delete_server": 4.817659854888916
+                }
+            }, 
+            {
+                "timestamp": 1487498151.881647, 
+                "error": [], 
+                "duration": 163.72600483894348, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025235891342163086, 
+                    "nova.boot_server": 94.80593681335449, 
+                    "nova.reboot_server": 34.911612033843994, 
+                    "nova.soft_reboot_server": 4.969923973083496, 
+                    "nova.stop_and_start_server": 23.357828855514526, 
+                    "nova.stop_server": 19.06153106689453, 
+                    "nova.start_server": 4.296231985092163, 
+                    "nova.rescue_and_unrescue_server": 9.704996824264526, 
+                    "nova.rescue_server": 7.180037021636963, 
+                    "nova.unrescue_server": 2.5249009132385254, 
+                    "nova.delete_server": 4.9412500858306885
+                }
+            }, 
+            {
+                "timestamp": 1487498153.882673, 
+                "error": [], 
+                "duration": 154.32786393165588, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02667713165283203, 
+                    "nova.boot_server": 92.77798509597778, 
+                    "nova.reboot_server": 34.16305494308472, 
+                    "nova.soft_reboot_server": 7.032433032989502, 
+                    "nova.stop_and_start_server": 11.979030847549438, 
+                    "nova.stop_server": 7.514688014984131, 
+                    "nova.start_server": 4.4642908573150635, 
+                    "nova.rescue_and_unrescue_server": 14.748461961746216, 
+                    "nova.rescue_server": 9.288188934326172, 
+                    "nova.unrescue_server": 5.4602210521698, 
+                    "nova.delete_server": 2.5941200256347656
+                }
+            }, 
+            {
+                "timestamp": 1487498155.881119, 
+                "error": [], 
+                "duration": 267.212858915329, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02868199348449707, 
+                    "nova.boot_server": 86.09685182571411, 
+                    "nova.reboot_server": 2.4553439617156982, 
+                    "nova.soft_reboot_server": 167.84454202651978, 
+                    "nova.stop_and_start_server": 7.946495056152344, 
+                    "nova.stop_server": 5.010858058929443, 
+                    "nova.start_server": 2.9355790615081787, 
+                    "nova.rescue_and_unrescue_server": 9.416347980499268, 
+                    "nova.rescue_server": 6.880993127822876, 
+                    "nova.unrescue_server": 2.5353071689605713, 
+                    "nova.delete_server": 2.4151151180267334
+                }
+            }, 
+            {
+                "timestamp": 1487498157.883452, 
+                "error": [], 
+                "duration": 59.971819162368774, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025018930435180664, 
+                    "nova.boot_server": 36.36447787284851, 
+                    "nova.reboot_server": 4.752899885177612, 
+                    "nova.soft_reboot_server": 7.402781009674072, 
+                    "nova.stop_and_start_server": 8.335115909576416, 
+                    "nova.stop_server": 5.2130210399627686, 
+                    "nova.start_server": 3.12202787399292, 
+                    "nova.rescue_and_unrescue_server": 9.552600860595703, 
+                    "nova.rescue_server": 7.075464963912964, 
+                    "nova.unrescue_server": 2.4770750999450684, 
+                    "nova.delete_server": 2.5322890281677246
+                }
+            }, 
+            {
+                "timestamp": 1487498159.881866, 
+                "error": [], 
+                "duration": 64.75373792648315, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.0304110050201416, 
+                    "nova.boot_server": 32.691065073013306, 
+                    "nova.reboot_server": 4.90572714805603, 
+                    "nova.soft_reboot_server": 5.182209014892578, 
+                    "nova.stop_and_start_server": 18.398324966430664, 
+                    "nova.stop_server": 14.867087125778198, 
+                    "nova.start_server": 3.531172037124634, 
+                    "nova.rescue_and_unrescue_server": 9.609599113464355, 
+                    "nova.rescue_server": 7.131813049316406, 
+                    "nova.unrescue_server": 2.4777300357818604, 
+                    "nova.delete_server": 2.9296841621398926
+                }
+            }, 
+            {
+                "timestamp": 1487498161.881629, 
+                "error": [], 
+                "duration": 62.40151500701904, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02696704864501953, 
+                    "nova.boot_server": 30.447781085968018, 
+                    "nova.reboot_server": 5.349833011627197, 
+                    "nova.soft_reboot_server": 4.991206169128418, 
+                    "nova.stop_and_start_server": 18.207781076431274, 
+                    "nova.stop_server": 15.203586101531982, 
+                    "nova.start_server": 3.004136085510254, 
+                    "nova.rescue_and_unrescue_server": 9.483659982681274, 
+                    "nova.rescue_server": 6.991873025894165, 
+                    "nova.unrescue_server": 2.4917399883270264, 
+                    "nova.delete_server": 2.8849270343780518
+                }
+            }, 
+            {
+                "timestamp": 1487498163.882573, 
+                "error": [], 
+                "duration": 324.151260137558, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023437976837158203, 
+                    "nova.boot_server": 277.4354920387268, 
+                    "nova.reboot_server": 6.986330986022949, 
+                    "nova.soft_reboot_server": 4.541126012802124, 
+                    "nova.stop_and_start_server": 21.638005018234253, 
+                    "nova.stop_server": 18.594018936157227, 
+                    "nova.start_server": 3.043929100036621, 
+                    "nova.rescue_and_unrescue_server": 17.94762682914734, 
+                    "nova.rescue_server": 11.204293012619019, 
+                    "nova.unrescue_server": 6.743282794952393, 
+                    "nova.delete_server": 4.5734570026397705
+                }
+            }, 
+            {
+                "timestamp": 1487498165.881942, 
+                "error": [], 
+                "duration": 323.30058002471924, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02429509162902832, 
+                    "nova.boot_server": 275.54905915260315, 
+                    "nova.reboot_server": 7.04491400718689, 
+                    "nova.soft_reboot_server": 6.918608903884888, 
+                    "nova.stop_and_start_server": 9.686895847320557, 
+                    "nova.stop_server": 6.938711881637573, 
+                    "nova.start_server": 2.7481272220611572, 
+                    "nova.rescue_and_unrescue_server": 30.068039894104004, 
+                    "nova.rescue_server": 20.883034229278564, 
+                    "nova.unrescue_server": 9.184953927993774, 
+                    "nova.delete_server": 3.0029759407043457
+                }
+            }, 
+            {
+                "timestamp": 1487498167.885837, 
+                "error": [], 
+                "duration": 323.5539698600769, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03364300727844238, 
+                    "nova.boot_server": 273.27396988868713, 
+                    "nova.reboot_server": 7.129266023635864, 
+                    "nova.soft_reboot_server": 6.7324230670928955, 
+                    "nova.stop_and_start_server": 10.286940813064575, 
+                    "nova.stop_server": 7.222898960113525, 
+                    "nova.start_server": 3.0639851093292236, 
+                    "nova.rescue_and_unrescue_server": 32.52664613723755, 
+                    "nova.rescue_server": 27.25550389289856, 
+                    "nova.unrescue_server": 5.271086931228638, 
+                    "nova.delete_server": 2.563552141189575
+                }
+            }, 
+            {
+                "timestamp": 1487498169.881916, 
+                "error": [], 
+                "duration": 135.6843569278717, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03247499465942383, 
+                    "nova.boot_server": 77.04234385490417, 
+                    "nova.reboot_server": 35.83847689628601, 
+                    "nova.soft_reboot_server": 7.166467189788818, 
+                    "nova.stop_and_start_server": 9.630590915679932, 
+                    "nova.stop_server": 5.391535043716431, 
+                    "nova.start_server": 4.238997936248779, 
+                    "nova.rescue_and_unrescue_server": 12.288734912872314, 
+                    "nova.rescue_server": 9.575875043869019, 
+                    "nova.unrescue_server": 2.712799072265625, 
+                    "nova.delete_server": 2.6772799491882324
+                }
+            }, 
+            {
+                "timestamp": 1487498171.883971, 
+                "error": [], 
+                "duration": 146.46424007415771, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028935909271240234, 
+                    "nova.boot_server": 74.2244930267334, 
+                    "nova.reboot_server": 35.296903133392334, 
+                    "nova.soft_reboot_server": 6.861279010772705, 
+                    "nova.stop_and_start_server": 10.561931133270264, 
+                    "nova.stop_server": 7.490185976028442, 
+                    "nova.start_server": 3.0716869831085205, 
+                    "nova.rescue_and_unrescue_server": 25.71788501739502, 
+                    "nova.rescue_server": 20.887510061264038, 
+                    "nova.unrescue_server": 4.830315113067627, 
+                    "nova.delete_server": 2.7665090560913086
+                }
+            }, 
+            {
+                "timestamp": 1487498173.882395, 
+                "error": [], 
+                "duration": 141.1566128730774, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03119492530822754, 
+                    "nova.boot_server": 73.29249095916748, 
+                    "nova.reboot_server": 35.03439998626709, 
+                    "nova.soft_reboot_server": 4.687964916229248, 
+                    "nova.stop_and_start_server": 22.433236122131348, 
+                    "nova.stop_server": 18.27401900291443, 
+                    "nova.start_server": 4.159146070480347, 
+                    "nova.rescue_and_unrescue_server": 9.775981903076172, 
+                    "nova.rescue_server": 7.271705865859985, 
+                    "nova.unrescue_server": 2.5042221546173096, 
+                    "nova.delete_server": 4.895596981048584
+                }
+            }, 
+            {
+                "timestamp": 1487498175.885396, 
+                "error": [], 
+                "duration": 47.857887983322144, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026684999465942383, 
+                    "nova.boot_server": 16.522526025772095, 
+                    "nova.reboot_server": 5.0895140171051025, 
+                    "nova.soft_reboot_server": 5.198241949081421, 
+                    "nova.stop_and_start_server": 18.055821895599365, 
+                    "nova.stop_server": 14.697078943252563, 
+                    "nova.start_server": 3.35868501663208, 
+                    "nova.rescue_and_unrescue_server": 9.343477964401245, 
+                    "nova.rescue_server": 6.76967191696167, 
+                    "nova.unrescue_server": 2.573745012283325, 
+                    "nova.delete_server": 2.607154130935669
+                }
+            }, 
+            {
+                "timestamp": 1487498177.882946, 
+                "error": [], 
+                "duration": 50.57894206047058, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03302907943725586, 
+                    "nova.boot_server": 15.006791114807129, 
+                    "nova.reboot_server": 4.653929948806763, 
+                    "nova.soft_reboot_server": 5.0844550132751465, 
+                    "nova.stop_and_start_server": 17.540631771087646, 
+                    "nova.stop_server": 14.346638917922974, 
+                    "nova.start_server": 3.193925142288208, 
+                    "nova.rescue_and_unrescue_server": 12.421683073043823, 
+                    "nova.rescue_server": 7.349649906158447, 
+                    "nova.unrescue_server": 5.071975946426392, 
+                    "nova.delete_server": 4.831174850463867
+                }
+            }, 
+            {
+                "timestamp": 1487498179.882344, 
+                "error": [], 
+                "duration": 175.1131088733673, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.037542104721069336, 
+                    "nova.boot_server": 15.156745910644531, 
+                    "nova.reboot_server": 2.5476598739624023, 
+                    "nova.soft_reboot_server": 132.94085097312927, 
+                    "nova.stop_and_start_server": 16.986657857894897, 
+                    "nova.stop_server": 13.984340906143188, 
+                    "nova.start_server": 3.0022668838500977, 
+                    "nova.rescue_and_unrescue_server": 13.971877813339233, 
+                    "nova.rescue_server": 11.523007154464722, 
+                    "nova.unrescue_server": 2.4488120079040527, 
+                    "nova.delete_server": 2.465657949447632
+                }
+            }, 
+            {
+                "timestamp": 1487498181.883214, 
+                "error": [], 
+                "duration": 306.24094796180725, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028148174285888672, 
+                    "nova.boot_server": 258.94887804985046, 
+                    "nova.reboot_server": 8.989748001098633, 
+                    "nova.soft_reboot_server": 7.406639099121094, 
+                    "nova.stop_and_start_server": 8.099828004837036, 
+                    "nova.stop_server": 5.177237033843994, 
+                    "nova.start_server": 2.922536849975586, 
+                    "nova.rescue_and_unrescue_server": 27.002394914627075, 
+                    "nova.rescue_server": 20.268975019454956, 
+                    "nova.unrescue_server": 6.733369827270508, 
+                    "nova.delete_server": 4.758970022201538
+                }
+            }, 
+            {
+                "timestamp": 1487498183.882512, 
+                "error": [], 
+                "duration": 308.6527509689331, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025287151336669922, 
+                    "nova.boot_server": 257.0178818702698, 
+                    "nova.reboot_server": 7.042155027389526, 
+                    "nova.soft_reboot_server": 4.5096049308776855, 
+                    "nova.stop_and_start_server": 21.249168872833252, 
+                    "nova.stop_server": 18.332738876342773, 
+                    "nova.start_server": 2.9163668155670166, 
+                    "nova.rescue_and_unrescue_server": 25.13851809501648, 
+                    "nova.rescue_server": 18.393260955810547, 
+                    "nova.unrescue_server": 6.745201110839844, 
+                    "nova.delete_server": 2.6608400344848633
+                }
+            }, 
+            {
+                "timestamp": 1487498185.881376, 
+                "error": [], 
+                "duration": 304.14487290382385, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026005029678344727, 
+                    "nova.boot_server": 259.76481199264526, 
+                    "nova.reboot_server": 4.8126540184021, 
+                    "nova.soft_reboot_server": 6.679953098297119, 
+                    "nova.stop_and_start_server": 7.9333720207214355, 
+                    "nova.stop_server": 4.79326605796814, 
+                    "nova.start_server": 3.1400511264801025, 
+                    "nova.rescue_and_unrescue_server": 31.50611710548401, 
+                    "nova.rescue_server": 26.998790979385376, 
+                    "nova.unrescue_server": 4.507275104522705, 
+                    "nova.delete_server": 2.4161570072174072
+                }
+            }, 
+            {
+                "timestamp": 1487498187.88646, 
+                "error": [], 
+                "duration": 129.1139738559723, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027166128158569336, 
+                    "nova.boot_server": 58.64592003822327, 
+                    "nova.reboot_server": 35.52496099472046, 
+                    "nova.soft_reboot_server": 7.268898010253906, 
+                    "nova.stop_and_start_server": 10.628412008285522, 
+                    "nova.stop_server": 7.343158960342407, 
+                    "nova.start_server": 3.2852001190185547, 
+                    "nova.rescue_and_unrescue_server": 23.223145961761475, 
+                    "nova.rescue_server": 20.66491198539734, 
+                    "nova.unrescue_server": 2.5581719875335693, 
+                    "nova.delete_server": 2.7882540225982666
+                }
+            }, 
+            {
+                "timestamp": 1487498189.881785, 
+                "error": [], 
+                "duration": 128.89947605133057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02851414680480957, 
+                    "nova.boot_server": 56.27084922790527, 
+                    "nova.reboot_server": 35.367613792419434, 
+                    "nova.soft_reboot_server": 7.088791847229004, 
+                    "nova.stop_and_start_server": 10.863111019134521, 
+                    "nova.stop_server": 7.5088050365448, 
+                    "nova.start_server": 3.3542330265045166, 
+                    "nova.rescue_and_unrescue_server": 25.787266969680786, 
+                    "nova.rescue_server": 20.548434019088745, 
+                    "nova.unrescue_server": 5.238763093948364, 
+                    "nova.delete_server": 2.4757168292999268
+                }
+            }, 
+            {
+                "timestamp": 1487498191.882877, 
+                "error": [], 
+                "duration": 111.3035819530487, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03618502616882324, 
+                    "nova.boot_server": 54.25834918022156, 
+                    "nova.reboot_server": 35.43860483169556, 
+                    "nova.soft_reboot_server": 5.218854904174805, 
+                    "nova.stop_and_start_server": 10.276248931884766, 
+                    "nova.stop_server": 5.441388130187988, 
+                    "nova.start_server": 4.834802865982056, 
+                    "nova.rescue_and_unrescue_server": 12.12046504020691, 
+                    "nova.rescue_server": 7.471950054168701, 
+                    "nova.unrescue_server": 4.648454189300537, 
+                    "nova.delete_server": 2.939551830291748
+                }
+            }, 
+            {
+                "timestamp": 1487498193.881713, 
+                "error": [], 
+                "duration": 301.29234409332275, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03034687042236328, 
+                    "nova.boot_server": 251.74931001663208, 
+                    "nova.reboot_server": 4.869014024734497, 
+                    "nova.soft_reboot_server": 7.055800914764404, 
+                    "nova.stop_and_start_server": 8.147929191589355, 
+                    "nova.stop_server": 4.9392030239105225, 
+                    "nova.start_server": 3.2086739540100098, 
+                    "nova.rescue_and_unrescue_server": 33.66451406478882, 
+                    "nova.rescue_server": 28.928756952285767, 
+                    "nova.unrescue_server": 4.735702037811279, 
+                    "nova.delete_server": 4.769189834594727
+                }
+            }, 
+            {
+                "timestamp": 1487498195.884853, 
+                "error": [], 
+                "duration": 295.7604191303253, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02667999267578125, 
+                    "nova.boot_server": 258.86619091033936, 
+                    "nova.reboot_server": 6.709184885025024, 
+                    "nova.soft_reboot_server": 6.886837005615234, 
+                    "nova.stop_and_start_server": 10.970825910568237, 
+                    "nova.stop_server": 6.978286027908325, 
+                    "nova.start_server": 3.9924838542938232, 
+                    "nova.rescue_and_unrescue_server": 18.891173124313354, 
+                    "nova.rescue_server": 11.398801803588867, 
+                    "nova.unrescue_server": 7.492321014404297, 
+                    "nova.delete_server": 2.4023101329803467
+                }
+            }, 
+            {
+                "timestamp": 1487498197.881307, 
+                "error": [], 
+                "duration": 39.708317041397095, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023792028427124023, 
+                    "nova.boot_server": 11.958922147750854, 
+                    "nova.reboot_server": 4.8499979972839355, 
+                    "nova.soft_reboot_server": 6.975308179855347, 
+                    "nova.stop_and_start_server": 9.879953145980835, 
+                    "nova.stop_server": 5.5158538818359375, 
+                    "nova.start_server": 4.364037990570068, 
+                    "nova.rescue_and_unrescue_server": 12.519304990768433, 
+                    "nova.rescue_server": 10.003396987915039, 
+                    "nova.unrescue_server": 2.515856981277466, 
+                    "nova.delete_server": 2.4943599700927734
+                }
+            }, 
+            {
+                "timestamp": 1487498199.885588, 
+                "error": [], 
+                "duration": 36.893965005874634, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03544497489929199, 
+                    "nova.boot_server": 10.072870016098022, 
+                    "nova.reboot_server": 4.71717095375061, 
+                    "nova.soft_reboot_server": 7.561218023300171, 
+                    "nova.stop_and_start_server": 10.788942813873291, 
+                    "nova.stop_server": 5.568684101104736, 
+                    "nova.start_server": 5.220195055007935, 
+                    "nova.rescue_and_unrescue_server": 10.117908000946045, 
+                    "nova.rescue_server": 7.749577045440674, 
+                    "nova.unrescue_server": 2.368267059326172, 
+                    "nova.delete_server": 2.588815212249756
+                }
+            }, 
+            {
+                "timestamp": 1487498201.882366, 
+                "error": [], 
+                "duration": 36.608668088912964, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.0336148738861084, 
+                    "nova.boot_server": 11.464234828948975, 
+                    "nova.reboot_server": 4.8088319301605225, 
+                    "nova.soft_reboot_server": 7.7066810131073, 
+                    "nova.stop_and_start_server": 8.620487928390503, 
+                    "nova.stop_server": 5.044545888900757, 
+                    "nova.start_server": 3.575883150100708, 
+                    "nova.rescue_and_unrescue_server": 9.929359912872314, 
+                    "nova.rescue_server": 7.238757848739624, 
+                    "nova.unrescue_server": 2.6905479431152344, 
+                    "nova.delete_server": 3.038541078567505
+                }
+            }, 
+            {
+                "timestamp": 1487498203.88189, 
+                "error": [], 
+                "duration": 43.250635862350464, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.040595054626464844, 
+                    "nova.boot_server": 9.359764099121094, 
+                    "nova.reboot_server": 5.214344024658203, 
+                    "nova.soft_reboot_server": 4.926809072494507, 
+                    "nova.stop_and_start_server": 20.286841869354248, 
+                    "nova.stop_server": 17.14655303955078, 
+                    "nova.start_server": 3.1402289867401123, 
+                    "nova.rescue_and_unrescue_server": 9.601789951324463, 
+                    "nova.rescue_server": 7.239525079727173, 
+                    "nova.unrescue_server": 2.3622021675109863, 
+                    "nova.delete_server": 2.813354969024658
+                }
+            }, 
+            {
+                "timestamp": 1487498205.888699, 
+                "error": [], 
+                "duration": 36.09934687614441, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02882218360900879, 
+                    "nova.boot_server": 11.583136081695557, 
+                    "nova.reboot_server": 4.956197023391724, 
+                    "nova.soft_reboot_server": 7.204080104827881, 
+                    "nova.stop_and_start_server": 8.717802047729492, 
+                    "nova.stop_server": 5.404828071594238, 
+                    "nova.start_server": 3.3129098415374756, 
+                    "nova.rescue_and_unrescue_server": 9.884513139724731, 
+                    "nova.rescue_server": 7.077440977096558, 
+                    "nova.unrescue_server": 2.8070101737976074, 
+                    "nova.delete_server": 2.7144930362701416
+                }
+            }, 
+            {
+                "timestamp": 1487498207.881505, 
+                "error": [], 
+                "duration": 36.90197706222534, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027013063430786133, 
+                    "nova.boot_server": 11.491447925567627, 
+                    "nova.reboot_server": 5.208159923553467, 
+                    "nova.soft_reboot_server": 7.065936088562012, 
+                    "nova.stop_and_start_server": 9.164014101028442, 
+                    "nova.stop_server": 5.2452919483184814, 
+                    "nova.start_server": 3.918666124343872, 
+                    "nova.rescue_and_unrescue_server": 10.399950981140137, 
+                    "nova.rescue_server": 7.37764310836792, 
+                    "nova.unrescue_server": 3.022249937057495, 
+                    "nova.delete_server": 2.538684129714966
+                }
+            }, 
+            {
+                "timestamp": 1487498209.881242, 
+                "error": [], 
+                "duration": 291.8403148651123, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03664684295654297, 
+                    "nova.boot_server": 244.4476101398468, 
+                    "nova.reboot_server": 7.384030103683472, 
+                    "nova.soft_reboot_server": 6.6923418045043945, 
+                    "nova.stop_and_start_server": 14.835006952285767, 
+                    "nova.stop_server": 4.8197340965271, 
+                    "nova.start_server": 10.015221118927002, 
+                    "nova.rescue_and_unrescue_server": 24.900295972824097, 
+                    "nova.rescue_server": 22.563878059387207, 
+                    "nova.unrescue_server": 2.3363659381866455, 
+                    "nova.delete_server": 2.536792039871216
+                }
+            }, 
+            {
+                "timestamp": 1487498211.881104, 
+                "error": [], 
+                "duration": 105.63910794258118, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.0257110595703125, 
+                    "nova.boot_server": 35.212977170944214, 
+                    "nova.reboot_server": 35.927595138549805, 
+                    "nova.soft_reboot_server": 4.846187114715576, 
+                    "nova.stop_and_start_server": 23.664998054504395, 
+                    "nova.stop_server": 19.19982886314392, 
+                    "nova.start_server": 4.465106964111328, 
+                    "nova.rescue_and_unrescue_server": 12.056593894958496, 
+                    "nova.rescue_server": 7.030444860458374, 
+                    "nova.unrescue_server": 5.026085138320923, 
+                    "nova.delete_server": 2.8941781520843506
+                }
+            }, 
+            {
+                "timestamp": 1487498213.882726, 
+                "error": [], 
+                "duration": 106.00491309165955, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.037445068359375, 
+                    "nova.boot_server": 36.511462926864624, 
+                    "nova.reboot_server": 33.035271883010864, 
+                    "nova.soft_reboot_server": 5.202832937240601, 
+                    "nova.stop_and_start_server": 23.68006992340088, 
+                    "nova.stop_server": 19.239338874816895, 
+                    "nova.start_server": 4.440678119659424, 
+                    "nova.rescue_and_unrescue_server": 11.799323081970215, 
+                    "nova.rescue_server": 7.09220290184021, 
+                    "nova.unrescue_server": 4.70707106590271, 
+                    "nova.delete_server": 4.728930950164795
+                }
+            }, 
+            {
+                "timestamp": 1487498215.880922, 
+                "error": [], 
+                "duration": 36.5943238735199, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.0394589900970459, 
+                    "nova.boot_server": 11.058696985244751, 
+                    "nova.reboot_server": 5.5979249477386475, 
+                    "nova.soft_reboot_server": 7.334843158721924, 
+                    "nova.stop_and_start_server": 8.852673768997192, 
+                    "nova.stop_server": 5.572854995727539, 
+                    "nova.start_server": 3.2797369956970215, 
+                    "nova.rescue_and_unrescue_server": 10.09896206855774, 
+                    "nova.rescue_server": 7.614504098892212, 
+                    "nova.unrescue_server": 2.4843909740448, 
+                    "nova.delete_server": 2.604218006134033
+                }
+            }, 
+            {
+                "timestamp": 1487498217.881727, 
+                "error": [], 
+                "duration": 274.33722591400146, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03598594665527344, 
+                    "nova.boot_server": 236.2114930152893, 
+                    "nova.reboot_server": 9.10024905204773, 
+                    "nova.soft_reboot_server": 6.711244106292725, 
+                    "nova.stop_and_start_server": 10.471344947814941, 
+                    "nova.stop_server": 4.655411958694458, 
+                    "nova.start_server": 5.8158791065216064, 
+                    "nova.rescue_and_unrescue_server": 18.353751182556152, 
+                    "nova.rescue_server": 11.164829015731812, 
+                    "nova.unrescue_server": 7.188874006271362, 
+                    "nova.delete_server": 2.44673490524292
+                }
+            }, 
+            {
+                "timestamp": 1487498219.882099, 
+                "error": [], 
+                "duration": 282.45390605926514, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03279900550842285, 
+                    "nova.boot_server": 234.08062601089478, 
+                    "nova.reboot_server": 9.13122296333313, 
+                    "nova.soft_reboot_server": 4.625075101852417, 
+                    "nova.stop_and_start_server": 29.117213010787964, 
+                    "nova.stop_server": 20.266639947891235, 
+                    "nova.start_server": 8.850520849227905, 
+                    "nova.rescue_and_unrescue_server": 11.77626895904541, 
+                    "nova.rescue_server": 6.733904123306274, 
+                    "nova.unrescue_server": 5.042317152023315, 
+                    "nova.delete_server": 2.6842970848083496
+                }
+            }, 
+            {
+                "timestamp": 1487498221.887378, 
+                "error": [], 
+                "duration": 219.99537897109985, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029959917068481445, 
+                    "nova.boot_server": 59.32731008529663, 
+                    "nova.reboot_server": 2.379019021987915, 
+                    "nova.soft_reboot_server": 137.50640082359314, 
+                    "nova.stop_and_start_server": 17.463242053985596, 
+                    "nova.stop_server": 14.459762811660767, 
+                    "nova.start_server": 3.0034220218658447, 
+                    "nova.rescue_and_unrescue_server": 9.544798851013184, 
+                    "nova.rescue_server": 7.091778039932251, 
+                    "nova.unrescue_server": 2.4529409408569336, 
+                    "nova.delete_server": 2.737478017807007
+                }
+            }, 
+            {
+                "timestamp": 1487498223.881362, 
+                "error": [], 
+                "duration": 44.33871293067932, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03063488006591797, 
+                    "nova.boot_server": 12.686501026153564, 
+                    "nova.reboot_server": 5.250545978546143, 
+                    "nova.soft_reboot_server": 4.821302890777588, 
+                    "nova.stop_and_start_server": 18.075552940368652, 
+                    "nova.stop_server": 14.882166147232056, 
+                    "nova.start_server": 3.193325996398926, 
+                    "nova.rescue_and_unrescue_server": 9.7828049659729, 
+                    "nova.rescue_server": 7.403681993484497, 
+                    "nova.unrescue_server": 2.379056930541992, 
+                    "nova.delete_server": 2.6847100257873535
+                }
+            }, 
+            {
+                "timestamp": 1487498225.886396, 
+                "error": [], 
+                "duration": 42.632843017578125, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03909587860107422, 
+                    "nova.boot_server": 10.378310918807983, 
+                    "nova.reboot_server": 4.854634046554565, 
+                    "nova.soft_reboot_server": 5.0599141120910645, 
+                    "nova.stop_and_start_server": 18.57766890525818, 
+                    "nova.stop_server": 15.357444047927856, 
+                    "nova.start_server": 3.2201669216156006, 
+                    "nova.rescue_and_unrescue_server": 10.284152030944824, 
+                    "nova.rescue_server": 7.646541118621826, 
+                    "nova.unrescue_server": 2.6375579833984375, 
+                    "nova.delete_server": 2.4260990619659424
+                }
+            }, 
+            {
+                "timestamp": 1487498227.883432, 
+                "error": [], 
+                "duration": 42.52307200431824, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.037335872650146484, 
+                    "nova.boot_server": 10.152104139328003, 
+                    "nova.reboot_server": 4.844340085983276, 
+                    "nova.soft_reboot_server": 5.088495969772339, 
+                    "nova.stop_and_start_server": 18.812087059020996, 
+                    "nova.stop_server": 15.165178060531616, 
+                    "nova.start_server": 3.6468188762664795, 
+                    "nova.rescue_and_unrescue_server": 10.010662078857422, 
+                    "nova.rescue_server": 7.653730869293213, 
+                    "nova.unrescue_server": 2.3568689823150635, 
+                    "nova.delete_server": 2.5676701068878174
+                }
+            }, 
+            {
+                "timestamp": 1487498229.888212, 
+                "error": [], 
+                "duration": 79.10586094856262, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.0258939266204834, 
+                    "nova.boot_server": 52.1646511554718, 
+                    "nova.reboot_server": 4.901547908782959, 
+                    "nova.soft_reboot_server": 9.704102993011475, 
+                    "nova.stop_and_start_server": 8.472681999206543, 
+                    "nova.stop_server": 5.134306907653809, 
+                    "nova.start_server": 3.338315010070801, 
+                    "nova.rescue_and_unrescue_server": 10.217083930969238, 
+                    "nova.rescue_server": 7.617563009262085, 
+                    "nova.unrescue_server": 2.599465847015381, 
+                    "nova.delete_server": 2.6148061752319336
+                }
+            }, 
+            {
+                "timestamp": 1487498231.882152, 
+                "error": [], 
+                "duration": 40.41268587112427, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.040513038635253906, 
+                    "nova.boot_server": 9.722494125366211, 
+                    "nova.reboot_server": 5.06706690788269, 
+                    "nova.soft_reboot_server": 4.972829103469849, 
+                    "nova.stop_and_start_server": 17.49907112121582, 
+                    "nova.stop_server": 14.542818069458008, 
+                    "nova.start_server": 2.9561920166015625, 
+                    "nova.rescue_and_unrescue_server": 9.432793855667114, 
+                    "nova.rescue_server": 6.938708782196045, 
+                    "nova.unrescue_server": 2.4940319061279297, 
+                    "nova.delete_server": 2.6695470809936523
+                }
+            }, 
+            {
+                "timestamp": 1487498233.881516, 
+                "error": [], 
+                "duration": 268.0967209339142, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03878593444824219, 
+                    "nova.boot_server": 220.0448818206787, 
+                    "nova.reboot_server": 8.880526065826416, 
+                    "nova.soft_reboot_server": 4.809372901916504, 
+                    "nova.stop_and_start_server": 29.149714946746826, 
+                    "nova.stop_server": 18.702285051345825, 
+                    "nova.start_server": 10.447376012802124, 
+                    "nova.rescue_and_unrescue_server": 11.312899112701416, 
+                    "nova.rescue_server": 6.82672905921936, 
+                    "nova.unrescue_server": 4.486117124557495, 
+                    "nova.delete_server": 2.8544039726257324
+                }
+            }, 
+            {
+                "timestamp": 1487498235.883998, 
+                "error": [], 
+                "duration": 272.6411621570587, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.030173063278198242, 
+                    "nova.boot_server": 219.11095690727234, 
+                    "nova.reboot_server": 7.0359790325164795, 
+                    "nova.soft_reboot_server": 6.953791856765747, 
+                    "nova.stop_and_start_server": 15.000487089157104, 
+                    "nova.stop_server": 9.487882852554321, 
+                    "nova.start_server": 5.512550115585327, 
+                    "nova.rescue_and_unrescue_server": 28.912436962127686, 
+                    "nova.rescue_server": 24.217546939849854, 
+                    "nova.unrescue_server": 4.6948370933532715, 
+                    "nova.delete_server": 4.588502883911133
+                }
+            }, 
+            {
+                "timestamp": 1487498237.882232, 
+                "error": [], 
+                "duration": 250.52536606788635, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023898839950561523, 
+                    "nova.boot_server": 216.95531606674194, 
+                    "nova.reboot_server": 6.722908020019531, 
+                    "nova.soft_reboot_server": 5.2849860191345215, 
+                    "nova.stop_and_start_server": 9.828187942504883, 
+                    "nova.stop_server": 4.780266046524048, 
+                    "nova.start_server": 5.047857046127319, 
+                    "nova.rescue_and_unrescue_server": 16.08794903755188, 
+                    "nova.rescue_server": 9.227200984954834, 
+                    "nova.unrescue_server": 6.860692977905273, 
+                    "nova.delete_server": 4.612261056900024
+                }
+            }, 
+            {
+                "timestamp": 1487498239.881749, 
+                "error": [], 
+                "duration": 48.55366611480713, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04995608329772949, 
+                    "nova.boot_server": 12.015620946884155, 
+                    "nova.reboot_server": 4.963109016418457, 
+                    "nova.soft_reboot_server": 4.632243871688843, 
+                    "nova.stop_and_start_server": 18.787894010543823, 
+                    "nova.stop_server": 15.500056028366089, 
+                    "nova.start_server": 3.287768840789795, 
+                    "nova.rescue_and_unrescue_server": 10.127470970153809, 
+                    "nova.rescue_server": 7.253462076187134, 
+                    "nova.unrescue_server": 2.8739471435546875, 
+                    "nova.delete_server": 6.9650349617004395
+                }
+            }, 
+            {
+                "timestamp": 1487498241.881246, 
+                "error": [], 
+                "duration": 270.22760701179504, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025897979736328125, 
+                    "nova.boot_server": 212.11783385276794, 
+                    "nova.reboot_server": 9.165285110473633, 
+                    "nova.soft_reboot_server": 4.647655963897705, 
+                    "nova.stop_and_start_server": 28.22081708908081, 
+                    "nova.stop_server": 20.355494022369385, 
+                    "nova.start_server": 7.865274906158447, 
+                    "nova.rescue_and_unrescue_server": 22.511563062667847, 
+                    "nova.rescue_server": 17.9007351398468, 
+                    "nova.unrescue_server": 4.610779047012329, 
+                    "nova.delete_server": 2.532557964324951
+                }
+            }, 
+            {
+                "timestamp": 1487498243.882863, 
+                "error": [], 
+                "duration": 34.51778697967529, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.031007051467895508, 
+                    "nova.boot_server": 10.176865100860596, 
+                    "nova.reboot_server": 4.930226802825928, 
+                    "nova.soft_reboot_server": 6.825922012329102, 
+                    "nova.stop_and_start_server": 8.785037994384766, 
+                    "nova.stop_server": 5.130856990814209, 
+                    "nova.start_server": 3.654107093811035, 
+                    "nova.rescue_and_unrescue_server": 9.945115804672241, 
+                    "nova.rescue_server": 7.2763659954071045, 
+                    "nova.unrescue_server": 2.668686866760254, 
+                    "nova.delete_server": 2.814842939376831
+                }
+            }, 
+            {
+                "timestamp": 1487498245.883139, 
+                "error": [], 
+                "duration": 43.98693799972534, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.034304141998291016, 
+                    "nova.boot_server": 9.27827787399292, 
+                    "nova.reboot_server": 4.932400941848755, 
+                    "nova.soft_reboot_server": 5.217736005783081, 
+                    "nova.stop_and_start_server": 18.523931980133057, 
+                    "nova.stop_server": 15.056490182876587, 
+                    "nova.start_server": 3.467378854751587, 
+                    "nova.rescue_and_unrescue_server": 12.317262887954712, 
+                    "nova.rescue_server": 7.456167936325073, 
+                    "nova.unrescue_server": 4.861037015914917, 
+                    "nova.delete_server": 2.6739261150360107
+                }
+            }, 
+            {
+                "timestamp": 1487498247.882512, 
+                "error": [], 
+                "duration": 46.65461301803589, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.033943891525268555, 
+                    "nova.boot_server": 9.943013906478882, 
+                    "nova.reboot_server": 5.190489053726196, 
+                    "nova.soft_reboot_server": 4.985533952713013, 
+                    "nova.stop_and_start_server": 18.18412494659424, 
+                    "nova.stop_server": 14.681334018707275, 
+                    "nova.start_server": 3.502742052078247, 
+                    "nova.rescue_and_unrescue_server": 14.583449840545654, 
+                    "nova.rescue_server": 11.819740056991577, 
+                    "nova.unrescue_server": 2.763651132583618, 
+                    "nova.delete_server": 2.724503993988037
+                }
+            }, 
+            {
+                "timestamp": 1487498249.883579, 
+                "error": [], 
+                "duration": 39.18044304847717, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.035849809646606445, 
+                    "nova.boot_server": 9.862923860549927, 
+                    "nova.reboot_server": 2.649606943130493, 
+                    "nova.soft_reboot_server": 5.124794006347656, 
+                    "nova.stop_and_start_server": 17.98969602584839, 
+                    "nova.stop_server": 14.478363037109375, 
+                    "nova.start_server": 3.511277198791504, 
+                    "nova.rescue_and_unrescue_server": 9.865544080734253, 
+                    "nova.rescue_server": 7.364958047866821, 
+                    "nova.unrescue_server": 2.500527858734131, 
+                    "nova.delete_server": 2.6449780464172363
+                }
+            }, 
+            {
+                "timestamp": 1487498251.884666, 
+                "error": [], 
+                "duration": 167.23756098747253, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026996850967407227, 
+                    "nova.boot_server": 9.052002906799316, 
+                    "nova.reboot_server": 2.660977840423584, 
+                    "nova.soft_reboot_server": 135.59889578819275, 
+                    "nova.stop_and_start_server": 17.231258869171143, 
+                    "nova.stop_server": 14.087021112442017, 
+                    "nova.start_server": 3.144178867340088, 
+                    "nova.rescue_and_unrescue_server": 9.205504894256592, 
+                    "nova.rescue_server": 6.8551859855651855, 
+                    "nova.unrescue_server": 2.3502681255340576, 
+                    "nova.delete_server": 2.451019048690796
+                }
+            }, 
+            {
+                "timestamp": 1487498253.881907, 
+                "error": [], 
+                "duration": 33.291743993759155, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.040979862213134766, 
+                    "nova.boot_server": 8.3439781665802, 
+                    "nova.reboot_server": 4.857146978378296, 
+                    "nova.soft_reboot_server": 7.4293529987335205, 
+                    "nova.stop_and_start_server": 8.49120283126831, 
+                    "nova.stop_server": 5.303900957107544, 
+                    "nova.start_server": 3.187243938446045, 
+                    "nova.rescue_and_unrescue_server": 7.954993009567261, 
+                    "nova.rescue_server": 5.529694080352783, 
+                    "nova.unrescue_server": 2.425210952758789, 
+                    "nova.delete_server": 5.167134046554565
+                }
+            }, 
+            {
+                "timestamp": 1487498255.882189, 
+                "error": [], 
+                "duration": 245.02752494812012, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029407978057861328, 
+                    "nova.boot_server": 202.96863389015198, 
+                    "nova.reboot_server": 7.155333995819092, 
+                    "nova.soft_reboot_server": 5.064482927322388, 
+                    "nova.stop_and_start_server": 27.326656103134155, 
+                    "nova.stop_server": 20.723563194274902, 
+                    "nova.start_server": 6.603040933609009, 
+                    "nova.rescue_and_unrescue_server": 9.026509046554565, 
+                    "nova.rescue_server": 6.678524017333984, 
+                    "nova.unrescue_server": 2.3479340076446533, 
+                    "nova.delete_server": 2.450425148010254
+                }
+            }, 
+            {
+                "timestamp": 1487498257.882764, 
+                "error": [], 
+                "duration": 167.247633934021, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03142094612121582, 
+                    "nova.boot_server": 8.36325192451477, 
+                    "nova.reboot_server": 2.537137985229492, 
+                    "nova.soft_reboot_server": 136.04501700401306, 
+                    "nova.stop_and_start_server": 17.30101990699768, 
+                    "nova.stop_server": 14.195423126220703, 
+                    "nova.start_server": 3.1055428981781006, 
+                    "nova.rescue_and_unrescue_server": 9.329673051834106, 
+                    "nova.rescue_server": 6.839978933334351, 
+                    "nova.unrescue_server": 2.4896421432495117, 
+                    "nova.delete_server": 2.6333940029144287
+                }
+            }, 
+            {
+                "timestamp": 1487498259.881048, 
+                "error": [], 
+                "duration": 34.560774087905884, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03505110740661621, 
+                    "nova.boot_server": 9.801098108291626, 
+                    "nova.reboot_server": 2.4863338470458984, 
+                    "nova.soft_reboot_server": 7.496279001235962, 
+                    "nova.stop_and_start_server": 8.889384031295776, 
+                    "nova.stop_server": 5.502964019775391, 
+                    "nova.start_server": 3.386357069015503, 
+                    "nova.rescue_and_unrescue_server": 12.240626811981201, 
+                    "nova.rescue_server": 9.54112195968628, 
+                    "nova.unrescue_server": 2.699456214904785, 
+                    "nova.delete_server": 2.6051018238067627
+                }
+            }, 
+            {
+                "timestamp": 1487498261.888261, 
+                "error": [], 
+                "duration": 34.51673698425293, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02101588249206543, 
+                    "nova.boot_server": 9.136751174926758, 
+                    "nova.reboot_server": 4.913947105407715, 
+                    "nova.soft_reboot_server": 4.971343040466309, 
+                    "nova.stop_and_start_server": 9.383697986602783, 
+                    "nova.stop_server": 6.051769018173218, 
+                    "nova.start_server": 3.3318750858306885, 
+                    "nova.rescue_and_unrescue_server": 12.086778163909912, 
+                    "nova.rescue_server": 9.61494517326355, 
+                    "nova.unrescue_server": 2.471773862838745, 
+                    "nova.delete_server": 2.9962968826293945
+                }
+            }, 
+            {
+                "timestamp": 1487498263.883689, 
+                "error": [], 
+                "duration": 43.28577899932861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026623964309692383, 
+                    "nova.boot_server": 10.029980897903442, 
+                    "nova.reboot_server": 4.975862979888916, 
+                    "nova.soft_reboot_server": 5.351541996002197, 
+                    "nova.stop_and_start_server": 19.525800943374634, 
+                    "nova.stop_server": 17.274459838867188, 
+                    "nova.start_server": 2.251268148422241, 
+                    "nova.rescue_and_unrescue_server": 9.75757908821106, 
+                    "nova.rescue_server": 7.287872076034546, 
+                    "nova.unrescue_server": 2.4696521759033203, 
+                    "nova.delete_server": 2.608320951461792
+                }
+            }, 
+            {
+                "timestamp": 1487498265.882359, 
+                "error": [], 
+                "duration": 43.73001003265381, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026274919509887695, 
+                    "nova.boot_server": 8.871835947036743, 
+                    "nova.reboot_server": 5.096272945404053, 
+                    "nova.soft_reboot_server": 4.837431907653809, 
+                    "nova.stop_and_start_server": 20.65883207321167, 
+                    "nova.stop_server": 17.11377501487732, 
+                    "nova.start_server": 3.545003890991211, 
+                    "nova.rescue_and_unrescue_server": 10.632122993469238, 
+                    "nova.rescue_server": 7.716490983963013, 
+                    "nova.unrescue_server": 2.9155709743499756, 
+                    "nova.delete_server": 2.597564935684204
+                }
+            }, 
+            {
+                "timestamp": 1487498267.881441, 
+                "error": [], 
+                "duration": 37.022841930389404, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.1955718994140625, 
+                    "nova.boot_server": 8.928627014160156, 
+                    "nova.reboot_server": 5.034259796142578, 
+                    "nova.soft_reboot_server": 7.16113805770874, 
+                    "nova.stop_and_start_server": 11.732825994491577, 
+                    "nova.stop_server": 7.757023096084595, 
+                    "nova.start_server": 3.975745916366577, 
+                    "nova.rescue_and_unrescue_server": 10.182008028030396, 
+                    "nova.rescue_server": 7.313481092453003, 
+                    "nova.unrescue_server": 2.8684821128845215, 
+                    "nova.delete_server": 2.779604911804199
+                }
+            }, 
+            {
+                "timestamp": 1487498269.882594, 
+                "error": [], 
+                "duration": 237.78577399253845, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03278493881225586, 
+                    "nova.boot_server": 188.8738570213318, 
+                    "nova.reboot_server": 7.164290189743042, 
+                    "nova.soft_reboot_server": 4.868941068649292, 
+                    "nova.stop_and_start_server": 27.675806999206543, 
+                    "nova.stop_server": 20.89349102973938, 
+                    "nova.start_server": 6.7822630405426025, 
+                    "nova.rescue_and_unrescue_server": 11.307421922683716, 
+                    "nova.rescue_server": 8.969366073608398, 
+                    "nova.unrescue_server": 2.3380050659179688, 
+                    "nova.delete_server": 6.855339050292969
+                }
+            }, 
+            {
+                "timestamp": 1487498271.882448, 
+                "error": [], 
+                "duration": 243.6585750579834, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03372502326965332, 
+                    "nova.boot_server": 201.47428512573242, 
+                    "nova.reboot_server": 7.1256279945373535, 
+                    "nova.soft_reboot_server": 6.770051002502441, 
+                    "nova.stop_and_start_server": 12.321162939071655, 
+                    "nova.stop_server": 9.435117959976196, 
+                    "nova.start_server": 2.8859949111938477, 
+                    "nova.rescue_and_unrescue_server": 22.555524826049805, 
+                    "nova.rescue_server": 20.20460820198059, 
+                    "nova.unrescue_server": 2.3508667945861816, 
+                    "nova.delete_server": 2.369658946990967
+                }
+            }, 
+            {
+                "timestamp": 1487498273.881596, 
+                "error": [], 
+                "duration": 234.9633719921112, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02534198760986328, 
+                    "nova.boot_server": 199.06975078582764, 
+                    "nova.reboot_server": 6.885450839996338, 
+                    "nova.soft_reboot_server": 6.770815134048462, 
+                    "nova.stop_and_start_server": 12.598319053649902, 
+                    "nova.stop_server": 9.411405086517334, 
+                    "nova.start_server": 3.186861038208008, 
+                    "nova.rescue_and_unrescue_server": 16.185280084609985, 
+                    "nova.rescue_server": 9.318177938461304, 
+                    "nova.unrescue_server": 6.867050886154175, 
+                    "nova.delete_server": 2.4217960834503174
+                }
+            }, 
+            {
+                "timestamp": 1487498275.881496, 
+                "error": [], 
+                "duration": 34.7918860912323, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028570175170898438, 
+                    "nova.boot_server": 9.862473011016846, 
+                    "nova.reboot_server": 5.210456132888794, 
+                    "nova.soft_reboot_server": 7.476235866546631, 
+                    "nova.stop_and_start_server": 8.723950147628784, 
+                    "nova.stop_server": 5.136636972427368, 
+                    "nova.start_server": 3.5872550010681152, 
+                    "nova.rescue_and_unrescue_server": 9.850143909454346, 
+                    "nova.rescue_server": 7.369237899780273, 
+                    "nova.unrescue_server": 2.4808480739593506, 
+                    "nova.delete_server": 2.631087064743042
+                }
+            }, 
+            {
+                "timestamp": 1487498277.881439, 
+                "error": [], 
+                "duration": 237.53223299980164, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.030226945877075195, 
+                    "nova.boot_server": 195.16427898406982, 
+                    "nova.reboot_server": 7.077944993972778, 
+                    "nova.soft_reboot_server": 6.881083965301514, 
+                    "nova.stop_and_start_server": 12.304190158843994, 
+                    "nova.stop_server": 9.251992225646973, 
+                    "nova.start_server": 3.0521509647369385, 
+                    "nova.rescue_and_unrescue_server": 22.50377893447876, 
+                    "nova.rescue_server": 20.047531127929688, 
+                    "nova.unrescue_server": 2.456191062927246, 
+                    "nova.delete_server": 2.560748815536499
+                }
+            }, 
+            {
+                "timestamp": 1487498279.881036, 
+                "error": [], 
+                "duration": 38.08540987968445, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.047720909118652344, 
+                    "nova.boot_server": 10.386427879333496, 
+                    "nova.reboot_server": 7.3733179569244385, 
+                    "nova.soft_reboot_server": 7.2137579917907715, 
+                    "nova.stop_and_start_server": 9.083245038986206, 
+                    "nova.stop_server": 5.224686861038208, 
+                    "nova.start_server": 3.8584961891174316, 
+                    "nova.rescue_and_unrescue_server": 10.225174903869629, 
+                    "nova.rescue_server": 7.457659959793091, 
+                    "nova.unrescue_server": 2.767458915710449, 
+                    "nova.delete_server": 2.739501953125
+                }
+            }, 
+            {
+                "timestamp": 1487498281.881079, 
+                "error": [], 
+                "duration": 40.635154008865356, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028155803680419922, 
+                    "nova.boot_server": 13.322872877120972, 
+                    "nova.reboot_server": 4.825240135192871, 
+                    "nova.soft_reboot_server": 7.3112101554870605, 
+                    "nova.stop_and_start_server": 8.695854902267456, 
+                    "nova.stop_server": 5.57829213142395, 
+                    "nova.start_server": 3.1175060272216797, 
+                    "nova.rescue_and_unrescue_server": 12.827330827713013, 
+                    "nova.rescue_server": 7.939694166183472, 
+                    "nova.unrescue_server": 4.887575149536133, 
+                    "nova.delete_server": 2.6171088218688965
+                }
+            }, 
+            {
+                "timestamp": 1487498283.889288, 
+                "error": [], 
+                "duration": 38.52751803398132, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028956174850463867, 
+                    "nova.boot_server": 11.426602125167847, 
+                    "nova.reboot_server": 5.099542140960693, 
+                    "nova.soft_reboot_server": 7.368029832839966, 
+                    "nova.stop_and_start_server": 8.520411014556885, 
+                    "nova.stop_server": 5.362735033035278, 
+                    "nova.start_server": 3.157625913619995, 
+                    "nova.rescue_and_unrescue_server": 12.344609022140503, 
+                    "nova.rescue_server": 9.81044888496399, 
+                    "nova.unrescue_server": 2.5341100692749023, 
+                    "nova.delete_server": 2.732882022857666
+                }
+            }, 
+            {
+                "timestamp": 1487498285.882307, 
+                "error": [], 
+                "duration": 40.29648184776306, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028619050979614258, 
+                    "nova.boot_server": 10.879281997680664, 
+                    "nova.reboot_server": 5.096362829208374, 
+                    "nova.soft_reboot_server": 7.868160963058472, 
+                    "nova.stop_and_start_server": 10.098647117614746, 
+                    "nova.stop_server": 5.618045091629028, 
+                    "nova.start_server": 4.480545997619629, 
+                    "nova.rescue_and_unrescue_server": 10.50444507598877, 
+                    "nova.rescue_server": 7.81047511100769, 
+                    "nova.unrescue_server": 2.693917989730835, 
+                    "nova.delete_server": 4.803058862686157
+                }
+            }, 
+            {
+                "timestamp": 1487498287.892803, 
+                "error": [], 
+                "duration": 44.12863612174988, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02822399139404297, 
+                    "nova.boot_server": 18.305306911468506, 
+                    "nova.reboot_server": 5.117967844009399, 
+                    "nova.soft_reboot_server": 7.437809944152832, 
+                    "nova.stop_and_start_server": 9.882111072540283, 
+                    "nova.stop_server": 5.270779132843018, 
+                    "nova.start_server": 4.611268043518066, 
+                    "nova.rescue_and_unrescue_server": 9.731003999710083, 
+                    "nova.rescue_server": 7.248631954193115, 
+                    "nova.unrescue_server": 2.4823100566864014, 
+                    "nova.delete_server": 2.6114630699157715
+                }
+            }, 
+            {
+                "timestamp": 1487498289.881309, 
+                "error": [], 
+                "duration": 45.104438066482544, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.030912160873413086, 
+                    "nova.boot_server": 20.50491189956665, 
+                    "nova.reboot_server": 5.084714889526367, 
+                    "nova.soft_reboot_server": 7.245266914367676, 
+                    "nova.stop_and_start_server": 8.893648147583008, 
+                    "nova.stop_server": 5.411422967910767, 
+                    "nova.start_server": 3.4821648597717285, 
+                    "nova.rescue_and_unrescue_server": 9.827728986740112, 
+                    "nova.rescue_server": 7.031868934631348, 
+                    "nova.unrescue_server": 2.795809030532837, 
+                    "nova.delete_server": 2.5094618797302246
+                }
+            }, 
+            {
+                "timestamp": 1487498291.884614, 
+                "error": [], 
+                "duration": 213.2778799533844, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04707908630371094, 
+                    "nova.boot_server": 181.80618000030518, 
+                    "nova.reboot_server": 8.842894077301025, 
+                    "nova.soft_reboot_server": 8.987030982971191, 
+                    "nova.stop_and_start_server": 10.797791004180908, 
+                    "nova.stop_server": 7.854100942611694, 
+                    "nova.start_server": 2.943639039993286, 
+                    "nova.rescue_and_unrescue_server": 9.137885093688965, 
+                    "nova.rescue_server": 6.78510594367981, 
+                    "nova.unrescue_server": 2.3527159690856934, 
+                    "nova.delete_server": 2.6521968841552734
+                }
+            }, 
+            {
+                "timestamp": 1487498293.882471, 
+                "error": [], 
+                "duration": 219.53481888771057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.030174970626831055, 
+                    "nova.boot_server": 178.98560500144958, 
+                    "nova.reboot_server": 6.890708923339844, 
+                    "nova.soft_reboot_server": 6.8340559005737305, 
+                    "nova.stop_and_start_server": 13.003012895584106, 
+                    "nova.stop_server": 9.575052976608276, 
+                    "nova.start_server": 3.427907943725586, 
+                    "nova.rescue_and_unrescue_server": 20.252634048461914, 
+                    "nova.rescue_server": 17.885567903518677, 
+                    "nova.unrescue_server": 2.3670170307159424, 
+                    "nova.delete_server": 2.5325570106506348
+                }
+            }, 
+            {
+                "timestamp": 1487498295.882982, 
+                "error": [], 
+                "duration": 156.04265093803406, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03316497802734375, 
+                    "nova.boot_server": 8.974540948867798, 
+                    "nova.reboot_server": 2.7080540657043457, 
+                    "nova.soft_reboot_server": 133.27502298355103, 
+                    "nova.stop_and_start_server": 7.943394184112549, 
+                    "nova.stop_server": 4.9235711097717285, 
+                    "nova.start_server": 3.0197741985321045, 
+                    "nova.rescue_and_unrescue_server": 9.413942098617554, 
+                    "nova.rescue_server": 7.0088770389556885, 
+                    "nova.unrescue_server": 2.4050121307373047, 
+                    "nova.delete_server": 2.68402099609375
+                }
+            }, 
+            {
+                "timestamp": 1487498297.881534, 
+                "error": [], 
+                "duration": 50.874902963638306, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03766012191772461, 
+                    "nova.boot_server": 11.255958795547485, 
+                    "nova.reboot_server": 4.94367790222168, 
+                    "nova.soft_reboot_server": 7.986238956451416, 
+                    "nova.stop_and_start_server": 8.694746017456055, 
+                    "nova.stop_server": 5.19353985786438, 
+                    "nova.start_server": 3.5011470317840576, 
+                    "nova.rescue_and_unrescue_server": 19.434366941452026, 
+                    "nova.rescue_server": 16.832214832305908, 
+                    "nova.unrescue_server": 2.6020889282226562, 
+                    "nova.delete_server": 7.5040600299835205
+                }
+            }, 
+            {
+                "timestamp": 1487498299.883429, 
+                "error": [], 
+                "duration": 40.713074922561646, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026567935943603516, 
+                    "nova.boot_server": 15.674760103225708, 
+                    "nova.reboot_server": 5.049505949020386, 
+                    "nova.soft_reboot_server": 7.655571937561035, 
+                    "nova.stop_and_start_server": 8.720731019973755, 
+                    "nova.stop_server": 5.677772045135498, 
+                    "nova.start_server": 3.042897939682007, 
+                    "nova.rescue_and_unrescue_server": 10.1425621509552, 
+                    "nova.rescue_server": 7.360508918762207, 
+                    "nova.unrescue_server": 2.781996965408325, 
+                    "nova.delete_server": 2.4335789680480957
+                }
+            }, 
+            {
+                "timestamp": 1487498301.88499, 
+                "error": [], 
+                "duration": 40.79615592956543, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029189109802246094, 
+                    "nova.boot_server": 9.792614936828613, 
+                    "nova.reboot_server": 4.571860074996948, 
+                    "nova.soft_reboot_server": 5.0218470096588135, 
+                    "nova.stop_and_start_server": 17.62679886817932, 
+                    "nova.stop_server": 14.765959024429321, 
+                    "nova.start_server": 2.860755205154419, 
+                    "nova.rescue_and_unrescue_server": 10.065519094467163, 
+                    "nova.rescue_server": 7.571092128753662, 
+                    "nova.unrescue_server": 2.4943621158599854, 
+                    "nova.delete_server": 2.673516035079956
+                }
+            }, 
+            {
+                "timestamp": 1487498303.882862, 
+                "error": [], 
+                "duration": 37.39525580406189, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029094934463500977, 
+                    "nova.boot_server": 10.227663040161133, 
+                    "nova.reboot_server": 5.16414999961853, 
+                    "nova.soft_reboot_server": 7.627187967300415, 
+                    "nova.stop_and_start_server": 8.757642984390259, 
+                    "nova.stop_server": 5.150701999664307, 
+                    "nova.start_server": 3.606884002685547, 
+                    "nova.rescue_and_unrescue_server": 11.837631225585938, 
+                    "nova.rescue_server": 7.0753090381622314, 
+                    "nova.unrescue_server": 4.762264013290405, 
+                    "nova.delete_server": 2.741205930709839
+                }
+            }, 
+            {
+                "timestamp": 1487498305.881419, 
+                "error": [], 
+                "duration": 46.25410294532776, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03386712074279785, 
+                    "nova.boot_server": 10.07008981704712, 
+                    "nova.reboot_server": 4.951411962509155, 
+                    "nova.soft_reboot_server": 4.7643349170684814, 
+                    "nova.stop_and_start_server": 18.718882083892822, 
+                    "nova.stop_server": 15.384549140930176, 
+                    "nova.start_server": 3.33427095413208, 
+                    "nova.rescue_and_unrescue_server": 14.2902250289917, 
+                    "nova.rescue_server": 7.209642171859741, 
+                    "nova.unrescue_server": 7.0805230140686035, 
+                    "nova.delete_server": 2.4185550212860107
+                }
+            }, 
+            {
+                "timestamp": 1487498307.882632, 
+                "error": [], 
+                "duration": 44.110591888427734, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04463911056518555, 
+                    "nova.boot_server": 15.738617181777954, 
+                    "nova.reboot_server": 4.524819850921631, 
+                    "nova.soft_reboot_server": 7.352091073989868, 
+                    "nova.stop_and_start_server": 8.740886211395264, 
+                    "nova.stop_server": 5.124182939529419, 
+                    "nova.start_server": 3.6166319847106934, 
+                    "nova.rescue_and_unrescue_server": 14.133141040802002, 
+                    "nova.rescue_server": 7.118841886520386, 
+                    "nova.unrescue_server": 7.014236927032471, 
+                    "nova.delete_server": 2.5704219341278076
+                }
+            }, 
+            {
+                "timestamp": 1487498309.884081, 
+                "error": [], 
+                "duration": 40.87270212173462, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029972076416015625, 
+                    "nova.boot_server": 13.815569877624512, 
+                    "nova.reboot_server": 5.037691116333008, 
+                    "nova.soft_reboot_server": 4.936909914016724, 
+                    "nova.stop_and_start_server": 8.93441915512085, 
+                    "nova.stop_server": 5.485558032989502, 
+                    "nova.start_server": 3.4488039016723633, 
+                    "nova.rescue_and_unrescue_server": 9.874133110046387, 
+                    "nova.rescue_server": 7.298221111297607, 
+                    "nova.unrescue_server": 2.5758559703826904, 
+                    "nova.delete_server": 7.237952947616577
+                }
+            }, 
+            {
+                "timestamp": 1487498311.881986, 
+                "error": [], 
+                "duration": 50.308964014053345, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.043840885162353516, 
+                    "nova.boot_server": 14.599032878875732, 
+                    "nova.reboot_server": 4.987695217132568, 
+                    "nova.soft_reboot_server": 5.023604869842529, 
+                    "nova.stop_and_start_server": 22.321619033813477, 
+                    "nova.stop_server": 15.27765703201294, 
+                    "nova.start_server": 7.04389500617981, 
+                    "nova.rescue_and_unrescue_server": 9.457020998001099, 
+                    "nova.rescue_server": 7.023599147796631, 
+                    "nova.unrescue_server": 2.4333629608154297, 
+                    "nova.delete_server": 2.869424819946289
+                }
+            }, 
+            {
+                "timestamp": 1487498313.881563, 
+                "error": [], 
+                "duration": 47.09510111808777, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04871201515197754, 
+                    "nova.boot_server": 10.20143985748291, 
+                    "nova.reboot_server": 5.006673097610474, 
+                    "nova.soft_reboot_server": 4.998450040817261, 
+                    "nova.stop_and_start_server": 23.646705865859985, 
+                    "nova.stop_server": 15.029968976974487, 
+                    "nova.start_server": 8.616687059402466, 
+                    "nova.rescue_and_unrescue_server": 9.33879804611206, 
+                    "nova.rescue_server": 6.852360963821411, 
+                    "nova.unrescue_server": 2.4863860607147217, 
+                    "nova.delete_server": 2.847554922103882
+                }
+            }, 
+            {
+                "timestamp": 1487498315.881582, 
+                "error": [], 
+                "duration": 39.232141971588135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028794050216674805, 
+                    "nova.boot_server": 10.395302057266235, 
+                    "nova.reboot_server": 5.029752016067505, 
+                    "nova.soft_reboot_server": 4.925364017486572, 
+                    "nova.stop_and_start_server": 8.789693117141724, 
+                    "nova.stop_server": 5.432705879211426, 
+                    "nova.start_server": 3.3569209575653076, 
+                    "nova.rescue_and_unrescue_server": 16.60918617248535, 
+                    "nova.rescue_server": 14.26994800567627, 
+                    "nova.unrescue_server": 2.339186906814575, 
+                    "nova.delete_server": 2.4464800357818604
+                }
+            }, 
+            {
+                "timestamp": 1487498317.881628, 
+                "error": [], 
+                "duration": 47.64901900291443, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.032498836517333984, 
+                    "nova.boot_server": 9.862778902053833, 
+                    "nova.reboot_server": 5.089977979660034, 
+                    "nova.soft_reboot_server": 5.256089925765991, 
+                    "nova.stop_and_start_server": 7.552937984466553, 
+                    "nova.stop_server": 5.254754066467285, 
+                    "nova.start_server": 2.298119068145752, 
+                    "nova.rescue_and_unrescue_server": 26.116209983825684, 
+                    "nova.rescue_server": 23.767117023468018, 
+                    "nova.unrescue_server": 2.3490188121795654, 
+                    "nova.delete_server": 2.7304599285125732
+                }
+            }, 
+            {
+                "timestamp": 1487498319.881733, 
+                "error": [], 
+                "duration": 168.2847089767456, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027725934982299805, 
+                    "nova.boot_server": 10.260886192321777, 
+                    "nova.reboot_server": 2.5848259925842285, 
+                    "nova.soft_reboot_server": 131.96458983421326, 
+                    "nova.stop_and_start_server": 9.311656951904297, 
+                    "nova.stop_server": 5.201449871063232, 
+                    "nova.start_server": 4.110154151916504, 
+                    "nova.rescue_and_unrescue_server": 20.714091062545776, 
+                    "nova.rescue_server": 16.119289875030518, 
+                    "nova.unrescue_server": 4.594747066497803, 
+                    "nova.delete_server": 2.4097108840942383
+                }
+            }, 
+            {
+                "timestamp": 1487498321.883056, 
+                "error": [], 
+                "duration": 46.250540018081665, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.038231849670410156, 
+                    "nova.boot_server": 9.947813034057617, 
+                    "nova.reboot_server": 4.991837024688721, 
+                    "nova.soft_reboot_server": 5.024696111679077, 
+                    "nova.stop_and_start_server": 22.806499004364014, 
+                    "nova.stop_server": 19.548306941986084, 
+                    "nova.start_server": 3.258121967315674, 
+                    "nova.rescue_and_unrescue_server": 9.936434984207153, 
+                    "nova.rescue_server": 7.364656925201416, 
+                    "nova.unrescue_server": 2.571726083755493, 
+                    "nova.delete_server": 2.4951701164245605
+                }
+            }, 
+            {
+                "timestamp": 1487498323.88304, 
+                "error": [], 
+                "duration": 44.65481495857239, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03457021713256836, 
+                    "nova.boot_server": 9.869800806045532, 
+                    "nova.reboot_server": 4.8797221183776855, 
+                    "nova.soft_reboot_server": 4.9963600635528564, 
+                    "nova.stop_and_start_server": 21.658437967300415, 
+                    "nova.stop_server": 19.912310123443604, 
+                    "nova.start_server": 1.7460670471191406, 
+                    "nova.rescue_and_unrescue_server": 9.743504047393799, 
+                    "nova.rescue_server": 7.025650978088379, 
+                    "nova.unrescue_server": 2.717784881591797, 
+                    "nova.delete_server": 2.461246967315674
+                }
+            }, 
+            {
+                "timestamp": 1487498325.884464, 
+                "error": [], 
+                "duration": 177.5162320137024, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03379392623901367, 
+                    "nova.boot_server": 10.34386682510376, 
+                    "nova.reboot_server": 2.66871976852417, 
+                    "nova.soft_reboot_server": 130.29401803016663, 
+                    "nova.stop_and_start_server": 16.643914937973022, 
+                    "nova.stop_server": 13.796804904937744, 
+                    "nova.start_server": 2.8470370769500732, 
+                    "nova.rescue_and_unrescue_server": 23.944289922714233, 
+                    "nova.rescue_server": 21.394251108169556, 
+                    "nova.unrescue_server": 2.549992084503174, 
+                    "nova.delete_server": 2.5742151737213135
+                }
+            }, 
+            {
+                "timestamp": 1487498327.882675, 
+                "error": [], 
+                "duration": 171.0179340839386, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02007293701171875, 
+                    "nova.boot_server": 11.191063165664673, 
+                    "nova.reboot_server": 2.5791449546813965, 
+                    "nova.soft_reboot_server": 131.72393488883972, 
+                    "nova.stop_and_start_server": 17.073501110076904, 
+                    "nova.stop_server": 14.343048095703125, 
+                    "nova.start_server": 2.7304019927978516, 
+                    "nova.rescue_and_unrescue_server": 12.402513980865479, 
+                    "nova.rescue_server": 9.750385999679565, 
+                    "nova.unrescue_server": 2.6520779132843018, 
+                    "nova.delete_server": 5.017263889312744
+                }
+            }, 
+            {
+                "timestamp": 1487498329.881504, 
+                "error": [], 
+                "duration": 37.4760799407959, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028892040252685547, 
+                    "nova.boot_server": 10.150627136230469, 
+                    "nova.reboot_server": 4.8655781745910645, 
+                    "nova.soft_reboot_server": 7.63592791557312, 
+                    "nova.stop_and_start_server": 11.124576091766357, 
+                    "nova.stop_server": 7.657570123672485, 
+                    "nova.start_server": 3.466945171356201, 
+                    "nova.rescue_and_unrescue_server": 10.036360025405884, 
+                    "nova.rescue_server": 7.264256000518799, 
+                    "nova.unrescue_server": 2.7720539569854736, 
+                    "nova.delete_server": 2.621953010559082
+                }
+            }, 
+            {
+                "timestamp": 1487498331.88624, 
+                "error": [], 
+                "duration": 44.663294076919556, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025799036026000977, 
+                    "nova.boot_server": 9.85374903678894, 
+                    "nova.reboot_server": 4.814218997955322, 
+                    "nova.soft_reboot_server": 5.014497995376587, 
+                    "nova.stop_and_start_server": 21.303096055984497, 
+                    "nova.stop_server": 17.902484893798828, 
+                    "nova.start_server": 3.400554895401001, 
+                    "nova.rescue_and_unrescue_server": 9.923115015029907, 
+                    "nova.rescue_server": 7.252737998962402, 
+                    "nova.unrescue_server": 2.6702921390533447, 
+                    "nova.delete_server": 2.7179160118103027
+                }
+            }, 
+            {
+                "timestamp": 1487498333.881816, 
+                "error": [], 
+                "duration": 165.97210717201233, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025187969207763672, 
+                    "nova.boot_server": 10.181177139282227, 
+                    "nova.reboot_server": 2.471791982650757, 
+                    "nova.soft_reboot_server": 131.7995629310608, 
+                    "nova.stop_and_start_server": 6.870244026184082, 
+                    "nova.stop_server": 5.011460065841675, 
+                    "nova.start_server": 1.8587279319763184, 
+                    "nova.rescue_and_unrescue_server": 21.20368003845215, 
+                    "nova.rescue_server": 18.71410894393921, 
+                    "nova.unrescue_server": 2.4895219802856445, 
+                    "nova.delete_server": 2.409980058670044
+                }
+            }, 
+            {
+                "timestamp": 1487498335.883357, 
+                "error": [], 
+                "duration": 166.8619658946991, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.027112960815429688, 
+                    "nova.boot_server": 9.95109486579895, 
+                    "nova.reboot_server": 5.149609088897705, 
+                    "nova.soft_reboot_server": 131.20329117774963, 
+                    "nova.stop_and_start_server": 17.267349004745483, 
+                    "nova.stop_server": 14.26158595085144, 
+                    "nova.start_server": 3.0057108402252197, 
+                    "nova.rescue_and_unrescue_server": 9.483797073364258, 
+                    "nova.rescue_server": 6.936690807342529, 
+                    "nova.unrescue_server": 2.547055959701538, 
+                    "nova.delete_server": 2.774717092514038
+                }
+            }, 
+            {
+                "timestamp": 1487498337.881398, 
+                "error": [], 
+                "duration": 37.529927015304565, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03681492805480957, 
+                    "nova.boot_server": 10.40130615234375, 
+                    "nova.reboot_server": 4.978604078292847, 
+                    "nova.soft_reboot_server": 9.517421960830688, 
+                    "nova.stop_and_start_server": 8.958182096481323, 
+                    "nova.stop_server": 5.2422380447387695, 
+                    "nova.start_server": 3.7158761024475098, 
+                    "nova.rescue_and_unrescue_server": 10.019898891448975, 
+                    "nova.rescue_server": 7.1074230670928955, 
+                    "nova.unrescue_server": 2.9124209880828857, 
+                    "nova.delete_server": 2.6024129390716553
+                }
+            }, 
+            {
+                "timestamp": 1487498339.882598, 
+                "error": [], 
+                "duration": 45.908239126205444, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.044133901596069336, 
+                    "nova.boot_server": 9.658581018447876, 
+                    "nova.reboot_server": 9.672230005264282, 
+                    "nova.soft_reboot_server": 4.983380079269409, 
+                    "nova.stop_and_start_server": 18.564808130264282, 
+                    "nova.stop_server": 14.9673330783844, 
+                    "nova.start_server": 3.5974111557006836, 
+                    "nova.rescue_and_unrescue_server": 9.468841075897217, 
+                    "nova.rescue_server": 7.0588219165802, 
+                    "nova.unrescue_server": 2.4099559783935547, 
+                    "nova.delete_server": 2.5024490356445312
+                }
+            }, 
+            {
+                "timestamp": 1487498341.882577, 
+                "error": [], 
+                "duration": 45.108543157577515, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.032608985900878906, 
+                    "nova.boot_server": 10.084507942199707, 
+                    "nova.reboot_server": 7.688968896865845, 
+                    "nova.soft_reboot_server": 5.208395004272461, 
+                    "nova.stop_and_start_server": 18.454104900360107, 
+                    "nova.stop_server": 15.048200845718384, 
+                    "nova.start_server": 3.405834913253784, 
+                    "nova.rescue_and_unrescue_server": 10.134411811828613, 
+                    "nova.rescue_server": 7.46999192237854, 
+                    "nova.unrescue_server": 2.66432785987854, 
+                    "nova.delete_server": 2.4978249073028564
+                }
+            }, 
+            {
+                "timestamp": 1487498343.881938, 
+                "error": [], 
+                "duration": 45.19466209411621, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.051856040954589844, 
+                    "nova.boot_server": 13.841413974761963, 
+                    "nova.reboot_server": 4.878691911697388, 
+                    "nova.soft_reboot_server": 4.93927788734436, 
+                    "nova.stop_and_start_server": 17.934776067733765, 
+                    "nova.stop_server": 14.423249959945679, 
+                    "nova.start_server": 3.511462926864624, 
+                    "nova.rescue_and_unrescue_server": 9.600494861602783, 
+                    "nova.rescue_server": 7.00465202331543, 
+                    "nova.unrescue_server": 2.5957698822021484, 
+                    "nova.delete_server": 2.938375949859619
+                }
+            }, 
+            {
+                "timestamp": 1487498345.881613, 
+                "error": [], 
+                "duration": 35.288650035858154, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03398609161376953, 
+                    "nova.boot_server": 11.581835985183716, 
+                    "nova.reboot_server": 4.836632013320923, 
+                    "nova.soft_reboot_server": 7.045055866241455, 
+                    "nova.stop_and_start_server": 8.58636999130249, 
+                    "nova.stop_server": 5.369477033615112, 
+                    "nova.start_server": 3.2168290615081787, 
+                    "nova.rescue_and_unrescue_server": 9.501269102096558, 
+                    "nova.rescue_server": 7.113885879516602, 
+                    "nova.unrescue_server": 2.3873379230499268, 
+                    "nova.delete_server": 2.6955370903015137
+                }
+            }, 
+            {
+                "timestamp": 1487498347.890384, 
+                "error": [], 
+                "duration": 166.4445960521698, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026599884033203125, 
+                    "nova.boot_server": 125.29284811019897, 
+                    "nova.reboot_server": 7.04630708694458, 
+                    "nova.soft_reboot_server": 6.973674058914185, 
+                    "nova.stop_and_start_server": 22.073158025741577, 
+                    "nova.stop_server": 19.13576889038086, 
+                    "nova.start_server": 2.9373230934143066, 
+                    "nova.rescue_and_unrescue_server": 11.42062497138977, 
+                    "nova.rescue_server": 9.068387985229492, 
+                    "nova.unrescue_server": 2.35214900970459, 
+                    "nova.delete_server": 2.6054909229278564
+                }
+            }, 
+            {
+                "timestamp": 1487498349.882721, 
+                "error": [], 
+                "duration": 164.39399313926697, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.036434173583984375, 
+                    "nova.boot_server": 127.289724111557, 
+                    "nova.reboot_server": 6.668752908706665, 
+                    "nova.soft_reboot_server": 13.953166007995605, 
+                    "nova.stop_and_start_server": 9.345054864883423, 
+                    "nova.stop_server": 5.108106851577759, 
+                    "nova.start_server": 4.23689603805542, 
+                    "nova.rescue_and_unrescue_server": 13.710124969482422, 
+                    "nova.rescue_server": 11.380856990814209, 
+                    "nova.unrescue_server": 2.32922101020813, 
+                    "nova.delete_server": 2.3848800659179688
+                }
+            }, 
+            {
+                "timestamp": 1487498351.881259, 
+                "error": [], 
+                "duration": 162.52097392082214, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.028729915618896484, 
+                    "nova.boot_server": 121.36536502838135, 
+                    "nova.reboot_server": 7.009259939193726, 
+                    "nova.soft_reboot_server": 6.636972904205322, 
+                    "nova.stop_and_start_server": 13.719935178756714, 
+                    "nova.stop_server": 9.472676992416382, 
+                    "nova.start_server": 4.247207164764404, 
+                    "nova.rescue_and_unrescue_server": 20.35600709915161, 
+                    "nova.rescue_server": 17.918726921081543, 
+                    "nova.unrescue_server": 2.4372270107269287, 
+                    "nova.delete_server": 2.3988289833068848
+                }
+            }, 
+            {
+                "timestamp": 1487498353.881756, 
+                "error": [], 
+                "duration": 42.24026799201965, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02970409393310547, 
+                    "nova.boot_server": 11.462579011917114, 
+                    "nova.reboot_server": 4.891948938369751, 
+                    "nova.soft_reboot_server": 4.7705559730529785, 
+                    "nova.stop_and_start_server": 17.68328595161438, 
+                    "nova.stop_server": 14.560501098632812, 
+                    "nova.start_server": 3.1227309703826904, 
+                    "nova.rescue_and_unrescue_server": 9.771850109100342, 
+                    "nova.rescue_server": 7.249727010726929, 
+                    "nova.unrescue_server": 2.5220730304718018, 
+                    "nova.delete_server": 2.6203839778900146
+                }
+            }, 
+            {
+                "timestamp": 1487498355.882415, 
+                "error": [], 
+                "duration": 42.00830602645874, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029108047485351562, 
+                    "nova.boot_server": 10.875223159790039, 
+                    "nova.reboot_server": 4.606988906860352, 
+                    "nova.soft_reboot_server": 4.8721959590911865, 
+                    "nova.stop_and_start_server": 18.426865816116333, 
+                    "nova.stop_server": 14.832721948623657, 
+                    "nova.start_server": 3.594088077545166, 
+                    "nova.rescue_and_unrescue_server": 9.582589149475098, 
+                    "nova.rescue_server": 7.211647033691406, 
+                    "nova.unrescue_server": 2.3708791732788086, 
+                    "nova.delete_server": 2.608656883239746
+                }
+            }, 
+            {
+                "timestamp": 1487498357.881565, 
+                "error": [], 
+                "duration": 43.158610820770264, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03601408004760742, 
+                    "nova.boot_server": 11.086523056030273, 
+                    "nova.reboot_server": 5.217088937759399, 
+                    "nova.soft_reboot_server": 5.154085874557495, 
+                    "nova.stop_and_start_server": 18.068963050842285, 
+                    "nova.stop_server": 14.48626708984375, 
+                    "nova.start_server": 3.5826399326324463, 
+                    "nova.rescue_and_unrescue_server": 9.86545205116272, 
+                    "nova.rescue_server": 7.507674932479858, 
+                    "nova.unrescue_server": 2.35772705078125, 
+                    "nova.delete_server": 2.712013006210327
+                }
+            }, 
+            {
+                "timestamp": 1487498359.880855, 
+                "error": [], 
+                "duration": 43.64958381652832, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03867292404174805, 
+                    "nova.boot_server": 9.506617784500122, 
+                    "nova.reboot_server": 5.544934988021851, 
+                    "nova.soft_reboot_server": 4.736321926116943, 
+                    "nova.stop_and_start_server": 18.086663961410522, 
+                    "nova.stop_server": 15.036926984786987, 
+                    "nova.start_server": 3.0496740341186523, 
+                    "nova.rescue_and_unrescue_server": 11.927211046218872, 
+                    "nova.rescue_server": 7.139175891876221, 
+                    "nova.unrescue_server": 4.787984132766724, 
+                    "nova.delete_server": 2.802278995513916
+                }
+            }, 
+            {
+                "timestamp": 1487498361.881607, 
+                "error": [], 
+                "duration": 145.66559100151062, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.030930042266845703, 
+                    "nova.boot_server": 116.30608105659485, 
+                    "nova.reboot_server": 6.793866157531738, 
+                    "nova.soft_reboot_server": 7.291763067245483, 
+                    "nova.stop_and_start_server": 9.715580940246582, 
+                    "nova.stop_server": 5.522104978561401, 
+                    "nova.start_server": 4.193418979644775, 
+                    "nova.rescue_and_unrescue_server": 11.564624071121216, 
+                    "nova.rescue_server": 6.792935132980347, 
+                    "nova.unrescue_server": 4.771613121032715, 
+                    "nova.delete_server": 2.9502899646759033
+                }
+            }, 
+            {
+                "timestamp": 1487498363.88305, 
+                "error": [], 
+                "duration": 44.356006145477295, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03304290771484375, 
+                    "nova.boot_server": 11.078485012054443, 
+                    "nova.reboot_server": 4.877408981323242, 
+                    "nova.soft_reboot_server": 4.899780035018921, 
+                    "nova.stop_and_start_server": 17.856395959854126, 
+                    "nova.stop_server": 14.54030990600586, 
+                    "nova.start_server": 3.3160269260406494, 
+                    "nova.rescue_and_unrescue_server": 9.624249935150146, 
+                    "nova.rescue_server": 7.070930004119873, 
+                    "nova.unrescue_server": 2.5532708168029785, 
+                    "nova.delete_server": 4.97943902015686
+                }
+            }, 
+            {
+                "timestamp": 1487498365.883291, 
+                "error": [], 
+                "duration": 44.31015110015869, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04202604293823242, 
+                    "nova.boot_server": 9.791911125183105, 
+                    "nova.reboot_server": 4.829576015472412, 
+                    "nova.soft_reboot_server": 5.242236137390137, 
+                    "nova.stop_and_start_server": 18.508641004562378, 
+                    "nova.stop_server": 15.085412979125977, 
+                    "nova.start_server": 3.42317795753479, 
+                    "nova.rescue_and_unrescue_server": 12.41624402999878, 
+                    "nova.rescue_server": 7.226834058761597, 
+                    "nova.unrescue_server": 5.189352989196777, 
+                    "nova.delete_server": 2.4694459438323975
+                }
+            }, 
+            {
+                "timestamp": 1487498367.882248, 
+                "error": [], 
+                "duration": 165.678729057312, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.017080068588256836, 
+                    "nova.boot_server": 9.523014068603516, 
+                    "nova.reboot_server": 2.5509049892425537, 
+                    "nova.soft_reboot_server": 130.53369092941284, 
+                    "nova.stop_and_start_server": 6.4757239818573, 
+                    "nova.stop_server": 4.7938010692596436, 
+                    "nova.start_server": 1.681870937347412, 
+                    "nova.rescue_and_unrescue_server": 23.078665018081665, 
+                    "nova.rescue_server": 20.752678155899048, 
+                    "nova.unrescue_server": 2.325937032699585, 
+                    "nova.delete_server": 2.494070053100586
+                }
+            }, 
+            {
+                "timestamp": 1487498369.882811, 
+                "error": [], 
+                "duration": 143.76079988479614, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.023685932159423828, 
+                    "nova.boot_server": 107.91493105888367, 
+                    "nova.reboot_server": 7.02159309387207, 
+                    "nova.soft_reboot_server": 6.89447808265686, 
+                    "nova.stop_and_start_server": 11.617578029632568, 
+                    "nova.stop_server": 8.444916009902954, 
+                    "nova.start_server": 3.1726088523864746, 
+                    "nova.rescue_and_unrescue_server": 14.417629957199097, 
+                    "nova.rescue_server": 9.809668064117432, 
+                    "nova.unrescue_server": 4.607903003692627, 
+                    "nova.delete_server": 4.86489200592041
+                }
+            }, 
+            {
+                "timestamp": 1487498371.881142, 
+                "error": [], 
+                "duration": 157.85476803779602, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.036257028579711914, 
+                    "nova.boot_server": 111.19402503967285, 
+                    "nova.reboot_server": 9.482478141784668, 
+                    "nova.soft_reboot_server": 7.097050905227661, 
+                    "nova.stop_and_start_server": 18.131634950637817, 
+                    "nova.stop_server": 14.057790994644165, 
+                    "nova.start_server": 4.073792934417725, 
+                    "nova.rescue_and_unrescue_server": 18.39388394355774, 
+                    "nova.rescue_server": 16.058727979660034, 
+                    "nova.unrescue_server": 2.3350961208343506, 
+                    "nova.delete_server": 2.5138139724731445
+                }
+            }, 
+            {
+                "timestamp": 1487498373.881051, 
+                "error": [], 
+                "duration": 52.07412886619568, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.029922962188720703, 
+                    "nova.boot_server": 9.84249997138977, 
+                    "nova.reboot_server": 4.933303117752075, 
+                    "nova.soft_reboot_server": 5.310312032699585, 
+                    "nova.stop_and_start_server": 16.852612018585205, 
+                    "nova.stop_server": 14.648715019226074, 
+                    "nova.start_server": 2.203840970993042, 
+                    "nova.rescue_and_unrescue_server": 21.504951000213623, 
+                    "nova.rescue_server": 18.711923122406006, 
+                    "nova.unrescue_server": 2.7929739952087402, 
+                    "nova.delete_server": 2.593284845352173
+                }
+            }, 
+            {
+                "timestamp": 1487498375.88157, 
+                "error": [], 
+                "duration": 34.069514989852905, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03809499740600586, 
+                    "nova.boot_server": 9.300145864486694, 
+                    "nova.reboot_server": 4.758639097213745, 
+                    "nova.soft_reboot_server": 7.1161839962005615, 
+                    "nova.stop_and_start_server": 8.997804880142212, 
+                    "nova.stop_server": 5.584196090698242, 
+                    "nova.start_server": 3.413555860519409, 
+                    "nova.rescue_and_unrescue_server": 10.039239883422852, 
+                    "nova.rescue_server": 7.409497022628784, 
+                    "nova.unrescue_server": 2.629693031311035, 
+                    "nova.delete_server": 2.81112003326416
+                }
+            }, 
+            {
+                "timestamp": 1487498377.881118, 
+                "error": [], 
+                "duration": 43.82342290878296, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.04735398292541504, 
+                    "nova.boot_server": 11.123860120773315, 
+                    "nova.reboot_server": 5.167428970336914, 
+                    "nova.soft_reboot_server": 5.236496210098267, 
+                    "nova.stop_and_start_server": 18.756170988082886, 
+                    "nova.stop_server": 14.963913917541504, 
+                    "nova.start_server": 3.792206048965454, 
+                    "nova.rescue_and_unrescue_server": 9.920063972473145, 
+                    "nova.rescue_server": 7.543522834777832, 
+                    "nova.unrescue_server": 2.376487970352173, 
+                    "nova.delete_server": 2.5649969577789307
+                }
+            }, 
+            {
+                "timestamp": 1487498379.89145, 
+                "error": [], 
+                "duration": 41.16427707672119, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026329994201660156, 
+                    "nova.boot_server": 8.89332103729248, 
+                    "nova.reboot_server": 4.965934991836548, 
+                    "nova.soft_reboot_server": 5.181204080581665, 
+                    "nova.stop_and_start_server": 18.528174877166748, 
+                    "nova.stop_server": 15.192293882369995, 
+                    "nova.start_server": 3.3358259201049805, 
+                    "nova.rescue_and_unrescue_server": 9.903305053710938, 
+                    "nova.rescue_server": 7.344713926315308, 
+                    "nova.unrescue_server": 2.5585429668426514, 
+                    "nova.delete_server": 2.6525909900665283
+                }
+            }, 
+            {
+                "timestamp": 1487498381.882387, 
+                "error": [], 
+                "duration": 40.45423102378845, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.033879995346069336, 
+                    "nova.boot_server": 8.388467073440552, 
+                    "nova.reboot_server": 4.972527980804443, 
+                    "nova.soft_reboot_server": 5.231158018112183, 
+                    "nova.stop_and_start_server": 18.48717188835144, 
+                    "nova.stop_server": 15.095209836959839, 
+                    "nova.start_server": 3.3919031620025635, 
+                    "nova.rescue_and_unrescue_server": 9.676774978637695, 
+                    "nova.rescue_server": 7.1942808628082275, 
+                    "nova.unrescue_server": 2.4824371337890625, 
+                    "nova.delete_server": 2.6578369140625
+                }
+            }, 
+            {
+                "timestamp": 1487498383.882153, 
+                "error": [], 
+                "duration": 34.30274486541748, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.025519847869873047, 
+                    "nova.boot_server": 9.24583911895752, 
+                    "nova.reboot_server": 4.762547969818115, 
+                    "nova.soft_reboot_server": 7.148499011993408, 
+                    "nova.stop_and_start_server": 8.662875175476074, 
+                    "nova.stop_server": 5.721078872680664, 
+                    "nova.start_server": 2.941739082336426, 
+                    "nova.rescue_and_unrescue_server": 10.84185004234314, 
+                    "nova.rescue_server": 7.960676908493042, 
+                    "nova.unrescue_server": 2.8811230659484863, 
+                    "nova.delete_server": 2.6083121299743652
+                }
+            }, 
+            {
+                "timestamp": 1487498385.882011, 
+                "error": [], 
+                "duration": 160.3068630695343, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.02980804443359375, 
+                    "nova.boot_server": 8.29476809501648, 
+                    "nova.reboot_server": 2.4266910552978516, 
+                    "nova.soft_reboot_server": 130.1037769317627, 
+                    "nova.stop_and_start_server": 16.448641777038574, 
+                    "nova.stop_server": 13.65343689918518, 
+                    "nova.start_server": 2.795146942138672, 
+                    "nova.rescue_and_unrescue_server": 9.595195055007935, 
+                    "nova.rescue_server": 7.04431414604187, 
+                    "nova.unrescue_server": 2.5508201122283936, 
+                    "nova.delete_server": 2.3994290828704834
+                }
+            }, 
+            {
+                "timestamp": 1487498387.880918, 
+                "error": [], 
+                "duration": 44.954906940460205, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026507139205932617, 
+                    "nova.boot_server": 11.252532958984375, 
+                    "nova.reboot_server": 5.02101993560791, 
+                    "nova.soft_reboot_server": 4.649968862533569, 
+                    "nova.stop_and_start_server": 18.15336799621582, 
+                    "nova.stop_server": 14.69957709312439, 
+                    "nova.start_server": 3.4537320137023926, 
+                    "nova.rescue_and_unrescue_server": 12.165758848190308, 
+                    "nova.rescue_server": 7.391676902770996, 
+                    "nova.unrescue_server": 4.774030923843384, 
+                    "nova.delete_server": 2.6774301528930664
+                }
+            }, 
+            {
+                "timestamp": 1487498389.884642, 
+                "error": [], 
+                "duration": 42.4400680065155, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.038697004318237305, 
+                    "nova.boot_server": 11.068305015563965, 
+                    "nova.reboot_server": 4.791106939315796, 
+                    "nova.soft_reboot_server": 5.017251014709473, 
+                    "nova.stop_and_start_server": 18.056564807891846, 
+                    "nova.stop_server": 14.610798835754395, 
+                    "nova.start_server": 3.4457128047943115, 
+                    "nova.rescue_and_unrescue_server": 9.580291986465454, 
+                    "nova.rescue_server": 7.106624126434326, 
+                    "nova.unrescue_server": 2.4736108779907227, 
+                    "nova.delete_server": 2.8788809776306152
+                }
+            }, 
+            {
+                "timestamp": 1487498391.883244, 
+                "error": [], 
+                "duration": 37.86844992637634, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03312993049621582, 
+                    "nova.boot_server": 10.607527017593384, 
+                    "nova.reboot_server": 4.775455951690674, 
+                    "nova.soft_reboot_server": 7.517209053039551, 
+                    "nova.stop_and_start_server": 8.738911151885986, 
+                    "nova.stop_server": 5.133655071258545, 
+                    "nova.start_server": 3.605201005935669, 
+                    "nova.rescue_and_unrescue_server": 12.30978798866272, 
+                    "nova.rescue_server": 9.606578826904297, 
+                    "nova.unrescue_server": 2.703145980834961, 
+                    "nova.delete_server": 2.8789618015289307
+                }
+            }, 
+            {
+                "timestamp": 1487498393.886119, 
+                "error": [], 
+                "duration": 45.32409119606018, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.03172588348388672, 
+                    "nova.boot_server": 10.459800004959106, 
+                    "nova.reboot_server": 5.152353048324585, 
+                    "nova.soft_reboot_server": 7.5449090003967285, 
+                    "nova.stop_and_start_server": 7.735275030136108, 
+                    "nova.stop_server": 5.21384596824646, 
+                    "nova.start_server": 2.5213708877563477, 
+                    "nova.rescue_and_unrescue_server": 20.707387924194336, 
+                    "nova.rescue_server": 18.36519694328308, 
+                    "nova.unrescue_server": 2.342132091522217, 
+                    "nova.delete_server": 2.6791419982910156
+                }
+            }, 
+            {
+                "timestamp": 1487498395.882415, 
+                "error": [], 
+                "duration": 35.23705697059631, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.05023503303527832, 
+                    "nova.boot_server": 8.371782064437866, 
+                    "nova.reboot_server": 4.926047086715698, 
+                    "nova.soft_reboot_server": 7.432683944702148, 
+                    "nova.stop_and_start_server": 8.893407821655273, 
+                    "nova.stop_server": 5.253112077713013, 
+                    "nova.start_server": 3.640232801437378, 
+                    "nova.rescue_and_unrescue_server": 11.869044065475464, 
+                    "nova.rescue_server": 7.208859920501709, 
+                    "nova.unrescue_server": 4.660131931304932, 
+                    "nova.delete_server": 2.68166184425354
+                }
+            }, 
+            {
+                "timestamp": 1487498397.887018, 
+                "error": [], 
+                "duration": 152.44596004486084, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 9.0, 
+                "atomic_actions": {
+                    "nova.bind_actions": 0.026266098022460938, 
+                    "nova.boot_server": 11.729037046432495, 
+                    "nova.reboot_server": 2.4612040519714355, 
+                    "nova.soft_reboot_server": 127.55078792572021, 
+                    "nova.stop_and_start_server": 7.975144863128662, 
+                    "nova.stop_server": 5.057875156402588, 
+                    "nova.start_server": 2.9172139167785645, 
+                    "nova.rescue_and_unrescue_server": 9.305742025375366, 
+                    "nova.rescue_server": 6.883761167526245, 
+                    "nova.unrescue_server": 2.4219229221343994, 
+                    "nova.delete_server": 2.391409158706665
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "rps": 0.5, 
+                    "type": "rps", 
+                    "times": 300, 
+                    "max_cpu_count": 1
+                }, 
+                "hooks": [], 
+                "args": {
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "force_delete": false, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }, 
+                    "actions": [
+                        {
+                            "hard_reboot": 1
+                        }, 
+                        {
+                            "soft_reboot": 1
+                        }, 
+                        {
+                            "stop_start": 1
+                        }, 
+                        {
+                            "rescue_unrescue": 1
+                        }
+                    ]
+                }, 
+                "sla": {
+                    "max_avg_duration": 150.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_seconds_per_iteration": 300.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "gigabytes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "neutron": {
+                            "security_group": -1, 
+                            "port": -1, 
+                            "network": -1, 
+                            "floatingip": -1, 
+                            "subnet": -1, 
+                            "router": -1, 
+                            "security_group_rule": -1
+                        }, 
+                        "nova": {
+                            "key_pairs": -1, 
+                            "injected_files": -1, 
+                            "security_group_rules": -1, 
+                            "metadata_items": -1, 
+                            "server_groups": -1, 
+                            "server_group_members": -1, 
+                            "fixed_ips": -1, 
+                            "security_groups": -1, 
+                            "floating_ips": -1, 
+                            "cores": -1, 
+                            "instances": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "ram": -1, 
+                            "injected_file_path_bytes": -1
+                        }
+                    }, 
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_and_bounce_server", 
+            "pos": 0
+        }, 
+        "full_duration": 476.3293559551239, 
+        "sla": [
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 120.03s <= 150.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 4.55% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 351.92s <= 300.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
