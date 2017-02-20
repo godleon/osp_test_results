@@ -6,4 +6,5 @@
 - [create-aggregate-add-host-and-boot-server](https://godleon.github.io/osp_test_results/0.2.96/nova/create-aggregate-add-host-and-boot-server.html)
 - [create-and-delete-aggregate](https://godleon.github.io/osp_test_results/0.2.96/nova/create-and-delete-aggregate.html)
 - [create-and-delete-flavor](https://godleon.github.io/osp_test_results/0.2.96/nova/create-and-delete-flavor.html)
+- [create-and-delete-keypair](https://godleon.github.io/osp_test_results/0.2.96/nova/create-and-delete-keypair.html)
 
