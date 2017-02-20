@@ -1,0 +1,249 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-20-02T00:44:58", 
+        "load_duration": 27.855067014694214, 
+        "result": [
+            {
+                "timestamp": 1487551501.292452, 
+                "error": [], 
+                "duration": 8.569010019302368, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.3305220603942871, 
+                    "nova.list_hypervisors": 0.03084397315979004, 
+                    "nova.aggregate_set_metadata": 0.03977203369140625, 
+                    "nova.aggregate_add_host": 0.08625316619873047, 
+                    "nova.create_flavor": 0.024066925048828125, 
+                    "nova.boot_server": 8.704753160476685
+                }
+            }, 
+            {
+                "timestamp": 1487551503.289943, 
+                "error": [
+                    "RallyException", 
+                    "Instance host and aggregate host are different", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/aggregates.py\", line 179, in run\n    raise exceptions.RallyException(\"Instance host and aggregate \"\nRallyException: Instance host and aggregate host are different\n"
+                ], 
+                "duration": 10.237075090408325, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.31290197372436523, 
+                    "nova.list_hypervisors": 0.030643939971923828, 
+                    "nova.aggregate_set_metadata": 0.03878307342529297, 
+                    "nova.aggregate_add_host": 0.09032011032104492, 
+                    "nova.create_flavor": 0.02275705337524414, 
+                    "nova.boot_server": 10.258944988250732
+                }
+            }, 
+            {
+                "timestamp": 1487551505.289689, 
+                "error": [
+                    "RallyException", 
+                    "Instance host and aggregate host are different", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/aggregates.py\", line 179, in run\n    raise exceptions.RallyException(\"Instance host and aggregate \"\nRallyException: Instance host and aggregate host are different\n"
+                ], 
+                "duration": 9.359349012374878, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.3102130889892578, 
+                    "nova.list_hypervisors": 0.030738115310668945, 
+                    "nova.aggregate_set_metadata": 0.04144477844238281, 
+                    "nova.aggregate_add_host": 0.08530783653259277, 
+                    "nova.create_flavor": 0.023854970932006836, 
+                    "nova.boot_server": 9.395117044448853
+                }
+            }, 
+            {
+                "timestamp": 1487551507.289737, 
+                "error": [], 
+                "duration": 8.27636194229126, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.3101041316986084, 
+                    "nova.list_hypervisors": 0.027961015701293945, 
+                    "nova.aggregate_set_metadata": 0.03764700889587402, 
+                    "nova.aggregate_add_host": 0.09620809555053711, 
+                    "nova.create_flavor": 0.022574901580810547, 
+                    "nova.boot_server": 8.465549945831299
+                }
+            }, 
+            {
+                "timestamp": 1487551509.289458, 
+                "error": [
+                    "RallyException", 
+                    "Instance host and aggregate host are different", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/aggregates.py\", line 179, in run\n    raise exceptions.RallyException(\"Instance host and aggregate \"\nRallyException: Instance host and aggregate host are different\n"
+                ], 
+                "duration": 9.980845928192139, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.3175930976867676, 
+                    "nova.list_hypervisors": 0.03178691864013672, 
+                    "nova.aggregate_set_metadata": 0.03786492347717285, 
+                    "nova.aggregate_add_host": 0.09375500679016113, 
+                    "nova.create_flavor": 0.026931047439575195, 
+                    "nova.boot_server": 9.646358966827393
+                }
+            }, 
+            {
+                "timestamp": 1487551511.2895, 
+                "error": [
+                    "RallyException", 
+                    "Instance host and aggregate host are different", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/aggregates.py\", line 179, in run\n    raise exceptions.RallyException(\"Instance host and aggregate \"\nRallyException: Instance host and aggregate host are different\n"
+                ], 
+                "duration": 17.85801911354065, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.30773496627807617, 
+                    "nova.list_hypervisors": 0.23722004890441895, 
+                    "nova.aggregate_set_metadata": 0.042543888092041016, 
+                    "nova.aggregate_add_host": 0.10472798347473145, 
+                    "nova.create_flavor": 0.024464130401611328, 
+                    "nova.boot_server": 17.709776878356934
+                }
+            }, 
+            {
+                "timestamp": 1487551513.290763, 
+                "error": [
+                    "RallyException", 
+                    "Instance host and aggregate host are different", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/aggregates.py\", line 179, in run\n    raise exceptions.RallyException(\"Instance host and aggregate \"\nRallyException: Instance host and aggregate host are different\n"
+                ], 
+                "duration": 11.725328207015991, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.create_aggregate": 0.3253190517425537, 
+                    "nova.list_hypervisors": 0.040078163146972656, 
+                    "nova.aggregate_set_metadata": 0.03792619705200195, 
+                    "nova.aggregate_add_host": 0.09381699562072754, 
+                    "nova.create_flavor": 0.0233609676361084, 
+                    "nova.boot_server": 11.763017892837524
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "times": 300, 
+                    "type": "rps", 
+                    "max_cpu_count": 1, 
+                    "rps": 0.5
+                }, 
+                "hooks": [], 
+                "args": {
+                    "ram": 512, 
+                    "boot_server_kwargs": {}, 
+                    "availability_zone": "nova", 
+                    "vcpus": 1, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }, 
+                    "metadata": {
+                        "test_metadata": "true"
+                    }, 
+                    "disk": 1
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 90.0, 
+                    "max_avg_duration": 60.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "snapshots": -1, 
+                            "volumes": -1
+                        }, 
+                        "nova": {
+                            "injected_files": -1, 
+                            "fixed_ips": -1, 
+                            "instances": -1, 
+                            "cores": -1, 
+                            "security_groups": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "floating_ips": -1, 
+                            "ram": -1, 
+                            "server_group_members": -1, 
+                            "metadata_items": -1, 
+                            "security_group_rules": -1, 
+                            "key_pairs": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1
+                        }, 
+                        "neutron": {
+                            "network": -1, 
+                            "port": -1, 
+                            "floatingip": -1, 
+                            "security_group_rule": -1, 
+                            "security_group": -1, 
+                            "subnet": -1, 
+                            "router": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaAggregates.create_aggregate_add_host_and_boot_server", 
+            "pos": 0
+        }, 
+        "full_duration": 44.27294898033142, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 17.86s <= 90.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 8.42s <= 60.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 71.43% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
