@@ -1,0 +1,3322 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-20-02T14:48:22", 
+        "load_duration": 461.08971881866455, 
+        "result": [
+            {
+                "timestamp": 1487602105.720082, 
+                "error": [], 
+                "duration": 31.733076587163048, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.083040461100502, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.8432841300964355, 
+                    "nova.boot_server": 9.36927080154419, 
+                    "nova.resize": 11.457437992095947, 
+                    "nova.resize_confirm": 2.8994359970092773, 
+                    "nova.delete_server": 5.12659215927124
+                }
+            }, 
+            {
+                "timestamp": 1487602107.717737, 
+                "error": [], 
+                "duration": 30.115709758504657, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.52570726801512, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.789321184158325, 
+                    "nova.boot_server": 7.88369607925415, 
+                    "nova.resize": 11.52579379081726, 
+                    "nova.resize_confirm": 3.060321092605591, 
+                    "nova.delete_server": 4.8245508670806885
+                }
+            }, 
+            {
+                "timestamp": 1487602109.717528, 
+                "error": [], 
+                "duration": 30.90730791900902, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.553446952359389, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.847296953201294, 
+                    "nova.boot_server": 8.73645305633545, 
+                    "nova.resize": 11.447459936141968, 
+                    "nova.resize_confirm": 2.9367098808288574, 
+                    "nova.delete_server": 4.912259101867676
+                }
+            }, 
+            {
+                "timestamp": 1487602111.718082, 
+                "error": [], 
+                "duration": 31.302658638776414, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.99017945784224, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.897429943084717, 
+                    "nova.boot_server": 9.620832204818726, 
+                    "nova.resize": 10.982317924499512, 
+                    "nova.resize_confirm": 2.9528121948242188, 
+                    "nova.delete_server": 4.803889036178589
+                }
+            }, 
+            {
+                "timestamp": 1487602113.717272, 
+                "error": [], 
+                "duration": 37.996983026898576, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.22833683546715, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.107194900512695, 
+                    "nova.boot_server": 10.904241800308228, 
+                    "nova.resize": 12.325400829315186, 
+                    "nova.resize_confirm": 2.811414957046509, 
+                    "nova.delete_server": 4.826701879501343
+                }
+            }, 
+            {
+                "timestamp": 1487602115.720041, 
+                "error": [], 
+                "duration": 37.243421357508254, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.47618265784209, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.17975115776062, 
+                    "nova.boot_server": 8.071377992630005, 
+                    "nova.resize": 11.622161149978638, 
+                    "nova.resize_confirm": 2.993062973022461, 
+                    "nova.delete_server": 7.340212106704712
+                }
+            }, 
+            {
+                "timestamp": 1487602117.717232, 
+                "error": [], 
+                "duration": 34.820893802343676, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.386276207269365, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.812352895736694, 
+                    "nova.boot_server": 8.555958986282349, 
+                    "nova.resize": 11.426878213882446, 
+                    "nova.resize_confirm": 2.7661919593811035, 
+                    "nova.delete_server": 7.218088865280151
+                }
+            }, 
+            {
+                "timestamp": 1487602119.717599, 
+                "error": [], 
+                "duration": 36.62962286443812, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.715225291537223, 
+                "atomic_actions": {
+                    "cinder.create_volume": 9.944249868392944, 
+                    "nova.boot_server": 8.108483076095581, 
+                    "nova.resize": 11.323387145996094, 
+                    "nova.resize_confirm": 2.7224910259246826, 
+                    "nova.delete_server": 7.5001380443573
+                }
+            }, 
+            {
+                "timestamp": 1487602121.71899, 
+                "error": [], 
+                "duration": 42.97465620385172, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.17802371634481, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.091484069824219, 
+                    "nova.boot_server": 9.297492980957031, 
+                    "nova.resize": 16.582918882369995, 
+                    "nova.resize_confirm": 2.849440813064575, 
+                    "nova.delete_server": 7.0212249755859375
+                }
+            }, 
+            {
+                "timestamp": 1487602123.718151, 
+                "error": [], 
+                "duration": 37.64190987585226, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.774053058641762, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.072994947433472, 
+                    "nova.boot_server": 9.196597814559937, 
+                    "nova.resize": 11.586098909378052, 
+                    "nova.resize_confirm": 2.843329906463623, 
+                    "nova.delete_server": 6.899075031280518
+                }
+            }, 
+            {
+                "timestamp": 1487602125.71767, 
+                "error": [], 
+                "duration": 37.48704999933126, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.47633105268595, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.054095029830933, 
+                    "nova.boot_server": 9.27139401435852, 
+                    "nova.resize": 11.52481484413147, 
+                    "nova.resize_confirm": 2.752156972885132, 
+                    "nova.delete_server": 4.786063194274902
+                }
+            }, 
+            {
+                "timestamp": 1487602127.717226, 
+                "error": [], 
+                "duration": 34.45537242532075, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.01063266157805, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.901067018508911, 
+                    "nova.boot_server": 9.722283840179443, 
+                    "nova.resize": 11.680223941802979, 
+                    "nova.resize_confirm": 2.8907110691070557, 
+                    "nova.delete_server": 7.219573020935059
+                }
+            }, 
+            {
+                "timestamp": 1487602129.716711, 
+                "error": [], 
+                "duration": 32.67622676093182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.751416299752385, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.826469898223877, 
+                    "nova.boot_server": 9.458256959915161, 
+                    "nova.resize": 12.037495136260986, 
+                    "nova.resize_confirm": 3.102336883544922, 
+                    "nova.delete_server": 5.111462831497192
+                }
+            }, 
+            {
+                "timestamp": 1487602131.720646, 
+                "error": [], 
+                "duration": 35.416047453077496, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.638854623643695, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.854043006896973, 
+                    "nova.boot_server": 10.487506866455078, 
+                    "nova.resize": 11.727937936782837, 
+                    "nova.resize_confirm": 2.891400098800659, 
+                    "nova.delete_server": 5.269092082977295
+                }
+            }, 
+            {
+                "timestamp": 1487602133.717292, 
+                "error": [], 
+                "duration": 33.09252320432959, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.639159811493776, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.745081901550293, 
+                    "nova.boot_server": 9.08807897567749, 
+                    "nova.resize": 11.346181869506836, 
+                    "nova.resize_confirm": 2.898458957672119, 
+                    "nova.delete_server": 4.912535905838013
+                }
+            }, 
+            {
+                "timestamp": 1487602135.719841, 
+                "error": [], 
+                "duration": 34.42122090048704, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.062108157206442, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.843574047088623, 
+                    "nova.boot_server": 8.107280015945435, 
+                    "nova.resize": 11.268288135528564, 
+                    "nova.resize_confirm": 2.860827922821045, 
+                    "nova.delete_server": 9.31672215461731
+                }
+            }, 
+            {
+                "timestamp": 1487602137.717323, 
+                "error": [], 
+                "duration": 39.063545643258855, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.295850337576105, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.047006130218506, 
+                    "nova.boot_server": 10.748112201690674, 
+                    "nova.resize": 11.378264904022217, 
+                    "nova.resize_confirm": 2.7956888675689697, 
+                    "nova.delete_server": 4.962110996246338
+                }
+            }, 
+            {
+                "timestamp": 1487602139.717094, 
+                "error": [], 
+                "duration": 43.831419318521796, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.97855964342278, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.225665092468262, 
+                    "nova.boot_server": 10.748488903045654, 
+                    "nova.resize": 11.197565078735352, 
+                    "nova.resize_confirm": 2.947226047515869, 
+                    "nova.delete_server": 11.54338002204895
+                }
+            }, 
+            {
+                "timestamp": 1487602141.717783, 
+                "error": [], 
+                "duration": 34.170458510285926, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.916165396803308, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.886390209197998, 
+                    "nova.boot_server": 9.627814054489136, 
+                    "nova.resize": 11.837090015411377, 
+                    "nova.resize_confirm": 2.8043580055236816, 
+                    "nova.delete_server": 4.898996114730835
+                }
+            }, 
+            {
+                "timestamp": 1487602143.71728, 
+                "error": [], 
+                "duration": 61.65767579269861, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.580430219645745, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.750394105911255, 
+                    "nova.boot_server": 12.540114164352417, 
+                    "nova.resize": 16.4336199760437, 
+                    "nova.resize_confirm": 3.0075690746307373, 
+                    "nova.delete_server": 17.884668111801147
+                }
+            }, 
+            {
+                "timestamp": 1487602145.717331, 
+                "error": [], 
+                "duration": 58.62576642925802, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.484442558931672, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.285185098648071, 
+                    "nova.boot_server": 11.141629934310913, 
+                    "nova.resize": 16.572915077209473, 
+                    "nova.resize_confirm": 2.901232957839966, 
+                    "nova.delete_server": 18.683106184005737
+                }
+            }, 
+            {
+                "timestamp": 1487602147.717692, 
+                "error": [], 
+                "duration": 43.72268859359259, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.67194255379205, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.26617980003357, 
+                    "nova.boot_server": 10.362984895706177, 
+                    "nova.resize": 11.631951093673706, 
+                    "nova.resize_confirm": 2.89642596244812, 
+                    "nova.delete_server": 9.543226957321167
+                }
+            }, 
+            {
+                "timestamp": 1487602149.716852, 
+                "error": [], 
+                "duration": 49.249279733040964, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.492515329977834, 
+                "atomic_actions": {
+                    "cinder.create_volume": 9.758998155593872, 
+                    "nova.boot_server": 10.461979866027832, 
+                    "nova.resize": 11.270539999008179, 
+                    "nova.resize_confirm": 2.8113150596618652, 
+                    "nova.delete_server": 17.89152717590332
+                }
+            }, 
+            {
+                "timestamp": 1487602151.719747, 
+                "error": [], 
+                "duration": 55.01223783796236, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.862302014179978, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.201239109039307, 
+                    "nova.boot_server": 9.577881097793579, 
+                    "nova.resize": 16.69554901123047, 
+                    "nova.resize_confirm": 2.6679959297180176, 
+                    "nova.delete_server": 18.827165842056274
+                }
+            }, 
+            {
+                "timestamp": 1487602153.716927, 
+                "error": [], 
+                "duration": 50.072533138475336, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.661346904554446, 
+                "atomic_actions": {
+                    "cinder.create_volume": 9.905078887939453, 
+                    "nova.boot_server": 8.432618856430054, 
+                    "nova.resize": 11.464612007141113, 
+                    "nova.resize_confirm": 2.861043930053711, 
+                    "nova.delete_server": 20.378655910491943
+                }
+            }, 
+            {
+                "timestamp": 1487602155.716919, 
+                "error": [], 
+                "duration": 66.92188381100104, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.05742121791436, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.497919082641602, 
+                    "nova.boot_server": 12.646373987197876, 
+                    "nova.resize": 21.811779022216797, 
+                    "nova.resize_confirm": 2.6941230297088623, 
+                    "nova.delete_server": 18.22756814956665
+                }
+            }, 
+            {
+                "timestamp": 1487602157.717166, 
+                "error": [], 
+                "duration": 58.92928633246136, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.27898374047565, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.676528215408325, 
+                    "nova.boot_server": 11.042699098587036, 
+                    "nova.resize": 21.95420217514038, 
+                    "nova.resize_confirm": 2.84755802154541, 
+                    "nova.delete_server": 18.35877513885498
+                }
+            }, 
+            {
+                "timestamp": 1487602159.717385, 
+                "error": [], 
+                "duration": 48.921969146735066, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.396824865334636, 
+                "atomic_actions": {
+                    "cinder.create_volume": 8.027078866958618, 
+                    "nova.boot_server": 10.887826919555664, 
+                    "nova.resize": 11.666593074798584, 
+                    "nova.resize_confirm": 2.7179958820343018, 
+                    "nova.delete_server": 18.57929015159607
+                }
+            }, 
+            {
+                "timestamp": 1487602161.717344, 
+                "error": [], 
+                "duration": 61.16392743450835, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.545215488846747, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.583479881286621, 
+                    "nova.boot_server": 13.5801260471344, 
+                    "nova.resize": 17.16275405883789, 
+                    "nova.resize_confirm": 2.7202041149139404, 
+                    "nova.delete_server": 16.06301212310791
+                }
+            }, 
+            {
+                "timestamp": 1487602163.717836, 
+                "error": [], 
+                "duration": 67.46708972949538, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.61690632801499, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.065834999084473, 
+                    "nova.boot_server": 14.669079065322876, 
+                    "nova.resize": 22.469062089920044, 
+                    "nova.resize_confirm": 3.023794174194336, 
+                    "nova.delete_server": 18.207478046417236
+                }
+            }, 
+            {
+                "timestamp": 1487602165.716917, 
+                "error": [], 
+                "duration": 65.03796159728802, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.92045939460956, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.51354694366455, 
+                    "nova.boot_server": 12.835755825042725, 
+                    "nova.resize": 21.68098783493042, 
+                    "nova.resize_confirm": 2.698362112045288, 
+                    "nova.delete_server": 18.27641487121582
+                }
+            }, 
+            {
+                "timestamp": 1487602167.71672, 
+                "error": [], 
+                "duration": 58.16080359368637, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.5208453759639, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.149771928787231, 
+                    "nova.boot_server": 15.263800144195557, 
+                    "nova.resize": 17.017428159713745, 
+                    "nova.resize_confirm": 2.924006938934326, 
+                    "nova.delete_server": 15.740625858306885
+                }
+            }, 
+            {
+                "timestamp": 1487602169.717878, 
+                "error": [], 
+                "duration": 63.68371228105304, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.964561663801696, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.318602085113525, 
+                    "nova.boot_server": 13.70627498626709, 
+                    "nova.resize": 21.907379150390625, 
+                    "nova.resize_confirm": 2.865528106689453, 
+                    "nova.delete_server": 17.858808040618896
+                }
+            }, 
+            {
+                "timestamp": 1487602171.718303, 
+                "error": [], 
+                "duration": 55.34189403552329, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.579992885405666, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.124032974243164, 
+                    "nova.boot_server": 13.404738187789917, 
+                    "nova.resize": 11.698086023330688, 
+                    "nova.resize_confirm": 2.919510841369629, 
+                    "nova.delete_server": 16.143513917922974
+                }
+            }, 
+            {
+                "timestamp": 1487602173.716824, 
+                "error": [], 
+                "duration": 50.16320046388619, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.965306434993813, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.295297861099243, 
+                    "nova.boot_server": 9.695508003234863, 
+                    "nova.resize": 11.427411794662476, 
+                    "nova.resize_confirm": 2.9167721271514893, 
+                    "nova.delete_server": 16.785497903823853
+                }
+            }, 
+            {
+                "timestamp": 1487602175.720398, 
+                "error": [], 
+                "duration": 55.62007862043297, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.167040529728773, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.337608098983765, 
+                    "nova.boot_server": 10.942605972290039, 
+                    "nova.resize": 16.539877891540527, 
+                    "nova.resize_confirm": 2.846622943878174, 
+                    "nova.delete_server": 13.912082195281982
+                }
+            }, 
+            {
+                "timestamp": 1487602177.717287, 
+                "error": [], 
+                "duration": 47.21834608502167, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.265105758240047, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.35553789138794, 
+                    "nova.boot_server": 11.488314151763916, 
+                    "nova.resize": 11.463953018188477, 
+                    "nova.resize_confirm": 3.0098979473114014, 
+                    "nova.delete_server": 13.850617170333862
+                }
+            }, 
+            {
+                "timestamp": 1487602179.716617, 
+                "error": [], 
+                "duration": 102.34776084538808, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.18245608690868, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.432635068893433, 
+                    "nova.boot_server": 36.98309516906738, 
+                    "nova.resize": 26.694452047348022, 
+                    "nova.resize_confirm": 2.64792799949646, 
+                    "nova.delete_server": 13.552075147628784
+                }
+            }, 
+            {
+                "timestamp": 1487602181.716394, 
+                "error": [], 
+                "duration": 52.63647076630686, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.523125200032254, 
+                "atomic_actions": {
+                    "cinder.create_volume": 12.259539127349854, 
+                    "nova.boot_server": 13.499589204788208, 
+                    "nova.resize": 11.220861911773682, 
+                    "nova.resize_confirm": 2.59860897064209, 
+                    "nova.delete_server": 16.02911400794983
+                }
+            }, 
+            {
+                "timestamp": 1487602183.720167, 
+                "error": [], 
+                "duration": 62.08950566515319, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.481716401726082, 
+                "atomic_actions": {
+                    "cinder.create_volume": 10.143325090408325, 
+                    "nova.boot_server": 17.144903898239136, 
+                    "nova.resize": 16.76101589202881, 
+                    "nova.resize_confirm": 2.854279041290283, 
+                    "nova.delete_server": 18.145107984542847
+                }
+            }, 
+            {
+                "timestamp": 1487602185.71768, 
+                "error": [], 
+                "duration": 93.71881539835368, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.05155365453328, 
+                "atomic_actions": {
+                    "cinder.create_volume": 18.734106063842773, 
+                    "nova.boot_server": 37.353216886520386, 
+                    "nova.resize": 22.14725399017334, 
+                    "nova.resize_confirm": 2.695484161376953, 
+                    "nova.delete_server": 15.739714860916138
+                }
+            }, 
+            {
+                "timestamp": 1487602187.719485, 
+                "error": [], 
+                "duration": 60.43398737013609, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.782108554241354, 
+                "atomic_actions": {
+                    "cinder.create_volume": 7.9330761432647705, 
+                    "nova.boot_server": 17.709810972213745, 
+                    "nova.resize": 16.86444091796875, 
+                    "nova.resize_confirm": 2.91520094871521, 
+                    "nova.delete_server": 17.971718072891235
+                }
+            }, 
+            {
+                "timestamp": 1487602189.718902, 
+                "error": [], 
+                "duration": 96.826216892367, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.332919879788754, 
+                "atomic_actions": {
+                    "cinder.create_volume": 16.660377979278564, 
+                    "nova.boot_server": 35.45229697227478, 
+                    "nova.resize": 11.160558938980103, 
+                    "nova.resize_confirm": 2.687629222869873, 
+                    "nova.delete_server": 33.83378601074219
+                }
+            }, 
+            {
+                "timestamp": 1487602191.716729, 
+                "error": [], 
+                "duration": 90.79617308570371, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.81429601715579, 
+                "atomic_actions": {
+                    "cinder.create_volume": 14.496532917022705, 
+                    "nova.boot_server": 35.881250858306885, 
+                    "nova.resize": 27.025330066680908, 
+                    "nova.resize_confirm": 2.6547141075134277, 
+                    "nova.delete_server": 13.699829816818237
+                }
+            }, 
+            {
+                "timestamp": 1487602193.718289, 
+                "error": [], 
+                "duration": 94.56257489195988, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.592069120491281, 
+                "atomic_actions": {
+                    "cinder.create_volume": 19.032211780548096, 
+                    "nova.boot_server": 32.78876996040344, 
+                    "nova.resize": 11.387748003005981, 
+                    "nova.resize_confirm": 2.675389051437378, 
+                    "nova.delete_server": 31.65403389930725
+                }
+            }, 
+            {
+                "timestamp": 1487602195.71784, 
+                "error": [], 
+                "duration": 91.30466525028359, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.676061707037576, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.407750129699707, 
+                    "nova.boot_server": 18.781569004058838, 
+                    "nova.resize": 32.96866703033447, 
+                    "nova.resize_confirm": 2.891494035720825, 
+                    "nova.delete_server": 12.202776908874512
+                }
+            }, 
+            {
+                "timestamp": 1487602197.717561, 
+                "error": [], 
+                "duration": 90.16966513521129, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.92725773923939, 
+                "atomic_actions": {
+                    "cinder.create_volume": 30.05833387374878, 
+                    "nova.boot_server": 22.996156930923462, 
+                    "nova.resize": 27.238826990127563, 
+                    "nova.resize_confirm": 2.951169013977051, 
+                    "nova.delete_server": 9.826881885528564
+                }
+            }, 
+            {
+                "timestamp": 1487602199.716616, 
+                "error": [], 
+                "duration": 98.48220647048649, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.59333264160457, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.063663005828857, 
+                    "nova.boot_server": 27.31399393081665, 
+                    "nova.resize": 32.87363004684448, 
+                    "nova.resize_confirm": 2.771540880203247, 
+                    "nova.delete_server": 11.430166006088257
+                }
+            }, 
+            {
+                "timestamp": 1487602201.717256, 
+                "error": [], 
+                "duration": 82.02516912421532, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.678370724112305, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.874944925308228, 
+                    "nova.boot_server": 25.933856964111328, 
+                    "nova.resize": 16.859758853912354, 
+                    "nova.resize_confirm": 2.8862268924713135, 
+                    "nova.delete_server": 13.320831060409546
+                }
+            }, 
+            {
+                "timestamp": 1487602203.716727, 
+                "error": [], 
+                "duration": 78.93385389268141, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.41020605147142, 
+                "atomic_actions": {
+                    "cinder.create_volume": 24.979522943496704, 
+                    "nova.boot_server": 25.471410036087036, 
+                    "nova.resize": 16.682950019836426, 
+                    "nova.resize_confirm": 3.0107579231262207, 
+                    "nova.delete_server": 11.67241907119751
+                }
+            }, 
+            {
+                "timestamp": 1487602205.716765, 
+                "error": [], 
+                "duration": 83.81194087101585, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.814365185960476, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.87926411628723, 
+                    "nova.boot_server": 23.060024976730347, 
+                    "nova.resize": 11.576303005218506, 
+                    "nova.resize_confirm": 2.8458781242370605, 
+                    "nova.delete_server": 11.296258926391602
+                }
+            }, 
+            {
+                "timestamp": 1487602207.717562, 
+                "error": [], 
+                "duration": 88.81331199867415, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.521415050199757, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.00182795524597, 
+                    "nova.boot_server": 24.700438976287842, 
+                    "nova.resize": 11.302944898605347, 
+                    "nova.resize_confirm": 2.7270028591156006, 
+                    "nova.delete_server": 14.049325942993164
+                }
+            }, 
+            {
+                "timestamp": 1487602209.716955, 
+                "error": [], 
+                "duration": 103.88149271250063, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.93426933049863, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.06584310531616, 
+                    "nova.boot_server": 33.962080001831055, 
+                    "nova.resize": 16.991039991378784, 
+                    "nova.resize_confirm": 2.812443971633911, 
+                    "nova.delete_server": 14.027363061904907
+                }
+            }, 
+            {
+                "timestamp": 1487602211.718112, 
+                "error": [], 
+                "duration": 100.22248251793076, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.04737059715103, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.02668905258179, 
+                    "nova.boot_server": 35.07742404937744, 
+                    "nova.resize": 16.626251935958862, 
+                    "nova.resize_confirm": 2.7032389640808105, 
+                    "nova.delete_server": 11.758126020431519
+                }
+            }, 
+            {
+                "timestamp": 1487602213.71799, 
+                "error": [], 
+                "duration": 99.4380896196122, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.654853571916124, 
+                "atomic_actions": {
+                    "cinder.create_volume": 36.949236154556274, 
+                    "nova.boot_server": 32.15415382385254, 
+                    "nova.resize": 16.485290050506592, 
+                    "nova.resize_confirm": 2.725862979888916, 
+                    "nova.delete_server": 14.098753929138184
+                }
+            }, 
+            {
+                "timestamp": 1487602215.71825, 
+                "error": [], 
+                "duration": 98.4519686528633, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.022088306288925, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.287351846694946, 
+                    "nova.boot_server": 32.51983404159546, 
+                    "nova.resize": 16.77559185028076, 
+                    "nova.resize_confirm": 3.1009771823883057, 
+                    "nova.delete_server": 13.746063947677612
+                }
+            }, 
+            {
+                "timestamp": 1487602217.717039, 
+                "error": [], 
+                "duration": 93.05908247255124, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.31956938482486, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.0132110118866, 
+                    "nova.boot_server": 32.31296706199646, 
+                    "nova.resize": 16.325780868530273, 
+                    "nova.resize_confirm": 2.711663007736206, 
+                    "nova.delete_server": 11.644208908081055
+                }
+            }, 
+            {
+                "timestamp": 1487602219.71762, 
+                "error": [], 
+                "duration": 89.4275292772241, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.320165930371736, 
+                "atomic_actions": {
+                    "cinder.create_volume": 30.314671993255615, 
+                    "nova.boot_server": 33.050734996795654, 
+                    "nova.resize": 16.47948908805847, 
+                    "nova.resize_confirm": 2.780211925506592, 
+                    "nova.delete_server": 9.756017923355103
+                }
+            }, 
+            {
+                "timestamp": 1487602221.717614, 
+                "error": [], 
+                "duration": 91.96123705962276, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.923925055474292, 
+                "atomic_actions": {
+                    "cinder.create_volume": 29.40509009361267, 
+                    "nova.boot_server": 32.506515979766846, 
+                    "nova.resize": 16.792815923690796, 
+                    "nova.resize_confirm": 2.6004319190979004, 
+                    "nova.delete_server": 13.602991819381714
+                }
+            }, 
+            {
+                "timestamp": 1487602223.717437, 
+                "error": [], 
+                "duration": 80.3480187414415, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.38017430322097, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.44775104522705, 
+                    "nova.boot_server": 32.475301027297974, 
+                    "nova.resize": 11.32196307182312, 
+                    "nova.resize_confirm": 2.6718060970306396, 
+                    "nova.delete_server": 9.384105920791626
+                }
+            }, 
+            {
+                "timestamp": 1487602225.717513, 
+                "error": [], 
+                "duration": 77.14033366822382, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.564779265888735, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.409161806106567, 
+                    "nova.boot_server": 21.895213842391968, 
+                    "nova.resize": 16.582084894180298, 
+                    "nova.resize_confirm": 2.7547168731689453, 
+                    "nova.delete_server": 11.46249794960022
+                }
+            }, 
+            {
+                "timestamp": 1487602227.717668, 
+                "error": [], 
+                "duration": 73.22354763021812, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.987172432037745, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.152616024017334, 
+                    "nova.boot_server": 22.869768142700195, 
+                    "nova.resize": 11.368531942367554, 
+                    "nova.resize_confirm": 2.9011781215667725, 
+                    "nova.delete_server": 13.886781930923462
+                }
+            }, 
+            {
+                "timestamp": 1487602229.718528, 
+                "error": [], 
+                "duration": 106.88612538661177, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.003772675140553, 
+                "atomic_actions": {
+                    "cinder.create_volume": 31.67655897140503, 
+                    "nova.boot_server": 39.22439098358154, 
+                    "nova.resize": 11.375224113464355, 
+                    "nova.resize_confirm": 2.8811280727386475, 
+                    "nova.delete_server": 24.668573141098022
+                }
+            }, 
+            {
+                "timestamp": 1487602231.724502, 
+                "error": [], 
+                "duration": 115.4277302323778, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.80690059075757, 
+                "atomic_actions": {
+                    "cinder.create_volume": 34.29123401641846, 
+                    "nova.boot_server": 45.162808895111084, 
+                    "nova.resize": 11.264084100723267, 
+                    "nova.resize_confirm": 2.8955631256103516, 
+                    "nova.delete_server": 24.78260898590088
+                }
+            }, 
+            {
+                "timestamp": 1487602233.717739, 
+                "error": [], 
+                "duration": 124.26687987122494, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.482448026800565, 
+                "atomic_actions": {
+                    "cinder.create_volume": 61.814581871032715, 
+                    "nova.boot_server": 23.5036199092865, 
+                    "nova.resize": 16.676442861557007, 
+                    "nova.resize_confirm": 2.736175060272217, 
+                    "nova.delete_server": 22.496069192886353
+                }
+            }, 
+            {
+                "timestamp": 1487602235.717441, 
+                "error": [], 
+                "duration": 124.84274241222181, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.277331621515373, 
+                "atomic_actions": {
+                    "cinder.create_volume": 67.75843095779419, 
+                    "nova.boot_server": 21.43081307411194, 
+                    "nova.resize": 16.683056116104126, 
+                    "nova.resize_confirm": 3.1882848739624023, 
+                    "nova.delete_server": 18.76237392425537
+                }
+            }, 
+            {
+                "timestamp": 1487602237.7171, 
+                "error": [], 
+                "duration": 115.90550026088032, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.63418689579693, 
+                "atomic_actions": {
+                    "cinder.create_volume": 56.190269947052, 
+                    "nova.boot_server": 25.475126028060913, 
+                    "nova.resize": 11.50500202178955, 
+                    "nova.resize_confirm": 3.0336661338806152, 
+                    "nova.delete_server": 22.660259008407593
+                }
+            }, 
+            {
+                "timestamp": 1487602239.717698, 
+                "error": [], 
+                "duration": 102.89672912704579, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.80815873992809, 
+                "atomic_actions": {
+                    "cinder.create_volume": 47.712958097457886, 
+                    "nova.boot_server": 21.891947984695435, 
+                    "nova.resize": 11.159785985946655, 
+                    "nova.resize_confirm": 2.568570852279663, 
+                    "nova.delete_server": 22.50959801673889
+                }
+            }, 
+            {
+                "timestamp": 1487602241.718038, 
+                "error": [], 
+                "duration": 102.20709630356454, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.727927719491486, 
+                "atomic_actions": {
+                    "cinder.create_volume": 31.298973083496094, 
+                    "nova.boot_server": 38.62311100959778, 
+                    "nova.resize": 16.440099000930786, 
+                    "nova.resize_confirm": 2.8816640377044678, 
+                    "nova.delete_server": 15.902486085891724
+                }
+            }, 
+            {
+                "timestamp": 1487602243.719097, 
+                "error": [], 
+                "duration": 109.50984251023267, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.256823663702269, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.62282395362854, 
+                    "nova.boot_server": 23.565907955169678, 
+                    "nova.resize": 11.269624948501587, 
+                    "nova.resize_confirm": 2.906834840774536, 
+                    "nova.delete_server": 23.123831033706665
+                }
+            }, 
+            {
+                "timestamp": 1487602245.71791, 
+                "error": [], 
+                "duration": 106.65853222220562, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.719891707008856, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.05810809135437, 
+                    "nova.boot_server": 18.650336980819702, 
+                    "nova.resize": 11.790560007095337, 
+                    "nova.resize_confirm": 3.6831910610198975, 
+                    "nova.delete_server": 22.435836791992188
+                }
+            }, 
+            {
+                "timestamp": 1487602247.719019, 
+                "error": [], 
+                "duration": 106.12908615912644, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.890624858482205, 
+                "atomic_actions": {
+                    "cinder.create_volume": 46.86425304412842, 
+                    "nova.boot_server": 24.00783920288086, 
+                    "nova.resize": 16.708384037017822, 
+                    "nova.resize_confirm": 2.9108948707580566, 
+                    "nova.delete_server": 18.579383850097656
+                }
+            }, 
+            {
+                "timestamp": 1487602249.717055, 
+                "error": [], 
+                "duration": 110.19581340908879, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.31130958438045, 
+                "atomic_actions": {
+                    "cinder.create_volume": 50.94615912437439, 
+                    "nova.boot_server": 19.609586000442505, 
+                    "nova.resize": 17.159817934036255, 
+                    "nova.resize_confirm": 2.837610960006714, 
+                    "nova.delete_server": 22.60332703590393
+                }
+            }, 
+            {
+                "timestamp": 1487602251.717636, 
+                "error": [], 
+                "duration": 106.20286459754074, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.58568339516556, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.23520493507385, 
+                    "nova.boot_server": 20.497446060180664, 
+                    "nova.resize": 16.387847900390625, 
+                    "nova.resize_confirm": 3.1524219512939453, 
+                    "nova.delete_server": 17.878957986831665
+                }
+            }, 
+            {
+                "timestamp": 1487602253.717498, 
+                "error": [], 
+                "duration": 98.19596633073532, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.652859600813752, 
+                "atomic_actions": {
+                    "cinder.create_volume": 42.18242311477661, 
+                    "nova.boot_server": 22.37176513671875, 
+                    "nova.resize": 11.102473974227905, 
+                    "nova.resize_confirm": 2.8164889812469482, 
+                    "nova.delete_server": 22.695279836654663
+                }
+            }, 
+            {
+                "timestamp": 1487602255.717045, 
+                "error": [], 
+                "duration": 119.65759029486382, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.422523592923042, 
+                "atomic_actions": {
+                    "cinder.create_volume": 48.40494203567505, 
+                    "nova.boot_server": 19.171907901763916, 
+                    "nova.resize": 22.31413698196411, 
+                    "nova.resize_confirm": 2.9886860847473145, 
+                    "nova.delete_server": 29.717890977859497
+                }
+            }, 
+            {
+                "timestamp": 1487602257.719284, 
+                "error": [], 
+                "duration": 111.39599419166984, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.441993708110424, 
+                "atomic_actions": {
+                    "cinder.create_volume": 56.23231792449951, 
+                    "nova.boot_server": 18.582902193069458, 
+                    "nova.resize": 17.049646854400635, 
+                    "nova.resize_confirm": 2.585731029510498, 
+                    "nova.delete_server": 19.916799783706665
+                }
+            }, 
+            {
+                "timestamp": 1487602259.717853, 
+                "error": [], 
+                "duration": 125.06207907774615, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.146711939786194, 
+                "atomic_actions": {
+                    "cinder.create_volume": 63.59338402748108, 
+                    "nova.boot_server": 17.989107131958008, 
+                    "nova.resize": 16.723413944244385, 
+                    "nova.resize_confirm": 2.977566957473755, 
+                    "nova.delete_server": 26.63894510269165
+                }
+            }, 
+            {
+                "timestamp": 1487602261.717369, 
+                "error": [], 
+                "duration": 121.09793121243723, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.135813647258203, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.68200206756592, 
+                    "nova.boot_server": 19.545888900756836, 
+                    "nova.resize": 11.830631971359253, 
+                    "nova.resize_confirm": 3.1403920650482178, 
+                    "nova.delete_server": 26.70052194595337
+                }
+            }, 
+            {
+                "timestamp": 1487602263.717705, 
+                "error": [], 
+                "duration": 145.1442638687596, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.644555205871157, 
+                "atomic_actions": {
+                    "cinder.create_volume": 75.8016529083252, 
+                    "nova.boot_server": 32.59957695007324, 
+                    "nova.resize": 22.412302017211914, 
+                    "nova.resize_confirm": 3.239098072052002, 
+                    "nova.delete_server": 14.043945074081421
+                }
+            }, 
+            {
+                "timestamp": 1487602265.716685, 
+                "error": [], 
+                "duration": 134.805600256606, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.771493583039394, 
+                "atomic_actions": {
+                    "cinder.create_volume": 70.02769184112549, 
+                    "nova.boot_server": 35.21829700469971, 
+                    "nova.resize": 16.46507501602173, 
+                    "nova.resize_confirm": 2.816534996032715, 
+                    "nova.delete_server": 13.245100975036621
+                }
+            }, 
+            {
+                "timestamp": 1487602267.717147, 
+                "error": [], 
+                "duration": 141.67552755474665, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.20040823817633, 
+                "atomic_actions": {
+                    "cinder.create_volume": 68.00960302352905, 
+                    "nova.boot_server": 35.763615131378174, 
+                    "nova.resize": 21.765090942382812, 
+                    "nova.resize_confirm": 5.071755886077881, 
+                    "nova.delete_server": 14.037812948226929
+                }
+            }, 
+            {
+                "timestamp": 1487602269.870063, 
+                "error": [], 
+                "duration": 147.19870207778956, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.779982824401603, 
+                "atomic_actions": {
+                    "cinder.create_volume": 77.96109390258789, 
+                    "nova.boot_server": 34.23273992538452, 
+                    "nova.resize": 17.272037029266357, 
+                    "nova.resize_confirm": 5.086913108825684, 
+                    "nova.delete_server": 15.601888179779053
+                }
+            }, 
+            {
+                "timestamp": 1487602271.717438, 
+                "error": [], 
+                "duration": 136.15135278313164, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.646625141215296, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.848525047302246, 
+                    "nova.boot_server": 37.350873947143555, 
+                    "nova.resize": 22.25427484512329, 
+                    "nova.resize_confirm": 5.206610918045044, 
+                    "nova.delete_server": 11.455175876617432
+                }
+            }, 
+            {
+                "timestamp": 1487602273.716993, 
+                "error": [], 
+                "duration": 135.95190343840264, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.88578643815376, 
+                "atomic_actions": {
+                    "cinder.create_volume": 71.71851110458374, 
+                    "nova.boot_server": 32.88946580886841, 
+                    "nova.resize": 17.125967025756836, 
+                    "nova.resize_confirm": 3.317986011505127, 
+                    "nova.delete_server": 13.835960865020752
+                }
+            }, 
+            {
+                "timestamp": 1487602275.717872, 
+                "error": [], 
+                "duration": 122.22034662912925, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.03221041013161, 
+                "atomic_actions": {
+                    "cinder.create_volume": 63.07500696182251, 
+                    "nova.boot_server": 31.319905996322632, 
+                    "nova.resize": 11.745580911636353, 
+                    "nova.resize_confirm": 5.154752969741821, 
+                    "nova.delete_server": 13.860281229019165
+                }
+            }, 
+            {
+                "timestamp": 1487602277.716669, 
+                "error": [], 
+                "duration": 131.70008081525376, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.710996207298738, 
+                "atomic_actions": {
+                    "cinder.create_volume": 63.189374923706055, 
+                    "nova.boot_server": 32.7224760055542, 
+                    "nova.resize": 22.262845039367676, 
+                    "nova.resize_confirm": 2.8381519317626953, 
+                    "nova.delete_server": 13.65500783920288
+                }
+            }, 
+            {
+                "timestamp": 1487602279.717714, 
+                "error": [], 
+                "duration": 147.5128031331492, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.6344227236318, 
+                "atomic_actions": {
+                    "cinder.create_volume": 68.03480911254883, 
+                    "nova.boot_server": 34.18052101135254, 
+                    "nova.resize": 27.089375972747803, 
+                    "nova.resize_confirm": 5.061155796051025, 
+                    "nova.delete_server": 16.123482942581177
+                }
+            }, 
+            {
+                "timestamp": 1487602281.718152, 
+                "error": [], 
+                "duration": 133.44353684001436, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.125499166913116, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.39625906944275, 
+                    "nova.boot_server": 31.384968996047974, 
+                    "nova.resize": 21.519020080566406, 
+                    "nova.resize_confirm": 5.222832918167114, 
+                    "nova.delete_server": 15.895827054977417
+                }
+            }, 
+            {
+                "timestamp": 1487602283.717242, 
+                "error": [], 
+                "duration": 130.04634829869474, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.878462587688304, 
+                "atomic_actions": {
+                    "cinder.create_volume": 64.12874484062195, 
+                    "nova.boot_server": 31.067410945892334, 
+                    "nova.resize": 16.849889039993286, 
+                    "nova.resize_confirm": 5.068911075592041, 
+                    "nova.delete_server": 15.877269983291626
+                }
+            }, 
+            {
+                "timestamp": 1487602285.71725, 
+                "error": [], 
+                "duration": 130.37375878377293, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.351716050669225, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.377177000045776, 
+                    "nova.boot_server": 34.4189670085907, 
+                    "nova.resize": 17.573996782302856, 
+                    "nova.resize_confirm": 3.0801241397857666, 
+                    "nova.delete_server": 15.888990879058838
+                }
+            }, 
+            {
+                "timestamp": 1487602287.716969, 
+                "error": [], 
+                "duration": 124.94287769856948, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.146212171883406, 
+                "atomic_actions": {
+                    "cinder.create_volume": 57.60151791572571, 
+                    "nova.boot_server": 33.63960599899292, 
+                    "nova.resize": 16.96308994293213, 
+                    "nova.resize_confirm": 5.510610103607178, 
+                    "nova.delete_server": 14.168106079101562
+                }
+            }, 
+            {
+                "timestamp": 1487602289.717559, 
+                "error": [], 
+                "duration": 123.5644741287422, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.10803268049242, 
+                "atomic_actions": {
+                    "cinder.create_volume": 60.95323610305786, 
+                    "nova.boot_server": 32.49596881866455, 
+                    "nova.resize": 11.526607036590576, 
+                    "nova.resize_confirm": 2.9186298847198486, 
+                    "nova.delete_server": 18.617506980895996
+                }
+            }, 
+            {
+                "timestamp": 1487602291.718979, 
+                "error": [], 
+                "duration": 129.09640382450405, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.462789309803803, 
+                "atomic_actions": {
+                    "cinder.create_volume": 56.416882038116455, 
+                    "nova.boot_server": 30.316035985946655, 
+                    "nova.resize": 22.14154601097107, 
+                    "nova.resize_confirm": 5.318493843078613, 
+                    "nova.delete_server": 17.873138904571533
+                }
+            }, 
+            {
+                "timestamp": 1487602293.717874, 
+                "error": [], 
+                "duration": 120.13762305708629, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.554014935772603, 
+                "atomic_actions": {
+                    "cinder.create_volume": 57.705315828323364, 
+                    "nova.boot_server": 32.03544807434082, 
+                    "nova.resize": 11.405534029006958, 
+                    "nova.resize_confirm": 5.7076849937438965, 
+                    "nova.delete_server": 16.237609148025513
+                }
+            }, 
+            {
+                "timestamp": 1487602295.71816, 
+                "error": [], 
+                "duration": 121.225553946542, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.13904814238623, 
+                "atomic_actions": {
+                    "cinder.create_volume": 55.81602597236633, 
+                    "nova.boot_server": 30.828362941741943, 
+                    "nova.resize": 17.2651789188385, 
+                    "nova.resize_confirm": 4.893805027008057, 
+                    "nova.delete_server": 15.375357866287231
+                }
+            }, 
+            {
+                "timestamp": 1487602297.717867, 
+                "error": [], 
+                "duration": 122.25879459252035, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.63836450705851, 
+                "atomic_actions": {
+                    "cinder.create_volume": 55.70887804031372, 
+                    "nova.boot_server": 30.60549807548523, 
+                    "nova.resize": 17.06165313720703, 
+                    "nova.resize_confirm": 5.349726915359497, 
+                    "nova.delete_server": 16.49084210395813
+                }
+            }, 
+            {
+                "timestamp": 1487602299.722078, 
+                "error": [], 
+                "duration": 117.9752053012466, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.84871351818088, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.6676390171051, 
+                    "nova.boot_server": 29.436516046524048, 
+                    "nova.resize": 16.39852213859558, 
+                    "nova.resize_confirm": 5.3476340770721436, 
+                    "nova.delete_server": 16.087496995925903
+                }
+            }, 
+            {
+                "timestamp": 1487602301.719431, 
+                "error": [], 
+                "duration": 110.97488453281883, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.99606058703895, 
+                "atomic_actions": {
+                    "cinder.create_volume": 50.30554699897766, 
+                    "nova.boot_server": 30.2226779460907, 
+                    "nova.resize": 16.587635040283203, 
+                    "nova.resize_confirm": 2.8289618492126465, 
+                    "nova.delete_server": 13.977133989334106
+                }
+            }, 
+            {
+                "timestamp": 1487602303.719294, 
+                "error": [], 
+                "duration": 103.2315698035199, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.914826118187243, 
+                "atomic_actions": {
+                    "cinder.create_volume": 52.3806688785553, 
+                    "nova.boot_server": 25.976293087005615, 
+                    "nova.resize": 11.484077215194702, 
+                    "nova.resize_confirm": 2.802175998687744, 
+                    "nova.delete_server": 13.55741286277771
+                }
+            }, 
+            {
+                "timestamp": 1487602305.716831, 
+                "error": [], 
+                "duration": 110.90970463118143, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.598279291776954, 
+                "atomic_actions": {
+                    "cinder.create_volume": 56.632631063461304, 
+                    "nova.boot_server": 26.3166720867157, 
+                    "nova.resize": 11.92701005935669, 
+                    "nova.resize_confirm": 2.642674207687378, 
+                    "nova.delete_server": 16.33618712425232
+                }
+            }, 
+            {
+                "timestamp": 1487602307.717787, 
+                "error": [], 
+                "duration": 115.91563589637747, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.54313509399424, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.89960312843323, 
+                    "nova.boot_server": 29.22310495376587, 
+                    "nova.resize": 16.730638027191162, 
+                    "nova.resize_confirm": 2.623826026916504, 
+                    "nova.delete_server": 16.415750980377197
+                }
+            }, 
+            {
+                "timestamp": 1487602309.719886, 
+                "error": [], 
+                "duration": 113.0447177839109, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.967100148218016, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.05186891555786, 
+                    "nova.boot_server": 29.725566864013672, 
+                    "nova.resize": 11.45961618423462, 
+                    "nova.resize_confirm": 3.390695095062256, 
+                    "nova.delete_server": 18.381515979766846
+                }
+            }, 
+            {
+                "timestamp": 1487602311.717454, 
+                "error": [], 
+                "duration": 113.56142455606127, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.24253648252821, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.432425022125244, 
+                    "nova.boot_server": 29.68244218826294, 
+                    "nova.resize": 16.814133882522583, 
+                    "nova.resize_confirm": 3.125427007675171, 
+                    "nova.delete_server": 15.458333015441895
+                }
+            }, 
+            {
+                "timestamp": 1487602313.71901, 
+                "error": [], 
+                "duration": 123.49269567883252, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.77884830081226, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.844810962677, 
+                    "nova.boot_server": 45.808549880981445, 
+                    "nova.resize": 11.334967136383057, 
+                    "nova.resize_confirm": 7.904165983200073, 
+                    "nova.delete_server": 11.402137994766235
+                }
+            }, 
+            {
+                "timestamp": 1487602315.716727, 
+                "error": [], 
+                "duration": 108.54241580385741, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.600964122824116, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.32678294181824, 
+                    "nova.boot_server": 26.612695932388306, 
+                    "nova.resize": 16.609965085983276, 
+                    "nova.resize_confirm": 2.9359891414642334, 
+                    "nova.delete_server": 16.024789094924927
+                }
+            }, 
+            {
+                "timestamp": 1487602317.719001, 
+                "error": [], 
+                "duration": 109.47973889725903, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.897804075305675, 
+                "atomic_actions": {
+                    "cinder.create_volume": 47.72616410255432, 
+                    "nova.boot_server": 27.167015075683594, 
+                    "nova.resize": 16.4532790184021, 
+                    "nova.resize_confirm": 2.9244470596313477, 
+                    "nova.delete_server": 18.100055932998657
+                }
+            }, 
+            {
+                "timestamp": 1487602319.718998, 
+                "error": [], 
+                "duration": 111.9840531201786, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.73778797669945, 
+                "atomic_actions": {
+                    "cinder.create_volume": 47.825913190841675, 
+                    "nova.boot_server": 30.724452018737793, 
+                    "nova.resize": 16.965085983276367, 
+                    "nova.resize_confirm": 2.873967170715332, 
+                    "nova.delete_server": 16.436770915985107
+                }
+            }, 
+            {
+                "timestamp": 1487602321.717927, 
+                "error": [], 
+                "duration": 130.99774139860457, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.257195534912881, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.25511908531189, 
+                    "nova.boot_server": 37.32130718231201, 
+                    "nova.resize": 22.096899032592773, 
+                    "nova.resize_confirm": 2.862816095352173, 
+                    "nova.delete_server": 18.310054063796997
+                }
+            }, 
+            {
+                "timestamp": 1487602323.717147, 
+                "error": [], 
+                "duration": 120.57726653452276, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.267888466163878, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.90579390525818, 
+                    "nova.boot_server": 39.55324387550354, 
+                    "nova.resize": 11.352922916412354, 
+                    "nova.resize_confirm": 2.8854990005493164, 
+                    "nova.delete_server": 15.71537709236145
+                }
+            }, 
+            {
+                "timestamp": 1487602325.718478, 
+                "error": [], 
+                "duration": 120.428704469905, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.214879543080237, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.06277108192444, 
+                    "nova.boot_server": 38.16065192222595, 
+                    "nova.resize": 17.33457899093628, 
+                    "nova.resize_confirm": 5.063652992248535, 
+                    "nova.delete_server": 13.715739011764526
+                }
+            }, 
+            {
+                "timestamp": 1487602327.717356, 
+                "error": [], 
+                "duration": 121.79888707044789, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.164145890443834, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.070558071136475, 
+                    "nova.boot_server": 42.75167989730835, 
+                    "nova.resize": 16.775634050369263, 
+                    "nova.resize_confirm": 2.7480709552764893, 
+                    "nova.delete_server": 11.417754888534546
+                }
+            }, 
+            {
+                "timestamp": 1487602329.720171, 
+                "error": [], 
+                "duration": 117.04615358008496, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.237728561028327, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.406567096710205, 
+                    "nova.boot_server": 40.762127161026, 
+                    "nova.resize": 11.152702808380127, 
+                    "nova.resize_confirm": 2.739227056503296, 
+                    "nova.delete_server": 13.939031839370728
+                }
+            }, 
+            {
+                "timestamp": 1487602331.716673, 
+                "error": [], 
+                "duration": 134.38676408368264, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.85212513369407, 
+                "atomic_actions": {
+                    "cinder.create_volume": 52.06371808052063, 
+                    "nova.boot_server": 54.50614595413208, 
+                    "nova.resize": 16.43583607673645, 
+                    "nova.resize_confirm": 5.090388059616089, 
+                    "nova.delete_server": 9.244692087173462
+                }
+            }, 
+            {
+                "timestamp": 1487602333.720355, 
+                "error": [], 
+                "duration": 124.79747675327269, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.300030246696792, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.619823932647705, 
+                    "nova.boot_server": 52.75601577758789, 
+                    "nova.resize": 11.553788900375366, 
+                    "nova.resize_confirm": 2.7307069301605225, 
+                    "nova.delete_server": 9.104310035705566
+                }
+            }, 
+            {
+                "timestamp": 1487602335.717708, 
+                "error": [], 
+                "duration": 120.33668285121628, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.291191046336204, 
+                "atomic_actions": {
+                    "cinder.create_volume": 68.06142282485962, 
+                    "nova.boot_server": 24.028280019760132, 
+                    "nova.resize": 16.704609870910645, 
+                    "nova.resize_confirm": 2.7271811962127686, 
+                    "nova.delete_server": 11.78435492515564
+                }
+            }, 
+            {
+                "timestamp": 1487602337.71888, 
+                "error": [], 
+                "duration": 121.35201480939642, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.554624289724664, 
+                "atomic_actions": {
+                    "cinder.create_volume": 68.3933789730072, 
+                    "nova.boot_server": 31.49199891090393, 
+                    "nova.resize": 12.083319187164307, 
+                    "nova.resize_confirm": 5.323647975921631, 
+                    "nova.delete_server": 7.019659996032715
+                }
+            }, 
+            {
+                "timestamp": 1487602339.717405, 
+                "error": [], 
+                "duration": 123.94188711045942, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.680883914244564, 
+                "atomic_actions": {
+                    "cinder.create_volume": 66.3127589225769, 
+                    "nova.boot_server": 31.67029905319214, 
+                    "nova.resize": 16.790050983428955, 
+                    "nova.resize_confirm": 5.032466888427734, 
+                    "nova.delete_server": 7.104793071746826
+                }
+            }, 
+            {
+                "timestamp": 1487602341.717427, 
+                "error": [], 
+                "duration": 122.06204555886913, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.538208499968764, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.48532199859619, 
+                    "nova.boot_server": 28.916500091552734, 
+                    "nova.resize": 21.686580896377563, 
+                    "nova.resize_confirm": 2.8091118335723877, 
+                    "nova.delete_server": 9.137424230575562
+                }
+            }, 
+            {
+                "timestamp": 1487602343.719057, 
+                "error": [], 
+                "duration": 120.90580550381006, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.667894447361824, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.18296504020691, 
+                    "nova.boot_server": 32.366251945495605, 
+                    "nova.resize": 16.841822862625122, 
+                    "nova.resize_confirm": 5.727886915206909, 
+                    "nova.delete_server": 6.757569074630737
+                }
+            }, 
+            {
+                "timestamp": 1487602345.717802, 
+                "error": [], 
+                "duration": 114.4773907867869, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.824342230180875, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.21089196205139, 
+                    "nova.boot_server": 25.933727025985718, 
+                    "nova.resize": 16.968284130096436, 
+                    "nova.resize_confirm": 2.6001501083374023, 
+                    "nova.delete_server": 9.734648942947388
+                }
+            }, 
+            {
+                "timestamp": 1487602347.718098, 
+                "error": [], 
+                "duration": 110.30046096698011, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.107106057250846, 
+                "atomic_actions": {
+                    "cinder.create_volume": 58.18687987327576, 
+                    "nova.boot_server": 27.83147406578064, 
+                    "nova.resize": 16.909876108169556, 
+                    "nova.resize_confirm": 2.650989055633545, 
+                    "nova.delete_server": 7.677243947982788
+                }
+            }, 
+            {
+                "timestamp": 1487602349.718597, 
+                "error": [], 
+                "duration": 118.00997348808193, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.402819671402934, 
+                "atomic_actions": {
+                    "cinder.create_volume": 63.01184606552124, 
+                    "nova.boot_server": 26.565776109695435, 
+                    "nova.resize": 16.69578504562378, 
+                    "nova.resize_confirm": 5.1640870571136475, 
+                    "nova.delete_server": 9.518615961074829
+                }
+            }, 
+            {
+                "timestamp": 1487602351.71872, 
+                "error": [], 
+                "duration": 113.31977096016648, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.172576041862943, 
+                "atomic_actions": {
+                    "cinder.create_volume": 60.49431300163269, 
+                    "nova.boot_server": 32.21132707595825, 
+                    "nova.resize": 11.248353958129883, 
+                    "nova.resize_confirm": 2.9029409885406494, 
+                    "nova.delete_server": 9.418419122695923
+                }
+            }, 
+            {
+                "timestamp": 1487602353.718208, 
+                "error": [], 
+                "duration": 111.31804097215378, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.361731881697537, 
+                "atomic_actions": {
+                    "cinder.create_volume": 57.54188513755798, 
+                    "nova.boot_server": 27.5556161403656, 
+                    "nova.resize": 16.881357192993164, 
+                    "nova.resize_confirm": 2.9549598693847656, 
+                    "nova.delete_server": 9.333121061325073
+                }
+            }, 
+            {
+                "timestamp": 1487602355.718876, 
+                "error": [], 
+                "duration": 114.83894874573721, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.65293047904001, 
+                "atomic_actions": {
+                    "cinder.create_volume": 58.118343114852905, 
+                    "nova.boot_server": 30.696598052978516, 
+                    "nova.resize": 17.082998037338257, 
+                    "nova.resize_confirm": 2.9695539474487305, 
+                    "nova.delete_server": 8.933819055557251
+                }
+            }, 
+            {
+                "timestamp": 1487602357.717669, 
+                "error": [], 
+                "duration": 114.2822048750568, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.874838105137293, 
+                "atomic_actions": {
+                    "cinder.create_volume": 58.0506649017334, 
+                    "nova.boot_server": 29.01667094230652, 
+                    "nova.resize": 11.190088987350464, 
+                    "nova.resize_confirm": 2.767596960067749, 
+                    "nova.delete_server": 16.18873906135559
+                }
+            }, 
+            {
+                "timestamp": 1487602359.717122, 
+                "error": [], 
+                "duration": 103.60795816822976, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.128315835752787, 
+                "atomic_actions": {
+                    "cinder.create_volume": 55.516515016555786, 
+                    "nova.boot_server": 29.77401089668274, 
+                    "nova.resize": 11.492286920547485, 
+                    "nova.resize_confirm": 2.5954771041870117, 
+                    "nova.delete_server": 7.192461013793945
+                }
+            }, 
+            {
+                "timestamp": 1487602361.719121, 
+                "error": [], 
+                "duration": 100.33455447806703, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.692757562261942, 
+                "atomic_actions": {
+                    "cinder.create_volume": 52.658368825912476, 
+                    "nova.boot_server": 23.611979007720947, 
+                    "nova.resize": 17.162240982055664, 
+                    "nova.resize_confirm": 2.6237900257110596, 
+                    "nova.delete_server": 7.2431440353393555
+                }
+            }, 
+            {
+                "timestamp": 1487602363.718192, 
+                "error": [], 
+                "duration": 106.70551102420058, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.2759459708098, 
+                "atomic_actions": {
+                    "cinder.create_volume": 54.18311095237732, 
+                    "nova.boot_server": 24.957916975021362, 
+                    "nova.resize": 11.422490119934082, 
+                    "nova.resize_confirm": 2.8523950576782227, 
+                    "nova.delete_server": 16.234017848968506
+                }
+            }, 
+            {
+                "timestamp": 1487602365.718855, 
+                "error": [], 
+                "duration": 104.13991766885673, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.33195036932076, 
+                "atomic_actions": {
+                    "cinder.create_volume": 54.2911331653595, 
+                    "nova.boot_server": 26.501571893692017, 
+                    "nova.resize": 11.23170018196106, 
+                    "nova.resize_confirm": 3.0085229873657227, 
+                    "nova.delete_server": 12.046902894973755
+                }
+            }, 
+            {
+                "timestamp": 1487602367.717801, 
+                "error": [], 
+                "duration": 100.19305717390891, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.34677064973, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.705772161483765, 
+                    "nova.boot_server": 24.239399909973145, 
+                    "nova.resize": 16.784126043319702, 
+                    "nova.resize_confirm": 2.8828799724578857, 
+                    "nova.delete_server": 9.525627136230469
+                }
+            }, 
+            {
+                "timestamp": 1487602369.717006, 
+                "error": [], 
+                "duration": 99.86567492426707, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.409622002231345, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.05424904823303, 
+                    "nova.boot_server": 24.426011085510254, 
+                    "nova.resize": 16.821473121643066, 
+                    "nova.resize_confirm": 3.309851884841919, 
+                    "nova.delete_server": 9.210729837417603
+                }
+            }, 
+            {
+                "timestamp": 1487602371.717531, 
+                "error": [], 
+                "duration": 100.02796128827501, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.87825986307692, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.533409118652344, 
+                    "nova.boot_server": 24.019596815109253, 
+                    "nova.resize": 17.274651050567627, 
+                    "nova.resize_confirm": 2.9587349891662598, 
+                    "nova.delete_server": 9.203019857406616
+                }
+            }, 
+            {
+                "timestamp": 1487602373.719247, 
+                "error": [], 
+                "duration": 107.05004699938462, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.83714882619217, 
+                "atomic_actions": {
+                    "cinder.create_volume": 45.94115114212036, 
+                    "nova.boot_server": 25.36946201324463, 
+                    "nova.resize": 17.20067286491394, 
+                    "nova.resize_confirm": 2.693734884262085, 
+                    "nova.delete_server": 18.79763698577881
+                }
+            }, 
+            {
+                "timestamp": 1487602375.717269, 
+                "error": [], 
+                "duration": 101.55836503760428, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.420605966881812, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.29276704788208, 
+                    "nova.boot_server": 25.511645078659058, 
+                    "nova.resize": 17.167171001434326, 
+                    "nova.resize_confirm": 2.801908016204834, 
+                    "nova.delete_server": 9.762167930603027
+                }
+            }, 
+            {
+                "timestamp": 1487602377.717278, 
+                "error": [], 
+                "duration": 105.25813669708393, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.904620222776906, 
+                "atomic_actions": {
+                    "cinder.create_volume": 45.10370588302612, 
+                    "nova.boot_server": 38.401931047439575, 
+                    "nova.resize": 16.91434407234192, 
+                    "nova.resize_confirm": 2.872910976409912, 
+                    "nova.delete_server": 4.8013129234313965
+                }
+            }, 
+            {
+                "timestamp": 1487602379.717466, 
+                "error": [], 
+                "duration": 94.88029830890981, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.872623510777075, 
+                "atomic_actions": {
+                    "cinder.create_volume": 49.422287940979004, 
+                    "nova.boot_server": 24.91130495071411, 
+                    "nova.resize": 11.367103099822998, 
+                    "nova.resize_confirm": 3.0715179443359375, 
+                    "nova.delete_server": 8.982941150665283
+                }
+            }, 
+            {
+                "timestamp": 1487602381.716868, 
+                "error": [], 
+                "duration": 105.63865598631418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.490533028120634, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.86609697341919, 
+                    "nova.boot_server": 24.143497943878174, 
+                    "nova.resize": 11.520624876022339, 
+                    "nova.resize_confirm": 3.157521963119507, 
+                    "nova.delete_server": 15.9250009059906
+                }
+            }, 
+            {
+                "timestamp": 1487602383.717081, 
+                "error": [], 
+                "duration": 117.88822843564361, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.798546533457348, 
+                "atomic_actions": {
+                    "cinder.create_volume": 61.46823000907898, 
+                    "nova.boot_server": 35.43266797065735, 
+                    "nova.resize": 11.447032928466797, 
+                    "nova.resize_confirm": 7.172310829162598, 
+                    "nova.delete_server": 5.320589065551758
+                }
+            }, 
+            {
+                "timestamp": 1487602385.719987, 
+                "error": [], 
+                "duration": 114.44929962115606, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.95924944920222, 
+                "atomic_actions": {
+                    "cinder.create_volume": 57.41214609146118, 
+                    "nova.boot_server": 28.204867124557495, 
+                    "nova.resize": 11.459408044815063, 
+                    "nova.resize_confirm": 5.277363061904907, 
+                    "nova.delete_server": 14.933587074279785
+                }
+            }, 
+            {
+                "timestamp": 1487602387.717879, 
+                "error": [], 
+                "duration": 140.00546820945195, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.713170687490184, 
+                "atomic_actions": {
+                    "cinder.create_volume": 66.11541104316711, 
+                    "nova.boot_server": 42.26255488395691, 
+                    "nova.resize": 22.305171012878418, 
+                    "nova.resize_confirm": 5.3357720375061035, 
+                    "nova.delete_server": 6.95922589302063
+                }
+            }, 
+            {
+                "timestamp": 1487602389.718814, 
+                "error": [], 
+                "duration": 106.36377880555936, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.17144038694552, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.48535704612732, 
+                    "nova.boot_server": 36.97695207595825, 
+                    "nova.resize": 10.9734468460083, 
+                    "nova.resize_confirm": 3.060136079788208, 
+                    "nova.delete_server": 4.826560974121094
+                }
+            }, 
+            {
+                "timestamp": 1487602391.717265, 
+                "error": [], 
+                "duration": 106.7216081166168, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.54639105559388, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.485142946243286, 
+                    "nova.boot_server": 34.813446044921875, 
+                    "nova.resize": 11.265897035598755, 
+                    "nova.resize_confirm": 5.0960259437561035, 
+                    "nova.delete_server": 5.028225898742676
+                }
+            }, 
+            {
+                "timestamp": 1487602393.717251, 
+                "error": [], 
+                "duration": 131.75425825035103, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 14.179355765228205, 
+                "atomic_actions": {
+                    "cinder.create_volume": 59.801570892333984, 
+                    "nova.boot_server": 43.423524141311646, 
+                    "nova.resize": 21.78367304801941, 
+                    "nova.resize_confirm": 4.931540012359619, 
+                    "nova.delete_server": 4.794225215911865
+                }
+            }, 
+            {
+                "timestamp": 1487602395.718133, 
+                "error": [], 
+                "duration": 113.93352056552938, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.98059247920939, 
+                "atomic_actions": {
+                    "cinder.create_volume": 60.28451991081238, 
+                    "nova.boot_server": 26.70973300933838, 
+                    "nova.resize": 22.141600131988525, 
+                    "nova.resize_confirm": 2.7283201217651367, 
+                    "nova.delete_server": 5.015528917312622
+                }
+            }, 
+            {
+                "timestamp": 1487602397.717117, 
+                "error": [], 
+                "duration": 124.75057518220356, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.72177374624797, 
+                "atomic_actions": {
+                    "cinder.create_volume": 56.34556293487549, 
+                    "nova.boot_server": 42.66349911689758, 
+                    "nova.resize": 16.820355892181396, 
+                    "nova.resize_confirm": 2.8906478881835938, 
+                    "nova.delete_server": 8.97503113746643
+                }
+            }, 
+            {
+                "timestamp": 1487602399.717952, 
+                "error": [], 
+                "duration": 118.33871348185187, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.13703458028192, 
+                "atomic_actions": {
+                    "cinder.create_volume": 54.20362710952759, 
+                    "nova.boot_server": 42.81550192832947, 
+                    "nova.resize": 16.888871908187866, 
+                    "nova.resize_confirm": 2.767390012741089, 
+                    "nova.delete_server": 4.616472005844116
+                }
+            }, 
+            {
+                "timestamp": 1487602401.717499, 
+                "error": [], 
+                "duration": 126.25919593036839, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.608837001913102, 
+                "atomic_actions": {
+                    "cinder.create_volume": 50.34564995765686, 
+                    "nova.boot_server": 44.816060066223145, 
+                    "nova.resize": 22.085894107818604, 
+                    "nova.resize_confirm": 4.901210069656372, 
+                    "nova.delete_server": 7.082628965377808
+                }
+            }, 
+            {
+                "timestamp": 1487602403.719817, 
+                "error": [], 
+                "duration": 111.4796933101891, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.923082692694805, 
+                "atomic_actions": {
+                    "cinder.create_volume": 52.58409285545349, 
+                    "nova.boot_server": 26.250414848327637, 
+                    "nova.resize": 27.872920989990234, 
+                    "nova.resize_confirm": 2.8661561012268066, 
+                    "nova.delete_server": 4.86167311668396
+                }
+            }, 
+            {
+                "timestamp": 1487602405.717156, 
+                "error": [], 
+                "duration": 100.64977706716022, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.3507920379881, 
+                "atomic_actions": {
+                    "cinder.create_volume": 51.0754029750824, 
+                    "nova.boot_server": 26.05185103416443, 
+                    "nova.resize": 16.45223093032837, 
+                    "nova.resize_confirm": 2.786942958831787, 
+                    "nova.delete_server": 7.2547900676727295
+                }
+            }, 
+            {
+                "timestamp": 1487602407.718864, 
+                "error": [], 
+                "duration": 102.4634181831471, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.630661788166378, 
+                "atomic_actions": {
+                    "cinder.create_volume": 48.64513278007507, 
+                    "nova.boot_server": 25.527209997177124, 
+                    "nova.resize": 11.761146068572998, 
+                    "nova.resize_confirm": 5.199620008468628, 
+                    "nova.delete_server": 14.301012992858887
+                }
+            }, 
+            {
+                "timestamp": 1487602409.718448, 
+                "error": [], 
+                "duration": 99.15151838516768, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.552095611338057, 
+                "atomic_actions": {
+                    "cinder.create_volume": 46.94020390510559, 
+                    "nova.boot_server": 25.39460802078247, 
+                    "nova.resize": 22.163982152938843, 
+                    "nova.resize_confirm": 2.888969898223877, 
+                    "nova.delete_server": 4.710438013076782
+                }
+            }, 
+            {
+                "timestamp": 1487602411.720704, 
+                "error": [], 
+                "duration": 118.58930899770593, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.646536806508543, 
+                "atomic_actions": {
+                    "cinder.create_volume": 46.95676589012146, 
+                    "nova.boot_server": 37.6743700504303, 
+                    "nova.resize": 27.14673089981079, 
+                    "nova.resize_confirm": 4.930767059326172, 
+                    "nova.delete_server": 4.8502209186553955
+                }
+            }, 
+            {
+                "timestamp": 1487602413.71691, 
+                "error": [], 
+                "duration": 111.95660561816587, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.487360532117954, 
+                "atomic_actions": {
+                    "cinder.create_volume": 45.43833017349243, 
+                    "nova.boot_server": 36.82152700424194, 
+                    "nova.resize": 22.347025871276855, 
+                    "nova.resize_confirm": 5.610872983932495, 
+                    "nova.delete_server": 4.693964958190918
+                }
+            }, 
+            {
+                "timestamp": 1487602415.719756, 
+                "error": [], 
+                "duration": 105.24680998648147, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.281618091216284, 
+                "atomic_actions": {
+                    "cinder.create_volume": 45.06093096733093, 
+                    "nova.boot_server": 40.60849714279175, 
+                    "nova.resize": 10.98481798171997, 
+                    "nova.resize_confirm": 4.816026926040649, 
+                    "nova.delete_server": 6.724031925201416
+                }
+            }, 
+            {
+                "timestamp": 1487602417.717411, 
+                "error": [], 
+                "duration": 100.75155784683986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.932560185615586, 
+                "atomic_actions": {
+                    "cinder.create_volume": 44.2608380317688, 
+                    "nova.boot_server": 21.634450912475586, 
+                    "nova.resize": 27.300177097320557, 
+                    "nova.resize_confirm": 3.062986135482788, 
+                    "nova.delete_server": 7.445310115814209
+                }
+            }, 
+            {
+                "timestamp": 1487602419.717783, 
+                "error": [], 
+                "duration": 98.24504646765854, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.477708487633215, 
+                "atomic_actions": {
+                    "cinder.create_volume": 45.11224389076233, 
+                    "nova.boot_server": 19.23373317718506, 
+                    "nova.resize": 22.4283709526062, 
+                    "nova.resize_confirm": 4.901093006134033, 
+                    "nova.delete_server": 9.513595819473267
+                }
+            }, 
+            {
+                "timestamp": 1487602421.717639, 
+                "error": [], 
+                "duration": 103.56844757730538, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.50305439298576, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.5440411567688, 
+                    "nova.boot_server": 40.69943881034851, 
+                    "nova.resize": 16.387802124023438, 
+                    "nova.resize_confirm": 3.081284999847412, 
+                    "nova.delete_server": 6.809905052185059
+                }
+            }, 
+            {
+                "timestamp": 1487602423.717352, 
+                "error": [], 
+                "duration": 103.47933658630816, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.780451450038274, 
+                "atomic_actions": {
+                    "cinder.create_volume": 41.1084041595459, 
+                    "nova.boot_server": 28.96987009048462, 
+                    "nova.resize": 21.780749082565308, 
+                    "nova.resize_confirm": 5.369165897369385, 
+                    "nova.delete_server": 9.217375993728638
+                }
+            }, 
+            {
+                "timestamp": 1487602425.716951, 
+                "error": [], 
+                "duration": 87.78349328936619, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.6174428373428, 
+                "atomic_actions": {
+                    "cinder.create_volume": 41.592119216918945, 
+                    "nova.boot_server": 27.136433124542236, 
+                    "nova.resize": 11.798187971115112, 
+                    "nova.resize_confirm": 5.065375089645386, 
+                    "nova.delete_server": 5.142012119293213
+                }
+            }, 
+            {
+                "timestamp": 1487602427.717303, 
+                "error": [], 
+                "duration": 93.73931943737176, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.74926961101385, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.60236716270447, 
+                    "nova.boot_server": 26.11043405532837, 
+                    "nova.resize": 16.74752116203308, 
+                    "nova.resize_confirm": 5.1962571144104, 
+                    "nova.delete_server": 9.039287090301514
+                }
+            }, 
+            {
+                "timestamp": 1487602429.717531, 
+                "error": [], 
+                "duration": 95.43846852296113, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.436523609225755, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.03913593292236, 
+                    "nova.boot_server": 27.351710081100464, 
+                    "nova.resize": 22.07517409324646, 
+                    "nova.resize_confirm": 2.578810930252075, 
+                    "nova.delete_server": 9.353486061096191
+                }
+            }, 
+            {
+                "timestamp": 1487602431.720243, 
+                "error": [], 
+                "duration": 89.77204386246042, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.678258261563016, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.84893488883972, 
+                    "nova.boot_server": 27.061942100524902, 
+                    "nova.resize": 22.28764009475708, 
+                    "nova.resize_confirm": 2.5810701847076416, 
+                    "nova.delete_server": 4.959444999694824
+                }
+            }, 
+            {
+                "timestamp": 1487602433.717275, 
+                "error": [], 
+                "duration": 86.78218240070231, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.807154709817095, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.61202096939087, 
+                    "nova.boot_server": 25.13324284553528, 
+                    "nova.resize": 16.696227073669434, 
+                    "nova.resize_confirm": 5.0707478523254395, 
+                    "nova.delete_server": 7.235205173492432
+                }
+            }, 
+            {
+                "timestamp": 1487602435.7187, 
+                "error": [], 
+                "duration": 79.86553624299688, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.984165876830396, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.3371000289917, 
+                    "nova.boot_server": 24.962976932525635, 
+                    "nova.resize": 16.444956064224243, 
+                    "nova.resize_confirm": 3.0537350177764893, 
+                    "nova.delete_server": 5.028630971908569
+                }
+            }, 
+            {
+                "timestamp": 1487602437.717264, 
+                "error": [], 
+                "duration": 93.77427982360223, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.722548255621405, 
+                "atomic_actions": {
+                    "cinder.create_volume": 32.48891496658325, 
+                    "nova.boot_server": 24.627808094024658, 
+                    "nova.resize": 27.54504108428955, 
+                    "nova.resize_confirm": 2.9802119731903076, 
+                    "nova.delete_server": 9.107599973678589
+                }
+            }, 
+            {
+                "timestamp": 1487602439.717092, 
+                "error": [], 
+                "duration": 85.12668267265938, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.514978256066815, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.55779814720154, 
+                    "nova.boot_server": 27.547059059143066, 
+                    "nova.resize": 16.85304307937622, 
+                    "nova.resize_confirm": 5.29200005531311, 
+                    "nova.delete_server": 4.851985931396484
+                }
+            }, 
+            {
+                "timestamp": 1487602441.717075, 
+                "error": [], 
+                "duration": 87.72220563737, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.676048280324096, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.36401700973511, 
+                    "nova.boot_server": 25.808463096618652, 
+                    "nova.resize": 21.590924978256226, 
+                    "nova.resize_confirm": 2.7451860904693604, 
+                    "nova.delete_server": 7.189954996109009
+                }
+            }, 
+            {
+                "timestamp": 1487602443.717403, 
+                "error": [], 
+                "duration": 83.37614065633565, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.898308453695478, 
+                "atomic_actions": {
+                    "cinder.create_volume": 35.02391195297241, 
+                    "nova.boot_server": 32.53758406639099, 
+                    "nova.resize": 11.044690132141113, 
+                    "nova.resize_confirm": 2.9030330181121826, 
+                    "nova.delete_server": 4.820211172103882
+                }
+            }, 
+            {
+                "timestamp": 1487602445.719645, 
+                "error": [], 
+                "duration": 85.6404181047988, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.190957970945828, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.402578830718994, 
+                    "nova.boot_server": 27.215235948562622, 
+                    "nova.resize": 16.42003297805786, 
+                    "nova.resize_confirm": 2.823199987411499, 
+                    "nova.delete_server": 4.742038011550903
+                }
+            }, 
+            {
+                "timestamp": 1487602447.718171, 
+                "error": [], 
+                "duration": 86.26455464586621, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.313247535377682, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.21511697769165, 
+                    "nova.boot_server": 15.394938945770264, 
+                    "nova.resize": 22.194599151611328, 
+                    "nova.resize_confirm": 5.354062080383301, 
+                    "nova.delete_server": 7.077214002609253
+                }
+            }, 
+            {
+                "timestamp": 1487602449.716851, 
+                "error": [], 
+                "duration": 75.99637113733044, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.02414287405262, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.66028690338135, 
+                    "nova.boot_server": 17.94901704788208, 
+                    "nova.resize": 11.346027135848999, 
+                    "nova.resize_confirm": 3.0304489135742188, 
+                    "nova.delete_server": 6.9593870639801025
+                }
+            }, 
+            {
+                "timestamp": 1487602451.717298, 
+                "error": [], 
+                "duration": 76.94073817415897, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.102118757527435, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.11434197425842, 
+                    "nova.boot_server": 19.62753701210022, 
+                    "nova.resize": 11.24451494216919, 
+                    "nova.resize_confirm": 2.7442381381988525, 
+                    "nova.delete_server": 7.163999795913696
+                }
+            }, 
+            {
+                "timestamp": 1487602453.718299, 
+                "error": [], 
+                "duration": 81.73801523785865, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.414300855586177, 
+                "atomic_actions": {
+                    "cinder.create_volume": 39.691356897354126, 
+                    "nova.boot_server": 26.150317192077637, 
+                    "nova.resize": 11.116289854049683, 
+                    "nova.resize_confirm": 2.789746046066284, 
+                    "nova.delete_server": 4.941465139389038
+                }
+            }, 
+            {
+                "timestamp": 1487602455.720983, 
+                "error": [], 
+                "duration": 84.33797473217354, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.612702185856257, 
+                "atomic_actions": {
+                    "cinder.create_volume": 41.357386112213135, 
+                    "nova.boot_server": 21.902809858322144, 
+                    "nova.resize": 16.211753129959106, 
+                    "nova.resize_confirm": 3.0539588928222656, 
+                    "nova.delete_server": 4.7765960693359375
+                }
+            }, 
+            {
+                "timestamp": 1487602457.717099, 
+                "error": [], 
+                "duration": 87.21238102701673, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.496703006949332, 
+                "atomic_actions": {
+                    "cinder.create_volume": 47.9304039478302, 
+                    "nova.boot_server": 18.03192400932312, 
+                    "nova.resize": 16.642467975616455, 
+                    "nova.resize_confirm": 2.682983160018921, 
+                    "nova.delete_server": 4.877250909805298
+                }
+            }, 
+            {
+                "timestamp": 1487602459.718694, 
+                "error": [], 
+                "duration": 73.15573974263938, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.4848843036863, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.32687497138977, 
+                    "nova.boot_server": 20.868858814239502, 
+                    "nova.resize": 11.544872045516968, 
+                    "nova.resize_confirm": 2.6775689125061035, 
+                    "nova.delete_server": 2.69111704826355
+                }
+            }, 
+            {
+                "timestamp": 1487602461.716757, 
+                "error": [], 
+                "duration": 78.75044176525886, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.499483132888727, 
+                "atomic_actions": {
+                    "cinder.create_volume": 43.329066038131714, 
+                    "nova.boot_server": 19.23745083808899, 
+                    "nova.resize": 11.667558908462524, 
+                    "nova.resize_confirm": 2.8052608966827393, 
+                    "nova.delete_server": 4.6691999435424805
+                }
+            }, 
+            {
+                "timestamp": 1487602463.717984, 
+                "error": [], 
+                "duration": 77.16186484782344, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.621702103928278, 
+                "atomic_actions": {
+                    "cinder.create_volume": 34.69738507270813, 
+                    "nova.boot_server": 26.437122106552124, 
+                    "nova.resize": 11.322402954101562, 
+                    "nova.resize_confirm": 2.7380409240722656, 
+                    "nova.delete_server": 4.950166940689087
+                }
+            }, 
+            {
+                "timestamp": 1487602465.720411, 
+                "error": [], 
+                "duration": 77.92205557797992, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.741892242683534, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.988898038864136, 
+                    "nova.boot_server": 19.34376311302185, 
+                    "nova.resize": 16.829315900802612, 
+                    "nova.resize_confirm": 2.7850217819213867, 
+                    "nova.delete_server": 2.9249069690704346
+                }
+            }, 
+            {
+                "timestamp": 1487602467.727379, 
+                "error": [], 
+                "duration": 69.967838596164, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.37929933184504, 
+                "atomic_actions": {
+                    "cinder.create_volume": 30.709147214889526, 
+                    "nova.boot_server": 25.806784868240356, 
+                    "nova.resize": 11.114820957183838, 
+                    "nova.resize_confirm": 2.692436933517456, 
+                    "nova.delete_server": 2.600507974624634
+                }
+            }, 
+            {
+                "timestamp": 1487602469.717882, 
+                "error": [], 
+                "duration": 96.39017126047459, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.577492742897604, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.630653858184814, 
+                    "nova.boot_server": 43.19184398651123, 
+                    "nova.resize": 10.930418014526367, 
+                    "nova.resize_confirm": 2.6621451377868652, 
+                    "nova.delete_server": 4.946953058242798
+                }
+            }, 
+            {
+                "timestamp": 1487602471.718557, 
+                "error": [], 
+                "duration": 67.82712154003671, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.906743482622588, 
+                "atomic_actions": {
+                    "cinder.create_volume": 37.26483392715454, 
+                    "nova.boot_server": 16.217219829559326, 
+                    "nova.resize": 11.491878032684326, 
+                    "nova.resize_confirm": 2.982240915298462, 
+                    "nova.delete_server": 2.835671901702881
+                }
+            }, 
+            {
+                "timestamp": 1487602473.724832, 
+                "error": [], 
+                "duration": 64.03394684137004, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.356987149108484, 
+                "atomic_actions": {
+                    "cinder.create_volume": 30.450901985168457, 
+                    "nova.boot_server": 20.00576400756836, 
+                    "nova.resize": 11.296281099319458, 
+                    "nova.resize_confirm": 2.844698905944824, 
+                    "nova.delete_server": 2.3834228515625
+                }
+            }, 
+            {
+                "timestamp": 1487602475.719477, 
+                "error": [], 
+                "duration": 91.090323994019, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.431131055495765, 
+                "atomic_actions": {
+                    "cinder.create_volume": 31.61922812461853, 
+                    "nova.boot_server": 44.06215977668762, 
+                    "nova.resize": 11.28348994255066, 
+                    "nova.resize_confirm": 2.5582690238952637, 
+                    "nova.delete_server": 4.516666889190674
+                }
+            }, 
+            {
+                "timestamp": 1487602477.717118, 
+                "error": [], 
+                "duration": 65.95976497811716, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.62265107946951, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.72110605239868, 
+                    "nova.boot_server": 19.14815592765808, 
+                    "nova.resize": 16.831829071044922, 
+                    "nova.resize_confirm": 2.6989779472351074, 
+                    "nova.delete_server": 2.528162956237793
+                }
+            }, 
+            {
+                "timestamp": 1487602479.788486, 
+                "error": [], 
+                "duration": 85.01083259424135, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.043344451580786, 
+                "atomic_actions": {
+                    "cinder.create_volume": 27.11362385749817, 
+                    "nova.boot_server": 44.53135299682617, 
+                    "nova.resize": 11.043803930282593, 
+                    "nova.resize_confirm": 2.5607619285583496, 
+                    "nova.delete_server": 2.718524932861328
+                }
+            }, 
+            {
+                "timestamp": 1487602481.717906, 
+                "error": [], 
+                "duration": 58.7203139394349, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.111309137957676, 
+                "atomic_actions": {
+                    "cinder.create_volume": 24.085839986801147, 
+                    "nova.boot_server": 18.36826801300049, 
+                    "nova.resize": 11.303001880645752, 
+                    "nova.resize_confirm": 2.915776014328003, 
+                    "nova.delete_server": 5.014312982559204
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "max_cpu_count": 1, 
+                    "type": "rps", 
+                    "rps": 0.5, 
+                    "times": 300
+                }, 
+                "hooks": [], 
+                "args": {
+                    "to_flavor": {
+                        "name": "m1.small"
+                    }, 
+                    "boot_server_kwargs": {}, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "confirm": true, 
+                    "min_sleep": 10, 
+                    "create_volume_kwargs": {}, 
+                    "force_delete": false, 
+                    "max_sleep": 30, 
+                    "volume_size": 1, 
+                    "do_delete": true, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }
+                }, 
+                "sla": {
+                    "max_avg_duration": 90.0, 
+                    "max_seconds_per_iteration": 180.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 1, 
+                        "tenants": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "neutron": {
+                            "network": -1, 
+                            "security_group_rule": -1, 
+                            "floatingip": -1, 
+                            "port": -1, 
+                            "security_group": -1, 
+                            "router": -1, 
+                            "subnet": -1
+                        }, 
+                        "nova": {
+                            "metadata_items": -1, 
+                            "injected_files": -1, 
+                            "security_groups": -1, 
+                            "server_groups": -1, 
+                            "cores": -1, 
+                            "key_pairs": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "floating_ips": -1, 
+                            "instances": -1, 
+                            "ram": -1, 
+                            "security_group_rules": -1, 
+                            "fixed_ips": -1, 
+                            "server_group_members": -1, 
+                            "injected_file_content_bytes": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_server_from_volume_and_resize", 
+            "pos": 0
+        }, 
+        "full_duration": 499.0091588497162, 
+        "sla": [
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 93.22s <= 90.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 147.51s <= 180.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
