@@ -31,4 +31,5 @@
 - [create-and-list-aggregates](https://godleon.github.io/osp_test_results/0.2.100/nova/create-and-list-aggregates.html)
 - [create-and-list-flavor-access](https://godleon.github.io/osp_test_results/0.2.100/nova/create-and-list-flavor-access.html)
 - [create-and-list-keypairs](https://godleon.github.io/osp_test_results/0.2.100/nova/create-and-list-keypairs.html)
+- [create-and-list-server-groups](https://godleon.github.io/osp_test_results/0.2.100/nova/create-and-list-server-groups.html)
 
