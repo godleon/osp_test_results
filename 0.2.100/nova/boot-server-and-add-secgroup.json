@@ -1,0 +1,1100 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-22-02T16:58:53", 
+        "load_duration": 126.78604292869568, 
+        "result": [
+            {
+                "timestamp": 1487782740.956383, 
+                "error": [], 
+                "duration": 9.043682098388672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.340097904205322, 
+                    "nova.create_1_security_groups": 0.3078339099884033, 
+                    "nova.create_2_rules": 0.7196528911590576, 
+                    "nova.add_server_secgroups": 0.6758041381835938
+                }
+            }, 
+            {
+                "timestamp": 1487782742.953429, 
+                "error": [], 
+                "duration": 8.196376085281372, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.709016799926758, 
+                    "nova.create_1_security_groups": 0.19547390937805176, 
+                    "nova.create_2_rules": 0.5210790634155273, 
+                    "nova.add_server_secgroups": 0.770639181137085
+                }
+            }, 
+            {
+                "timestamp": 1487782744.953916, 
+                "error": [], 
+                "duration": 8.8023099899292, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.301647901535034, 
+                    "nova.create_1_security_groups": 0.18594098091125488, 
+                    "nova.create_2_rules": 0.752734899520874, 
+                    "nova.add_server_secgroups": 0.5618200302124023
+                }
+            }, 
+            {
+                "timestamp": 1487782746.953866, 
+                "error": [], 
+                "duration": 8.380852937698364, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.915210962295532, 
+                    "nova.create_1_security_groups": 0.18609905242919922, 
+                    "nova.create_2_rules": 0.6440398693084717, 
+                    "nova.add_server_secgroups": 0.6352379322052002
+                }
+            }, 
+            {
+                "timestamp": 1487782748.953515, 
+                "error": [], 
+                "duration": 8.729898929595947, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.093162059783936, 
+                    "nova.create_1_security_groups": 0.17694520950317383, 
+                    "nova.create_2_rules": 0.6189479827880859, 
+                    "nova.add_server_secgroups": 0.8406610488891602
+                }
+            }, 
+            {
+                "timestamp": 1487782750.953611, 
+                "error": [], 
+                "duration": 8.684694051742554, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.077319860458374, 
+                    "nova.create_1_security_groups": 0.21690583229064941, 
+                    "nova.create_2_rules": 0.6351430416107178, 
+                    "nova.add_server_secgroups": 0.7551710605621338
+                }
+            }, 
+            {
+                "timestamp": 1487782752.954437, 
+                "error": [], 
+                "duration": 8.365693092346191, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.068509101867676, 
+                    "nova.create_1_security_groups": 0.19356298446655273, 
+                    "nova.create_2_rules": 0.5228240489959717, 
+                    "nova.add_server_secgroups": 0.5806319713592529
+                }
+            }, 
+            {
+                "timestamp": 1487782754.95339, 
+                "error": [], 
+                "duration": 11.244807004928589, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.916428089141846, 
+                    "nova.create_1_security_groups": 0.06184506416320801, 
+                    "nova.create_2_rules": 0.6120040416717529, 
+                    "nova.add_server_secgroups": 0.6543619632720947
+                }
+            }, 
+            {
+                "timestamp": 1487782756.954109, 
+                "error": [], 
+                "duration": 8.52897596359253, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.773589134216309, 
+                    "nova.create_1_security_groups": 0.17846107482910156, 
+                    "nova.create_2_rules": 0.7821099758148193, 
+                    "nova.add_server_secgroups": 0.794640064239502
+                }
+            }, 
+            {
+                "timestamp": 1487782758.953143, 
+                "error": [], 
+                "duration": 9.858792066574097, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.250771045684814, 
+                    "nova.create_1_security_groups": 0.06573605537414551, 
+                    "nova.create_2_rules": 0.7422559261322021, 
+                    "nova.add_server_secgroups": 0.799793004989624
+                }
+            }, 
+            {
+                "timestamp": 1487782760.954598, 
+                "error": [], 
+                "duration": 8.229867935180664, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.837673902511597, 
+                    "nova.create_1_security_groups": 0.061611175537109375, 
+                    "nova.create_2_rules": 0.5364480018615723, 
+                    "nova.add_server_secgroups": 0.7939698696136475
+                }
+            }, 
+            {
+                "timestamp": 1487782762.954265, 
+                "error": [], 
+                "duration": 9.920653820037842, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.691290140151978, 
+                    "nova.create_1_security_groups": 0.06379413604736328, 
+                    "nova.create_2_rules": 0.48970508575439453, 
+                    "nova.add_server_secgroups": 0.67569899559021
+                }
+            }, 
+            {
+                "timestamp": 1487782764.954507, 
+                "error": [], 
+                "duration": 8.399510860443115, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.920660972595215, 
+                    "nova.create_1_security_groups": 0.06041216850280762, 
+                    "nova.create_2_rules": 0.7424077987670898, 
+                    "nova.add_server_secgroups": 0.6758689880371094
+                }
+            }, 
+            {
+                "timestamp": 1487782766.953468, 
+                "error": [], 
+                "duration": 8.23233699798584, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.891096830368042, 
+                    "nova.create_1_security_groups": 0.18792510032653809, 
+                    "nova.create_2_rules": 0.5093550682067871, 
+                    "nova.add_server_secgroups": 0.6437990665435791
+                }
+            }, 
+            {
+                "timestamp": 1487782768.953689, 
+                "error": [], 
+                "duration": 8.313994884490967, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.789994955062866, 
+                    "nova.create_1_security_groups": 0.07337307929992676, 
+                    "nova.create_2_rules": 0.5184450149536133, 
+                    "nova.add_server_secgroups": 0.9320259094238281
+                }
+            }, 
+            {
+                "timestamp": 1487782770.953795, 
+                "error": [], 
+                "duration": 14.90779709815979, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 14.734332084655762, 
+                    "nova.create_1_security_groups": 0.059172868728637695, 
+                    "nova.create_2_rules": 0.2835531234741211, 
+                    "nova.add_server_secgroups": 0.8305449485778809
+                }
+            }, 
+            {
+                "timestamp": 1487782772.955338, 
+                "error": [], 
+                "duration": 13.671152114868164, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.794448852539062, 
+                    "nova.create_1_security_groups": 0.18544888496398926, 
+                    "nova.create_2_rules": 0.8068780899047852, 
+                    "nova.add_server_secgroups": 0.8842029571533203
+                }
+            }, 
+            {
+                "timestamp": 1487782774.95418, 
+                "error": [], 
+                "duration": 10.377084016799927, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.660732984542847, 
+                    "nova.create_1_security_groups": 0.1993410587310791, 
+                    "nova.create_2_rules": 0.8158001899719238, 
+                    "nova.add_server_secgroups": 0.7009701728820801
+                }
+            }, 
+            {
+                "timestamp": 1487782776.95503, 
+                "error": [], 
+                "duration": 9.249881982803345, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.831203937530518, 
+                    "nova.create_1_security_groups": 0.1952371597290039, 
+                    "nova.create_2_rules": 0.6212120056152344, 
+                    "nova.add_server_secgroups": 0.6020729541778564
+                }
+            }, 
+            {
+                "timestamp": 1487782778.953361, 
+                "error": [], 
+                "duration": 8.4827139377594, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.101319074630737, 
+                    "nova.create_1_security_groups": 0.06560683250427246, 
+                    "nova.create_2_rules": 0.80576491355896, 
+                    "nova.add_server_secgroups": 0.5098528861999512
+                }
+            }, 
+            {
+                "timestamp": 1487782780.953471, 
+                "error": [], 
+                "duration": 8.671947956085205, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.966996192932129, 
+                    "nova.create_1_security_groups": 0.17804193496704102, 
+                    "nova.create_2_rules": 0.7497789859771729, 
+                    "nova.add_server_secgroups": 0.776975154876709
+                }
+            }, 
+            {
+                "timestamp": 1487782782.954887, 
+                "error": [], 
+                "duration": 9.985069036483765, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.387072086334229, 
+                    "nova.create_1_security_groups": 0.19864511489868164, 
+                    "nova.create_2_rules": 0.4838709831237793, 
+                    "nova.add_server_secgroups": 0.9153048992156982
+                }
+            }, 
+            {
+                "timestamp": 1487782784.95549, 
+                "error": [], 
+                "duration": 8.62024998664856, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.006755113601685, 
+                    "nova.create_1_security_groups": 0.18898606300354004, 
+                    "nova.create_2_rules": 0.6526610851287842, 
+                    "nova.add_server_secgroups": 0.7716751098632812
+                }
+            }, 
+            {
+                "timestamp": 1487782786.953261, 
+                "error": [], 
+                "duration": 8.48074221611023, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.00655221939087, 
+                    "nova.create_1_security_groups": 0.17875099182128906, 
+                    "nova.create_2_rules": 0.618847131729126, 
+                    "nova.add_server_secgroups": 0.6764287948608398
+                }
+            }, 
+            {
+                "timestamp": 1487782788.953417, 
+                "error": [], 
+                "duration": 9.970290899276733, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.185051918029785, 
+                    "nova.create_1_security_groups": 0.17858600616455078, 
+                    "nova.create_2_rules": 0.6183881759643555, 
+                    "nova.add_server_secgroups": 0.9879891872406006
+                }
+            }, 
+            {
+                "timestamp": 1487782790.953286, 
+                "error": [], 
+                "duration": 8.627269983291626, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.066297054290771, 
+                    "nova.create_1_security_groups": 0.18535614013671875, 
+                    "nova.create_2_rules": 0.5072479248046875, 
+                    "nova.add_server_secgroups": 0.8682191371917725
+                }
+            }, 
+            {
+                "timestamp": 1487782792.954548, 
+                "error": [], 
+                "duration": 8.511221170425415, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.916108846664429, 
+                    "nova.create_1_security_groups": 0.18720602989196777, 
+                    "nova.create_2_rules": 0.7373380661010742, 
+                    "nova.add_server_secgroups": 0.6704070568084717
+                }
+            }, 
+            {
+                "timestamp": 1487782794.953866, 
+                "error": [], 
+                "duration": 8.490931987762451, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.166790962219238, 
+                    "nova.create_1_security_groups": 0.06440615653991699, 
+                    "nova.create_2_rules": 0.5080909729003906, 
+                    "nova.add_server_secgroups": 0.7514090538024902
+                }
+            }, 
+            {
+                "timestamp": 1487782796.953948, 
+                "error": [], 
+                "duration": 8.33104395866394, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.105287790298462, 
+                    "nova.create_1_security_groups": 0.18093013763427734, 
+                    "nova.create_2_rules": 0.4857490062713623, 
+                    "nova.add_server_secgroups": 0.5589151382446289
+                }
+            }, 
+            {
+                "timestamp": 1487782798.955822, 
+                "error": [], 
+                "duration": 8.053823947906494, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.711426019668579, 
+                    "nova.create_1_security_groups": 0.06270885467529297, 
+                    "nova.create_2_rules": 0.6457140445709229, 
+                    "nova.add_server_secgroups": 0.6338000297546387
+                }
+            }, 
+            {
+                "timestamp": 1487782800.95396, 
+                "error": [], 
+                "duration": 8.332359075546265, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.766353130340576, 
+                    "nova.create_1_security_groups": 0.17463302612304688, 
+                    "nova.create_2_rules": 0.6182520389556885, 
+                    "nova.add_server_secgroups": 0.7729661464691162
+                }
+            }, 
+            {
+                "timestamp": 1487782802.953235, 
+                "error": [], 
+                "duration": 8.66044306755066, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.807849884033203, 
+                    "nova.create_1_security_groups": 0.181840181350708, 
+                    "nova.create_2_rules": 0.7361509799957275, 
+                    "nova.add_server_secgroups": 0.934283971786499
+                }
+            }, 
+            {
+                "timestamp": 1487782804.953832, 
+                "error": [], 
+                "duration": 8.625831127166748, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.059499025344849, 
+                    "nova.create_1_security_groups": 0.18304109573364258, 
+                    "nova.create_2_rules": 0.6129438877105713, 
+                    "nova.add_server_secgroups": 0.7701549530029297
+                }
+            }, 
+            {
+                "timestamp": 1487782806.954343, 
+                "error": [], 
+                "duration": 9.021015882492065, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.266970157623291, 
+                    "nova.create_1_security_groups": 0.18706703186035156, 
+                    "nova.create_2_rules": 0.7721168994903564, 
+                    "nova.add_server_secgroups": 0.7946829795837402
+                }
+            }, 
+            {
+                "timestamp": 1487782808.953461, 
+                "error": [], 
+                "duration": 8.402976036071777, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.911638975143433, 
+                    "nova.create_1_security_groups": 0.1858048439025879, 
+                    "nova.create_2_rules": 0.5046219825744629, 
+                    "nova.add_server_secgroups": 0.8007500171661377
+                }
+            }, 
+            {
+                "timestamp": 1487782810.954014, 
+                "error": [], 
+                "duration": 8.793344020843506, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.21760082244873, 
+                    "nova.create_1_security_groups": 0.18689298629760742, 
+                    "nova.create_2_rules": 0.5567550659179688, 
+                    "nova.add_server_secgroups": 0.8319389820098877
+                }
+            }, 
+            {
+                "timestamp": 1487782812.954963, 
+                "error": [], 
+                "duration": 8.598330974578857, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.010235071182251, 
+                    "nova.create_1_security_groups": 0.20894408226013184, 
+                    "nova.create_2_rules": 0.5164120197296143, 
+                    "nova.add_server_secgroups": 0.8625729084014893
+                }
+            }, 
+            {
+                "timestamp": 1487782814.954441, 
+                "error": [], 
+                "duration": 8.973978042602539, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.375830173492432, 
+                    "nova.create_1_security_groups": 0.07616996765136719, 
+                    "nova.create_2_rules": 0.6557531356811523, 
+                    "nova.add_server_secgroups": 0.8660650253295898
+                }
+            }, 
+            {
+                "timestamp": 1487782816.955007, 
+                "error": [], 
+                "duration": 8.703572034835815, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.011808156967163, 
+                    "nova.create_1_security_groups": 0.2041630744934082, 
+                    "nova.create_2_rules": 0.6156399250030518, 
+                    "nova.add_server_secgroups": 0.8718061447143555
+                }
+            }, 
+            {
+                "timestamp": 1487782818.953439, 
+                "error": [], 
+                "duration": 9.810079097747803, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.273648023605347, 
+                    "nova.create_1_security_groups": 0.27475905418395996, 
+                    "nova.create_2_rules": 0.5091080665588379, 
+                    "nova.add_server_secgroups": 0.7523951530456543
+                }
+            }, 
+            {
+                "timestamp": 1487782820.953024, 
+                "error": [], 
+                "duration": 10.362321138381958, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.989825010299683, 
+                    "nova.create_1_security_groups": 0.21014904975891113, 
+                    "nova.create_2_rules": 0.584352970123291, 
+                    "nova.add_server_secgroups": 0.5778288841247559
+                }
+            }, 
+            {
+                "timestamp": 1487782822.954303, 
+                "error": [], 
+                "duration": 11.284018993377686, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 10.923646926879883, 
+                    "nova.create_1_security_groups": 0.18361997604370117, 
+                    "nova.create_2_rules": 0.5056440830230713, 
+                    "nova.add_server_secgroups": 0.6709368228912354
+                }
+            }, 
+            {
+                "timestamp": 1487782824.954086, 
+                "error": [], 
+                "duration": 7.865288019180298, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.655300140380859, 
+                    "nova.create_1_security_groups": 0.1812419891357422, 
+                    "nova.create_2_rules": 0.4822070598602295, 
+                    "nova.add_server_secgroups": 0.5463700294494629
+                }
+            }, 
+            {
+                "timestamp": 1487782826.953059, 
+                "error": [], 
+                "duration": 9.668529987335205, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.240823030471802, 
+                    "nova.create_1_security_groups": 0.18709707260131836, 
+                    "nova.create_2_rules": 0.5052978992462158, 
+                    "nova.add_server_secgroups": 0.7351529598236084
+                }
+            }, 
+            {
+                "timestamp": 1487782828.953967, 
+                "error": [], 
+                "duration": 8.575122833251953, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.878197908401489, 
+                    "nova.create_1_security_groups": 0.20164704322814941, 
+                    "nova.create_2_rules": 0.5951721668243408, 
+                    "nova.add_server_secgroups": 0.8999550342559814
+                }
+            }, 
+            {
+                "timestamp": 1487782830.953329, 
+                "error": [], 
+                "duration": 20.833364009857178, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 20.20723295211792, 
+                    "nova.create_1_security_groups": 0.19869685173034668, 
+                    "nova.create_2_rules": 0.6545040607452393, 
+                    "nova.add_server_secgroups": 0.772752046585083
+                }
+            }, 
+            {
+                "timestamp": 1487782832.954841, 
+                "error": [], 
+                "duration": 12.4877769947052, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.920375108718872, 
+                    "nova.create_1_security_groups": 0.2061760425567627, 
+                    "nova.create_2_rules": 0.6361100673675537, 
+                    "nova.add_server_secgroups": 0.724951982498169
+                }
+            }, 
+            {
+                "timestamp": 1487782834.953366, 
+                "error": [], 
+                "duration": 9.955114841461182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.475992202758789, 
+                    "nova.create_1_security_groups": 0.21314597129821777, 
+                    "nova.create_2_rules": 0.687190055847168, 
+                    "nova.add_server_secgroups": 0.5785939693450928
+                }
+            }, 
+            {
+                "timestamp": 1487782836.954772, 
+                "error": [], 
+                "duration": 8.90113091468811, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.083440065383911, 
+                    "nova.create_1_security_groups": 0.21114706993103027, 
+                    "nova.create_2_rules": 0.6416029930114746, 
+                    "nova.add_server_secgroups": 0.9647819995880127
+                }
+            }, 
+            {
+                "timestamp": 1487782838.954119, 
+                "error": [], 
+                "duration": 8.416705131530762, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.834971904754639, 
+                    "nova.create_1_security_groups": 0.08300399780273438, 
+                    "nova.create_2_rules": 0.8190732002258301, 
+                    "nova.add_server_secgroups": 0.6794931888580322
+                }
+            }, 
+            {
+                "timestamp": 1487782840.956177, 
+                "error": [], 
+                "duration": 10.800188064575195, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.814023971557617, 
+                    "nova.create_1_security_groups": 0.21820592880249023, 
+                    "nova.create_2_rules": 0.7171487808227539, 
+                    "nova.add_server_secgroups": 1.0505399703979492
+                }
+            }, 
+            {
+                "timestamp": 1487782842.954429, 
+                "error": [], 
+                "duration": 8.737873077392578, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.146509885787964, 
+                    "nova.create_1_security_groups": 0.19602298736572266, 
+                    "nova.create_2_rules": 0.7219629287719727, 
+                    "nova.add_server_secgroups": 0.6732048988342285
+                }
+            }, 
+            {
+                "timestamp": 1487782844.956712, 
+                "error": [], 
+                "duration": 9.442816972732544, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 9.237769842147827, 
+                    "nova.create_1_security_groups": 0.06382489204406738, 
+                    "nova.create_2_rules": 0.619549036026001, 
+                    "nova.add_server_secgroups": 0.5215091705322266
+                }
+            }, 
+            {
+                "timestamp": 1487782846.954111, 
+                "error": [], 
+                "duration": 9.27782678604126, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.50726318359375, 
+                    "nova.create_1_security_groups": 0.20502090454101562, 
+                    "nova.create_2_rules": 0.7871010303497314, 
+                    "nova.add_server_secgroups": 0.7782778739929199
+                }
+            }, 
+            {
+                "timestamp": 1487782848.953919, 
+                "error": [], 
+                "duration": 8.794991970062256, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 8.330413818359375, 
+                    "nova.create_1_security_groups": 0.06568002700805664, 
+                    "nova.create_2_rules": 0.6865949630737305, 
+                    "nova.add_server_secgroups": 0.7121579647064209
+                }
+            }, 
+            {
+                "timestamp": 1487782850.954609, 
+                "error": [], 
+                "duration": 16.473263025283813, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 15.842365980148315, 
+                    "nova.create_1_security_groups": 0.18871402740478516, 
+                    "nova.create_2_rules": 0.7892708778381348, 
+                    "nova.add_server_secgroups": 0.6527628898620605
+                }
+            }, 
+            {
+                "timestamp": 1487782852.953984, 
+                "error": [], 
+                "duration": 13.223695993423462, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 12.501901865005493, 
+                    "nova.create_1_security_groups": 0.1877889633178711, 
+                    "nova.create_2_rules": 0.7901391983032227, 
+                    "nova.add_server_secgroups": 0.7437100410461426
+                }
+            }, 
+            {
+                "timestamp": 1487782854.954038, 
+                "error": [], 
+                "duration": 12.788388013839722, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 11.922813177108765, 
+                    "nova.create_1_security_groups": 0.19751501083374023, 
+                    "nova.create_2_rules": 0.7603929042816162, 
+                    "nova.add_server_secgroups": 0.907512903213501
+                }
+            }, 
+            {
+                "timestamp": 1487782856.953056, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_c0fa9d56_5k58uXq4> has ERROR status.\nFault: {u'message': u'Build of instance 4ccb6990-b57b-4d41-95bb-3984951a7bf6 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:03Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/security_group.py\", line 204, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_c0fa9d56_5k58uXq4> has ERROR status.\nFault: {u'message': u'Build of instance 4ccb6990-b57b-4d41-95bb-3984951a7bf6 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:03Z'}\n"
+                ], 
+                "duration": 6.270075798034668, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 7.270032167434692
+                }
+            }, 
+            {
+                "timestamp": 1487782858.95279, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_c0fa9d56_8jKzwqFA> has ERROR status.\nFault: {u'message': u'Build of instance e4e79160-67b0-41e5-97f4-f5f2a05243fb aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:03Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/security_group.py\", line 204, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_c0fa9d56_8jKzwqFA> has ERROR status.\nFault: {u'message': u'Build of instance e4e79160-67b0-41e5-97f4-f5f2a05243fb aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:03Z'}\n"
+                ], 
+                "duration": 3.9863460063934326, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 4.98629903793335
+                }
+            }, 
+            {
+                "timestamp": 1487782860.953895, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_c0fa9d56_6k5csypk> has ERROR status.\nFault: {u'message': u'Build of instance 3e326bbc-bfde-483e-a7dd-697fd02e9e11 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:04Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/security_group.py\", line 204, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_c0fa9d56_6k5csypk> has ERROR status.\nFault: {u'message': u'Build of instance 3e326bbc-bfde-483e-a7dd-697fd02e9e11 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:04Z'}\n"
+                ], 
+                "duration": 2.593043804168701, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 3.5929951667785645
+                }
+            }, 
+            {
+                "timestamp": 1487782862.954016, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_c0fa9d56_ZhK9RPjR> has ERROR status.\nFault: {u'message': u'Build of instance 0d0b6495-9428-4303-8f42-59487971aef7 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:05Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/security_group.py\", line 204, in run\n    server = self._boot_server(image, flavor, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_c0fa9d56_ZhK9RPjR> has ERROR status.\nFault: {u'message': u'Build of instance 0d0b6495-9428-4303-8f42-59487971aef7 aborted: Failed to allocate the network(s) with error No fixed IP addresses available for network: 1cea6d87-0e11-4847-9504-af9d0aa53e43, not rescheduling.', u'code': 500, u'created': u'2017-02-22T17:01:05Z'}\n"
+                ], 
+                "duration": 2.9410600662231445, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 1.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 3.9410150051116943
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "type": "rps", 
+                    "rps": 0.5, 
+                    "times": 300, 
+                    "max_cpu_count": 1
+                }, 
+                "hooks": [], 
+                "args": {
+                    "security_group_count": 1, 
+                    "rules_per_security_group": 2, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "image": {
+                        "name": "^cirros.*-disk$"
+                    }, 
+                    "auto_assign_nic": true
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 60.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 45.0
+                }, 
+                "context": {
+                    "users": {
+                        "users_per_tenant": 1, 
+                        "tenants": 1
+                    }, 
+                    "quotas": {
+                        "neutron": {
+                            "router": -1, 
+                            "floatingip": -1, 
+                            "network": -1, 
+                            "subnet": -1, 
+                            "port": -1, 
+                            "security_group_rule": -1, 
+                            "security_group": -1
+                        }, 
+                        "nova": {
+                            "injected_files": -1, 
+                            "server_groups": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "ram": -1, 
+                            "cores": -1, 
+                            "instances": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "metadata_items": -1, 
+                            "floating_ips": -1, 
+                            "fixed_ips": -1, 
+                            "server_group_members": -1, 
+                            "security_groups": -1, 
+                            "security_group_rules": -1, 
+                            "key_pairs": -1
+                        }, 
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "snapshots": -1, 
+                            "volumes": -1
+                        }
+                    }, 
+                    "network": {
+                        "start_cidr": "100.1.0.0/26"
+                    }
+                }
+            }, 
+            "name": "NovaSecGroup.boot_server_and_add_secgroups", 
+            "pos": 0
+        }, 
+        "full_duration": 170.81548190116882, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 20.83s <= 60.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 6.45% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 9.71s <= 45.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
