@@ -36,4 +36,5 @@
 - [create-and-update-secgroups](https://godleon.github.io/osp_test_results/0.2.100/nova/create-and-update-secgroups.html)
 - [create-flavor-and-add-tenant-access](https://godleon.github.io/osp_test_results/0.2.100/nova/create-flavor-and-add-tenant-access.html)
 - [create-flavor-and-set-keys](https://godleon.github.io/osp_test_results/0.2.100/nova/create-flavor-and-set-keys.html)
+- [create-flavor](https://godleon.github.io/osp_test_results/0.2.100/nova/create-flavor.html)
 
