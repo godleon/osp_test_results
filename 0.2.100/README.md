@@ -38,4 +38,5 @@
 - [create-flavor-and-set-keys](https://godleon.github.io/osp_test_results/0.2.100/nova/create-flavor-and-set-keys.html)
 - [create-flavor](https://godleon.github.io/osp_test_results/0.2.100/nova/create-flavor.html)
 - [list-aggregates](https://godleon.github.io/osp_test_results/0.2.100/nova/list-aggregates.html)
+- [list-and-get-hypervisors](https://godleon.github.io/osp_test_results/0.2.100/nova/list-and-get-hypervisors.html)
 
