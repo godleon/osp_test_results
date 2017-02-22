@@ -10,4 +10,5 @@
 - [boot-and-rebuild](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-rebuild.html)
 - [boot-and-show-server](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-show-server.html)
 - [boot-and-update-server](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-update-server.html)
+- [boot-bounce-delete](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-bounce-delete.html)
 
