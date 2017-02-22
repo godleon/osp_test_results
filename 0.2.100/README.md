@@ -7,4 +7,5 @@
 - [boot-and-get-console-server](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-get-console-server.html)
 - [boot-and-list](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-list.html)
 - [boot-and-migrate](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-migrate.html)
+- [boot-and-rebuild](https://godleon.github.io/osp_test_results/0.2.100/nova/boot-and-rebuild.html)
 
