@@ -34,4 +34,5 @@
 - [create-and-list-services](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-services.html)
 - [create-and-list-tenants](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-tenants.html)
 - [create-and-list-users](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-users.html)
+- [create-and-update-user](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-update-user.html)
 
