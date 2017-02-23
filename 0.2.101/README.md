@@ -12,4 +12,5 @@
 - [create-and-delete-snapshot](https://godleon.github.io/osp_test_results/0.2.101/cinder/create-and-delete-snapshot.html)
 - [create-and-delete-volume-type](https://godleon.github.io/osp_test_results/0.2.101/cinder/create-and-delete-volume-type.html)
 - [create-and-delete-volume](https://godleon.github.io/osp_test_results/0.2.101/cinder/create-and-delete-volume.html)
+- [create-and-list-snapshots](https://godleon.github.io/osp_test_results/0.2.101/cinder/create-and-list-snapshots.html)
 
