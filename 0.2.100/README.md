@@ -50,4 +50,5 @@
 - [list-services](https://godleon.github.io/osp_test_results/0.2.100/nova/list-services.html)
 - [pause-and-unpause](https://godleon.github.io/osp_test_results/0.2.100/nova/pause-and-unpause.html)
 - [resize-server](https://godleon.github.io/osp_test_results/0.2.100/nova/resize-server.html)
+- [resize-shutoff-server](https://godleon.github.io/osp_test_results/0.2.100/nova/resize-shutoff-server.html)
 
