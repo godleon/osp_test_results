@@ -31,4 +31,5 @@
 - [create-and-get-role](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-get-role.html)
 - [create-and-list-ec2credentials](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-ec2credentials.html)
 - [create-and-list-roles](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-roles.html)
+- [create-and-list-services](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-services.html)
 
