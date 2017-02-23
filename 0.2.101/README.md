@@ -40,4 +40,5 @@
 - [create-update-and-delete-tenant](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-update-and-delete-tenant.html)
 - [create-user-set-enabled-and-delete](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-user-set-enabled-and-delete.html)
 - [create-user-update-password](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-user-update-password.html)
+- [get-entities](https://godleon.github.io/osp_test_results/0.2.101/keystone/get-entities.html)
 
