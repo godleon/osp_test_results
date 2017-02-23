@@ -29,4 +29,5 @@
 - [create-and-delete-service](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-delete-service.html)
 - [create-and-delete-user](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-delete-user.html)
 - [create-and-get-role](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-get-role.html)
+- [create-and-list-ec2credentials](https://godleon.github.io/osp_test_results/0.2.101/keystone/create-and-list-ec2credentials.html)
 
