@@ -27,4 +27,5 @@
 - [create-and-delete-flavor](https://godleon.github.io/osp_test_results/0.2.102/nova/create-and-delete-flavor.html)
 - [create-and-delete-keypair](https://godleon.github.io/osp_test_results/0.2.102/nova/create-and-delete-keypair.html)
 - [create-and-get-aggregate-details](https://godleon.github.io/osp_test_results/0.2.102/nova/create-and-get-aggregate-details.html)
+- [create-and-get-flavor](https://godleon.github.io/osp_test_results/0.2.102/nova/create-and-get-flavor.html)
 
