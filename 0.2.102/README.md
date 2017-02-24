@@ -22,4 +22,5 @@
 - [boot-server-attach-created-volume-and-resize](https://godleon.github.io/osp_test_results/0.2.102/nova/boot-server-attach-created-volume-and-resize.html)
 - [boot-server-from-volume-and-live-migrate](https://godleon.github.io/osp_test_results/0.2.102/nova/boot-server-from-volume-and-live-migrate.html)
 - [boot-snapshot-boot-delete](https://godleon.github.io/osp_test_results/0.2.102/nova/boot-snapshot-boot-delete.html)
+- [create-aggregate-add-and-remove-host](https://godleon.github.io/osp_test_results/0.2.102/nova/create-aggregate-add-and-remove-host.html)
 
