@@ -1,0 +1,973 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-24-02T18:49:53", 
+        "load_duration": 215.93668270111084, 
+        "result": [
+            {
+                "timestamp": 1487962195.726187, 
+                "error": [], 
+                "duration": 100.49054529308515, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.012775639303165, 
+                "atomic_actions": {
+                    "cinder.create_volume": 25.59405207633972, 
+                    "nova.boot_server": 35.53439497947693, 
+                    "nova.delete_server": 42.3346688747406
+                }
+            }, 
+            {
+                "timestamp": 1487962197.723536, 
+                "error": [], 
+                "duration": 93.34315714500153, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.46541991569793, 
+                "atomic_actions": {
+                    "cinder.create_volume": 23.506419897079468, 
+                    "nova.boot_server": 38.41645097732544, 
+                    "nova.delete_server": 34.38260102272034
+                }
+            }, 
+            {
+                "timestamp": 1487962199.723407, 
+                "error": [], 
+                "duration": 160.52447653192348, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.765214439451036, 
+                "atomic_actions": {
+                    "cinder.create_volume": 38.28340792655945, 
+                    "nova.boot_server": 53.8240270614624, 
+                    "nova.delete_server": 71.38084697723389
+                }
+            }, 
+            {
+                "timestamp": 1487962201.72339, 
+                "error": [], 
+                "duration": 156.4726578174156, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 27.701284986920932, 
+                "atomic_actions": {
+                    "cinder.create_volume": 34.72681188583374, 
+                    "nova.boot_server": 55.24921894073486, 
+                    "nova.delete_server": 69.44456100463867
+                }
+            }, 
+            {
+                "timestamp": 1487962203.724892, 
+                "error": [], 
+                "duration": 164.2434433058898, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.83030170639354, 
+                "atomic_actions": {
+                    "cinder.create_volume": 33.57661414146423, 
+                    "nova.boot_server": 55.6056170463562, 
+                    "nova.delete_server": 78.04024505615234
+                }
+            }, 
+            {
+                "timestamp": 1487962205.724622, 
+                "error": [], 
+                "duration": 153.37165950762102, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.03605438245468, 
+                "atomic_actions": {
+                    "cinder.create_volume": 32.355499029159546, 
+                    "nova.boot_server": 55.68536901473999, 
+                    "nova.delete_server": 68.2887179851532
+                }
+            }, 
+            {
+                "timestamp": 1487962207.723977, 
+                "error": [], 
+                "duration": 153.46288733382494, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.42116756539076, 
+                "atomic_actions": {
+                    "cinder.create_volume": 30.415103912353516, 
+                    "nova.boot_server": 55.03131604194641, 
+                    "nova.delete_server": 70.97024703025818
+                }
+            }, 
+            {
+                "timestamp": 1487962209.723611, 
+                "error": [], 
+                "duration": 149.8360764054015, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.550199362878516, 
+                "atomic_actions": {
+                    "cinder.create_volume": 28.055445909500122, 
+                    "nova.boot_server": 55.490466833114624, 
+                    "nova.delete_server": 69.24764609336853
+                }
+            }, 
+            {
+                "timestamp": 1487962211.724816, 
+                "error": [], 
+                "duration": 152.81408774208734, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.205662137749695, 
+                "atomic_actions": {
+                    "cinder.create_volume": 29.90462589263916, 
+                    "nova.boot_server": 54.141196966171265, 
+                    "nova.delete_server": 71.72349715232849
+                }
+            }, 
+            {
+                "timestamp": 1487962213.723654, 
+                "error": [], 
+                "duration": 145.29726798278782, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.10868900077846, 
+                "atomic_actions": {
+                    "cinder.create_volume": 31.94653820991516, 
+                    "nova.boot_server": 47.457350969314575, 
+                    "nova.delete_server": 68.84528493881226
+                }
+            }, 
+            {
+                "timestamp": 1487962215.724806, 
+                "error": [], 
+                "duration": 151.08410892278943, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.303043987443104, 
+                "atomic_actions": {
+                    "cinder.create_volume": 41.769627809524536, 
+                    "nova.boot_server": 45.151488065719604, 
+                    "nova.delete_server": 67.11566400527954
+                }
+            }, 
+            {
+                "timestamp": 1487962217.724636, 
+                "error": [], 
+                "duration": 144.92012976386675, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.5376162650334, 
+                "atomic_actions": {
+                    "cinder.create_volume": 42.37280488014221, 
+                    "nova.boot_server": 44.564249992370605, 
+                    "nova.delete_server": 60.9343740940094
+                }
+            }, 
+            {
+                "timestamp": 1487962219.725103, 
+                "error": [], 
+                "duration": 141.5768407752129, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.590579373636583, 
+                "atomic_actions": {
+                    "cinder.create_volume": 41.48918581008911, 
+                    "nova.boot_server": 44.5322380065918, 
+                    "nova.delete_server": 58.49563813209534
+                }
+            }, 
+            {
+                "timestamp": 1487962221.723932, 
+                "error": [], 
+                "duration": 164.73197687908478, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.937790023838794, 
+                "atomic_actions": {
+                    "cinder.create_volume": 77.1273500919342, 
+                    "nova.boot_server": 88.10024499893188, 
+                    "nova.delete_server": 2.4546420574188232
+                }
+            }, 
+            {
+                "timestamp": 1487962223.724452, 
+                "error": [], 
+                "duration": 164.95639128282392, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.661368660184518, 
+                "atomic_actions": {
+                    "cinder.create_volume": 70.52893710136414, 
+                    "nova.boot_server": 92.6544349193573, 
+                    "nova.delete_server": 4.657691955566406
+                }
+            }, 
+            {
+                "timestamp": 1487962225.726047, 
+                "error": [], 
+                "duration": 163.6011637430752, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.665830256406004, 
+                "atomic_actions": {
+                    "cinder.create_volume": 68.64240717887878, 
+                    "nova.boot_server": 95.18307399749756, 
+                    "nova.delete_server": 2.7233989238739014
+                }
+            }, 
+            {
+                "timestamp": 1487962227.723799, 
+                "error": [], 
+                "duration": 161.99318213848724, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.353069826081857, 
+                "atomic_actions": {
+                    "cinder.create_volume": 65.65150809288025, 
+                    "nova.boot_server": 96.7412691116333, 
+                    "nova.delete_server": 2.497833013534546
+                }
+            }, 
+            {
+                "timestamp": 1487962229.723711, 
+                "error": [], 
+                "duration": 159.28751622958762, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 25.532036668819362, 
+                "atomic_actions": {
+                    "cinder.create_volume": 63.99533486366272, 
+                    "nova.boot_server": 95.74832892417908, 
+                    "nova.delete_server": 2.3940792083740234
+                }
+            }, 
+            {
+                "timestamp": 1487962231.723975, 
+                "error": [], 
+                "duration": 158.5610953582539, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.05470359194139, 
+                "atomic_actions": {
+                    "cinder.create_volume": 62.411519050598145, 
+                    "nova.boot_server": 96.29556393623352, 
+                    "nova.delete_server": 2.7584609985351562
+                }
+            }, 
+            {
+                "timestamp": 1487962233.724363, 
+                "error": [], 
+                "duration": 160.16132644091905, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.987544504057745, 
+                "atomic_actions": {
+                    "cinder.create_volume": 64.23723292350769, 
+                    "nova.boot_server": 94.13894391059875, 
+                    "nova.delete_server": 4.671879053115845
+                }
+            }, 
+            {
+                "timestamp": 1487962235.724094, 
+                "error": [], 
+                "duration": 156.4447713614524, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.839701819318464, 
+                "atomic_actions": {
+                    "cinder.create_volume": 60.39166784286499, 
+                    "nova.boot_server": 96.13752603530884, 
+                    "nova.delete_server": 2.8432490825653076
+                }
+            }, 
+            {
+                "timestamp": 1487962237.725127, 
+                "error": [], 
+                "duration": 156.82086310922176, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.24440397680728, 
+                "atomic_actions": {
+                    "cinder.create_volume": 55.740633964538574, 
+                    "nova.boot_server": 99.27121305465698, 
+                    "nova.delete_server": 4.717076063156128
+                }
+            }, 
+            {
+                "timestamp": 1487962239.728618, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_0577bf96_oUcGlgZY> has ERROR status.\nFault: {u'message': u'Build of instance ff883a3f-f228-478f-bdf0-c46c3521ed7a aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 184, in run\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_0577bf96_oUcGlgZY> has ERROR status.\nFault: {u'message': u'Build of instance ff883a3f-f228-478f-bdf0-c46c3521ed7a aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}\n"
+                ], 
+                "duration": 155.83285999298096, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 3.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 78.54091906547546, 
+                    "nova.boot_server": 80.29182291030884
+                }
+            }, 
+            {
+                "timestamp": 1487962241.726366, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_0577bf96_qOW53U7q> has ERROR status.\nFault: {u'message': u'Build of instance e5852d17-a20d-495d-86d9-ff3e2fb2aa5d aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 184, in run\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_0577bf96_qOW53U7q> has ERROR status.\nFault: {u'message': u'Build of instance e5852d17-a20d-495d-86d9-ff3e2fb2aa5d aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}\n"
+                ], 
+                "duration": 153.5387499332428, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 3.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 75.663006067276, 
+                    "nova.boot_server": 80.8756468296051
+                }
+            }, 
+            {
+                "timestamp": 1487962243.723847, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_0577bf96_M9eXrDm5> has ERROR status.\nFault: {u'message': u'Build of instance 55369fef-d326-47a9-a2d4-20f1444b31ba aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 184, in run\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_0577bf96_M9eXrDm5> has ERROR status.\nFault: {u'message': u'Build of instance 55369fef-d326-47a9-a2d4-20f1444b31ba aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}\n"
+                ], 
+                "duration": 151.31737518310547, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 3.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 75.11436891555786, 
+                    "nova.boot_server": 79.20286703109741
+                }
+            }, 
+            {
+                "timestamp": 1487962245.724116, 
+                "error": [], 
+                "duration": 140.99716843317606, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.83539449025533, 
+                "atomic_actions": {
+                    "cinder.create_volume": 53.06170105934143, 
+                    "nova.boot_server": 87.9801390171051, 
+                    "nova.delete_server": 2.82145094871521
+                }
+            }, 
+            {
+                "timestamp": 1487962247.723501, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_0577bf96_mWgz1ckY> has ERROR status.\nFault: {u'message': u'Build of instance 5e8a919d-cef8-4653-9f73-648630435063 aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 184, in run\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_0577bf96_mWgz1ckY> has ERROR status.\nFault: {u'message': u'Build of instance 5e8a919d-cef8-4653-9f73-648630435063 aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}\n"
+                ], 
+                "duration": 148.5432620048523, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 3.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 71.60671806335449, 
+                    "nova.boot_server": 79.93643808364868
+                }
+            }, 
+            {
+                "timestamp": 1487962249.723618, 
+                "error": [], 
+                "duration": 152.67065866592057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.449075382922825, 
+                "atomic_actions": {
+                    "cinder.create_volume": 104.87642097473145, 
+                    "nova.boot_server": 48.12229609489441, 
+                    "nova.delete_server": 2.637070894241333
+                }
+            }, 
+            {
+                "timestamp": 1487962251.723782, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Server: s_rally_0577bf96_rlw43DRv> has ERROR status.\nFault: {u'message': u'Build of instance 6c41fab4-a4e6-471b-b9f2-c2926f5524d9 aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 184, in run\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 146, in _boot_server\n    check_interval=CONF.benchmark.nova_server_boot_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Server: s_rally_0577bf96_rlw43DRv> has ERROR status.\nFault: {u'message': u'Build of instance 6c41fab4-a4e6-471b-b9f2-c2926f5524d9 aborted: Block Device Mapping is Invalid.', u'code': 500, u'created': u'2017-02-24T18:53:17Z'}\n"
+                ], 
+                "duration": 143.96795082092285, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 3.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 67.02452397346497, 
+                    "nova.boot_server": 79.94333410263062
+                }
+            }, 
+            {
+                "timestamp": 1487962253.725431, 
+                "error": [], 
+                "duration": 156.46386093393352, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 21.64189701780294, 
+                "atomic_actions": {
+                    "cinder.create_volume": 81.6912829875946, 
+                    "nova.boot_server": 72.78404211997986, 
+                    "nova.delete_server": 4.959134101867676
+                }
+            }, 
+            {
+                "timestamp": 1487962255.724038, 
+                "error": [], 
+                "duration": 146.87385634197307, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.88862367854999, 
+                "atomic_actions": {
+                    "cinder.create_volume": 87.96633195877075, 
+                    "nova.boot_server": 59.162214040756226, 
+                    "nova.delete_server": 2.7144830226898193
+                }
+            }, 
+            {
+                "timestamp": 1487962257.724865, 
+                "error": [], 
+                "duration": 153.93800485011118, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.109717251100356, 
+                "atomic_actions": {
+                    "cinder.create_volume": 77.38059306144714, 
+                    "nova.boot_server": 76.69395303726196, 
+                    "nova.delete_server": 2.815654993057251
+                }
+            }, 
+            {
+                "timestamp": 1487962259.724357, 
+                "error": [], 
+                "duration": 144.1639261571625, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.284173932864334, 
+                "atomic_actions": {
+                    "cinder.create_volume": 81.80811095237732, 
+                    "nova.boot_server": 60.547829151153564, 
+                    "nova.delete_server": 4.767940044403076
+                }
+            }, 
+            {
+                "timestamp": 1487962261.723624, 
+                "error": [], 
+                "duration": 137.98638672702634, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 16.153022338220236, 
+                "atomic_actions": {
+                    "cinder.create_volume": 72.92480897903442, 
+                    "nova.boot_server": 65.43796896934509, 
+                    "nova.delete_server": 2.6013660430908203
+                }
+            }, 
+            {
+                "timestamp": 1487962263.724175, 
+                "error": [], 
+                "duration": 138.081080876485, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.648682154520856, 
+                "atomic_actions": {
+                    "cinder.create_volume": 126.93427085876465, 
+                    "nova.boot_server": 11.474282026290894, 
+                    "nova.delete_server": 2.6269211769104004
+                }
+            }, 
+            {
+                "timestamp": 1487962265.724129, 
+                "error": [], 
+                "duration": 142.50350389064315, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.87820210873124, 
+                "atomic_actions": {
+                    "cinder.create_volume": 128.62780904769897, 
+                    "nova.boot_server": 14.16205883026123, 
+                    "nova.delete_server": 2.6873250007629395
+                }
+            }, 
+            {
+                "timestamp": 1487962267.725145, 
+                "error": [], 
+                "duration": 134.82210156988776, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.78167536187493, 
+                "atomic_actions": {
+                    "cinder.create_volume": 124.96150422096252, 
+                    "nova.boot_server": 10.159193992614746, 
+                    "nova.delete_server": 2.654426097869873
+                }
+            }, 
+            {
+                "timestamp": 1487962269.725981, 
+                "error": [], 
+                "duration": 139.1077710452451, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 20.988741987668114, 
+                "atomic_actions": {
+                    "cinder.create_volume": 124.45710515975952, 
+                    "nova.boot_server": 14.893578052520752, 
+                    "nova.delete_server": 2.7255170345306396
+                }
+            }, 
+            {
+                "timestamp": 1487962271.723997, 
+                "error": [], 
+                "duration": 133.72562476584713, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 15.01344803383549, 
+                "atomic_actions": {
+                    "cinder.create_volume": 121.54271006584167, 
+                    "nova.boot_server": 12.497578859329224, 
+                    "nova.delete_server": 2.6646780967712402
+                }
+            }, 
+            {
+                "timestamp": 1487962273.725836, 
+                "error": [], 
+                "duration": 133.85992922153292, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 24.36685977611722, 
+                "atomic_actions": {
+                    "cinder.create_volume": 120.40546798706055, 
+                    "nova.boot_server": 13.84803295135498, 
+                    "nova.delete_server": 2.569694995880127
+                }
+            }, 
+            {
+                "timestamp": 1487962275.724119, 
+                "error": [], 
+                "duration": 130.39174283149592, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.285228127213806, 
+                "atomic_actions": {
+                    "cinder.create_volume": 118.27615308761597, 
+                    "nova.boot_server": 12.560528039932251, 
+                    "nova.delete_server": 2.51306414604187
+                }
+            }, 
+            {
+                "timestamp": 1487962277.723788, 
+                "error": [], 
+                "duration": 129.40505170107502, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 26.096483237737246, 
+                "atomic_actions": {
+                    "cinder.create_volume": 117.16522693634033, 
+                    "nova.boot_server": 12.705578804016113, 
+                    "nova.delete_server": 2.4947400093078613
+                }
+            }, 
+            {
+                "timestamp": 1487962279.723615, 
+                "error": [], 
+                "duration": 128.38320120141896, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 30.298293749829224, 
+                "atomic_actions": {
+                    "cinder.create_volume": 114.72861695289612, 
+                    "nova.boot_server": 13.975139856338501, 
+                    "nova.delete_server": 2.634714126586914
+                }
+            }, 
+            {
+                "timestamp": 1487962281.723582, 
+                "error": [], 
+                "duration": 125.84248256054865, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 22.294233328428405, 
+                "atomic_actions": {
+                    "cinder.create_volume": 111.37239503860474, 
+                    "nova.boot_server": 12.771167993545532, 
+                    "nova.delete_server": 4.668603181838989
+                }
+            }, 
+            {
+                "timestamp": 1487962283.726566, 
+                "error": [], 
+                "duration": 126.98364071249932, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.065030294657056, 
+                "atomic_actions": {
+                    "cinder.create_volume": 112.16538095474243, 
+                    "nova.boot_server": 15.129683017730713, 
+                    "nova.delete_server": 2.6457791328430176
+                }
+            }, 
+            {
+                "timestamp": 1487962285.723356, 
+                "error": [], 
+                "duration": 122.8230896106337, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.816178310814053, 
+                "atomic_actions": {
+                    "cinder.create_volume": 109.16132497787476, 
+                    "nova.boot_server": 13.778389930725098, 
+                    "nova.delete_server": 2.854814052581787
+                }
+            }, 
+            {
+                "timestamp": 1487962287.724881, 
+                "error": [], 
+                "duration": 120.43370509032869, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 29.10518598671294, 
+                "atomic_actions": {
+                    "cinder.create_volume": 106.6130051612854, 
+                    "nova.boot_server": 14.138092041015625, 
+                    "nova.delete_server": 2.6411240100860596
+                }
+            }, 
+            {
+                "timestamp": 1487962289.723649, 
+                "error": [], 
+                "duration": 117.39772065967631, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.34315720706868, 
+                "atomic_actions": {
+                    "cinder.create_volume": 104.91845703125, 
+                    "nova.boot_server": 12.938997030258179, 
+                    "nova.delete_server": 2.5160069465637207
+                }
+            }, 
+            {
+                "timestamp": 1487962291.724338, 
+                "error": [], 
+                "duration": 116.70739737442085, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 19.18454059669427, 
+                "atomic_actions": {
+                    "cinder.create_volume": 102.05863809585571, 
+                    "nova.boot_server": 12.861865997314453, 
+                    "nova.delete_server": 4.76247501373291
+                }
+            }, 
+            {
+                "timestamp": 1487962293.724102, 
+                "error": [], 
+                "duration": 111.73464795603473, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 28.846725973942675, 
+                "atomic_actions": {
+                    "cinder.create_volume": 100.2496018409729, 
+                    "nova.boot_server": 11.919793128967285, 
+                    "nova.delete_server": 2.521176815032959
+                }
+            }, 
+            {
+                "timestamp": 1487962295.723682, 
+                "error": [], 
+                "duration": 111.864830330677, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 31.028152629070316, 
+                "atomic_actions": {
+                    "cinder.create_volume": 99.61083221435547, 
+                    "nova.boot_server": 12.569874048233032, 
+                    "nova.delete_server": 2.640239953994751
+                }
+            }, 
+            {
+                "timestamp": 1487962297.725165, 
+                "error": [], 
+                "duration": 110.86230579966185, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 32.12384422665956, 
+                "atomic_actions": {
+                    "cinder.create_volume": 96.88106083869934, 
+                    "nova.boot_server": 14.293355941772461, 
+                    "nova.delete_server": 2.6389009952545166
+                }
+            }, 
+            {
+                "timestamp": 1487962299.723885, 
+                "error": [], 
+                "duration": 107.97370647986294, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 23.197983507319673, 
+                "atomic_actions": {
+                    "cinder.create_volume": 95.3748939037323, 
+                    "nova.boot_server": 12.684305906295776, 
+                    "nova.delete_server": 2.881890058517456
+                }
+            }, 
+            {
+                "timestamp": 1487962301.724507, 
+                "error": [], 
+                "duration": 105.72159042238285, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.616308547267423, 
+                "atomic_actions": {
+                    "cinder.create_volume": 93.16741394996643, 
+                    "nova.boot_server": 12.885257005691528, 
+                    "nova.delete_server": 2.645519971847534
+                }
+            }, 
+            {
+                "timestamp": 1487962303.724366, 
+                "error": [], 
+                "duration": 107.40807808706293, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 17.947712051181693, 
+                "atomic_actions": {
+                    "cinder.create_volume": 91.60738897323608, 
+                    "nova.boot_server": 15.951544046401978, 
+                    "nova.delete_server": 2.8253889083862305
+                }
+            }, 
+            {
+                "timestamp": 1487962305.724224, 
+                "error": [], 
+                "duration": 104.70580274948591, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 18.272361208109906, 
+                "atomic_actions": {
+                    "cinder.create_volume": 89.55143713951111, 
+                    "nova.boot_server": 15.4324369430542, 
+                    "nova.delete_server": 2.697683811187744
+                }
+            }, 
+            {
+                "timestamp": 1487962307.723017, 
+                "error": [], 
+                "duration": 102.18407049241209, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 13.769015645359516, 
+                "atomic_actions": {
+                    "cinder.create_volume": 87.40756607055664, 
+                    "nova.boot_server": 12.924418926239014, 
+                    "nova.delete_server": 4.833606958389282
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "type": "rps", 
+                    "rps": 0.5, 
+                    "max_cpu_count": 1, 
+                    "times": 300
+                }, 
+                "hooks": [], 
+                "args": {
+                    "force_delete": false, 
+                    "volume_size": 10, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "min_sleep": 10, 
+                    "volume_type": "", 
+                    "image": {
+                        "name": "ubuntu-1604-amd64.img"
+                    }, 
+                    "max_sleep": 30
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 180.0, 
+                    "max_avg_duration": 90.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "fixed_ips": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "cores": -1, 
+                            "security_group_rules": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1, 
+                            "floating_ips": -1, 
+                            "key_pairs": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "security_groups": -1, 
+                            "metadata_items": -1, 
+                            "instances": -1, 
+                            "server_group_members": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "subnet": -1, 
+                            "security_group_rule": -1, 
+                            "network": -1, 
+                            "port": -1, 
+                            "router": -1, 
+                            "security_group": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_server_from_volume_and_delete", 
+            "pos": 0
+        }, 
+        "full_duration": 256.9124150276184, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 164.96s <= 180.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 137.50s <= 90.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 8.77% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
