@@ -1,0 +1,160 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-24-02T18:56:36", 
+        "load_duration": 7.862673997879028, 
+        "result": [
+            {
+                "timestamp": 1487962599.087902, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Volume: 3512da99-cefb-4507-8afb-866e6ad38539> has ERROR status.\nFault: n/a", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 512, in run\n    **create_volume_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 176, in _create_volume\n    check_interval=CONF.benchmark.cinder_volume_create_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/common/logging.py\", line 236, in wrapper\n    return f(*args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 148, in wait_for\n    id_attr=id_attr)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Volume: 3512da99-cefb-4507-8afb-866e6ad38539> has ERROR status.\nFault: n/a\n"
+                ], 
+                "duration": 3.791714906692505, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.7915358543396
+                }
+            }, 
+            {
+                "timestamp": 1487962601.085625, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Volume: f7d37201-0ad8-454c-9b2e-252328b920ca> has ERROR status.\nFault: n/a", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 512, in run\n    **create_volume_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 176, in _create_volume\n    check_interval=CONF.benchmark.cinder_volume_create_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/common/logging.py\", line 236, in wrapper\n    return f(*args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 148, in wait_for\n    id_attr=id_attr)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Volume: f7d37201-0ad8-454c-9b2e-252328b920ca> has ERROR status.\nFault: n/a\n"
+                ], 
+                "duration": 3.8753020763397217, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.875234842300415
+                }
+            }, 
+            {
+                "timestamp": 1487962603.085594, 
+                "error": [
+                    "GetResourceErrorStatus", 
+                    "Resource <Volume: 733afca9-4318-4ac2-b211-88ec9fc32f9f> has ERROR status.\nFault: n/a", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 512, in run\n    **create_volume_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 113, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/cinder/utils.py\", line 176, in _create_volume\n    check_interval=CONF.benchmark.cinder_volume_create_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/common/logging.py\", line 236, in wrapper\n    return f(*args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 148, in wait_for\n    id_attr=id_attr)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 214, in wait_for_status\n    resource = update_resource(resource)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 90, in _get_from_manager\n    fault=getattr(res, \"fault\", \"n/a\"))\nGetResourceErrorStatus: Resource <Volume: 733afca9-4318-4ac2-b211-88ec9fc32f9f> has ERROR status.\nFault: n/a\n"
+                ], 
+                "duration": 3.8649821281433105, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 2.0, 
+                "atomic_actions": {
+                    "cinder.create_volume": 5.864836931228638
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "type": "rps", 
+                    "rps": 0.5, 
+                    "max_cpu_count": 1, 
+                    "times": 300
+                }, 
+                "hooks": [], 
+                "args": {
+                    "force_delete": false, 
+                    "boot_server_kwargs": {}, 
+                    "volume_size": 1, 
+                    "create_volume_kwargs": {}, 
+                    "max_sleep": 30, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }, 
+                    "to_flavor": {
+                        "name": "m1.small"
+                    }, 
+                    "confirm": true, 
+                    "min_sleep": 10, 
+                    "image": {
+                        "name": "ubuntu-1604-amd64.img"
+                    }, 
+                    "do_delete": true
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 180.0, 
+                    "max_avg_duration": 90.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "fixed_ips": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "cores": -1, 
+                            "security_group_rules": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1, 
+                            "floating_ips": -1, 
+                            "key_pairs": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "security_groups": -1, 
+                            "metadata_items": -1, 
+                            "instances": -1, 
+                            "server_group_members": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "subnet": -1, 
+                            "security_group_rule": -1, 
+                            "network": -1, 
+                            "port": -1, 
+                            "router": -1, 
+                            "security_group": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.boot_server_from_volume_and_resize", 
+            "pos": 0
+        }, 
+        "full_duration": 19.156113147735596, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 3.88s <= 180.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 0.00s <= 90.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 100.00% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
