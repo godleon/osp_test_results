@@ -39,4 +39,5 @@
 - [create-flavor](https://godleon.github.io/osp_test_results/0.2.102/nova/create-flavor.html)
 - [list-aggregates](https://godleon.github.io/osp_test_results/0.2.102/nova/list-aggregates.html)
 - [list-and-get-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-and-get-hypervisors.html)
+- [list-and-get-uptime-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-and-get-uptime-hypervisors.html)
 
