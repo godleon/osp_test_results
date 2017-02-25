@@ -1,0 +1,1920 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-25-02T03:55:06", 
+        "load_duration": 502.9996190071106, 
+        "result": [
+            {
+                "timestamp": 1487994909.707237, 
+                "error": [], 
+                "duration": 37.29306387901306, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 19.32472801208496, 
+                    "nova.suspend_server": 2.6171438694000244, 
+                    "nova.resume_server": 4.798776149749756, 
+                    "nova.delete_server": 15.552139043807983
+                }
+            }, 
+            {
+                "timestamp": 1487994910.704747, 
+                "error": [], 
+                "duration": 46.27031707763672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 20.469043016433716, 
+                    "nova.suspend_server": 2.678928852081299, 
+                    "nova.resume_server": 5.002204895019531, 
+                    "nova.delete_server": 23.119964122772217
+                }
+            }, 
+            {
+                "timestamp": 1487994911.704402, 
+                "error": [], 
+                "duration": 45.83574295043945, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 28.31645107269287, 
+                    "nova.suspend_server": 2.5788462162017822, 
+                    "nova.resume_server": 2.8626320362091064, 
+                    "nova.delete_server": 17.0776469707489
+                }
+            }, 
+            {
+                "timestamp": 1487994912.705017, 
+                "error": [], 
+                "duration": 40.345008850097656, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 21.570199966430664, 
+                    "nova.suspend_server": 2.8171191215515137, 
+                    "nova.resume_server": 5.469879150390625, 
+                    "nova.delete_server": 15.48764705657959
+                }
+            }, 
+            {
+                "timestamp": 1487994913.704487, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_ttjvjmpV:0e6c2948-4aa5-498f-933f-c79a2f0a6316 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_ttjvjmpV:0e6c2948-4aa5-498f-933f-c79a2f0a6316 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 335.77837681770325, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 35.030409812927246, 
+                    "nova.suspend_server": 2.5498340129852295, 
+                    "nova.resume_server": 303.1980059146881
+                }
+            }, 
+            {
+                "timestamp": 1487994914.704487, 
+                "error": [], 
+                "duration": 52.235827922821045, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 30.56796407699585, 
+                    "nova.suspend_server": 5.792641878128052, 
+                    "nova.resume_server": 4.9472339153289795, 
+                    "nova.delete_server": 15.927804946899414
+                }
+            }, 
+            {
+                "timestamp": 1487994915.705268, 
+                "error": [], 
+                "duration": 71.41187810897827, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 47.27599596977234, 
+                    "nova.suspend_server": 2.5961930751800537, 
+                    "nova.resume_server": 5.296398162841797, 
+                    "nova.delete_server": 21.243129014968872
+                }
+            }, 
+            {
+                "timestamp": 1487994916.704319, 
+                "error": [], 
+                "duration": 64.2403039932251, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 38.48684000968933, 
+                    "nova.suspend_server": 2.7268638610839844, 
+                    "nova.resume_server": 5.670223951339722, 
+                    "nova.delete_server": 22.356201171875
+                }
+            }, 
+            {
+                "timestamp": 1487994917.704859, 
+                "error": [], 
+                "duration": 43.253604888916016, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 26.596410989761353, 
+                    "nova.suspend_server": 2.644232988357544, 
+                    "nova.resume_server": 2.633028984069824, 
+                    "nova.delete_server": 16.3797709941864
+                }
+            }, 
+            {
+                "timestamp": 1487994918.705225, 
+                "error": [], 
+                "duration": 68.57592511177063, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 45.83377981185913, 
+                    "nova.suspend_server": 5.044857025146484, 
+                    "nova.resume_server": 5.3080291748046875, 
+                    "nova.delete_server": 17.38908815383911
+                }
+            }, 
+            {
+                "timestamp": 1487994919.704793, 
+                "error": [], 
+                "duration": 83.1284589767456, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 59.39216899871826, 
+                    "nova.suspend_server": 5.059520959854126, 
+                    "nova.resume_server": 5.7699549198150635, 
+                    "nova.delete_server": 17.90664005279541
+                }
+            }, 
+            {
+                "timestamp": 1487994920.704407, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_Xf8sGECc:0c3d7295-f9c2-4100-8079-af5021158aaf to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_Xf8sGECc:0c3d7295-f9c2-4100-8079-af5021158aaf to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 338.16792011260986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 34.87065315246582, 
+                    "nova.suspend_server": 5.2069947719573975, 
+                    "nova.resume_server": 303.0901401042938
+                }
+            }, 
+            {
+                "timestamp": 1487994921.704151, 
+                "error": [], 
+                "duration": 62.26299214363098, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 44.55428385734558, 
+                    "nova.suspend_server": 2.6205830574035645, 
+                    "nova.resume_server": 2.930453062057495, 
+                    "nova.delete_server": 17.157501935958862
+                }
+            }, 
+            {
+                "timestamp": 1487994922.705546, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_U62hYfAe:571dadf6-6c72-4613-b413-7e3acbd70b3e to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_U62hYfAe:571dadf6-6c72-4613-b413-7e3acbd70b3e to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 352.3732600212097, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 50.47197103500366, 
+                    "nova.suspend_server": 2.338085174560547, 
+                    "nova.resume_server": 304.56306195259094
+                }
+            }, 
+            {
+                "timestamp": 1487994923.706309, 
+                "error": [], 
+                "duration": 68.75085282325745, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 44.78154492378235, 
+                    "nova.suspend_server": 5.29972505569458, 
+                    "nova.resume_server": 5.229427814483643, 
+                    "nova.delete_server": 18.43988609313965
+                }
+            }, 
+            {
+                "timestamp": 1487994924.705063, 
+                "error": [], 
+                "duration": 66.03757691383362, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 42.887986183166504, 
+                    "nova.suspend_server": 7.24790620803833, 
+                    "nova.resume_server": 5.406051874160767, 
+                    "nova.delete_server": 15.495444059371948
+                }
+            }, 
+            {
+                "timestamp": 1487994925.704796, 
+                "error": [], 
+                "duration": 99.408607006073, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 60.31838393211365, 
+                    "nova.suspend_server": 4.887061834335327, 
+                    "nova.resume_server": 5.999523162841797, 
+                    "nova.delete_server": 33.20345902442932
+                }
+            }, 
+            {
+                "timestamp": 1487994926.704999, 
+                "error": [], 
+                "duration": 110.5133900642395, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 73.52121996879578, 
+                    "nova.suspend_server": 5.313943147659302, 
+                    "nova.resume_server": 7.562113046646118, 
+                    "nova.delete_server": 29.11180305480957
+                }
+            }, 
+            {
+                "timestamp": 1487994927.704669, 
+                "error": [], 
+                "duration": 88.35432195663452, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 58.64462614059448, 
+                    "nova.suspend_server": 7.069772005081177, 
+                    "nova.resume_server": 4.95986795425415, 
+                    "nova.delete_server": 22.679880142211914
+                }
+            }, 
+            {
+                "timestamp": 1487994928.705166, 
+                "error": [], 
+                "duration": 89.93479084968567, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 57.37671208381653, 
+                    "nova.suspend_server": 5.229710102081299, 
+                    "nova.resume_server": 5.310885906219482, 
+                    "nova.delete_server": 27.017266988754272
+                }
+            }, 
+            {
+                "timestamp": 1487994929.704981, 
+                "error": [], 
+                "duration": 66.98500990867615, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 52.4463050365448, 
+                    "nova.suspend_server": 2.9332520961761475, 
+                    "nova.resume_server": 5.513882160186768, 
+                    "nova.delete_server": 11.091383934020996
+                }
+            }, 
+            {
+                "timestamp": 1487994930.706511, 
+                "error": [], 
+                "duration": 85.7831039428711, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 61.004252910614014, 
+                    "nova.suspend_server": 2.395473003387451, 
+                    "nova.resume_server": 5.20477294921875, 
+                    "nova.delete_server": 22.178438186645508
+                }
+            }, 
+            {
+                "timestamp": 1487994931.705005, 
+                "error": [], 
+                "duration": 95.48149609565735, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 62.25332808494568, 
+                    "nova.suspend_server": 5.143432855606079, 
+                    "nova.resume_server": 10.211004972457886, 
+                    "nova.delete_server": 22.873552799224854
+                }
+            }, 
+            {
+                "timestamp": 1487994932.705259, 
+                "error": [], 
+                "duration": 97.92758393287659, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 64.15749192237854, 
+                    "nova.suspend_server": 7.81972599029541, 
+                    "nova.resume_server": 7.015197038650513, 
+                    "nova.delete_server": 23.934991121292114
+                }
+            }, 
+            {
+                "timestamp": 1487994933.705515, 
+                "error": [], 
+                "duration": 59.64126420021057, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 40.86302995681763, 
+                    "nova.suspend_server": 5.837945938110352, 
+                    "nova.resume_server": 5.137305974960327, 
+                    "nova.delete_server": 12.802835941314697
+                }
+            }, 
+            {
+                "timestamp": 1487994934.70499, 
+                "error": [], 
+                "duration": 102.39651918411255, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 71.96263217926025, 
+                    "nova.suspend_server": 5.303530931472778, 
+                    "nova.resume_server": 4.93354606628418, 
+                    "nova.delete_server": 25.196655988693237
+                }
+            }, 
+            {
+                "timestamp": 1487994935.706014, 
+                "error": [], 
+                "duration": 100.9901762008667, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 61.188684940338135, 
+                    "nova.suspend_server": 7.89675498008728, 
+                    "nova.resume_server": 5.198541879653931, 
+                    "nova.delete_server": 31.70600390434265
+                }
+            }, 
+            {
+                "timestamp": 1487994936.705275, 
+                "error": [], 
+                "duration": 74.97639989852905, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 47.53262495994568, 
+                    "nova.suspend_server": 7.370997905731201, 
+                    "nova.resume_server": 2.8125569820404053, 
+                    "nova.delete_server": 22.26003098487854
+                }
+            }, 
+            {
+                "timestamp": 1487994937.704416, 
+                "error": [], 
+                "duration": 97.39562606811523, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 69.42463684082031, 
+                    "nova.suspend_server": 5.234251976013184, 
+                    "nova.resume_server": 5.011811971664429, 
+                    "nova.delete_server": 22.724767923355103
+                }
+            }, 
+            {
+                "timestamp": 1487994938.704704, 
+                "error": [], 
+                "duration": 76.67197704315186, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 49.72189903259277, 
+                    "nova.suspend_server": 2.8531439304351807, 
+                    "nova.resume_server": 5.188037157058716, 
+                    "nova.delete_server": 23.90872597694397
+                }
+            }, 
+            {
+                "timestamp": 1487994939.704076, 
+                "error": [], 
+                "duration": 97.22054600715637, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 59.4734320640564, 
+                    "nova.suspend_server": 12.577396154403687, 
+                    "nova.resume_server": 8.14995789527893, 
+                    "nova.delete_server": 22.019596099853516
+                }
+            }, 
+            {
+                "timestamp": 1487994940.705295, 
+                "error": [], 
+                "duration": 87.50359392166138, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 55.04692101478577, 
+                    "nova.suspend_server": 10.722805976867676, 
+                    "nova.resume_server": 5.182393789291382, 
+                    "nova.delete_server": 21.551307916641235
+                }
+            }, 
+            {
+                "timestamp": 1487994941.705254, 
+                "error": [], 
+                "duration": 80.88644981384277, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 52.307640075683594, 
+                    "nova.suspend_server": 8.51046895980835, 
+                    "nova.resume_server": 4.966287851333618, 
+                    "nova.delete_server": 20.10188317298889
+                }
+            }, 
+            {
+                "timestamp": 1487994942.704489, 
+                "error": [], 
+                "duration": 82.043860912323, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 53.739794969558716, 
+                    "nova.suspend_server": 3.0037739276885986, 
+                    "nova.resume_server": 7.872529029846191, 
+                    "nova.delete_server": 22.42759680747986
+                }
+            }, 
+            {
+                "timestamp": 1487994943.706696, 
+                "error": [], 
+                "duration": 92.33514785766602, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 70.78115677833557, 
+                    "nova.suspend_server": 9.386889934539795, 
+                    "nova.resume_server": 2.419916868209839, 
+                    "nova.delete_server": 14.747034072875977
+                }
+            }, 
+            {
+                "timestamp": 1487994944.704517, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_UtECgGGP:c8a00682-b4f1-4286-b265-3b06fb17cf08 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_UtECgGGP:c8a00682-b4f1-4286-b265-3b06fb17cf08 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 371.87849521636963, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 66.91774106025696, 
+                    "nova.suspend_server": 5.57540488243103, 
+                    "nova.resume_server": 304.3851602077484
+                }
+            }, 
+            {
+                "timestamp": 1487994945.705663, 
+                "error": [], 
+                "duration": 95.79061794281006, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 71.75941109657288, 
+                    "nova.suspend_server": 7.141161203384399, 
+                    "nova.resume_server": 4.7661027908325195, 
+                    "nova.delete_server": 17.123799800872803
+                }
+            }, 
+            {
+                "timestamp": 1487994946.705528, 
+                "error": [], 
+                "duration": 75.59098792076111, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 51.30929183959961, 
+                    "nova.suspend_server": 5.180335998535156, 
+                    "nova.resume_server": 4.956135034561157, 
+                    "nova.delete_server": 19.145047187805176
+                }
+            }, 
+            {
+                "timestamp": 1487994947.705775, 
+                "error": [], 
+                "duration": 85.23580598831177, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 51.55693793296814, 
+                    "nova.suspend_server": 10.936239957809448, 
+                    "nova.resume_server": 5.246443033218384, 
+                    "nova.delete_server": 22.496022939682007
+                }
+            }, 
+            {
+                "timestamp": 1487994948.706035, 
+                "error": [], 
+                "duration": 80.97594499588013, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 51.887413024902344, 
+                    "nova.suspend_server": 8.411290884017944, 
+                    "nova.resume_server": 6.070065021514893, 
+                    "nova.delete_server": 19.607014894485474
+                }
+            }, 
+            {
+                "timestamp": 1487994949.704286, 
+                "error": [], 
+                "duration": 116.73285484313965, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 94.89199995994568, 
+                    "nova.suspend_server": 2.7274420261383057, 
+                    "nova.resume_server": 4.835838079452515, 
+                    "nova.delete_server": 19.27742099761963
+                }
+            }, 
+            {
+                "timestamp": 1487994950.705275, 
+                "error": [], 
+                "duration": 98.9928810596466, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 83.69111609458923, 
+                    "nova.suspend_server": 5.177495956420898, 
+                    "nova.resume_server": 2.7357289791107178, 
+                    "nova.delete_server": 12.388391971588135
+                }
+            }, 
+            {
+                "timestamp": 1487994951.708687, 
+                "error": [], 
+                "duration": 94.15032887458801, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 72.157231092453, 
+                    "nova.suspend_server": 5.34358811378479, 
+                    "nova.resume_server": 4.814209938049316, 
+                    "nova.delete_server": 16.835142850875854
+                }
+            }, 
+            {
+                "timestamp": 1487994952.707661, 
+                "error": [], 
+                "duration": 86.115727186203, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 66.06356406211853, 
+                    "nova.suspend_server": 5.004535913467407, 
+                    "nova.resume_server": 5.077993154525757, 
+                    "nova.delete_server": 14.969429969787598
+                }
+            }, 
+            {
+                "timestamp": 1487994953.704984, 
+                "error": [], 
+                "duration": 61.31285905838013, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 40.38450002670288, 
+                    "nova.suspend_server": 2.680004835128784, 
+                    "nova.resume_server": 5.541881799697876, 
+                    "nova.delete_server": 17.70631694793701
+                }
+            }, 
+            {
+                "timestamp": 1487994954.706434, 
+                "error": [], 
+                "duration": 83.0346269607544, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 60.34001898765564, 
+                    "nova.suspend_server": 5.278284072875977, 
+                    "nova.resume_server": 4.8071300983428955, 
+                    "nova.delete_server": 17.609045028686523
+                }
+            }, 
+            {
+                "timestamp": 1487994955.705008, 
+                "error": [], 
+                "duration": 117.46573305130005, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 95.44987106323242, 
+                    "nova.suspend_server": 5.099573850631714, 
+                    "nova.resume_server": 2.572287082672119, 
+                    "nova.delete_server": 19.3438560962677
+                }
+            }, 
+            {
+                "timestamp": 1487994956.705681, 
+                "error": [], 
+                "duration": 110.95569586753845, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 77.35429692268372, 
+                    "nova.suspend_server": 7.3454649448394775, 
+                    "nova.resume_server": 5.316547870635986, 
+                    "nova.delete_server": 25.939236164093018
+                }
+            }, 
+            {
+                "timestamp": 1487994957.705059, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_xx5Ddcu2:ddd51bf8-00e7-4b16-aebe-6af64ec642b1 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_xx5Ddcu2:ddd51bf8-00e7-4b16-aebe-6af64ec642b1 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 397.0381729602814, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 95.06700301170349, 
+                    "nova.suspend_server": 2.5725181102752686, 
+                    "nova.resume_server": 304.3985450267792
+                }
+            }, 
+            {
+                "timestamp": 1487994958.704231, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_28KjfwOj:a4ce2b36-7058-49ab-a029-1f0f02340c89 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_28KjfwOj:a4ce2b36-7058-49ab-a029-1f0f02340c89 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 348.78233194351196, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 44.671679973602295, 
+                    "nova.suspend_server": 5.635056972503662, 
+                    "nova.resume_server": 303.47547793388367
+                }
+            }, 
+            {
+                "timestamp": 1487994959.704762, 
+                "error": [], 
+                "duration": 84.50349593162537, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 66.26854681968689, 
+                    "nova.suspend_server": 5.5337090492248535, 
+                    "nova.resume_server": 2.403952121734619, 
+                    "nova.delete_server": 15.29712200164795
+                }
+            }, 
+            {
+                "timestamp": 1487994960.704567, 
+                "error": [], 
+                "duration": 77.2602550983429, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 64.33867120742798, 
+                    "nova.suspend_server": 2.4645237922668457, 
+                    "nova.resume_server": 5.672749996185303, 
+                    "nova.delete_server": 9.784149885177612
+                }
+            }, 
+            {
+                "timestamp": 1487994961.704571, 
+                "error": [], 
+                "duration": 106.88233494758606, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 83.01649594306946, 
+                    "nova.suspend_server": 2.756869077682495, 
+                    "nova.resume_server": 2.693085193634033, 
+                    "nova.delete_server": 23.41572904586792
+                }
+            }, 
+            {
+                "timestamp": 1487994962.704845, 
+                "error": [], 
+                "duration": 121.26000714302063, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 81.18866205215454, 
+                    "nova.suspend_server": 3.058452844619751, 
+                    "nova.resume_server": 10.995564937591553, 
+                    "nova.delete_server": 31.017176866531372
+                }
+            }, 
+            {
+                "timestamp": 1487994963.710876, 
+                "error": [], 
+                "duration": 122.97358512878418, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 91.58383798599243, 
+                    "nova.suspend_server": 16.656482934951782, 
+                    "nova.resume_server": 5.090634107589722, 
+                    "nova.delete_server": 14.642462968826294
+                }
+            }, 
+            {
+                "timestamp": 1487994964.704769, 
+                "error": [], 
+                "duration": 145.0471761226654, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 126.57877802848816, 
+                    "nova.suspend_server": 4.5747058391571045, 
+                    "nova.resume_server": 5.029425859451294, 
+                    "nova.delete_server": 13.864118814468384
+                }
+            }, 
+            {
+                "timestamp": 1487994965.704463, 
+                "error": [], 
+                "duration": 119.81602501869202, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 81.25323510169983, 
+                    "nova.suspend_server": 2.4322688579559326, 
+                    "nova.resume_server": 10.047353982925415, 
+                    "nova.delete_server": 31.08300805091858
+                }
+            }, 
+            {
+                "timestamp": 1487994966.704816, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_Z9DcCXBz:75f8a080-8cb5-4732-a309-677461c85934 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_Z9DcCXBz:75f8a080-8cb5-4732-a309-677461c85934 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 388.89654994010925, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 87.98646903038025, 
+                    "nova.suspend_server": 2.87074613571167, 
+                    "nova.resume_server": 303.0392282009125
+                }
+            }, 
+            {
+                "timestamp": 1487994967.704752, 
+                "error": [], 
+                "duration": 104.68999910354614, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 78.09653496742249, 
+                    "nova.suspend_server": 2.394645929336548, 
+                    "nova.resume_server": 9.322628021240234, 
+                    "nova.delete_server": 19.876038074493408
+                }
+            }, 
+            {
+                "timestamp": 1487994968.704004, 
+                "error": [], 
+                "duration": 73.60738205909729, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 59.401389837265015, 
+                    "nova.suspend_server": 5.402281999588013, 
+                    "nova.resume_server": 2.8648829460144043, 
+                    "nova.delete_server": 10.938652038574219
+                }
+            }, 
+            {
+                "timestamp": 1487994969.704225, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_uMJAjmZv:a8d5500d-f2fb-4753-96f8-4159de23af07 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_uMJAjmZv:a8d5500d-f2fb-4753-96f8-4159de23af07 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 369.4632749557495, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 67.11341595649719, 
+                    "nova.suspend_server": 2.6830830574035645, 
+                    "nova.resume_server": 304.6666510105133
+                }
+            }, 
+            {
+                "timestamp": 1487994970.704812, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_nNCsd84o:67fd6416-be36-46f2-be1c-99137ae66d59 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_nNCsd84o:67fd6416-be36-46f2-be1c-99137ae66d59 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 383.7975640296936, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 78.70508193969727, 
+                    "nova.suspend_server": 7.658280849456787, 
+                    "nova.resume_server": 302.43408489227295
+                }
+            }, 
+            {
+                "timestamp": 1487994971.70691, 
+                "error": [], 
+                "duration": 113.75141620635986, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 74.65776300430298, 
+                    "nova.suspend_server": 2.6480069160461426, 
+                    "nova.resume_server": 7.841417074203491, 
+                    "nova.delete_server": 33.604076862335205
+                }
+            }, 
+            {
+                "timestamp": 1487994972.714925, 
+                "error": [], 
+                "duration": 108.87155389785767, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 74.18804097175598, 
+                    "nova.suspend_server": 3.187187910079956, 
+                    "nova.resume_server": 7.9079108238220215, 
+                    "nova.delete_server": 28.58826208114624
+                }
+            }, 
+            {
+                "timestamp": 1487994973.706282, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_hMF6hZLH:a1aa8c81-8dfa-4ea8-afec-e0fdb830f427 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_hMF6hZLH:a1aa8c81-8dfa-4ea8-afec-e0fdb830f427 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 421.10551500320435, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 120.53321695327759, 
+                    "nova.suspend_server": 2.5769810676574707, 
+                    "nova.resume_server": 302.9952189922333
+                }
+            }, 
+            {
+                "timestamp": 1487994974.704665, 
+                "error": [], 
+                "duration": 145.95718598365784, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 140.26561307907104, 
+                    "nova.suspend_server": 5.020235061645508, 
+                    "nova.resume_server": 2.713124990463257, 
+                    "nova.delete_server": 2.95805287361145
+                }
+            }, 
+            {
+                "timestamp": 1487994975.705011, 
+                "error": [], 
+                "duration": 94.3093810081482, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 71.75913286209106, 
+                    "nova.suspend_server": 2.866096019744873, 
+                    "nova.resume_server": 2.6623167991638184, 
+                    "nova.delete_server": 22.02167510986328
+                }
+            }, 
+            {
+                "timestamp": 1487994976.705011, 
+                "error": [], 
+                "duration": 119.47875499725342, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 100.91015791893005, 
+                    "nova.suspend_server": 6.834952116012573, 
+                    "nova.resume_server": 2.617471933364868, 
+                    "nova.delete_server": 14.11600112915039
+                }
+            }, 
+            {
+                "timestamp": 1487994977.704584, 
+                "error": [], 
+                "duration": 120.77711510658264, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 99.3118360042572, 
+                    "nova.suspend_server": 4.770446062088013, 
+                    "nova.resume_server": 2.361280918121338, 
+                    "nova.delete_server": 19.3333899974823
+                }
+            }, 
+            {
+                "timestamp": 1487994978.706342, 
+                "error": [], 
+                "duration": 138.7630159854889, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 122.23626685142517, 
+                    "nova.suspend_server": 11.836047887802124, 
+                    "nova.resume_server": 5.069715976715088, 
+                    "nova.delete_server": 4.6208391189575195
+                }
+            }, 
+            {
+                "timestamp": 1487994979.704978, 
+                "error": [], 
+                "duration": 103.86097502708435, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 84.7781970500946, 
+                    "nova.suspend_server": 2.3715178966522217, 
+                    "nova.resume_server": 2.3394150733947754, 
+                    "nova.delete_server": 19.37168312072754
+                }
+            }, 
+            {
+                "timestamp": 1487994980.707834, 
+                "error": [], 
+                "duration": 124.65829610824585, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 103.92867517471313, 
+                    "nova.suspend_server": 2.824427843093872, 
+                    "nova.resume_server": 2.340146064758301, 
+                    "nova.delete_server": 20.564883947372437
+                }
+            }, 
+            {
+                "timestamp": 1487994981.710578, 
+                "error": [], 
+                "duration": 134.30794501304626, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 127.14067912101746, 
+                    "nova.suspend_server": 2.599940061569214, 
+                    "nova.resume_server": 2.3651249408721924, 
+                    "nova.delete_server": 7.202046871185303
+                }
+            }, 
+            {
+                "timestamp": 1487994982.706188, 
+                "error": [], 
+                "duration": 129.6504831314087, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 112.43861508369446, 
+                    "nova.suspend_server": 5.22985315322876, 
+                    "nova.resume_server": 9.544249773025513, 
+                    "nova.delete_server": 7.437608957290649
+                }
+            }, 
+            {
+                "timestamp": 1487994983.704434, 
+                "error": [], 
+                "duration": 123.69604802131653, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.3817720413208, 
+                    "nova.suspend_server": 7.126569032669067, 
+                    "nova.resume_server": 4.523128032684326, 
+                    "nova.delete_server": 11.664438009262085
+                }
+            }, 
+            {
+                "timestamp": 1487994984.704703, 
+                "error": [], 
+                "duration": 131.39767599105835, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 115.98766207695007, 
+                    "nova.suspend_server": 10.085970163345337, 
+                    "nova.resume_server": 2.577788829803467, 
+                    "nova.delete_server": 7.746114015579224
+                }
+            }, 
+            {
+                "timestamp": 1487994985.70559, 
+                "error": [], 
+                "duration": 134.68193888664246, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 127.17807698249817, 
+                    "nova.suspend_server": 4.8264319896698, 
+                    "nova.resume_server": 4.7484049797058105, 
+                    "nova.delete_server": 2.9288899898529053
+                }
+            }, 
+            {
+                "timestamp": 1487994986.704761, 
+                "error": [], 
+                "duration": 133.1708209514618, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 127.90994906425476, 
+                    "nova.suspend_server": 5.25282096862793, 
+                    "nova.resume_server": 2.3067338466644287, 
+                    "nova.delete_server": 2.7011709213256836
+                }
+            }, 
+            {
+                "timestamp": 1487994987.707645, 
+                "error": [], 
+                "duration": 137.57197213172913, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 134.62879490852356, 
+                    "nova.suspend_server": 2.6233479976654053, 
+                    "nova.resume_server": 2.4819791316986084, 
+                    "nova.delete_server": 2.83771014213562
+                }
+            }, 
+            {
+                "timestamp": 1487994988.705374, 
+                "error": [], 
+                "duration": 110.10446000099182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 89.15278506278992, 
+                    "nova.suspend_server": 4.921856164932251, 
+                    "nova.resume_server": 4.8112218379974365, 
+                    "nova.delete_server": 16.21844792366028
+                }
+            }, 
+            {
+                "timestamp": 1487994989.706356, 
+                "error": [], 
+                "duration": 103.04635906219482, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 88.37556004524231, 
+                    "nova.suspend_server": 2.507017135620117, 
+                    "nova.resume_server": 2.626620054244995, 
+                    "nova.delete_server": 14.537008047103882
+                }
+            }, 
+            {
+                "timestamp": 1487994990.714558, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_3ohJo2tv:ee078836-dc5f-4bc0-b3bf-170caf84fb4d to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_3ohJo2tv:ee078836-dc5f-4bc0-b3bf-170caf84fb4d to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 421.9922981262207, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 121.65339398384094, 
+                    "nova.suspend_server": 2.5953259468078613, 
+                    "nova.resume_server": 302.7434709072113
+                }
+            }, 
+            {
+                "timestamp": 1487994991.705283, 
+                "error": [], 
+                "duration": 138.35095596313477, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 135.9665539264679, 
+                    "nova.suspend_server": 2.3413329124450684, 
+                    "nova.resume_server": 2.3569369316101074, 
+                    "nova.delete_server": 2.6859750747680664
+                }
+            }, 
+            {
+                "timestamp": 1487994992.704474, 
+                "error": [], 
+                "duration": 103.54590511322021, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 83.96473717689514, 
+                    "nova.suspend_server": 2.385637044906616, 
+                    "nova.resume_server": 5.247197151184082, 
+                    "nova.delete_server": 16.948174953460693
+                }
+            }, 
+            {
+                "timestamp": 1487994993.705018, 
+                "error": [], 
+                "duration": 136.00814700126648, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 133.71818614006042, 
+                    "nova.suspend_server": 2.3316879272460938, 
+                    "nova.resume_server": 2.538180112838745, 
+                    "nova.delete_server": 2.4198970794677734
+                }
+            }, 
+            {
+                "timestamp": 1487994994.704642, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_ibAqUnfg:db0240a5-d296-4ea5-85b3-85f8ce5b9986 to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_ibAqUnfg:db0240a5-d296-4ea5-85b3-85f8ce5b9986 to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 354.5036208629608, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 52.935755014419556, 
+                    "nova.suspend_server": 3.080396890640259, 
+                    "nova.resume_server": 303.48736786842346
+                }
+            }, 
+            {
+                "timestamp": 1487994995.704193, 
+                "error": [], 
+                "duration": 88.41235399246216, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 55.53301501274109, 
+                    "nova.suspend_server": 2.705307960510254, 
+                    "nova.resume_server": 5.18609094619751, 
+                    "nova.delete_server": 29.987787008285522
+                }
+            }, 
+            {
+                "timestamp": 1487994996.707037, 
+                "error": [], 
+                "duration": 91.03564596176147, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 74.18049383163452, 
+                    "nova.suspend_server": 2.435245990753174, 
+                    "nova.resume_server": 2.3700740337371826, 
+                    "nova.delete_server": 17.049664974212646
+                }
+            }, 
+            {
+                "timestamp": 1487994997.704754, 
+                "error": [], 
+                "duration": 113.54417300224304, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 97.10710310935974, 
+                    "nova.suspend_server": 2.6238949298858643, 
+                    "nova.resume_server": 4.951282978057861, 
+                    "nova.delete_server": 13.861720085144043
+                }
+            }, 
+            {
+                "timestamp": 1487994998.704669, 
+                "error": [], 
+                "duration": 116.69625902175903, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 103.85603713989258, 
+                    "nova.suspend_server": 8.131968021392822, 
+                    "nova.resume_server": 2.6358649730682373, 
+                    "nova.delete_server": 7.072237014770508
+                }
+            }, 
+            {
+                "timestamp": 1487994999.704607, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_3zRWAjqj:9b510ef3-b5fb-4ff9-b4f9-355cbea7357d to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_3zRWAjqj:9b510ef3-b5fb-4ff9-b4f9-355cbea7357d to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 395.81932401657104, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 93.39272904396057, 
+                    "nova.suspend_server": 2.840873956680298, 
+                    "nova.resume_server": 304.58561611175537
+                }
+            }, 
+            {
+                "timestamp": 1487995000.706355, 
+                "error": [], 
+                "duration": 95.10659289360046, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 75.1420669555664, 
+                    "nova.suspend_server": 2.6005208492279053, 
+                    "nova.resume_server": 3.1446409225463867, 
+                    "nova.delete_server": 19.21921992301941
+                }
+            }, 
+            {
+                "timestamp": 1487995001.704568, 
+                "error": [], 
+                "duration": 103.80166602134705, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 74.6889181137085, 
+                    "nova.suspend_server": 10.010763883590698, 
+                    "nova.resume_server": 9.823387861251831, 
+                    "nova.delete_server": 14.278461933135986
+                }
+            }, 
+            {
+                "timestamp": 1487995002.705173, 
+                "error": [], 
+                "duration": 91.77990889549255, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 76.58702397346497, 
+                    "nova.suspend_server": 4.4945268630981445, 
+                    "nova.resume_server": 5.4976770877838135, 
+                    "nova.delete_server": 10.20050597190857
+                }
+            }, 
+            {
+                "timestamp": 1487995003.707209, 
+                "error": [], 
+                "duration": 112.25552082061768, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.0379090309143, 
+                    "nova.suspend_server": 2.347015142440796, 
+                    "nova.resume_server": 2.340005874633789, 
+                    "nova.delete_server": 7.530411958694458
+                }
+            }, 
+            {
+                "timestamp": 1487995004.705018, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_p35aHp7t:bde6ab7d-2a04-43bc-9ddb-d6a8875a457e to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_p35aHp7t:bde6ab7d-2a04-43bc-9ddb-d6a8875a457e to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 390.8920729160309, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 89.19027209281921, 
+                    "nova.suspend_server": 2.478170871734619, 
+                    "nova.resume_server": 304.22353410720825
+                }
+            }, 
+            {
+                "timestamp": 1487995005.705277, 
+                "error": [], 
+                "duration": 113.69518613815308, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 111.44892406463623, 
+                    "nova.suspend_server": 2.368474006652832, 
+                    "nova.resume_server": 2.351816177368164, 
+                    "nova.delete_server": 2.525810956954956
+                }
+            }, 
+            {
+                "timestamp": 1487995006.705569, 
+                "error": [], 
+                "duration": 114.56612300872803, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 111.88095593452454, 
+                    "nova.suspend_server": 2.3740668296813965, 
+                    "nova.resume_server": 2.726714849472046, 
+                    "nova.delete_server": 2.584226131439209
+                }
+            }, 
+            {
+                "timestamp": 1487995007.712399, 
+                "error": [], 
+                "duration": 113.1137969493866, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 109.90307521820068, 
+                    "nova.suspend_server": 2.63651180267334, 
+                    "nova.resume_server": 2.9257431030273438, 
+                    "nova.delete_server": 2.6483049392700195
+                }
+            }, 
+            {
+                "timestamp": 1487995008.705586, 
+                "error": [], 
+                "duration": 99.15419507026672, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 82.58731889724731, 
+                    "nova.suspend_server": 2.419250011444092, 
+                    "nova.resume_server": 5.013431072235107, 
+                    "nova.delete_server": 14.134042024612427
+                }
+            }, 
+            {
+                "timestamp": 1487995009.705426, 
+                "error": [
+                    "TimeoutException", 
+                    "Rally tired waiting for Server s_rally_036d2a0d_8vQlR7qx:77e4a05c-99eb-4214-a4a0-cdd65b8a210a to become ('ACTIVE') current status SUSPENDED", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/servers.py\", line 548, in run\n    self._resume_server(server)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/nova/utils.py\", line 331, in _resume_server\n    check_interval=CONF.benchmark.nova_server_resume_poll_interval\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/utils.py\", line 251, in wait_for_status\n    resource_status=get_status(resource, status_attr))\nTimeoutException: Rally tired waiting for Server s_rally_036d2a0d_8vQlR7qx:77e4a05c-99eb-4214-a4a0-cdd65b8a210a to become ('ACTIVE') current status SUSPENDED\n"
+                ], 
+                "duration": 389.7177700996399, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 85.79986786842346, 
+                    "nova.suspend_server": 4.73737096786499, 
+                    "nova.resume_server": 304.1804139614105
+                }
+            }, 
+            {
+                "timestamp": 1487995010.705958, 
+                "error": [], 
+                "duration": 113.94638419151306, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 111.59267091751099, 
+                    "nova.suspend_server": 2.5793941020965576, 
+                    "nova.resume_server": 2.328339099884033, 
+                    "nova.delete_server": 2.445842981338501
+                }
+            }, 
+            {
+                "timestamp": 1487995011.706942, 
+                "error": [], 
+                "duration": 97.20793390274048, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 82.6766300201416, 
+                    "nova.suspend_server": 2.399837017059326, 
+                    "nova.resume_server": 5.112389087677002, 
+                    "nova.delete_server": 12.018935918807983
+                }
+            }, 
+            {
+                "timestamp": 1487995012.70541, 
+                "error": [], 
+                "duration": 115.12133598327637, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 112.11568713188171, 
+                    "nova.suspend_server": 2.7963600158691406, 
+                    "nova.resume_server": 2.8118929862976074, 
+                    "nova.delete_server": 2.397243022918701
+                }
+            }, 
+            {
+                "timestamp": 1487995013.710012, 
+                "error": [], 
+                "duration": 110.11131596565247, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.65259909629822, 
+                    "nova.suspend_server": 2.5666348934173584, 
+                    "nova.resume_server": 4.487014055252075, 
+                    "nova.delete_server": 2.4049320220947266
+                }
+            }, 
+            {
+                "timestamp": 1487995014.705257, 
+                "error": [], 
+                "duration": 108.44981694221497, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.54159116744995, 
+                    "nova.suspend_server": 2.597538948059082, 
+                    "nova.resume_server": 2.5818848609924316, 
+                    "nova.delete_server": 2.7286529541015625
+                }
+            }, 
+            {
+                "timestamp": 1487995015.710014, 
+                "error": [], 
+                "duration": 108.93662881851196, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.90170097351074, 
+                    "nova.suspend_server": 3.0421130657196045, 
+                    "nova.resume_server": 2.5667309761047363, 
+                    "nova.delete_server": 2.425945997238159
+                }
+            }, 
+            {
+                "timestamp": 1487995016.704902, 
+                "error": [], 
+                "duration": 99.9571590423584, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 94.84501194953918, 
+                    "nova.suspend_server": 4.620228052139282, 
+                    "nova.resume_server": 2.298478126525879, 
+                    "nova.delete_server": 3.1932880878448486
+                }
+            }, 
+            {
+                "timestamp": 1487995017.704644, 
+                "error": [], 
+                "duration": 110.36539196968079, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 104.89391613006592, 
+                    "nova.suspend_server": 4.8194780349731445, 
+                    "nova.resume_server": 3.0401220321655273, 
+                    "nova.delete_server": 2.6117260456085205
+                }
+            }, 
+            {
+                "timestamp": 1487995018.708315, 
+                "error": [], 
+                "duration": 107.94357419013977, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 105.03632593154907, 
+                    "nova.suspend_server": 2.5443179607391357, 
+                    "nova.resume_server": 2.7425851821899414, 
+                    "nova.delete_server": 2.6202099323272705
+                }
+            }, 
+            {
+                "timestamp": 1487995019.70562, 
+                "error": [], 
+                "duration": 103.96348190307617, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 5.0, 
+                "atomic_actions": {
+                    "nova.boot_server": 100.77350401878357, 
+                    "nova.suspend_server": 2.392904043197632, 
+                    "nova.resume_server": 2.956199884414673, 
+                    "nova.delete_server": 2.8407070636749268
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "type": "rps", 
+                    "rps": 1.0, 
+                    "max_cpu_count": 1, 
+                    "times": 300
+                }, 
+                "hooks": [], 
+                "args": {
+                    "force_delete": false, 
+                    "image": {
+                        "name": "ubuntu-1604-amd64.img"
+                    }, 
+                    "flavor": {
+                        "name": "m1.medium"
+                    }
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 90.0, 
+                    "max_avg_duration": 60.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }
+                }, 
+                "context": {
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }, 
+                    "quotas": {
+                        "cinder": {
+                            "gigabytes": -1, 
+                            "volumes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "fixed_ips": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "cores": -1, 
+                            "security_group_rules": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1, 
+                            "floating_ips": -1, 
+                            "key_pairs": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "security_groups": -1, 
+                            "metadata_items": -1, 
+                            "instances": -1, 
+                            "server_group_members": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "subnet": -1, 
+                            "security_group_rule": -1, 
+                            "network": -1, 
+                            "port": -1, 
+                            "router": -1, 
+                            "security_group": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "NovaServers.suspend_and_resume_server", 
+            "pos": 0
+        }, 
+        "full_duration": 521.8308789730072, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 421.99s <= 90.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 98.06s <= 60.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 13.51% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
