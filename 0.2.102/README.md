@@ -45,4 +45,5 @@
 - [list-flavors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-flavors.html)
 - [list-hosts](https://godleon.github.io/osp_test_results/0.2.102/nova/list-hosts.html)
 - [list-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-hypervisors.html)
+- [list-images](https://godleon.github.io/osp_test_results/0.2.102/nova/list-images.html)
 
