@@ -40,4 +40,5 @@
 - [list-aggregates](https://godleon.github.io/osp_test_results/0.2.102/nova/list-aggregates.html)
 - [list-and-get-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-and-get-hypervisors.html)
 - [list-and-get-uptime-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/list-and-get-uptime-hypervisors.html)
+- [list-and-search-hypervisor](https://godleon.github.io/osp_test_results/0.2.102/nova/list-and-search-hypervisor.html)
 
