@@ -52,4 +52,5 @@
 - [resize-server](https://godleon.github.io/osp_test_results/0.2.102/nova/resize-server.html)
 - [resize-shutoff-server](https://godleon.github.io/osp_test_results/0.2.102/nova/resize-shutoff-server.html)
 - [statistics-hypervisors](https://godleon.github.io/osp_test_results/0.2.102/nova/statistics-hypervisors.html)
+- [suspend-and-resume](https://godleon.github.io/osp_test_results/0.2.102/nova/suspend-and-resume.html)
 
