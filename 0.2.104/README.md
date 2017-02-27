@@ -25,4 +25,5 @@
 - [create-aggregate-add-and-remove-host](https://godleon.github.io/osp_test_results/0.2.104/nova/create-aggregate-add-and-remove-host.html)
 - [create-and-delete-aggregate](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-delete-aggregate.html)
 - [create-and-delete-flavor](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-delete-flavor.html)
+- [create-and-delete-keypair](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-delete-keypair.html)
 
