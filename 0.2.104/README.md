@@ -48,4 +48,5 @@
 - [list-images](https://godleon.github.io/osp_test_results/0.2.104/nova/list-images.html)
 - [list-servers](https://godleon.github.io/osp_test_results/0.2.104/nova/list-servers.html)
 - [list-services](https://godleon.github.io/osp_test_results/0.2.104/nova/list-services.html)
+- [pause-and-unpause](https://godleon.github.io/osp_test_results/0.2.104/nova/pause-and-unpause.html)
 
