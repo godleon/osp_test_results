@@ -43,4 +43,5 @@
 - [list-and-search-hypervisor](https://godleon.github.io/osp_test_results/0.2.104/nova/list-and-search-hypervisor.html)
 - [list-availability-zones](https://godleon.github.io/osp_test_results/0.2.104/nova/list-availability-zones.html)
 - [list-flavors](https://godleon.github.io/osp_test_results/0.2.104/nova/list-flavors.html)
+- [list-hosts](https://godleon.github.io/osp_test_results/0.2.104/nova/list-hosts.html)
 
