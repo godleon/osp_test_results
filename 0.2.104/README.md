@@ -33,4 +33,5 @@
 - [create-and-list-keypairs](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-list-keypairs.html)
 - [create-and-list-server-groups](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-list-server-groups.html)
 - [create-and-update-aggregate](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-update-aggregate.html)
+- [create-and-update-secgroups](https://godleon.github.io/osp_test_results/0.2.104/nova/create-and-update-secgroups.html)
 
