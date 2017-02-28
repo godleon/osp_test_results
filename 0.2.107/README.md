@@ -54,4 +54,5 @@
 - [create-and-list-ports](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-ports.html)
 - [create-and-list-routers](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-routers.html)
 - [create-and-list-security-groups](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-security-groups.html)
+- [create-and-list-subnets](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-subnets.html)
 
