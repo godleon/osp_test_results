@@ -63,3 +63,6 @@
 - [create-and-update-subnets](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-update-subnets.html)
 - [list-agents](https://godleon.github.io/osp_test_results/0.2.107/neutron/list-agents.html)
 
+## swift
+- [create-container-and-object-then-delete-all](https://godleon.github.io/osp_test_results/0.2.107/swift/create-container-and-object-then-delete-all.html)
+
