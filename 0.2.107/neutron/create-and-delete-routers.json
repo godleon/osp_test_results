@@ -1,0 +1,465 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-28-02T11:34:35", 
+        "load_duration": 65.58315992355347, 
+        "result": [
+            {
+                "timestamp": 1488281706.002315, 
+                "error": [], 
+                "duration": 39.11611795425415, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.1189351081848145, 
+                    "neutron.create_subnet": 3.372509002685547, 
+                    "neutron.create_subnet (2)": 3.3315720558166504, 
+                    "neutron.create_router": 6.823016166687012, 
+                    "neutron.add_interface_router": 5.945482015609741, 
+                    "neutron.create_router (2)": 4.745429992675781, 
+                    "neutron.add_interface_router (2)": 4.2319440841674805, 
+                    "neutron.remove_interface_router": 4.148903131484985, 
+                    "neutron.delete_router": 1.5188369750976562, 
+                    "neutron.remove_interface_router (2)": 0.8411359786987305, 
+                    "neutron.delete_router (2)": 1.037552833557129
+                }
+            }, 
+            {
+                "timestamp": 1488281706.011155, 
+                "error": [], 
+                "duration": 37.63433599472046, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.042249917984009, 
+                    "neutron.create_subnet": 3.3220019340515137, 
+                    "neutron.create_subnet (2)": 0.2897329330444336, 
+                    "neutron.create_router": 2.2497200965881348, 
+                    "neutron.add_interface_router": 1.1567919254302979, 
+                    "neutron.create_router (2)": 6.574923038482666, 
+                    "neutron.add_interface_router (2)": 4.505389928817749, 
+                    "neutron.remove_interface_router": 3.690056085586548, 
+                    "neutron.delete_router": 4.700079917907715, 
+                    "neutron.remove_interface_router (2)": 4.131082057952881, 
+                    "neutron.delete_router (2)": 3.9716060161590576
+                }
+            }, 
+            {
+                "timestamp": 1488281706.013608, 
+                "error": [], 
+                "duration": 31.916166067123413, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.039928913116455, 
+                    "neutron.create_subnet": 0.5161969661712646, 
+                    "neutron.create_subnet (2)": 0.2899949550628662, 
+                    "neutron.create_router": 1.4288761615753174, 
+                    "neutron.add_interface_router": 1.2936899662017822, 
+                    "neutron.create_router (2)": 5.150371074676514, 
+                    "neutron.add_interface_router (2)": 4.7253100872039795, 
+                    "neutron.remove_interface_router": 1.0659961700439453, 
+                    "neutron.delete_router": 5.76491117477417, 
+                    "neutron.remove_interface_router (2)": 4.578564882278442, 
+                    "neutron.delete_router (2)": 4.0616819858551025
+                }
+            }, 
+            {
+                "timestamp": 1488281706.017007, 
+                "error": [], 
+                "duration": 31.238395929336548, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 2.9528419971466064, 
+                    "neutron.create_subnet": 3.2078568935394287, 
+                    "neutron.create_subnet (2)": 0.2960329055786133, 
+                    "neutron.create_router": 4.3904030323028564, 
+                    "neutron.add_interface_router": 1.6799359321594238, 
+                    "neutron.create_router (2)": 2.180366039276123, 
+                    "neutron.add_interface_router (2)": 5.066590070724487, 
+                    "neutron.remove_interface_router": 1.0217809677124023, 
+                    "neutron.delete_router": 1.0998101234436035, 
+                    "neutron.remove_interface_router (2)": 5.1552581787109375, 
+                    "neutron.delete_router (2)": 4.186897039413452
+                }
+            }, 
+            {
+                "timestamp": 1488281706.018169, 
+                "error": [], 
+                "duration": 45.18657898902893, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.025334119796753, 
+                    "neutron.create_subnet": 3.6022770404815674, 
+                    "neutron.create_subnet (2)": 3.8748600482940674, 
+                    "neutron.create_router": 5.008925914764404, 
+                    "neutron.add_interface_router": 4.270183086395264, 
+                    "neutron.create_router (2)": 5.506354093551636, 
+                    "neutron.add_interface_router (2)": 4.656474828720093, 
+                    "neutron.remove_interface_router": 3.9404470920562744, 
+                    "neutron.delete_router": 4.104804039001465, 
+                    "neutron.remove_interface_router (2)": 3.562062978744507, 
+                    "neutron.delete_router (2)": 3.6340901851654053
+                }
+            }, 
+            {
+                "timestamp": 1488281706.022942, 
+                "error": [], 
+                "duration": 28.122856855392456, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0073788166046143, 
+                    "neutron.create_subnet": 0.30289793014526367, 
+                    "neutron.create_subnet (2)": 0.2826721668243408, 
+                    "neutron.create_router": 1.3533480167388916, 
+                    "neutron.add_interface_router": 4.0085859298706055, 
+                    "neutron.create_router (2)": 1.8733601570129395, 
+                    "neutron.add_interface_router (2)": 1.167330026626587, 
+                    "neutron.remove_interface_router": 4.583859920501709, 
+                    "neutron.delete_router": 2.1986501216888428, 
+                    "neutron.remove_interface_router (2)": 4.5510759353637695, 
+                    "neutron.delete_router (2)": 4.793006181716919
+                }
+            }, 
+            {
+                "timestamp": 1488281706.028961, 
+                "error": [], 
+                "duration": 41.05703115463257, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 2.940876007080078, 
+                    "neutron.create_subnet": 3.2938179969787598, 
+                    "neutron.create_subnet (2)": 0.4884359836578369, 
+                    "neutron.create_router": 5.255774974822998, 
+                    "neutron.add_interface_router": 7.038255929946899, 
+                    "neutron.create_router (2)": 5.2728660106658936, 
+                    "neutron.add_interface_router (2)": 4.051939964294434, 
+                    "neutron.remove_interface_router": 3.757699966430664, 
+                    "neutron.delete_router": 3.9718728065490723, 
+                    "neutron.remove_interface_router (2)": 3.951820135116577, 
+                    "neutron.delete_router (2)": 1.0328519344329834
+                }
+            }, 
+            {
+                "timestamp": 1488281706.030669, 
+                "error": [], 
+                "duration": 33.23784112930298, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.2837319374084473, 
+                    "neutron.create_subnet": 0.3323829174041748, 
+                    "neutron.create_subnet (2)": 3.192509174346924, 
+                    "neutron.create_router": 2.6347169876098633, 
+                    "neutron.add_interface_router": 5.282763957977295, 
+                    "neutron.create_router (2)": 2.3620870113372803, 
+                    "neutron.add_interface_router (2)": 4.727164030075073, 
+                    "neutron.remove_interface_router": 0.8953800201416016, 
+                    "neutron.delete_router": 5.049318075180054, 
+                    "neutron.remove_interface_router (2)": 1.0826690196990967, 
+                    "neutron.delete_router (2)": 4.394467115402222
+                }
+            }, 
+            {
+                "timestamp": 1488281706.037649, 
+                "error": [], 
+                "duration": 27.851131200790405, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.079496145248413, 
+                    "neutron.create_subnet": 3.22141695022583, 
+                    "neutron.create_subnet (2)": 0.4883890151977539, 
+                    "neutron.create_router": 4.351042985916138, 
+                    "neutron.add_interface_router": 1.101255178451538, 
+                    "neutron.create_router (2)": 5.75996994972229, 
+                    "neutron.add_interface_router (2)": 1.437385082244873, 
+                    "neutron.remove_interface_router": 1.1274549961090088, 
+                    "neutron.delete_router": 4.99800705909729, 
+                    "neutron.remove_interface_router (2)": 1.137261152267456, 
+                    "neutron.delete_router (2)": 1.1488070487976074
+                }
+            }, 
+            {
+                "timestamp": 1488281706.037958, 
+                "error": [], 
+                "duration": 37.920828104019165, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.106464147567749, 
+                    "neutron.create_subnet": 3.136462926864624, 
+                    "neutron.create_subnet (2)": 3.7217798233032227, 
+                    "neutron.create_router": 5.310967922210693, 
+                    "neutron.add_interface_router": 1.205984115600586, 
+                    "neutron.create_router (2)": 6.075001955032349, 
+                    "neutron.add_interface_router (2)": 1.7457499504089355, 
+                    "neutron.remove_interface_router": 4.2323150634765625, 
+                    "neutron.delete_router": 3.8419651985168457, 
+                    "neutron.remove_interface_router (2)": 4.427248001098633, 
+                    "neutron.delete_router (2)": 1.1160829067230225
+                }
+            }, 
+            {
+                "timestamp": 1488281706.039883, 
+                "error": [], 
+                "duration": 38.82819318771362, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.048070192337036, 
+                    "neutron.create_subnet": 3.586879014968872, 
+                    "neutron.create_subnet (2)": 0.35318708419799805, 
+                    "neutron.create_router": 4.590185880661011, 
+                    "neutron.add_interface_router": 5.4860999584198, 
+                    "neutron.create_router (2)": 2.4755091667175293, 
+                    "neutron.add_interface_router (2)": 1.2818071842193604, 
+                    "neutron.remove_interface_router": 5.017102003097534, 
+                    "neutron.delete_router": 4.788892030715942, 
+                    "neutron.remove_interface_router (2)": 4.1929030418396, 
+                    "neutron.delete_router (2)": 4.006759881973267
+                }
+            }, 
+            {
+                "timestamp": 1488281706.048227, 
+                "error": [], 
+                "duration": 41.74091100692749, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0624921321868896, 
+                    "neutron.create_subnet": 3.3092739582061768, 
+                    "neutron.create_subnet (2)": 3.3790111541748047, 
+                    "neutron.create_router": 2.39401912689209, 
+                    "neutron.add_interface_router": 5.0449230670928955, 
+                    "neutron.create_router (2)": 4.711043834686279, 
+                    "neutron.add_interface_router (2)": 4.250731945037842, 
+                    "neutron.remove_interface_router": 4.0041749477386475, 
+                    "neutron.delete_router": 3.9748809337615967, 
+                    "neutron.remove_interface_router (2)": 3.737396001815796, 
+                    "neutron.delete_router (2)": 3.8721630573272705
+                }
+            }, 
+            {
+                "timestamp": 1488281706.049956, 
+                "error": [], 
+                "duration": 30.228782892227173, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.1146788597106934, 
+                    "neutron.create_subnet": 0.37911105155944824, 
+                    "neutron.create_subnet (2)": 0.33734703063964844, 
+                    "neutron.create_router": 4.296226978302002, 
+                    "neutron.add_interface_router": 4.62568211555481, 
+                    "neutron.create_router (2)": 4.82350492477417, 
+                    "neutron.add_interface_router (2)": 1.3679420948028564, 
+                    "neutron.remove_interface_router": 4.010303974151611, 
+                    "neutron.delete_router": 1.2346489429473877, 
+                    "neutron.remove_interface_router (2)": 0.8404591083526611, 
+                    "neutron.delete_router (2)": 5.198244094848633
+                }
+            }, 
+            {
+                "timestamp": 1488281706.053064, 
+                "error": [], 
+                "duration": 42.7991418838501, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 2.9213850498199463, 
+                    "neutron.create_subnet": 3.357023000717163, 
+                    "neutron.create_subnet (2)": 3.1796140670776367, 
+                    "neutron.create_router": 1.7161250114440918, 
+                    "neutron.add_interface_router": 7.393496990203857, 
+                    "neutron.create_router (2)": 6.978820085525513, 
+                    "neutron.add_interface_router (2)": 4.517093896865845, 
+                    "neutron.remove_interface_router": 3.6957998275756836, 
+                    "neutron.delete_router": 1.3524420261383057, 
+                    "neutron.remove_interface_router (2)": 3.936034917831421, 
+                    "neutron.delete_router (2)": 3.750462055206299
+                }
+            }, 
+            {
+                "timestamp": 1488281706.059365, 
+                "error": [], 
+                "duration": 36.874999046325684, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 3.0413219928741455, 
+                    "neutron.create_subnet": 3.2392489910125732, 
+                    "neutron.create_subnet (2)": 0.5780379772186279, 
+                    "neutron.create_router": 1.6133019924163818, 
+                    "neutron.add_interface_router": 1.4779839515686035, 
+                    "neutron.create_router (2)": 5.309766054153442, 
+                    "neutron.add_interface_router (2)": 3.7206788063049316, 
+                    "neutron.remove_interface_router": 5.711405992507935, 
+                    "neutron.delete_router": 4.436098098754883, 
+                    "neutron.remove_interface_router (2)": 3.6556131839752197, 
+                    "neutron.delete_router (2)": 4.090724945068359
+                }
+            }, 
+            {
+                "timestamp": 1488281733.893082, 
+                "error": [], 
+                "duration": 37.6923930644989, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_network": 4.041968107223511, 
+                    "neutron.create_subnet": 3.4031951427459717, 
+                    "neutron.create_subnet (2)": 3.1894679069519043, 
+                    "neutron.create_router": 4.02915096282959, 
+                    "neutron.add_interface_router": 0.9938271045684814, 
+                    "neutron.create_router (2)": 4.074540853500366, 
+                    "neutron.add_interface_router (2)": 3.537919044494629, 
+                    "neutron.remove_interface_router": 3.417664051055908, 
+                    "neutron.delete_router": 3.8599531650543213, 
+                    "neutron.remove_interface_router (2)": 3.467689037322998, 
+                    "neutron.delete_router (2)": 3.6762919425964355
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 15, 
+                    "times": 2000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "subnet_cidr_start": "1.1.0.0/30", 
+                    "network_create_args": {}, 
+                    "subnets_per_network": 2, 
+                    "router_create_args": {}, 
+                    "subnet_create_args": {}
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 20.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "gigabytes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "instances": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "fixed_ips": -1, 
+                            "key_pairs": -1, 
+                            "floating_ips": -1, 
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "server_group_members": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "security_group_rules": -1, 
+                            "security_groups": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "router": -1, 
+                            "security_group_rule": -1, 
+                            "subnet": -1, 
+                            "security_group": -1, 
+                            "port": -1, 
+                            "network": -1
+                        }
+                    }, 
+                    "network": {}, 
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_delete_routers", 
+            "pos": 0
+        }, 
+        "full_duration": 175.36905598640442, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 45.19s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 36.34s <= 20.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
