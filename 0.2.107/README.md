@@ -56,4 +56,5 @@
 - [create-and-list-security-groups](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-security-groups.html)
 - [create-and-list-subnets](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-list-subnets.html)
 - [create-and-show-network](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-show-network.html)
+- [create-and-update-networks](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-update-networks.html)
 
