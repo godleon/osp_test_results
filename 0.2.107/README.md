@@ -22,4 +22,5 @@
 
 ## keystone
 - [add-and-remove-user-role](https://godleon.github.io/osp_test_results/0.2.107/keystone/add-and-remove-user-role.html)
+- [authenticate-user-and-validate-token](https://godleon.github.io/osp_test_results/0.2.107/keystone/authenticate-user-and-validate-token.html)
 
