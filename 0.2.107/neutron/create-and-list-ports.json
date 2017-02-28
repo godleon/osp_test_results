@@ -1,0 +1,746 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-28-02T12:04:25", 
+        "load_duration": 44.43970704078674, 
+        "result": [
+            {
+                "timestamp": 1488283473.494916, 
+                "error": [], 
+                "duration": 9.532480955123901, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 2.5471861362457275, 
+                    "neutron.create_port (2)": 0.7561299800872803, 
+                    "neutron.create_port (3)": 1.1513659954071045, 
+                    "neutron.create_port (4)": 0.701340913772583, 
+                    "neutron.create_port (5)": 0.6951069831848145, 
+                    "neutron.create_port (6)": 0.8760900497436523, 
+                    "neutron.create_port (7)": 0.4150710105895996, 
+                    "neutron.create_port (8)": 0.7200379371643066, 
+                    "neutron.create_port (9)": 0.6940910816192627, 
+                    "neutron.create_port (10)": 0.5358099937438965, 
+                    "neutron.list_ports": 0.4394490718841553
+                }
+            }, 
+            {
+                "timestamp": 1488283473.495021, 
+                "error": [], 
+                "duration": 6.732602834701538, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9328110218048096, 
+                    "neutron.create_port (2)": 0.4172799587249756, 
+                    "neutron.create_port (3)": 0.6909360885620117, 
+                    "neutron.create_port (4)": 0.42995500564575195, 
+                    "neutron.create_port (5)": 0.5653631687164307, 
+                    "neutron.create_port (6)": 1.084747076034546, 
+                    "neutron.create_port (7)": 0.4190101623535156, 
+                    "neutron.create_port (8)": 0.5548021793365479, 
+                    "neutron.create_port (9)": 0.4096548557281494, 
+                    "neutron.create_port (10)": 0.8922781944274902, 
+                    "neutron.list_ports": 0.33495306968688965
+                }
+            }, 
+            {
+                "timestamp": 1488283473.499414, 
+                "error": [], 
+                "duration": 8.339936017990112, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9974400997161865, 
+                    "neutron.create_port (2)": 0.6646180152893066, 
+                    "neutron.create_port (3)": 0.8801910877227783, 
+                    "neutron.create_port (4)": 0.7776830196380615, 
+                    "neutron.create_port (5)": 0.3983900547027588, 
+                    "neutron.create_port (6)": 1.0328519344329834, 
+                    "neutron.create_port (7)": 0.6903109550476074, 
+                    "neutron.create_port (8)": 0.7066450119018555, 
+                    "neutron.create_port (9)": 0.8112471103668213, 
+                    "neutron.create_port (10)": 0.8986120223999023, 
+                    "neutron.list_ports": 0.4811561107635498
+                }
+            }, 
+            {
+                "timestamp": 1488283473.500071, 
+                "error": [], 
+                "duration": 7.422308921813965, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.7970108985900879, 
+                    "neutron.create_port (2)": 0.5198719501495361, 
+                    "neutron.create_port (3)": 0.8815529346466064, 
+                    "neutron.create_port (4)": 0.7551028728485107, 
+                    "neutron.create_port (5)": 0.6733109951019287, 
+                    "neutron.create_port (6)": 1.080981969833374, 
+                    "neutron.create_port (7)": 0.6841461658477783, 
+                    "neutron.create_port (8)": 0.7711069583892822, 
+                    "neutron.create_port (9)": 0.39514589309692383, 
+                    "neutron.create_port (10)": 0.5086817741394043, 
+                    "neutron.list_ports": 0.35457801818847656
+                }
+            }, 
+            {
+                "timestamp": 1488283473.506526, 
+                "error": [], 
+                "duration": 8.614747047424316, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9768989086151123, 
+                    "neutron.create_port (2)": 0.41140103340148926, 
+                    "neutron.create_port (3)": 0.8315150737762451, 
+                    "neutron.create_port (4)": 0.7763071060180664, 
+                    "neutron.create_port (5)": 0.817296028137207, 
+                    "neutron.create_port (6)": 0.4027540683746338, 
+                    "neutron.create_port (7)": 1.422760009765625, 
+                    "neutron.create_port (8)": 0.8429498672485352, 
+                    "neutron.create_port (9)": 0.8227851390838623, 
+                    "neutron.create_port (10)": 0.8743071556091309, 
+                    "neutron.list_ports": 0.43500685691833496
+                }
+            }, 
+            {
+                "timestamp": 1488283480.232829, 
+                "error": [], 
+                "duration": 7.24872899055481, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8423819541931152, 
+                    "neutron.create_port (2)": 0.7031898498535156, 
+                    "neutron.create_port (3)": 0.5438511371612549, 
+                    "neutron.create_port (4)": 1.1620399951934814, 
+                    "neutron.create_port (5)": 0.4457581043243408, 
+                    "neutron.create_port (6)": 0.7947299480438232, 
+                    "neutron.create_port (7)": 0.42198801040649414, 
+                    "neutron.create_port (8)": 0.5571880340576172, 
+                    "neutron.create_port (9)": 0.41886186599731445, 
+                    "neutron.create_port (10)": 1.2263541221618652, 
+                    "neutron.list_ports": 0.13156700134277344
+                }
+            }, 
+            {
+                "timestamp": 1488283480.927353, 
+                "error": [], 
+                "duration": 8.798261165618896, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8393611907958984, 
+                    "neutron.create_port (2)": 0.682610034942627, 
+                    "neutron.create_port (3)": 0.5125210285186768, 
+                    "neutron.create_port (4)": 0.711918830871582, 
+                    "neutron.create_port (5)": 0.6981339454650879, 
+                    "neutron.create_port (6)": 1.718493938446045, 
+                    "neutron.create_port (7)": 0.9187960624694824, 
+                    "neutron.create_port (8)": 0.9154200553894043, 
+                    "neutron.create_port (9)": 0.47855186462402344, 
+                    "neutron.create_port (10)": 0.6876840591430664, 
+                    "neutron.list_ports": 0.6338980197906494
+                }
+            }, 
+            {
+                "timestamp": 1488283481.843911, 
+                "error": [], 
+                "duration": 8.387753963470459, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9122910499572754, 
+                    "neutron.create_port (2)": 0.5657479763031006, 
+                    "neutron.create_port (3)": 0.7762050628662109, 
+                    "neutron.create_port (4)": 0.3999800682067871, 
+                    "neutron.create_port (5)": 0.5209648609161377, 
+                    "neutron.create_port (6)": 1.103745937347412, 
+                    "neutron.create_port (7)": 0.8004200458526611, 
+                    "neutron.create_port (8)": 0.9480118751525879, 
+                    "neutron.create_port (9)": 1.146265983581543, 
+                    "neutron.create_port (10)": 0.8306770324707031, 
+                    "neutron.list_ports": 0.382551908493042
+                }
+            }, 
+            {
+                "timestamp": 1488283482.125971, 
+                "error": [], 
+                "duration": 9.052450895309448, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8341379165649414, 
+                    "neutron.create_port (2)": 0.6634359359741211, 
+                    "neutron.create_port (3)": 0.8223249912261963, 
+                    "neutron.create_port (4)": 0.4409911632537842, 
+                    "neutron.create_port (5)": 0.6962299346923828, 
+                    "neutron.create_port (6)": 1.3199880123138428, 
+                    "neutron.create_port (7)": 0.9707350730895996, 
+                    "neutron.create_port (8)": 1.116452932357788, 
+                    "neutron.create_port (9)": 0.9359591007232666, 
+                    "neutron.create_port (10)": 0.8325459957122803, 
+                    "neutron.list_ports": 0.41876912117004395
+                }
+            }, 
+            {
+                "timestamp": 1488283483.032197, 
+                "error": [], 
+                "duration": 9.008418083190918, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8405790328979492, 
+                    "neutron.create_port (2)": 0.689018964767456, 
+                    "neutron.create_port (3)": 0.833280086517334, 
+                    "neutron.create_port (4)": 0.7649960517883301, 
+                    "neutron.create_port (5)": 0.4337038993835449, 
+                    "neutron.create_port (6)": 0.8466949462890625, 
+                    "neutron.create_port (7)": 0.9587891101837158, 
+                    "neutron.create_port (8)": 1.1213099956512451, 
+                    "neutron.create_port (9)": 0.8561279773712158, 
+                    "neutron.create_port (10)": 1.1153430938720703, 
+                    "neutron.list_ports": 0.5476398468017578
+                }
+            }, 
+            {
+                "timestamp": 1488283487.48642, 
+                "error": [], 
+                "duration": 7.000169992446899, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9872949123382568, 
+                    "neutron.create_port (2)": 0.5756499767303467, 
+                    "neutron.create_port (3)": 0.46583104133605957, 
+                    "neutron.create_port (4)": 0.7170250415802002, 
+                    "neutron.create_port (5)": 0.8929979801177979, 
+                    "neutron.create_port (6)": 0.4460170269012451, 
+                    "neutron.create_port (7)": 0.5777339935302734, 
+                    "neutron.create_port (8)": 0.6805419921875, 
+                    "neutron.create_port (9)": 0.746082067489624, 
+                    "neutron.create_port (10)": 0.7575719356536865, 
+                    "neutron.list_ports": 0.15252399444580078
+                }
+            }, 
+            {
+                "timestamp": 1488283489.730176, 
+                "error": [], 
+                "duration": 9.19265604019165, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8844740390777588, 
+                    "neutron.create_port (2)": 0.9757559299468994, 
+                    "neutron.create_port (3)": 0.6795389652252197, 
+                    "neutron.create_port (4)": 0.8605668544769287, 
+                    "neutron.create_port (5)": 0.7310819625854492, 
+                    "neutron.create_port (6)": 0.7610690593719482, 
+                    "neutron.create_port (7)": 0.8399131298065186, 
+                    "neutron.create_port (8)": 1.5344281196594238, 
+                    "neutron.create_port (9)": 0.7458789348602295, 
+                    "neutron.create_port (10)": 0.737368106842041, 
+                    "neutron.list_ports": 0.44159722328186035
+                }
+            }, 
+            {
+                "timestamp": 1488283490.23632, 
+                "error": [], 
+                "duration": 8.209639072418213, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8868250846862793, 
+                    "neutron.create_port (2)": 0.9637670516967773, 
+                    "neutron.create_port (3)": 0.581089973449707, 
+                    "neutron.create_port (4)": 0.8045859336853027, 
+                    "neutron.create_port (5)": 0.84244704246521, 
+                    "neutron.create_port (6)": 0.8622620105743408, 
+                    "neutron.create_port (7)": 0.8556859493255615, 
+                    "neutron.create_port (8)": 0.7242560386657715, 
+                    "neutron.create_port (9)": 0.7145750522613525, 
+                    "neutron.create_port (10)": 0.695746898651123, 
+                    "neutron.list_ports": 0.2773869037628174
+                }
+            }, 
+            {
+                "timestamp": 1488283491.182862, 
+                "error": [], 
+                "duration": 7.802119016647339, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.9606218338012695, 
+                    "neutron.create_port (2)": 0.8777120113372803, 
+                    "neutron.create_port (3)": 0.8629281520843506, 
+                    "neutron.create_port (4)": 0.43384814262390137, 
+                    "neutron.create_port (5)": 0.8204197883605957, 
+                    "neutron.create_port (6)": 0.7731130123138428, 
+                    "neutron.create_port (7)": 0.6923151016235352, 
+                    "neutron.create_port (8)": 0.8858401775360107, 
+                    "neutron.create_port (9)": 0.4684720039367676, 
+                    "neutron.create_port (10)": 0.8514871597290039, 
+                    "neutron.list_ports": 0.1742560863494873
+                }
+            }, 
+            {
+                "timestamp": 1488283492.045141, 
+                "error": [], 
+                "duration": 8.70296311378479, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8945281505584717, 
+                    "neutron.create_port (2)": 0.715325117111206, 
+                    "neutron.create_port (3)": 1.2253990173339844, 
+                    "neutron.create_port (4)": 1.1293439865112305, 
+                    "neutron.create_port (5)": 0.5331840515136719, 
+                    "neutron.create_port (6)": 0.44161415100097656, 
+                    "neutron.create_port (7)": 0.6109371185302734, 
+                    "neutron.create_port (8)": 0.7280888557434082, 
+                    "neutron.create_port (9)": 1.1931500434875488, 
+                    "neutron.create_port (10)": 0.7425661087036133, 
+                    "neutron.list_ports": 0.4878358840942383
+                }
+            }, 
+            {
+                "timestamp": 1488283494.490798, 
+                "error": [], 
+                "duration": 8.171428918838501, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.181701898574829, 
+                    "neutron.create_port (2)": 0.8545491695404053, 
+                    "neutron.create_port (3)": 0.7272920608520508, 
+                    "neutron.create_port (4)": 0.5612790584564209, 
+                    "neutron.create_port (5)": 0.7256078720092773, 
+                    "neutron.create_port (6)": 0.7031960487365723, 
+                    "neutron.create_port (7)": 0.8573050498962402, 
+                    "neutron.create_port (8)": 0.7998230457305908, 
+                    "neutron.create_port (9)": 0.44350695610046387, 
+                    "neutron.create_port (10)": 0.8633477687835693, 
+                    "neutron.list_ports": 0.45274996757507324
+                }
+            }, 
+            {
+                "timestamp": 1488283498.450542, 
+                "error": [], 
+                "duration": 8.86316204071045, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.1597628593444824, 
+                    "neutron.create_port (2)": 1.1723499298095703, 
+                    "neutron.create_port (3)": 0.5895719528198242, 
+                    "neutron.create_port (4)": 0.8056039810180664, 
+                    "neutron.create_port (5)": 0.8050370216369629, 
+                    "neutron.create_port (6)": 0.6639769077301025, 
+                    "neutron.create_port (7)": 0.7634389400482178, 
+                    "neutron.create_port (8)": 0.9073348045349121, 
+                    "neutron.create_port (9)": 0.8701930046081543, 
+                    "neutron.create_port (10)": 0.4653911590576172, 
+                    "neutron.list_ports": 0.6595160961151123
+                }
+            }, 
+            {
+                "timestamp": 1488283498.927526, 
+                "error": [], 
+                "duration": 9.652920007705688, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.2867491245269775, 
+                    "neutron.create_port (2)": 0.818518877029419, 
+                    "neutron.create_port (3)": 0.9464337825775146, 
+                    "neutron.create_port (4)": 0.45935702323913574, 
+                    "neutron.create_port (5)": 0.8477871417999268, 
+                    "neutron.create_port (6)": 1.0430591106414795, 
+                    "neutron.create_port (7)": 0.8595659732818604, 
+                    "neutron.create_port (8)": 0.7393670082092285, 
+                    "neutron.create_port (9)": 1.2031440734863281, 
+                    "neutron.create_port (10)": 0.8511099815368652, 
+                    "neutron.list_ports": 0.5967180728912354
+                }
+            }, 
+            {
+                "timestamp": 1488283498.989431, 
+                "error": [], 
+                "duration": 9.199899196624756, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8857228755950928, 
+                    "neutron.create_port (2)": 0.8434979915618896, 
+                    "neutron.create_port (3)": 0.6998670101165771, 
+                    "neutron.create_port (4)": 0.7306599617004395, 
+                    "neutron.create_port (5)": 0.5953130722045898, 
+                    "neutron.create_port (6)": 0.7970449924468994, 
+                    "neutron.create_port (7)": 0.8542640209197998, 
+                    "neutron.create_port (8)": 1.6265888214111328, 
+                    "neutron.create_port (9)": 0.8130290508270264, 
+                    "neutron.create_port (10)": 0.746021032333374, 
+                    "neutron.list_ports": 0.6068367958068848
+                }
+            }, 
+            {
+                "timestamp": 1488283500.752481, 
+                "error": [], 
+                "duration": 8.166306018829346, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.004040002822876, 
+                    "neutron.create_port (2)": 0.8640010356903076, 
+                    "neutron.create_port (3)": 0.6164669990539551, 
+                    "neutron.create_port (4)": 0.7610659599304199, 
+                    "neutron.create_port (5)": 0.7373380661010742, 
+                    "neutron.create_port (6)": 1.0509240627288818, 
+                    "neutron.create_port (7)": 0.4742929935455322, 
+                    "neutron.create_port (8)": 0.9472761154174805, 
+                    "neutron.create_port (9)": 0.496474027633667, 
+                    "neutron.create_port (10)": 0.6050891876220703, 
+                    "neutron.list_ports": 0.608191967010498
+                }
+            }, 
+            {
+                "timestamp": 1488283502.666465, 
+                "error": [], 
+                "duration": 8.875709056854248, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.2394099235534668, 
+                    "neutron.create_port (2)": 0.5953660011291504, 
+                    "neutron.create_port (3)": 0.842972993850708, 
+                    "neutron.create_port (4)": 0.4667341709136963, 
+                    "neutron.create_port (5)": 0.8596150875091553, 
+                    "neutron.create_port (6)": 0.46018099784851074, 
+                    "neutron.create_port (7)": 0.9484472274780273, 
+                    "neutron.create_port (8)": 0.8529839515686035, 
+                    "neutron.create_port (9)": 0.7697720527648926, 
+                    "neutron.create_port (10)": 1.4919731616973877, 
+                    "neutron.list_ports": 0.3470640182495117
+                }
+            }, 
+            {
+                "timestamp": 1488283507.317976, 
+                "error": [], 
+                "duration": 8.967634916305542, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.883793830871582, 
+                    "neutron.create_port (2)": 0.748405933380127, 
+                    "neutron.create_port (3)": 0.7141408920288086, 
+                    "neutron.create_port (4)": 1.031994104385376, 
+                    "neutron.create_port (5)": 1.0480608940124512, 
+                    "neutron.create_port (6)": 0.7762868404388428, 
+                    "neutron.create_port (7)": 0.7670269012451172, 
+                    "neutron.create_port (8)": 0.9092891216278076, 
+                    "neutron.create_port (9)": 0.9085378646850586, 
+                    "neutron.create_port (10)": 0.7567610740661621, 
+                    "neutron.list_ports": 0.4220280647277832
+                }
+            }, 
+            {
+                "timestamp": 1488283508.193706, 
+                "error": [], 
+                "duration": 8.927141904830933, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8863608837127686, 
+                    "neutron.create_port (2)": 0.7863619327545166, 
+                    "neutron.create_port (3)": 0.8756039142608643, 
+                    "neutron.create_port (4)": 0.7654819488525391, 
+                    "neutron.create_port (5)": 0.6314089298248291, 
+                    "neutron.create_port (6)": 1.0000088214874268, 
+                    "neutron.create_port (7)": 0.48428916931152344, 
+                    "neutron.create_port (8)": 0.6260678768157959, 
+                    "neutron.create_port (9)": 0.9328639507293701, 
+                    "neutron.create_port (10)": 1.2761991024017334, 
+                    "neutron.list_ports": 0.6612191200256348
+                }
+            }, 
+            {
+                "timestamp": 1488283508.584653, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-19e99265-8307-4028-8c29-3bf7fd9761ff']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-19e99265-8307-4028-8c29-3bf7fd9761ff']\n"
+                ], 
+                "duration": 8.697313070297241, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.8931529521942139, 
+                    "neutron.create_port (2)": 1.0629148483276367, 
+                    "neutron.create_port (3)": 0.7996029853820801, 
+                    "neutron.create_port (4)": 0.7913689613342285, 
+                    "neutron.create_port (5)": 0.7663159370422363, 
+                    "neutron.create_port (6)": 2.5268099308013916, 
+                    "neutron.create_port (7)": 0.7530460357666016, 
+                    "neutron.create_port (8)": 0.8170731067657471, 
+                    "neutron.create_port (9)": 0.2863600254058838
+                }
+            }, 
+            {
+                "timestamp": 1488283508.923116, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-6f2413b7-b44c-4eb8-99ee-d0679ce71723']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-6f2413b7-b44c-4eb8-99ee-d0679ce71723']\n"
+                ], 
+                "duration": 8.399694919586182, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.732645034790039, 
+                    "neutron.create_port (2)": 0.8931331634521484, 
+                    "neutron.create_port (3)": 0.5943491458892822, 
+                    "neutron.create_port (4)": 0.9270777702331543, 
+                    "neutron.create_port (5)": 0.7531161308288574, 
+                    "neutron.create_port (6)": 1.2644660472869873, 
+                    "neutron.create_port (7)": 0.7916970252990723, 
+                    "neutron.create_port (8)": 1.4425671100616455
+                }
+            }, 
+            {
+                "timestamp": 1488283511.548945, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-39a6a2c5-642a-4f69-86f6-8986a03a9cd5']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-39a6a2c5-642a-4f69-86f6-8986a03a9cd5']\n"
+                ], 
+                "duration": 5.670422077178955, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.877234935760498, 
+                    "neutron.create_port (2)": 0.7335009574890137, 
+                    "neutron.create_port (3)": 0.7527670860290527, 
+                    "neutron.create_port (4)": 0.7472560405731201, 
+                    "neutron.create_port (5)": 1.506018877029419, 
+                    "neutron.create_port (6)": 1.053260087966919
+                }
+            }, 
+            {
+                "timestamp": 1488283516.291697, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-0fda17df-9bdd-4e32-b606-ae9406a93e7c']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-0fda17df-9bdd-4e32-b606-ae9406a93e7c']\n"
+                ], 
+                "duration": 1.0027449131011963, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 1.0026428699493408
+                }
+            }, 
+            {
+                "timestamp": 1488283517.127108, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-5c7fbfe8-c6a7-4413-97d6-d5a31ff4c5c2']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-5c7fbfe8-c6a7-4413-97d6-d5a31ff4c5c2']\n"
+                ], 
+                "duration": 0.7357180118560791, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.735623836517334
+                }
+            }, 
+            {
+                "timestamp": 1488283517.226133, 
+                "error": [
+                    "IpAddressGenerationFailureClient", 
+                    "No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-2e9c6197-d295-4172-86a7-b25582ae2139']", 
+                    "Traceback (most recent call last):\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/runner.py\", line 72, in _run_scenario_once\n    getattr(scenario_inst, method_name)(**scenario_kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/network.py\", line 292, in run\n    self._create_port(network, port_create_args or {})\n  File \"/usr/local/lib/python2.7/dist-packages/rally/task/atomic.py\", line 84, in func_atomic_actions\n    f = func(self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/rally/plugins/openstack/scenarios/neutron/utils.py\", line 249, in _create_port\n    return self.clients(\"neutron\").create_port({\"port\": port_create_args})\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 750, in create_port\n    return self.post(self.ports_path, body=body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 365, in post\n    headers=headers, params=params)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 300, in do_request\n    self._handle_fault_response(status_code, replybody, resp)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 275, in _handle_fault_response\n    exception_handler_v20(status_code, error_body)\n  File \"/usr/local/lib/python2.7/dist-packages/neutronclient/v2_0/client.py\", line 91, in exception_handler_v20\n    request_ids=request_ids)\nIpAddressGenerationFailureClient: No more IP addresses available on network 9bbb48b0-b8c5-4570-a3a3-12eee50f8deb.\nNeutron server returns request_ids: ['req-2e9c6197-d295-4172-86a7-b25582ae2139']\n"
+                ], 
+                "duration": 0.7084898948669434, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 0.7084219455718994
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 5, 
+                    "times": 1000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "network_create_args": {}, 
+                    "port_create_args": {}, 
+                    "ports_per_network": 10
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 20.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "gigabytes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "instances": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "fixed_ips": -1, 
+                            "key_pairs": -1, 
+                            "floating_ips": -1, 
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "server_group_members": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "security_group_rules": -1, 
+                            "security_groups": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "router": -1, 
+                            "security_group_rule": -1, 
+                            "subnet": -1, 
+                            "security_group": -1, 
+                            "port": -1, 
+                            "network": -1
+                        }
+                    }, 
+                    "network": {}, 
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_list_ports", 
+            "pos": 0
+        }, 
+        "full_duration": 87.45875310897827, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 9.65s <= 30.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 20.69% <= 0.00% - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 8.47s <= 20.00s - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
