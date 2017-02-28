@@ -1,0 +1,479 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-28-02T11:26:35", 
+        "load_duration": 118.28062009811401, 
+        "result": [
+            {
+                "timestamp": 1488281233.960321, 
+                "error": [], 
+                "duration": 63.46862816810608, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 5.334835052490234, 
+                    "neutron.delete_port": 4.413602113723755, 
+                    "neutron.create_port (2)": 4.732614040374756, 
+                    "neutron.delete_port (2)": 4.661508798599243, 
+                    "neutron.create_port (3)": 0.5424690246582031, 
+                    "neutron.delete_port (3)": 4.407034158706665, 
+                    "neutron.create_port (4)": 0.9671640396118164, 
+                    "neutron.delete_port (4)": 0.3220081329345703, 
+                    "neutron.create_port (5)": 4.745834112167358, 
+                    "neutron.delete_port (5)": 0.36263298988342285, 
+                    "neutron.create_port (6)": 0.7041499614715576, 
+                    "neutron.delete_port (6)": 4.360887050628662, 
+                    "neutron.create_port (7)": 4.544841051101685, 
+                    "neutron.delete_port (7)": 0.3387620449066162, 
+                    "neutron.create_port (8)": 4.441359043121338, 
+                    "neutron.delete_port (8)": 4.35929799079895, 
+                    "neutron.create_port (9)": 4.838867902755737, 
+                    "neutron.delete_port (9)": 4.156926870346069, 
+                    "neutron.create_port (10)": 0.8124129772186279, 
+                    "neutron.delete_port (10)": 4.420025110244751
+                }
+            }, 
+            {
+                "timestamp": 1488281233.960882, 
+                "error": [], 
+                "duration": 75.41463208198547, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 6.007928848266602, 
+                    "neutron.delete_port": 4.54482102394104, 
+                    "neutron.create_port (2)": 4.609753131866455, 
+                    "neutron.delete_port (2)": 0.3137950897216797, 
+                    "neutron.create_port (3)": 4.555914878845215, 
+                    "neutron.delete_port (3)": 4.683712959289551, 
+                    "neutron.create_port (4)": 0.4190249443054199, 
+                    "neutron.delete_port (4)": 4.07905912399292, 
+                    "neutron.create_port (5)": 4.686845064163208, 
+                    "neutron.delete_port (5)": 4.348281145095825, 
+                    "neutron.create_port (6)": 5.013242959976196, 
+                    "neutron.delete_port (6)": 4.42599892616272, 
+                    "neutron.create_port (7)": 4.870249032974243, 
+                    "neutron.delete_port (7)": 4.5111658573150635, 
+                    "neutron.create_port (8)": 0.5377769470214844, 
+                    "neutron.delete_port (8)": 4.232279062271118, 
+                    "neutron.create_port (9)": 4.558149814605713, 
+                    "neutron.delete_port (9)": 4.4003520011901855, 
+                    "neutron.create_port (10)": 0.3920729160308838, 
+                    "neutron.delete_port (10)": 4.222738027572632
+                }
+            }, 
+            {
+                "timestamp": 1488281233.963287, 
+                "error": [], 
+                "duration": 58.85478091239929, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 5.457264184951782, 
+                    "neutron.delete_port": 4.640986919403076, 
+                    "neutron.create_port (2)": 0.4275951385498047, 
+                    "neutron.delete_port (2)": 4.5913920402526855, 
+                    "neutron.create_port (3)": 0.5363869667053223, 
+                    "neutron.delete_port (3)": 4.3958070278167725, 
+                    "neutron.create_port (4)": 4.583214998245239, 
+                    "neutron.delete_port (4)": 4.51525092124939, 
+                    "neutron.create_port (5)": 0.39090490341186523, 
+                    "neutron.delete_port (5)": 4.577703952789307, 
+                    "neutron.create_port (6)": 0.5736231803894043, 
+                    "neutron.delete_port (6)": 4.307487964630127, 
+                    "neutron.create_port (7)": 0.5908381938934326, 
+                    "neutron.delete_port (7)": 4.2826151847839355, 
+                    "neutron.create_port (8)": 4.495388984680176, 
+                    "neutron.delete_port (8)": 0.4292721748352051, 
+                    "neutron.create_port (9)": 0.4189951419830322, 
+                    "neutron.delete_port (9)": 4.768115997314453, 
+                    "neutron.create_port (10)": 0.4861600399017334, 
+                    "neutron.delete_port (10)": 4.3843629360198975
+                }
+            }, 
+            {
+                "timestamp": 1488281233.970746, 
+                "error": [], 
+                "duration": 45.40790891647339, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.904598951339722, 
+                    "neutron.delete_port": 0.7172679901123047, 
+                    "neutron.create_port (2)": 0.587414026260376, 
+                    "neutron.delete_port (2)": 4.30597186088562, 
+                    "neutron.create_port (3)": 4.502266883850098, 
+                    "neutron.delete_port (3)": 0.315032958984375, 
+                    "neutron.create_port (4)": 0.5502979755401611, 
+                    "neutron.delete_port (4)": 0.41625380516052246, 
+                    "neutron.create_port (5)": 4.617904901504517, 
+                    "neutron.delete_port (5)": 0.3151090145111084, 
+                    "neutron.create_port (6)": 4.547670125961304, 
+                    "neutron.delete_port (6)": 4.371582984924316, 
+                    "neutron.create_port (7)": 0.5488770008087158, 
+                    "neutron.delete_port (7)": 0.33745384216308594, 
+                    "neutron.create_port (8)": 4.447972059249878, 
+                    "neutron.delete_port (8)": 0.32266902923583984, 
+                    "neutron.create_port (9)": 4.432307958602905, 
+                    "neutron.delete_port (9)": 0.2964949607849121, 
+                    "neutron.create_port (10)": 4.546722888946533, 
+                    "neutron.delete_port (10)": 0.3226609230041504
+                }
+            }, 
+            {
+                "timestamp": 1488281233.970754, 
+                "error": [], 
+                "duration": 54.2922260761261, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 5.058573007583618, 
+                    "neutron.delete_port": 4.62286901473999, 
+                    "neutron.create_port (2)": 4.399221897125244, 
+                    "neutron.delete_port (2)": 4.4810779094696045, 
+                    "neutron.create_port (3)": 0.9059147834777832, 
+                    "neutron.delete_port (3)": 0.32280588150024414, 
+                    "neutron.create_port (4)": 4.499058961868286, 
+                    "neutron.delete_port (4)": 4.5712809562683105, 
+                    "neutron.create_port (5)": 0.5802109241485596, 
+                    "neutron.delete_port (5)": 4.397207021713257, 
+                    "neutron.create_port (6)": 4.41265606880188, 
+                    "neutron.delete_port (6)": 4.474755048751831, 
+                    "neutron.create_port (7)": 0.4001948833465576, 
+                    "neutron.delete_port (7)": 4.526382923126221, 
+                    "neutron.create_port (8)": 0.5462710857391357, 
+                    "neutron.delete_port (8)": 0.300076961517334, 
+                    "neutron.create_port (9)": 0.6429750919342041, 
+                    "neutron.delete_port (9)": 0.3120698928833008, 
+                    "neutron.create_port (10)": 4.5256571769714355, 
+                    "neutron.delete_port (10)": 0.31153297424316406
+                }
+            }, 
+            {
+                "timestamp": 1488281233.971866, 
+                "error": [], 
+                "duration": 54.64112305641174, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.868848085403442, 
+                    "neutron.delete_port": 0.34276795387268066, 
+                    "neutron.create_port (2)": 4.63200306892395, 
+                    "neutron.delete_port (2)": 4.710469007492065, 
+                    "neutron.create_port (3)": 4.792582988739014, 
+                    "neutron.delete_port (3)": 4.564313173294067, 
+                    "neutron.create_port (4)": 0.6974530220031738, 
+                    "neutron.delete_port (4)": 4.310742139816284, 
+                    "neutron.create_port (5)": 0.6153299808502197, 
+                    "neutron.delete_port (5)": 0.3957700729370117, 
+                    "neutron.create_port (6)": 0.4148268699645996, 
+                    "neutron.delete_port (6)": 0.43428683280944824, 
+                    "neutron.create_port (7)": 0.40006113052368164, 
+                    "neutron.delete_port (7)": 4.208445072174072, 
+                    "neutron.create_port (8)": 4.45645809173584, 
+                    "neutron.delete_port (8)": 4.426553010940552, 
+                    "neutron.create_port (9)": 4.872740983963013, 
+                    "neutron.delete_port (9)": 0.6464622020721436, 
+                    "neutron.create_port (10)": 4.546895980834961, 
+                    "neutron.delete_port (10)": 0.3027188777923584
+                }
+            }, 
+            {
+                "timestamp": 1488281233.972234, 
+                "error": [], 
+                "duration": 71.9192750453949, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.892998933792114, 
+                    "neutron.delete_port": 4.623178005218506, 
+                    "neutron.create_port (2)": 4.87429404258728, 
+                    "neutron.delete_port (2)": 4.931578159332275, 
+                    "neutron.create_port (3)": 4.953608989715576, 
+                    "neutron.delete_port (3)": 4.490286111831665, 
+                    "neutron.create_port (4)": 0.642423152923584, 
+                    "neutron.delete_port (4)": 4.524288892745972, 
+                    "neutron.create_port (5)": 4.643853187561035, 
+                    "neutron.delete_port (5)": 0.30597400665283203, 
+                    "neutron.create_port (6)": 4.609601974487305, 
+                    "neutron.delete_port (6)": 0.3246018886566162, 
+                    "neutron.create_port (7)": 4.709391117095947, 
+                    "neutron.delete_port (7)": 0.29656314849853516, 
+                    "neutron.create_port (8)": 4.847704887390137, 
+                    "neutron.delete_port (8)": 4.278380870819092, 
+                    "neutron.create_port (9)": 0.5335052013397217, 
+                    "neutron.delete_port (9)": 4.438063144683838, 
+                    "neutron.create_port (10)": 4.542471170425415, 
+                    "neutron.delete_port (10)": 4.455079078674316
+                }
+            }, 
+            {
+                "timestamp": 1488281233.974853, 
+                "error": [], 
+                "duration": 74.54620289802551, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.9298341274261475, 
+                    "neutron.delete_port": 0.3424220085144043, 
+                    "neutron.create_port (2)": 4.689666032791138, 
+                    "neutron.delete_port (2)": 4.426424026489258, 
+                    "neutron.create_port (3)": 4.362694025039673, 
+                    "neutron.delete_port (3)": 0.4355759620666504, 
+                    "neutron.create_port (4)": 4.439610004425049, 
+                    "neutron.delete_port (4)": 4.708287000656128, 
+                    "neutron.create_port (5)": 4.60594916343689, 
+                    "neutron.delete_port (5)": 4.522143840789795, 
+                    "neutron.create_port (6)": 4.53305196762085, 
+                    "neutron.delete_port (6)": 0.37001705169677734, 
+                    "neutron.create_port (7)": 4.577976942062378, 
+                    "neutron.delete_port (7)": 4.768100023269653, 
+                    "neutron.create_port (8)": 4.684898853302002, 
+                    "neutron.delete_port (8)": 0.34174084663391113, 
+                    "neutron.create_port (9)": 4.509040117263794, 
+                    "neutron.delete_port (9)": 4.600649118423462, 
+                    "neutron.create_port (10)": 4.547116994857788, 
+                    "neutron.delete_port (10)": 4.149522066116333
+                }
+            }, 
+            {
+                "timestamp": 1488281233.980274, 
+                "error": [], 
+                "duration": 70.26057195663452, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.862541913986206, 
+                    "neutron.delete_port": 4.517399072647095, 
+                    "neutron.create_port (2)": 4.354156017303467, 
+                    "neutron.delete_port (2)": 0.32831692695617676, 
+                    "neutron.create_port (3)": 4.642100095748901, 
+                    "neutron.delete_port (3)": 4.464715003967285, 
+                    "neutron.create_port (4)": 0.8888990879058838, 
+                    "neutron.delete_port (4)": 4.373450040817261, 
+                    "neutron.create_port (5)": 4.577974081039429, 
+                    "neutron.delete_port (5)": 4.365416049957275, 
+                    "neutron.create_port (6)": 0.838325023651123, 
+                    "neutron.delete_port (6)": 4.358597993850708, 
+                    "neutron.create_port (7)": 4.5028321743011475, 
+                    "neutron.delete_port (7)": 4.664482116699219, 
+                    "neutron.create_port (8)": 4.611958980560303, 
+                    "neutron.delete_port (8)": 0.3017721176147461, 
+                    "neutron.create_port (9)": 4.438132047653198, 
+                    "neutron.delete_port (9)": 4.264490127563477, 
+                    "neutron.create_port (10)": 0.519118070602417, 
+                    "neutron.delete_port (10)": 4.384454011917114
+                }
+            }, 
+            {
+                "timestamp": 1488281233.981438, 
+                "error": [], 
+                "duration": 58.223803997039795, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.633202075958252, 
+                    "neutron.delete_port": 0.4757859706878662, 
+                    "neutron.create_port (2)": 4.511115074157715, 
+                    "neutron.delete_port (2)": 4.4813618659973145, 
+                    "neutron.create_port (3)": 4.5544350147247314, 
+                    "neutron.delete_port (3)": 4.640753984451294, 
+                    "neutron.create_port (4)": 4.688865900039673, 
+                    "neutron.delete_port (4)": 0.3287069797515869, 
+                    "neutron.create_port (5)": 4.4920079708099365, 
+                    "neutron.delete_port (5)": 0.4216301441192627, 
+                    "neutron.create_port (6)": 0.4093780517578125, 
+                    "neutron.delete_port (6)": 4.413928985595703, 
+                    "neutron.create_port (7)": 4.823276996612549, 
+                    "neutron.delete_port (7)": 0.42231202125549316, 
+                    "neutron.create_port (8)": 0.44956398010253906, 
+                    "neutron.delete_port (8)": 4.327313184738159, 
+                    "neutron.create_port (9)": 0.9571669101715088, 
+                    "neutron.delete_port (9)": 4.098793983459473, 
+                    "neutron.create_port (10)": 0.5943949222564697, 
+                    "neutron.delete_port (10)": 4.498525857925415
+                }
+            }, 
+            {
+                "timestamp": 1488281233.982613, 
+                "error": [], 
+                "duration": 74.64284682273865, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 5.232446193695068, 
+                    "neutron.delete_port": 4.412693977355957, 
+                    "neutron.create_port (2)": 4.5854339599609375, 
+                    "neutron.delete_port (2)": 4.373544216156006, 
+                    "neutron.create_port (3)": 4.6243250370025635, 
+                    "neutron.delete_port (3)": 4.463409185409546, 
+                    "neutron.create_port (4)": 0.40183281898498535, 
+                    "neutron.delete_port (4)": 4.469172954559326, 
+                    "neutron.create_port (5)": 4.535566091537476, 
+                    "neutron.delete_port (5)": 0.34726405143737793, 
+                    "neutron.create_port (6)": 4.415184020996094, 
+                    "neutron.delete_port (6)": 0.2953779697418213, 
+                    "neutron.create_port (7)": 4.351639986038208, 
+                    "neutron.delete_port (7)": 5.266511917114258, 
+                    "neutron.create_port (8)": 4.553104877471924, 
+                    "neutron.delete_port (8)": 4.380300998687744, 
+                    "neutron.create_port (9)": 4.5999720096588135, 
+                    "neutron.delete_port (9)": 4.462438106536865, 
+                    "neutron.create_port (10)": 0.48965001106262207, 
+                    "neutron.delete_port (10)": 4.3816750049591064
+                }
+            }, 
+            {
+                "timestamp": 1488281279.38676, 
+                "error": [], 
+                "duration": 72.85418105125427, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "neutron.create_port": 4.7274839878082275, 
+                    "neutron.delete_port": 4.4262611865997314, 
+                    "neutron.create_port (2)": 4.5543060302734375, 
+                    "neutron.delete_port (2)": 0.4417569637298584, 
+                    "neutron.create_port (3)": 4.4583580493927, 
+                    "neutron.delete_port (3)": 0.29611706733703613, 
+                    "neutron.create_port (4)": 4.553283929824829, 
+                    "neutron.delete_port (4)": 4.29096794128418, 
+                    "neutron.create_port (5)": 0.5390841960906982, 
+                    "neutron.delete_port (5)": 4.146358966827393, 
+                    "neutron.create_port (6)": 4.7362449169158936, 
+                    "neutron.delete_port (6)": 4.61214280128479, 
+                    "neutron.create_port (7)": 4.370314121246338, 
+                    "neutron.delete_port (7)": 4.470879793167114, 
+                    "neutron.create_port (8)": 4.251022100448608, 
+                    "neutron.delete_port (8)": 4.202037811279297, 
+                    "neutron.create_port (9)": 4.357331991195679, 
+                    "neutron.delete_port (9)": 0.45213913917541504, 
+                    "neutron.create_port (10)": 4.527220964431763, 
+                    "neutron.delete_port (10)": 4.439599990844727
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 11, 
+                    "times": 2000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {
+                    "network_create_args": {}, 
+                    "port_create_args": {}, 
+                    "ports_per_network": 10
+                }, 
+                "sla": {
+                    "max_seconds_per_iteration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 20.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "gigabytes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "instances": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "fixed_ips": -1, 
+                            "key_pairs": -1, 
+                            "floating_ips": -1, 
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "server_group_members": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "security_group_rules": -1, 
+                            "security_groups": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "router": -1, 
+                            "security_group_rule": -1, 
+                            "subnet": -1, 
+                            "security_group": -1, 
+                            "port": -1, 
+                            "network": -1
+                        }
+                    }, 
+                    "network": {}, 
+                    "users": {
+                        "tenants": 1, 
+                        "users_per_tenant": 1
+                    }
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_delete_ports", 
+            "pos": 0
+        }, 
+        "full_duration": 273.5645110607147, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 75.41s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 64.54s <= 20.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
