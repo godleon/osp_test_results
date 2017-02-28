@@ -42,3 +42,6 @@
 - [create-user-update-password](https://godleon.github.io/osp_test_results/0.2.107/keystone/create-user-update-password.html)
 - [get-entities](https://godleon.github.io/osp_test_results/0.2.107/keystone/get-entities.html)
 
+## neutron
+- [create-and-delete-floating-ips](https://godleon.github.io/osp_test_results/0.2.107/neutron/create-and-delete-floating-ips.html)
+
