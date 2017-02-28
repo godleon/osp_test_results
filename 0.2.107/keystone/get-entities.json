@@ -1,0 +1,1326 @@
+[
+    {
+        "hooks": [], 
+        "created_at": "2017-28-02T11:02:44", 
+        "load_duration": 56.33866810798645, 
+        "result": [
+            {
+                "timestamp": 1488279808.082094, 
+                "error": [], 
+                "duration": 31.698601007461548, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.2934927940368652, 
+                    "keystone_v2.create_user": 4.776512861251831, 
+                    "keystone_v2.create_role": 4.725425958633423, 
+                    "keystone_v2.get_tenant": 3.3148999214172363, 
+                    "keystone_v2.get_user": 3.43742299079895, 
+                    "keystone_v2.get_role": 4.262684106826782, 
+                    "keystone_v2.list_services": 4.138123989105225, 
+                    "keystone_v2.get_services": 3.7491400241851807
+                }
+            }, 
+            {
+                "timestamp": 1488279808.461399, 
+                "error": [], 
+                "duration": 30.665141820907593, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.736268997192383, 
+                    "keystone_v2.create_user": 3.101602077484131, 
+                    "keystone_v2.create_role": 5.19448709487915, 
+                    "keystone_v2.get_tenant": 4.585940837860107, 
+                    "keystone_v2.get_user": 4.2433531284332275, 
+                    "keystone_v2.get_role": 3.6521058082580566, 
+                    "keystone_v2.list_services": 2.7643349170684814, 
+                    "keystone_v2.get_services": 3.38627290725708
+                }
+            }, 
+            {
+                "timestamp": 1488279808.599789, 
+                "error": [], 
+                "duration": 27.6272029876709, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.330632209777832, 
+                    "keystone_v2.create_user": 3.3019540309906006, 
+                    "keystone_v2.create_role": 2.8082070350646973, 
+                    "keystone_v2.get_tenant": 4.313003063201904, 
+                    "keystone_v2.get_user": 3.0079140663146973, 
+                    "keystone_v2.get_role": 3.4674429893493652, 
+                    "keystone_v2.list_services": 3.475539207458496, 
+                    "keystone_v2.get_services": 3.9216158390045166
+                }
+            }, 
+            {
+                "timestamp": 1488279808.729602, 
+                "error": [], 
+                "duration": 29.942598819732666, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.439366102218628, 
+                    "keystone_v2.create_user": 4.251233100891113, 
+                    "keystone_v2.create_role": 3.305299997329712, 
+                    "keystone_v2.get_tenant": 5.194062948226929, 
+                    "keystone_v2.get_user": 3.5993971824645996, 
+                    "keystone_v2.get_role": 3.647027015686035, 
+                    "keystone_v2.list_services": 3.2834198474884033, 
+                    "keystone_v2.get_services": 3.221956968307495
+                }
+            }, 
+            {
+                "timestamp": 1488279809.076237, 
+                "error": [], 
+                "duration": 29.845521926879883, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.2138278484344482, 
+                    "keystone_v2.create_user": 4.021589040756226, 
+                    "keystone_v2.create_role": 5.2427308559417725, 
+                    "keystone_v2.get_tenant": 2.9075889587402344, 
+                    "keystone_v2.get_user": 3.72141695022583, 
+                    "keystone_v2.get_role": 4.015383005142212, 
+                    "keystone_v2.list_services": 3.2690160274505615, 
+                    "keystone_v2.get_services": 3.45318603515625
+                }
+            }, 
+            {
+                "timestamp": 1488279809.102833, 
+                "error": [], 
+                "duration": 28.777670860290527, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.1688101291656494, 
+                    "keystone_v2.create_user": 3.84283709526062, 
+                    "keystone_v2.create_role": 3.892125129699707, 
+                    "keystone_v2.get_tenant": 2.772153854370117, 
+                    "keystone_v2.get_user": 3.4924590587615967, 
+                    "keystone_v2.get_role": 4.5011560916900635, 
+                    "keystone_v2.list_services": 3.7449228763580322, 
+                    "keystone_v2.get_services": 3.362387180328369
+                }
+            }, 
+            {
+                "timestamp": 1488279809.130813, 
+                "error": [], 
+                "duration": 27.71268320083618, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.518723964691162, 
+                    "keystone_v2.create_user": 3.5454649925231934, 
+                    "keystone_v2.create_role": 2.8619329929351807, 
+                    "keystone_v2.get_tenant": 3.0292370319366455, 
+                    "keystone_v2.get_user": 3.544029951095581, 
+                    "keystone_v2.get_role": 3.1860158443450928, 
+                    "keystone_v2.list_services": 4.071062803268433, 
+                    "keystone_v2.get_services": 2.955469846725464
+                }
+            }, 
+            {
+                "timestamp": 1488279809.14856, 
+                "error": [], 
+                "duration": 29.544973850250244, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.10900616645813, 
+                    "keystone_v2.create_user": 3.324119806289673, 
+                    "keystone_v2.create_role": 3.6863229274749756, 
+                    "keystone_v2.get_tenant": 3.027839183807373, 
+                    "keystone_v2.get_user": 3.5879828929901123, 
+                    "keystone_v2.get_role": 3.3593549728393555, 
+                    "keystone_v2.list_services": 5.260833978652954, 
+                    "keystone_v2.get_services": 3.1886699199676514
+                }
+            }, 
+            {
+                "timestamp": 1488279809.218403, 
+                "error": [], 
+                "duration": 29.81658697128296, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.318638801574707, 
+                    "keystone_v2.create_user": 3.6294119358062744, 
+                    "keystone_v2.create_role": 3.348227024078369, 
+                    "keystone_v2.get_tenant": 3.498805046081543, 
+                    "keystone_v2.get_user": 4.133563041687012, 
+                    "keystone_v2.get_role": 4.231903076171875, 
+                    "keystone_v2.list_services": 3.211299180984497, 
+                    "keystone_v2.get_services": 3.4439001083374023
+                }
+            }, 
+            {
+                "timestamp": 1488279809.223312, 
+                "error": [], 
+                "duration": 30.187347173690796, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.803303956985474, 
+                    "keystone_v2.create_user": 3.069350004196167, 
+                    "keystone_v2.create_role": 5.223052024841309, 
+                    "keystone_v2.get_tenant": 3.367703914642334, 
+                    "keystone_v2.get_user": 3.161669969558716, 
+                    "keystone_v2.get_role": 3.994626998901367, 
+                    "keystone_v2.list_services": 3.380934000015259, 
+                    "keystone_v2.get_services": 3.1859569549560547
+                }
+            }, 
+            {
+                "timestamp": 1488279809.236455, 
+                "error": [], 
+                "duration": 30.27022409439087, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.4591569900512695, 
+                    "keystone_v2.create_user": 4.354817867279053, 
+                    "keystone_v2.create_role": 3.9421279430389404, 
+                    "keystone_v2.get_tenant": 4.503677845001221, 
+                    "keystone_v2.get_user": 3.4224629402160645, 
+                    "keystone_v2.get_role": 4.7344160079956055, 
+                    "keystone_v2.list_services": 3.0273311138153076, 
+                    "keystone_v2.get_services": 2.825531005859375
+                }
+            }, 
+            {
+                "timestamp": 1488279809.256498, 
+                "error": [], 
+                "duration": 30.002640962600708, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.0111589431762695, 
+                    "keystone_v2.create_user": 3.63057804107666, 
+                    "keystone_v2.create_role": 3.0547640323638916, 
+                    "keystone_v2.get_tenant": 3.1234519481658936, 
+                    "keystone_v2.get_user": 4.168103933334351, 
+                    "keystone_v2.get_role": 3.9369430541992188, 
+                    "keystone_v2.list_services": 3.306313991546631, 
+                    "keystone_v2.get_services": 4.7705302238464355
+                }
+            }, 
+            {
+                "timestamp": 1488279809.289174, 
+                "error": [], 
+                "duration": 29.366670846939087, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.6997640132904053, 
+                    "keystone_v2.create_user": 4.023558139801025, 
+                    "keystone_v2.create_role": 3.327702045440674, 
+                    "keystone_v2.get_tenant": 4.8035900592803955, 
+                    "keystone_v2.get_user": 2.9103541374206543, 
+                    "keystone_v2.get_role": 4.1785900592803955, 
+                    "keystone_v2.list_services": 3.3250679969787598, 
+                    "keystone_v2.get_services": 3.097241163253784
+                }
+            }, 
+            {
+                "timestamp": 1488279809.362933, 
+                "error": [], 
+                "duration": 32.57268810272217, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 5.4070940017700195, 
+                    "keystone_v2.create_user": 4.961503028869629, 
+                    "keystone_v2.create_role": 3.992279052734375, 
+                    "keystone_v2.get_tenant": 3.1307058334350586, 
+                    "keystone_v2.get_user": 3.3341310024261475, 
+                    "keystone_v2.get_role": 4.72899603843689, 
+                    "keystone_v2.list_services": 4.136106014251709, 
+                    "keystone_v2.get_services": 2.8812811374664307
+                }
+            }, 
+            {
+                "timestamp": 1488279809.429532, 
+                "error": [], 
+                "duration": 30.15571904182434, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.926939010620117, 
+                    "keystone_v2.create_user": 3.492361068725586, 
+                    "keystone_v2.create_role": 3.4638559818267822, 
+                    "keystone_v2.get_tenant": 3.408376932144165, 
+                    "keystone_v2.get_user": 3.1555938720703125, 
+                    "keystone_v2.get_role": 4.521402835845947, 
+                    "keystone_v2.list_services": 4.204745054244995, 
+                    "keystone_v2.get_services": 3.9815969467163086
+                }
+            }, 
+            {
+                "timestamp": 1488279809.453619, 
+                "error": [], 
+                "duration": 29.93532395362854, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.076826810836792, 
+                    "keystone_v2.create_user": 3.4357759952545166, 
+                    "keystone_v2.create_role": 3.317378044128418, 
+                    "keystone_v2.get_tenant": 4.9999001026153564, 
+                    "keystone_v2.get_user": 4.083483934402466, 
+                    "keystone_v2.get_role": 4.098483085632324, 
+                    "keystone_v2.list_services": 3.930448055267334, 
+                    "keystone_v2.get_services": 2.9923319816589355
+                }
+            }, 
+            {
+                "timestamp": 1488279809.534198, 
+                "error": [], 
+                "duration": 29.03631591796875, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.038616895675659, 
+                    "keystone_v2.create_user": 3.921779155731201, 
+                    "keystone_v2.create_role": 2.930680990219116, 
+                    "keystone_v2.get_tenant": 3.038048028945923, 
+                    "keystone_v2.get_user": 3.231713056564331, 
+                    "keystone_v2.get_role": 3.1349709033966064, 
+                    "keystone_v2.list_services": 4.3331520557403564, 
+                    "keystone_v2.get_services": 4.406599044799805
+                }
+            }, 
+            {
+                "timestamp": 1488279809.564556, 
+                "error": [], 
+                "duration": 31.92277216911316, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.5381369590759277, 
+                    "keystone_v2.create_user": 3.9481658935546875, 
+                    "keystone_v2.create_role": 4.701533079147339, 
+                    "keystone_v2.get_tenant": 4.346564054489136, 
+                    "keystone_v2.get_user": 3.004944086074829, 
+                    "keystone_v2.get_role": 4.011782884597778, 
+                    "keystone_v2.list_services": 5.084794998168945, 
+                    "keystone_v2.get_services": 3.28603196144104
+                }
+            }, 
+            {
+                "timestamp": 1488279809.621368, 
+                "error": [], 
+                "duration": 32.17114615440369, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.145282030105591, 
+                    "keystone_v2.create_user": 4.8626649379730225, 
+                    "keystone_v2.create_role": 3.783414840698242, 
+                    "keystone_v2.get_tenant": 3.9489870071411133, 
+                    "keystone_v2.get_user": 4.139258146286011, 
+                    "keystone_v2.get_role": 4.861796855926514, 
+                    "keystone_v2.list_services": 3.7337169647216797, 
+                    "keystone_v2.get_services": 2.695441961288452
+                }
+            }, 
+            {
+                "timestamp": 1488279809.658278, 
+                "error": [], 
+                "duration": 28.652729988098145, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.9462151527404785, 
+                    "keystone_v2.create_user": 3.103353977203369, 
+                    "keystone_v2.create_role": 3.2245700359344482, 
+                    "keystone_v2.get_tenant": 4.493238925933838, 
+                    "keystone_v2.get_user": 2.8291521072387695, 
+                    "keystone_v2.get_role": 3.943166971206665, 
+                    "keystone_v2.list_services": 4.142311096191406, 
+                    "keystone_v2.get_services": 2.9698939323425293
+                }
+            }, 
+            {
+                "timestamp": 1488279809.660835, 
+                "error": [], 
+                "duration": 30.646619081497192, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 5.376984119415283, 
+                    "keystone_v2.create_user": 2.8892250061035156, 
+                    "keystone_v2.create_role": 2.9486441612243652, 
+                    "keystone_v2.get_tenant": 4.511850118637085, 
+                    "keystone_v2.get_user": 3.9367361068725586, 
+                    "keystone_v2.get_role": 2.869415044784546, 
+                    "keystone_v2.list_services": 4.200035095214844, 
+                    "keystone_v2.get_services": 3.9129559993743896
+                }
+            }, 
+            {
+                "timestamp": 1488279809.672471, 
+                "error": [], 
+                "duration": 28.720578908920288, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.708065986633301, 
+                    "keystone_v2.create_user": 3.00557804107666, 
+                    "keystone_v2.create_role": 3.6079230308532715, 
+                    "keystone_v2.get_tenant": 3.798506021499634, 
+                    "keystone_v2.get_user": 3.8978569507598877, 
+                    "keystone_v2.get_role": 3.209467887878418, 
+                    "keystone_v2.list_services": 3.611992835998535, 
+                    "keystone_v2.get_services": 2.880363941192627
+                }
+            }, 
+            {
+                "timestamp": 1488279809.755197, 
+                "error": [], 
+                "duration": 28.09652805328369, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.212817907333374, 
+                    "keystone_v2.create_user": 3.6908750534057617, 
+                    "keystone_v2.create_role": 2.8215761184692383, 
+                    "keystone_v2.get_tenant": 3.6715099811553955, 
+                    "keystone_v2.get_user": 3.871786117553711, 
+                    "keystone_v2.get_role": 2.9472389221191406, 
+                    "keystone_v2.list_services": 3.044559955596924, 
+                    "keystone_v2.get_services": 3.835568904876709
+                }
+            }, 
+            {
+                "timestamp": 1488279809.876878, 
+                "error": [], 
+                "duration": 30.020962953567505, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.5060999393463135, 
+                    "keystone_v2.create_user": 3.4601569175720215, 
+                    "keystone_v2.create_role": 4.462133884429932, 
+                    "keystone_v2.get_tenant": 3.5190489292144775, 
+                    "keystone_v2.get_user": 3.1168549060821533, 
+                    "keystone_v2.get_role": 4.089439868927002, 
+                    "keystone_v2.list_services": 4.497818946838379, 
+                    "keystone_v2.get_services": 3.3688549995422363
+                }
+            }, 
+            {
+                "timestamp": 1488279809.977163, 
+                "error": [], 
+                "duration": 30.610033988952637, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.6904430389404297, 
+                    "keystone_v2.create_user": 3.3697900772094727, 
+                    "keystone_v2.create_role": 4.179490089416504, 
+                    "keystone_v2.get_tenant": 4.571200847625732, 
+                    "keystone_v2.get_user": 3.634929895401001, 
+                    "keystone_v2.get_role": 3.496929883956909, 
+                    "keystone_v2.list_services": 4.1353819370269775, 
+                    "keystone_v2.get_services": 3.531046152114868
+                }
+            }, 
+            {
+                "timestamp": 1488279809.982297, 
+                "error": [], 
+                "duration": 30.705151081085205, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.598479986190796, 
+                    "keystone_v2.create_user": 4.239090919494629, 
+                    "keystone_v2.create_role": 3.9850151538848877, 
+                    "keystone_v2.get_tenant": 3.3933308124542236, 
+                    "keystone_v2.get_user": 3.0270979404449463, 
+                    "keystone_v2.get_role": 4.152529001235962, 
+                    "keystone_v2.list_services": 4.313456058502197, 
+                    "keystone_v2.get_services": 2.9953248500823975
+                }
+            }, 
+            {
+                "timestamp": 1488279809.999182, 
+                "error": [], 
+                "duration": 29.707211017608643, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.203138828277588, 
+                    "keystone_v2.create_user": 3.092421054840088, 
+                    "keystone_v2.create_role": 3.923464059829712, 
+                    "keystone_v2.get_tenant": 3.4243581295013428, 
+                    "keystone_v2.get_user": 4.094274997711182, 
+                    "keystone_v2.get_role": 4.060974836349487, 
+                    "keystone_v2.list_services": 3.8637499809265137, 
+                    "keystone_v2.get_services": 3.0440518856048584
+                }
+            }, 
+            {
+                "timestamp": 1488279810.001948, 
+                "error": [], 
+                "duration": 29.434979915618896, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.5694580078125, 
+                    "keystone_v2.create_user": 4.3140809535980225, 
+                    "keystone_v2.create_role": 3.5669639110565186, 
+                    "keystone_v2.get_tenant": 3.1223459243774414, 
+                    "keystone_v2.get_user": 2.967759847640991, 
+                    "keystone_v2.get_role": 5.139721870422363, 
+                    "keystone_v2.list_services": 2.778831958770752, 
+                    "keystone_v2.get_services": 2.9752280712127686
+                }
+            }, 
+            {
+                "timestamp": 1488279810.11995, 
+                "error": [], 
+                "duration": 28.7998309135437, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.902388095855713, 
+                    "keystone_v2.create_user": 4.047660827636719, 
+                    "keystone_v2.create_role": 3.456547975540161, 
+                    "keystone_v2.get_tenant": 3.6005959510803223, 
+                    "keystone_v2.get_user": 4.924692869186401, 
+                    "keystone_v2.get_role": 2.9742431640625, 
+                    "keystone_v2.list_services": 2.908869981765747, 
+                    "keystone_v2.get_services": 2.984042167663574
+                }
+            }, 
+            {
+                "timestamp": 1488279810.173461, 
+                "error": [], 
+                "duration": 27.761970043182373, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.2691988945007324, 
+                    "keystone_v2.create_user": 4.201648950576782, 
+                    "keystone_v2.create_role": 3.1315479278564453, 
+                    "keystone_v2.get_tenant": 2.8577911853790283, 
+                    "keystone_v2.get_user": 3.594275951385498, 
+                    "keystone_v2.get_role": 3.9841060638427734, 
+                    "keystone_v2.list_services": 2.7945730686187744, 
+                    "keystone_v2.get_services": 3.928068161010742
+                }
+            }, 
+            {
+                "timestamp": 1488279810.21487, 
+                "error": [], 
+                "duration": 30.15953493118286, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.8138959407806396, 
+                    "keystone_v2.create_user": 3.01806902885437, 
+                    "keystone_v2.create_role": 3.1655070781707764, 
+                    "keystone_v2.get_tenant": 4.15839409828186, 
+                    "keystone_v2.get_user": 3.934803009033203, 
+                    "keystone_v2.get_role": 2.9679501056671143, 
+                    "keystone_v2.list_services": 4.564038038253784, 
+                    "keystone_v2.get_services": 4.5360400676727295
+                }
+            }, 
+            {
+                "timestamp": 1488279810.240994, 
+                "error": [], 
+                "duration": 31.91124200820923, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 5.062024116516113, 
+                    "keystone_v2.create_user": 4.0935959815979, 
+                    "keystone_v2.create_role": 4.6724159717559814, 
+                    "keystone_v2.get_tenant": 4.439702033996582, 
+                    "keystone_v2.get_user": 3.1342248916625977, 
+                    "keystone_v2.get_role": 3.9117720127105713, 
+                    "keystone_v2.list_services": 3.832379102706909, 
+                    "keystone_v2.get_services": 2.7642900943756104
+                }
+            }, 
+            {
+                "timestamp": 1488279810.297366, 
+                "error": [], 
+                "duration": 27.290683031082153, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.064418077468872, 
+                    "keystone_v2.create_user": 2.804884910583496, 
+                    "keystone_v2.create_role": 3.4416849613189697, 
+                    "keystone_v2.get_tenant": 3.3837950229644775, 
+                    "keystone_v2.get_user": 3.1303629875183105, 
+                    "keystone_v2.get_role": 3.2584099769592285, 
+                    "keystone_v2.list_services": 3.721395969390869, 
+                    "keystone_v2.get_services": 3.4850919246673584
+                }
+            }, 
+            {
+                "timestamp": 1488279810.312452, 
+                "error": [], 
+                "duration": 30.894434928894043, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.3198540210723877, 
+                    "keystone_v2.create_user": 3.674854040145874, 
+                    "keystone_v2.create_role": 4.200275897979736, 
+                    "keystone_v2.get_tenant": 4.278462886810303, 
+                    "keystone_v2.get_user": 4.176850080490112, 
+                    "keystone_v2.get_role": 4.048707962036133, 
+                    "keystone_v2.list_services": 3.399104118347168, 
+                    "keystone_v2.get_services": 3.795546054840088
+                }
+            }, 
+            {
+                "timestamp": 1488279810.353233, 
+                "error": [], 
+                "duration": 27.85410499572754, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.765610933303833, 
+                    "keystone_v2.create_user": 3.099909782409668, 
+                    "keystone_v2.create_role": 3.3610270023345947, 
+                    "keystone_v2.get_tenant": 3.072824001312256, 
+                    "keystone_v2.get_user": 3.357539176940918, 
+                    "keystone_v2.get_role": 3.8985719680786133, 
+                    "keystone_v2.list_services": 3.0442512035369873, 
+                    "keystone_v2.get_services": 3.253735065460205
+                }
+            }, 
+            {
+                "timestamp": 1488279810.392764, 
+                "error": [], 
+                "duration": 30.24325180053711, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.3333301544189453, 
+                    "keystone_v2.create_user": 3.617598056793213, 
+                    "keystone_v2.create_role": 3.9386000633239746, 
+                    "keystone_v2.get_tenant": 3.96870493888855, 
+                    "keystone_v2.get_user": 4.646425008773804, 
+                    "keystone_v2.get_role": 3.2058417797088623, 
+                    "keystone_v2.list_services": 4.709867000579834, 
+                    "keystone_v2.get_services": 2.822070837020874
+                }
+            }, 
+            {
+                "timestamp": 1488279810.459924, 
+                "error": [], 
+                "duration": 30.027004957199097, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.4950079917907715, 
+                    "keystone_v2.create_user": 3.480830192565918, 
+                    "keystone_v2.create_role": 3.4871768951416016, 
+                    "keystone_v2.get_tenant": 4.72659707069397, 
+                    "keystone_v2.get_user": 3.138324022293091, 
+                    "keystone_v2.get_role": 4.708843946456909, 
+                    "keystone_v2.list_services": 3.1454219818115234, 
+                    "keystone_v2.get_services": 2.8440158367156982
+                }
+            }, 
+            {
+                "timestamp": 1488279810.482905, 
+                "error": [], 
+                "duration": 30.11727213859558, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.2104599475860596, 
+                    "keystone_v2.create_user": 3.8994369506835938, 
+                    "keystone_v2.create_role": 3.1573879718780518, 
+                    "keystone_v2.get_tenant": 4.288502216339111, 
+                    "keystone_v2.get_user": 3.134232997894287, 
+                    "keystone_v2.get_role": 4.822684049606323, 
+                    "keystone_v2.list_services": 3.5713460445404053, 
+                    "keystone_v2.get_services": 4.032550096511841
+                }
+            }, 
+            {
+                "timestamp": 1488279810.503336, 
+                "error": [], 
+                "duration": 28.955820083618164, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 5.223361015319824, 
+                    "keystone_v2.create_user": 3.162282943725586, 
+                    "keystone_v2.create_role": 2.8292789459228516, 
+                    "keystone_v2.get_tenant": 3.4300990104675293, 
+                    "keystone_v2.get_user": 3.1346848011016846, 
+                    "keystone_v2.get_role": 3.9931161403656006, 
+                    "keystone_v2.list_services": 3.0265939235687256, 
+                    "keystone_v2.get_services": 4.155635833740234
+                }
+            }, 
+            {
+                "timestamp": 1488279810.536073, 
+                "error": [], 
+                "duration": 28.761255025863647, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.414592981338501, 
+                    "keystone_v2.create_user": 2.9700369834899902, 
+                    "keystone_v2.create_role": 3.6532089710235596, 
+                    "keystone_v2.get_tenant": 2.952928066253662, 
+                    "keystone_v2.get_user": 4.4557719230651855, 
+                    "keystone_v2.get_role": 4.644308805465698, 
+                    "keystone_v2.list_services": 2.896385908126831, 
+                    "keystone_v2.get_services": 2.7732510566711426
+                }
+            }, 
+            {
+                "timestamp": 1488279810.597063, 
+                "error": [], 
+                "duration": 27.28312397003174, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.102565050125122, 
+                    "keystone_v2.create_user": 3.0677459239959717, 
+                    "keystone_v2.create_role": 2.939275026321411, 
+                    "keystone_v2.get_tenant": 3.168365955352783, 
+                    "keystone_v2.get_user": 3.1123769283294678, 
+                    "keystone_v2.get_role": 3.4509220123291016, 
+                    "keystone_v2.list_services": 2.939656972885132, 
+                    "keystone_v2.get_services": 4.50145697593689
+                }
+            }, 
+            {
+                "timestamp": 1488279810.667714, 
+                "error": [], 
+                "duration": 27.10078191757202, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.488394021987915, 
+                    "keystone_v2.create_user": 3.3501038551330566, 
+                    "keystone_v2.create_role": 2.9152090549468994, 
+                    "keystone_v2.get_tenant": 3.440523862838745, 
+                    "keystone_v2.get_user": 3.343661069869995, 
+                    "keystone_v2.get_role": 3.3557960987091064, 
+                    "keystone_v2.list_services": 3.463114023208618, 
+                    "keystone_v2.get_services": 3.743314027786255
+                }
+            }, 
+            {
+                "timestamp": 1488279810.846392, 
+                "error": [], 
+                "duration": 31.368367195129395, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.693130970001221, 
+                    "keystone_v2.create_user": 3.9754910469055176, 
+                    "keystone_v2.create_role": 3.1376819610595703, 
+                    "keystone_v2.get_tenant": 4.653861999511719, 
+                    "keystone_v2.get_user": 3.618957042694092, 
+                    "keystone_v2.get_role": 4.263381004333496, 
+                    "keystone_v2.list_services": 3.8992459774017334, 
+                    "keystone_v2.get_services": 3.1260881423950195
+                }
+            }, 
+            {
+                "timestamp": 1488279810.856718, 
+                "error": [], 
+                "duration": 31.596901893615723, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.657711982727051, 
+                    "keystone_v2.create_user": 4.005804061889648, 
+                    "keystone_v2.create_role": 4.836310863494873, 
+                    "keystone_v2.get_tenant": 2.866230010986328, 
+                    "keystone_v2.get_user": 4.808197975158691, 
+                    "keystone_v2.get_role": 4.137966156005859, 
+                    "keystone_v2.list_services": 3.1508548259735107, 
+                    "keystone_v2.get_services": 3.1330161094665527
+                }
+            }, 
+            {
+                "timestamp": 1488279810.874703, 
+                "error": [], 
+                "duration": 31.64849305152893, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.905752182006836, 
+                    "keystone_v2.create_user": 3.8657538890838623, 
+                    "keystone_v2.create_role": 4.722085952758789, 
+                    "keystone_v2.get_tenant": 4.0682690143585205, 
+                    "keystone_v2.get_user": 3.5686919689178467, 
+                    "keystone_v2.get_role": 4.427640199661255, 
+                    "keystone_v2.list_services": 3.046157121658325, 
+                    "keystone_v2.get_services": 3.043308973312378
+                }
+            }, 
+            {
+                "timestamp": 1488279810.885134, 
+                "error": [], 
+                "duration": 31.12389898300171, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.044543981552124, 
+                    "keystone_v2.create_user": 3.287220001220703, 
+                    "keystone_v2.create_role": 3.979120969772339, 
+                    "keystone_v2.get_tenant": 4.716118097305298, 
+                    "keystone_v2.get_user": 4.698264837265015, 
+                    "keystone_v2.get_role": 4.003314018249512, 
+                    "keystone_v2.list_services": 3.5831170082092285, 
+                    "keystone_v2.get_services": 2.811383008956909
+                }
+            }, 
+            {
+                "timestamp": 1488279810.926169, 
+                "error": [], 
+                "duration": 29.85749912261963, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.676539182662964, 
+                    "keystone_v2.create_user": 3.2360851764678955, 
+                    "keystone_v2.create_role": 3.636212110519409, 
+                    "keystone_v2.get_tenant": 3.8436779975891113, 
+                    "keystone_v2.get_user": 2.954663038253784, 
+                    "keystone_v2.get_role": 3.5283560752868652, 
+                    "keystone_v2.list_services": 5.012513875961304, 
+                    "keystone_v2.get_services": 2.9689159393310547
+                }
+            }, 
+            {
+                "timestamp": 1488279810.94116, 
+                "error": [], 
+                "duration": 32.05153012275696, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.512037038803101, 
+                    "keystone_v2.create_user": 4.892601013183594, 
+                    "keystone_v2.create_role": 3.2275118827819824, 
+                    "keystone_v2.get_tenant": 3.47638201713562, 
+                    "keystone_v2.get_user": 4.530281066894531, 
+                    "keystone_v2.get_role": 5.123252868652344, 
+                    "keystone_v2.list_services": 3.5033159255981445, 
+                    "keystone_v2.get_services": 2.785274028778076
+                }
+            }, 
+            {
+                "timestamp": 1488279811.257177, 
+                "error": [], 
+                "duration": 30.47274088859558, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.219928979873657, 
+                    "keystone_v2.create_user": 5.562528848648071, 
+                    "keystone_v2.create_role": 3.0116331577301025, 
+                    "keystone_v2.get_tenant": 4.408909797668457, 
+                    "keystone_v2.get_user": 3.1140270233154297, 
+                    "keystone_v2.get_role": 3.7137880325317383, 
+                    "keystone_v2.list_services": 3.2743759155273438, 
+                    "keystone_v2.get_services": 3.1667609214782715
+                }
+            }, 
+            {
+                "timestamp": 1488279811.284209, 
+                "error": [], 
+                "duration": 29.253504037857056, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.4592909812927246, 
+                    "keystone_v2.create_user": 3.9842560291290283, 
+                    "keystone_v2.create_role": 3.0736489295959473, 
+                    "keystone_v2.get_tenant": 4.125097990036011, 
+                    "keystone_v2.get_user": 2.8390040397644043, 
+                    "keystone_v2.get_role": 3.56593918800354, 
+                    "keystone_v2.list_services": 4.748203992843628, 
+                    "keystone_v2.get_services": 3.4572410583496094
+                }
+            }, 
+            {
+                "timestamp": 1488279811.311919, 
+                "error": [], 
+                "duration": 30.773700952529907, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.7075979709625244, 
+                    "keystone_v2.create_user": 3.766860008239746, 
+                    "keystone_v2.create_role": 4.520229816436768, 
+                    "keystone_v2.get_tenant": 3.9477648735046387, 
+                    "keystone_v2.get_user": 4.0358381271362305, 
+                    "keystone_v2.get_role": 5.232156991958618, 
+                    "keystone_v2.list_services": 2.888333797454834, 
+                    "keystone_v2.get_services": 2.674089193344116
+                }
+            }, 
+            {
+                "timestamp": 1488279811.422368, 
+                "error": [], 
+                "duration": 31.517178058624268, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.1235759258270264, 
+                    "keystone_v2.create_user": 4.552709102630615, 
+                    "keystone_v2.create_role": 4.952061891555786, 
+                    "keystone_v2.get_tenant": 3.3136370182037354, 
+                    "keystone_v2.get_user": 3.136875867843628, 
+                    "keystone_v2.get_role": 4.842659950256348, 
+                    "keystone_v2.list_services": 4.83722996711731, 
+                    "keystone_v2.get_services": 2.7578530311584473
+                }
+            }, 
+            {
+                "timestamp": 1488279811.577314, 
+                "error": [], 
+                "duration": 27.96825408935547, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.427340030670166, 
+                    "keystone_v2.create_user": 3.0950448513031006, 
+                    "keystone_v2.create_role": 3.9631729125976562, 
+                    "keystone_v2.get_tenant": 3.5825769901275635, 
+                    "keystone_v2.get_user": 2.9656178951263428, 
+                    "keystone_v2.get_role": 3.064152956008911, 
+                    "keystone_v2.list_services": 3.480164051055908, 
+                    "keystone_v2.get_services": 3.389580011367798
+                }
+            }, 
+            {
+                "timestamp": 1488279811.631348, 
+                "error": [], 
+                "duration": 27.34087610244751, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.782010078430176, 
+                    "keystone_v2.create_user": 3.345128059387207, 
+                    "keystone_v2.create_role": 2.9170849323272705, 
+                    "keystone_v2.get_tenant": 3.2884531021118164, 
+                    "keystone_v2.get_user": 3.73244309425354, 
+                    "keystone_v2.get_role": 3.129931926727295, 
+                    "keystone_v2.list_services": 3.39349102973938, 
+                    "keystone_v2.get_services": 3.751504898071289
+                }
+            }, 
+            {
+                "timestamp": 1488279811.684538, 
+                "error": [], 
+                "duration": 29.38660717010498, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.7765800952911377, 
+                    "keystone_v2.create_user": 3.3373589515686035, 
+                    "keystone_v2.create_role": 3.862178087234497, 
+                    "keystone_v2.get_tenant": 4.5769970417022705, 
+                    "keystone_v2.get_user": 3.3189351558685303, 
+                    "keystone_v2.get_role": 3.677300214767456, 
+                    "keystone_v2.list_services": 3.9966981410980225, 
+                    "keystone_v2.get_services": 2.8400142192840576
+                }
+            }, 
+            {
+                "timestamp": 1488279811.75629, 
+                "error": [], 
+                "duration": 30.71308994293213, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.368060111999512, 
+                    "keystone_v2.create_user": 3.2986412048339844, 
+                    "keystone_v2.create_role": 3.176098108291626, 
+                    "keystone_v2.get_tenant": 4.343979120254517, 
+                    "keystone_v2.get_user": 4.900084972381592, 
+                    "keystone_v2.get_role": 3.151273012161255, 
+                    "keystone_v2.list_services": 4.8279900550842285, 
+                    "keystone_v2.get_services": 2.6461849212646484
+                }
+            }, 
+            {
+                "timestamp": 1488279811.876712, 
+                "error": [], 
+                "duration": 29.77071499824524, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 4.188832998275757, 
+                    "keystone_v2.create_user": 3.8979010581970215, 
+                    "keystone_v2.create_role": 3.476078987121582, 
+                    "keystone_v2.get_tenant": 3.832848072052002, 
+                    "keystone_v2.get_user": 4.004633903503418, 
+                    "keystone_v2.get_role": 3.49153208732605, 
+                    "keystone_v2.list_services": 4.086233854293823, 
+                    "keystone_v2.get_services": 2.791836977005005
+                }
+            }, 
+            {
+                "timestamp": 1488279811.906547, 
+                "error": [], 
+                "duration": 28.47511601448059, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.6017980575561523, 
+                    "keystone_v2.create_user": 3.7071621417999268, 
+                    "keystone_v2.create_role": 2.851404905319214, 
+                    "keystone_v2.get_tenant": 5.2451159954071045, 
+                    "keystone_v2.get_user": 2.8950929641723633, 
+                    "keystone_v2.get_role": 3.736179828643799, 
+                    "keystone_v2.list_services": 3.6041059494018555, 
+                    "keystone_v2.get_services": 2.8334569931030273
+                }
+            }, 
+            {
+                "timestamp": 1488279811.998257, 
+                "error": [], 
+                "duration": 28.566606998443604, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.3415980339050293, 
+                    "keystone_v2.create_user": 3.240309953689575, 
+                    "keystone_v2.create_role": 3.927917003631592, 
+                    "keystone_v2.get_tenant": 2.8144900798797607, 
+                    "keystone_v2.get_user": 2.814445972442627, 
+                    "keystone_v2.get_role": 3.7500100135803223, 
+                    "keystone_v2.list_services": 5.137583017349243, 
+                    "keystone_v2.get_services": 3.5394840240478516
+                }
+            }, 
+            {
+                "timestamp": 1488279812.035019, 
+                "error": [], 
+                "duration": 29.001180171966553, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.1923160552978516, 
+                    "keystone_v2.create_user": 4.852751016616821, 
+                    "keystone_v2.create_role": 3.138692855834961, 
+                    "keystone_v2.get_tenant": 3.8772120475769043, 
+                    "keystone_v2.get_user": 3.0672988891601562, 
+                    "keystone_v2.get_role": 4.041440963745117, 
+                    "keystone_v2.list_services": 4.043025016784668, 
+                    "keystone_v2.get_services": 2.787654161453247
+                }
+            }, 
+            {
+                "timestamp": 1488279812.105083, 
+                "error": [], 
+                "duration": 27.835232973098755, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 3.520056962966919, 
+                    "keystone_v2.create_user": 4.156404972076416, 
+                    "keystone_v2.create_role": 4.126134872436523, 
+                    "keystone_v2.get_tenant": 2.9246599674224854, 
+                    "keystone_v2.get_user": 3.631314992904663, 
+                    "keystone_v2.get_role": 2.8722410202026367, 
+                    "keystone_v2.list_services": 3.867824077606201, 
+                    "keystone_v2.get_services": 2.7360169887542725
+                }
+            }, 
+            {
+                "timestamp": 1488279843.071745, 
+                "error": [], 
+                "duration": 21.34901714324951, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "idle_duration": 0.0, 
+                "atomic_actions": {
+                    "keystone_v2.create_tenant": 2.738748073577881, 
+                    "keystone_v2.create_user": 2.834127902984619, 
+                    "keystone_v2.create_role": 2.475066900253296, 
+                    "keystone_v2.get_tenant": 2.774729013442993, 
+                    "keystone_v2.get_user": 2.7093141078948975, 
+                    "keystone_v2.get_role": 2.6379590034484863, 
+                    "keystone_v2.list_services": 2.6398239135742188, 
+                    "keystone_v2.get_services": 2.5384521484375
+                }
+            }
+        ], 
+        "key": {
+            "kw": {
+                "runner": {
+                    "concurrency": 61, 
+                    "times": 2000, 
+                    "type": "constant"
+                }, 
+                "hooks": [], 
+                "args": {}, 
+                "sla": {
+                    "max_seconds_per_iteration": 30.0, 
+                    "failure_rate": {
+                        "max": 0
+                    }, 
+                    "max_avg_duration": 20.0
+                }, 
+                "context": {
+                    "quotas": {
+                        "cinder": {
+                            "volumes": -1, 
+                            "gigabytes": -1, 
+                            "snapshots": -1
+                        }, 
+                        "nova": {
+                            "instances": -1, 
+                            "injected_file_path_bytes": -1, 
+                            "fixed_ips": -1, 
+                            "key_pairs": -1, 
+                            "floating_ips": -1, 
+                            "cores": -1, 
+                            "metadata_items": -1, 
+                            "server_group_members": -1, 
+                            "ram": -1, 
+                            "injected_files": -1, 
+                            "security_group_rules": -1, 
+                            "security_groups": -1, 
+                            "injected_file_content_bytes": -1, 
+                            "server_groups": -1
+                        }, 
+                        "neutron": {
+                            "floatingip": -1, 
+                            "router": -1, 
+                            "security_group_rule": -1, 
+                            "subnet": -1, 
+                            "security_group": -1, 
+                            "port": -1, 
+                            "network": -1
+                        }
+                    }
+                }
+            }, 
+            "name": "KeystoneBasic.get_entities", 
+            "pos": 0
+        }, 
+        "full_duration": 246.2828540802002, 
+        "sla": [
+            {
+                "criterion": "max_seconds_per_iteration", 
+                "detail": "Maximum seconds per iteration 32.57s <= 30.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "failure_rate", 
+                "detail": "Failure rate criteria 0.00% <= 0.00% <= 0.00% - Passed", 
+                "success": true
+            }, 
+            {
+                "criterion": "max_avg_duration", 
+                "detail": "Average duration of one iteration 29.60s <= 20.00s - Failed", 
+                "success": false
+            }, 
+            {
+                "criterion": "aborted_on_sla", 
+                "detail": "Task was aborted due to SLA failure(s).", 
+                "success": false
+            }
+        ]
+    }
+]
