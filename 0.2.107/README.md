@@ -25,4 +25,5 @@
 - [authenticate-user-and-validate-token](https://godleon.github.io/osp_test_results/0.2.107/keystone/authenticate-user-and-validate-token.html)
 - [create-add-and-list-user-roles](https://godleon.github.io/osp_test_results/0.2.107/keystone/create-add-and-list-user-roles.html)
 - [create-and-delete-ec2credential](https://godleon.github.io/osp_test_results/0.2.107/keystone/create-and-delete-ec2credential.html)
+- [create-and-delete-role](https://godleon.github.io/osp_test_results/0.2.107/keystone/create-and-delete-role.html)
 
