@@ -10,4 +10,5 @@
 ## cinder
 - [create-and-accept-transfer](https://godleon.github.io/osp_test_results/0.2.108/cinder/create-and-accept-transfer.html)
 - [create-and-delete-snapshot](https://godleon.github.io/osp_test_results/0.2.108/cinder/create-and-delete-snapshot.html)
+- [create-and-delete-volume-type](https://godleon.github.io/osp_test_results/0.2.108/cinder/create-and-delete-volume-type.html)
 
