@@ -65,4 +65,5 @@
 
 ## swift
 - [create-container-and-object-then-delete-all](https://godleon.github.io/osp_test_results/0.2.108/swift/create-container-and-object-then-delete-all.html)
+- [create-container-and-object-then-download-object](https://godleon.github.io/osp_test_results/0.2.108/swift/create-container-and-object-then-download-object.html)
 
