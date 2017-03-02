@@ -50,4 +50,5 @@
 - [create-and-delete-security-groups](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-delete-security-groups.html)
 - [create-and-delete-subnets](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-delete-subnets.html)
 - [create-and-list-floating-ips](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-list-floating-ips.html)
+- [create-and-list-networks](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-list-networks.html)
 
