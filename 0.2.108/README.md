@@ -28,4 +28,5 @@
 - [create-and-delete-role](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-delete-role.html)
 - [create-and-delete-service](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-delete-service.html)
 - [create-and-delete-user](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-delete-user.html)
+- [create-and-get-role](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-get-role.html)
 
