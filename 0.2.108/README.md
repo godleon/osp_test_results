@@ -58,4 +58,5 @@
 - [create-and-show-network](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-show-network.html)
 - [create-and-update-networks](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-update-networks.html)
 - [create-and-update-ports](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-update-ports.html)
+- [create-and-update-routers](https://godleon.github.io/osp_test_results/0.2.108/neutron/create-and-update-routers.html)
 
