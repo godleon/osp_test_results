@@ -32,4 +32,5 @@
 - [create-and-list-ec2credentials](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-list-ec2credentials.html)
 - [create-and-list-roles](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-list-roles.html)
 - [create-and-list-services](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-list-services.html)
+- [create-and-list-tenants](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-and-list-tenants.html)
 
