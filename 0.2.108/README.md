@@ -38,4 +38,5 @@
 - [create-tenant-with-users](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-tenant-with-users.html)
 - [create-tenant](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-tenant.html)
 - [create-update-and-delete-tenant](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-update-and-delete-tenant.html)
+- [create-user-set-enabled-and-delete](https://godleon.github.io/osp_test_results/0.2.108/keystone/create-user-set-enabled-and-delete.html)
 
